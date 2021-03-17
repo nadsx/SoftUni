@@ -1,0 +1,10 @@
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\03_LongerLine\bin\Debug\netcoreapp2.1\03_LongerLine.deps.json
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\03_LongerLine\bin\Debug\netcoreapp2.1\03_LongerLine.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\03_LongerLine\bin\Debug\netcoreapp2.1\03_LongerLine.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\03_LongerLine\bin\Debug\netcoreapp2.1\03_LongerLine.dll
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\03_LongerLine\bin\Debug\netcoreapp2.1\03_LongerLine.pdb
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\03_LongerLine\obj\Debug\netcoreapp2.1\03_LongerLine.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\03_LongerLine\obj\Debug\netcoreapp2.1\03_LongerLine.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\03_LongerLine\obj\Debug\netcoreapp2.1\03_LongerLine.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\03_LongerLine\obj\Debug\netcoreapp2.1\03_LongerLine.dll
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\03_LongerLine\obj\Debug\netcoreapp2.1\03_LongerLine.pdb

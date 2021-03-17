@@ -1,0 +1,451 @@
+To run them, Without namespaces!!
+
+01
+==================================
+
+using System;
+using System.Linq;
+using System.Reflection;
+using System.Text;
+
+namespace _01_Exercise
+{
+    public class StartUp
+    {
+        public static void Main()
+        {
+            Spy spy = new Spy();
+
+            Console.WriteLine(spy.StealFieldInfo("Hacker", "username", "password"));
+        }
+    }
+
+    public class Hacker
+    {
+        public string username = "securityGod82";
+        private string password = "mySuperSecretPassw0rd";
+
+        public string Password
+        {
+            get => this.password;
+            set => this.password = value;
+        }
+
+        private int Id { get; set; }
+
+        public double BankAccountBalance { get; private set; }
+
+        public void DownloadAllBankAccountsInTheWorld()
+        {
+        }
+    }
+
+    public class Spy
+    {
+        public string StealFieldInfo(string classToInvestigate, params string[] fieldsToInvestigate)
+        {
+            Type classType = Type.GetType(classToInvestigate);
+
+            FieldInfo[] fieldsInfo = classType.GetFields(BindingFlags.Static |
+                BindingFlags.NonPublic |
+                BindingFlags.Public |
+                BindingFlags.Instance);
+
+            Object classInstance = Activator.CreateInstance(classType, new object[] { }); // new object[] {}, because parameterless(bez parametri) 
+
+            StringBuilder sb = new StringBuilder();
+
+            sb.AppendLine($"Class under investigation: {classToInvestigate}");
+
+            foreach (var field in fieldsInfo.Where(f => fieldsToInvestigate.Contains(f.Name)))
+            {
+                sb.AppendLine($"{field.Name} = {field.GetValue(classInstance)}");
+            }
+
+            return sb.ToString().TrimEnd();
+        }
+    }
+}
+
+02
+==================================
+
+using System;
+using System.Linq;
+using System.Reflection;
+using System.Text;
+
+namespace _02_Exercise
+{
+    public class StartUp
+    {
+        public static void Main()
+        {
+            Spy spy = new Spy();
+            string result = spy.AnalyzeAccessModifiers("Hacker");
+
+            Console.WriteLine(result);
+        }
+    }
+
+    public class Hacker
+    {
+        public string username = "securityGod82";
+        private string password = "mySuperSecretPassw0rd";
+
+        public string Password
+        {
+            get => this.password;
+            set => this.password = value;
+        }
+
+        private int Id { get; set; }
+
+        public double BankAccountBalance { get; private set; }
+
+        public void DownloadAllBankAccountsInTheWorld()
+        {
+        }
+    }
+
+    public class Spy
+    {
+        public string AnalyzeAcessModifiers(string classToInvestigate)
+        {
+            Type classType = Type.GetType(classToInvestigate);
+
+            FieldInfo[] fieldsInfo = classType.GetFields(BindingFlags.Instance |
+                BindingFlags.Static |
+                BindingFlags.Public);
+
+            MethodInfo[] classPublicMethods = classType.GetMethods(BindingFlags.Instance |
+                BindingFlags.Public);
+
+            MethodInfo[] classNonPublicMethods = classType.GetMethods(BindingFlags.Instance |
+                BindingFlags.NonPublic);
+
+            StringBuilder sb = new StringBuilder();
+
+            foreach(var field in fieldsInfo)
+            {
+                sb.AppendLine($"{field.Name} must be private!");
+            }
+
+            foreach(var method in classNonPublicMethods.Where(m => m.Name.StartsWith("get")))
+            {
+                sb.AppendLine($"{method.Name} have to be public!");
+            }
+
+            foreach(var method in classPublicMethods.Where(m => m.Name.StartsWith("set")))
+            {
+                sb.AppendLine($"{method.Name} have to be private!");
+            }
+
+            return sb.ToString().TrimEnd();
+        }
+    }
+}
+
+03
+==================================
+
+using System;
+using System.Reflection;
+using System.Text;
+
+namespace _03_Exercise
+{
+    public class StartUp
+    {
+        public static void Main()
+        {
+            Spy spy = new Spy();
+            string result = spy.RevealPrivateMethods("Hacker");
+
+            Console.WriteLine(result);
+        }
+    }
+
+    public class Hacker
+    {
+        public string username = "securityGod82";
+        private string password = "mySuperSecretPassw0rd";
+
+        public string Password
+        {
+            get => this.password;
+            set => this.password = value;
+        }
+
+        private int Id { get; set; }
+
+        public double BankAccountBalance { get; private set; }
+
+        public void DownloadAllBankAccountsInTheWorld()
+        {
+        }
+    }
+
+    public class Spy
+    {
+        public string RevealPrivateMethods(string classToInvestigate)
+        {
+            Type classType = Type.GetType(classToInvestigate);
+
+            MethodInfo[] classMethods = classType.GetMethods(BindingFlags.Instance |
+                BindingFlags.NonPublic);
+
+            StringBuilder sb = new StringBuilder();
+
+            sb.AppendLine($"All Private Methods of Class: {classToInvestigate}");
+            sb.AppendLine($"Base Class: {classType.BaseType.Name}");
+
+            foreach (var method in classMethods)
+            {
+                sb.AppendLine(method.Name);
+            }
+
+            return sb.ToString().TrimEnd();
+        }
+    }
+}
+
+04
+==================================
+
+using System;
+using System.Linq;
+using System.Reflection;
+using System.Text;
+
+namespace _04_Exercise
+{
+    public class StartUp
+    {
+        public static void Main()
+        {
+            Spy spy = new Spy();
+            string result = spy.CollectGettersAndSetters("Hacker");
+
+            Console.WriteLine(result);
+        }
+    }
+
+    public class Hacker
+    {
+        public string username = "securityGod82";
+        private string password = "mySuperSecretPassw0rd";
+
+        public string Password
+        {
+            get => this.password;
+            set => this.password = value;
+        }
+
+        private int Id { get; set; }
+
+        public double BankAccountBalance { get; private set; }
+
+        public void DownloadAllBankAccountsInTheWorld()
+        {
+        }
+    }
+
+    public class Spy
+    {
+        public string StealFieldInfo(string classToInvestigate, params string[] fieldsToInvestigate)
+        {
+            Type classType = Type.GetType(classToInvestigate);
+
+            FieldInfo[] fieldsInfo = classType.GetFields(BindingFlags.Static |
+                BindingFlags.NonPublic |
+                BindingFlags.Public |
+                BindingFlags.Instance);
+
+            Object classInstance = Activator.CreateInstance(classType, new object[] { }); // new object[] {}, because parameterless(bez parametri) 
+
+            StringBuilder sb = new StringBuilder();
+
+            sb.AppendLine($"Class under investigation: {classToInvestigate}");
+
+            foreach (var field in fieldsInfo.Where(f => fieldsToInvestigate.Contains(f.Name)))
+            {
+                sb.AppendLine($"{field.Name} = {field.GetValue(classInstance)}");
+            }
+
+            return sb.ToString().TrimEnd();
+        }
+
+        public string AnalyzeAcessModifiers(string classToInvestigate)
+        {
+            Type classType = Type.GetType(classToInvestigate);
+
+            FieldInfo[] fieldsInfo = classType.GetFields(BindingFlags.Instance |
+                BindingFlags.Static |
+                BindingFlags.Public);
+
+            MethodInfo[] classPublicMethods = classType.GetMethods(BindingFlags.Instance |
+                BindingFlags.Public);
+
+            MethodInfo[] classNonPublicMethods = classType.GetMethods(BindingFlags.Instance |
+                BindingFlags.NonPublic);
+
+            StringBuilder sb = new StringBuilder();
+
+            foreach (var field in fieldsInfo)
+            {
+                sb.AppendLine($"{field.Name} must be private!");
+            }
+
+            foreach (var method in classNonPublicMethods.Where(m => m.Name.StartsWith("get")))
+            {
+                sb.AppendLine($"{method.Name} have to be public!");
+            }
+
+            foreach (var method in classPublicMethods.Where(m => m.Name.StartsWith("set")))
+            {
+                sb.AppendLine($"{method.Name} have to be private!");
+            }
+
+            return sb.ToString().TrimEnd();
+        }
+
+        public string RevealPrivateMethods(string classToInvestigate)
+        {
+            Type classType = Type.GetType(classToInvestigate);
+
+            MethodInfo[] classMethods = classType.GetMethods(BindingFlags.Instance |
+                BindingFlags.NonPublic);
+
+            StringBuilder sb = new StringBuilder();
+
+            sb.AppendLine($"All Private Methods of Class: {classToInvestigate}");
+            sb.AppendLine($"Base Class: {classType.BaseType.Name}");
+
+            foreach (var method in classMethods)
+            {
+                sb.AppendLine(method.Name);
+            }
+
+            return sb.ToString().TrimEnd();
+        }
+
+        public string CollectGettersAndSetters(string classToInvestigate)
+        {
+            Type classType = Type.GetType(classToInvestigate);
+
+            MethodInfo[] classMethods = classType.GetMethods(BindingFlags.Instance |
+                BindingFlags.NonPublic |
+                BindingFlags.Public);
+
+            StringBuilder sb = new StringBuilder();
+
+            foreach(var method in classMethods.Where(m => m.Name.StartsWith("get")))
+            {
+                sb.AppendLine($"{method.Name} will return {method.ReturnType}");
+            }
+
+            foreach(var method in classMethods.Where(m => m.Name.StartsWith("set")))
+            {
+                sb.AppendLine($"{method.Name} will set field of {method.GetParameters().First().ParameterType}");
+            }
+
+            return sb.ToString().TrimEnd();
+        }
+    }
+}
+
+05
+==================================
+
+using System;
+
+namespace _05_Exercise
+{
+    [Author("Philip")]
+    public class StartUp
+    {
+        [Author("Ivan")]
+        public static void Main()
+        {
+
+        }
+    }
+
+    [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method, AllowMultiple = true)]
+    public class AuthorAttribute : Attribute
+    {
+        public AuthorAttribute(string name)
+        {
+            this.Name = name;
+        }
+
+        public string Name { get; set; }
+    }
+}
+
+06
+==================================
+
+using System;
+using System.Linq;
+using System.Reflection;
+
+namespace _02_Exercise
+{ 
+    [Author("Philip")]
+    public class StartUp
+    {
+        [Author("Ivan")]
+        public static void Main()
+        {
+            Tracker tracker = new Tracker();
+
+            tracker.PrintMethodsByAuthor();
+        }
+    }
+
+    [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method, AllowMultiple = true)]
+    public class AuthorAttribute : Attribute
+    {
+        public AuthorAttribute(string name)
+        {
+            this.Name = name;
+        }
+
+        public string Name { get; set; }
+    }
+
+    public class Tracker
+    {
+        public void PrintMethodsByAuthor()
+        {
+            Type type = typeof(StartUp);
+
+            MethodInfo[] methods = type.GetMethods(BindingFlags.Instance |
+                BindingFlags.Static |
+                BindingFlags.Public);
+
+            foreach(var method in methods)
+            {
+                if(method.CustomAttributes.Any(n => n.AttributeType == typeof(AuthorAttribute)))
+                {
+                    object[] attributes = method.GetCustomAttributes(false);
+			//inherit
+                	//Boolean
+                	//true to search this member's inheritance chain to find the attributes; otherwise, 
+               		//false.This parameter is ignored for properties and events.
+
+			//Returns
+			//Object[]
+			//An array that contains all the custom attributes applied to this member, 
+			//or an array with zero elements if no attributes are defined.
+                    foreach(AuthorAttribute attribute in attributes)
+                    {
+                        Console.WriteLine($"{method.Name} is written by {attribute.Name}");
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\08_TrafficJam\bin\Debug\netcoreapp2.1\08_TrafficJam.deps.json
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\08_TrafficJam\bin\Debug\netcoreapp2.1\08_TrafficJam.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\08_TrafficJam\bin\Debug\netcoreapp2.1\08_TrafficJam.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\08_TrafficJam\bin\Debug\netcoreapp2.1\08_TrafficJam.dll
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\08_TrafficJam\bin\Debug\netcoreapp2.1\08_TrafficJam.pdb
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\08_TrafficJam\obj\Debug\netcoreapp2.1\08_TrafficJam.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\08_TrafficJam\obj\Debug\netcoreapp2.1\08_TrafficJam.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\08_TrafficJam\obj\Debug\netcoreapp2.1\08_TrafficJam.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\08_TrafficJam\obj\Debug\netcoreapp2.1\08_TrafficJam.dll
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\08_TrafficJam\obj\Debug\netcoreapp2.1\08_TrafficJam.pdb
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\08_TrafficJam\obj\Debug\netcoreapp2.1\08_TrafficJam.csprojAssemblyReference.cache

@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Lists-Lab\07_ListManipulationAdvanced\bin\Debug\netcoreapp2.1\07_ListManipulationAdvanced.deps.json
+C:\Users\ASUS NB\source\repos\Lists-Lab\07_ListManipulationAdvanced\bin\Debug\netcoreapp2.1\07_ListManipulationAdvanced.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Lists-Lab\07_ListManipulationAdvanced\bin\Debug\netcoreapp2.1\07_ListManipulationAdvanced.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Lists-Lab\07_ListManipulationAdvanced\bin\Debug\netcoreapp2.1\07_ListManipulationAdvanced.dll
+C:\Users\ASUS NB\source\repos\Lists-Lab\07_ListManipulationAdvanced\bin\Debug\netcoreapp2.1\07_ListManipulationAdvanced.pdb
+C:\Users\ASUS NB\source\repos\Lists-Lab\07_ListManipulationAdvanced\obj\Debug\netcoreapp2.1\07_ListManipulationAdvanced.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Lists-Lab\07_ListManipulationAdvanced\obj\Debug\netcoreapp2.1\07_ListManipulationAdvanced.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Lists-Lab\07_ListManipulationAdvanced\obj\Debug\netcoreapp2.1\07_ListManipulationAdvanced.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Lists-Lab\07_ListManipulationAdvanced\obj\Debug\netcoreapp2.1\07_ListManipulationAdvanced.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Lists-Lab\07_ListManipulationAdvanced\obj\Debug\netcoreapp2.1\07_ListManipulationAdvanced.dll
+C:\Users\ASUS NB\source\repos\Lists-Lab\07_ListManipulationAdvanced\obj\Debug\netcoreapp2.1\07_ListManipulationAdvanced.pdb

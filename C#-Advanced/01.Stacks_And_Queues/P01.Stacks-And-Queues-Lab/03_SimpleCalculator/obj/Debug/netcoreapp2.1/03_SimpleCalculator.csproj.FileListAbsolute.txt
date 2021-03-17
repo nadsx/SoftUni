@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\03_SimpleCalculator\bin\Debug\netcoreapp2.1\03_SimpleCalculator.deps.json
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\03_SimpleCalculator\bin\Debug\netcoreapp2.1\03_SimpleCalculator.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\03_SimpleCalculator\bin\Debug\netcoreapp2.1\03_SimpleCalculator.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\03_SimpleCalculator\bin\Debug\netcoreapp2.1\03_SimpleCalculator.dll
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\03_SimpleCalculator\bin\Debug\netcoreapp2.1\03_SimpleCalculator.pdb
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\03_SimpleCalculator\obj\Debug\netcoreapp2.1\03_SimpleCalculator.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\03_SimpleCalculator\obj\Debug\netcoreapp2.1\03_SimpleCalculator.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\03_SimpleCalculator\obj\Debug\netcoreapp2.1\03_SimpleCalculator.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\03_SimpleCalculator\obj\Debug\netcoreapp2.1\03_SimpleCalculator.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\03_SimpleCalculator\obj\Debug\netcoreapp2.1\03_SimpleCalculator.dll
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\03_SimpleCalculator\obj\Debug\netcoreapp2.1\03_SimpleCalculator.pdb

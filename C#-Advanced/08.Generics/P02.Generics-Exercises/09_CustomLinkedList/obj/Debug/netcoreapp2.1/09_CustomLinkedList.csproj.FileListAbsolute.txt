@@ -1,0 +1,10 @@
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\09_CustomLinkedList\bin\Debug\netcoreapp2.1\09_CustomLinkedList.deps.json
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\09_CustomLinkedList\bin\Debug\netcoreapp2.1\09_CustomLinkedList.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\09_CustomLinkedList\bin\Debug\netcoreapp2.1\09_CustomLinkedList.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\09_CustomLinkedList\bin\Debug\netcoreapp2.1\09_CustomLinkedList.dll
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\09_CustomLinkedList\bin\Debug\netcoreapp2.1\09_CustomLinkedList.pdb
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\09_CustomLinkedList\obj\Debug\netcoreapp2.1\09_CustomLinkedList.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\09_CustomLinkedList\obj\Debug\netcoreapp2.1\09_CustomLinkedList.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\09_CustomLinkedList\obj\Debug\netcoreapp2.1\09_CustomLinkedList.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\09_CustomLinkedList\obj\Debug\netcoreapp2.1\09_CustomLinkedList.dll
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\09_CustomLinkedList\obj\Debug\netcoreapp2.1\09_CustomLinkedList.pdb

@@ -1,0 +1,10 @@
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P06ReversedChars\obj\Debug\netcoreapp2.1\P06ReversedChars.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P06ReversedChars\obj\Debug\netcoreapp2.1\P06ReversedChars.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P06ReversedChars\obj\Debug\netcoreapp2.1\P06ReversedChars.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P06ReversedChars\bin\Debug\netcoreapp2.1\P06ReversedChars.deps.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P06ReversedChars\bin\Debug\netcoreapp2.1\P06ReversedChars.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P06ReversedChars\bin\Debug\netcoreapp2.1\P06ReversedChars.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P06ReversedChars\bin\Debug\netcoreapp2.1\P06ReversedChars.dll
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P06ReversedChars\bin\Debug\netcoreapp2.1\P06ReversedChars.pdb
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P06ReversedChars\obj\Debug\netcoreapp2.1\P06ReversedChars.dll
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P06ReversedChars\obj\Debug\netcoreapp2.1\P06ReversedChars.pdb

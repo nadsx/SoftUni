@@ -1,0 +1,106 @@
+1
+===============================
+
+			double[] numbers = Console.ReadLine().Split().Select(double.Parse).ToArray();
+
+			var counts = new SortedDictionary<double, int>();
+
+			foreach(var number in numbers)
+			{
+				if (!counts.ContainsKey(number))
+				{
+					counts[number] = 1;
+				}
+				else
+				{
+					counts[number]++;
+				}
+			}
+
+			foreach(var kvp in counts)
+			{
+				Console.WriteLine($"{kvp.Key} -> {kvp.Value}");
+			}
+
+
+++$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+if (!count.ContainsKey(number))
+{
+	count[number] = 0;
+}
+				
+count[number]++;
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+2
+===============================
+
+string[] words = Console.ReadLine().ToLower().Split();
+			Dictionary<string, int> wordsDict = new Dictionary<string, int>();
+
+			foreach(var word in words)
+			{
+				if (!wordsDict.ContainsKey(word))
+				{
+					wordsDict[word] = 0;
+				};
+
+				wordsDict[word]++;
+			}
+
+			var wordsList = wordsDict
+				.Where(w => w.Value % 2 == 1)
+				.Select(w => w.Key)
+				.ToList();
+
+			Console.WriteLine(string.Join(" ", wordsList));
+
+3
+===============================
+
+                        int countOfWords = int.Parse(Console.ReadLine());
+			var words = new Dictionary<string, List<string>>();
+
+			for (int i = 0; i < countOfWords; i++)
+			{
+				string word = Console.ReadLine();
+				string synonym = Console.ReadLine();
+
+				if (!words.ContainsKey(word))
+				{
+					words[word] = new List<string>();
+				}
+
+				words[word].Add(synonym);
+			}
+
+			foreach(var kvp in words)
+			{
+				Console.WriteLine($"{kvp.Key} - {string.Join(", ", kvp.Value)}");
+			}
+
+4
+===============================
+
+List<int> inputNumbers = Console.ReadLine()
+				.Split()
+				.Select(int.Parse)
+				.OrderByDescending(x => x)
+				.Take(3)
+				.ToList();
+
+			foreach(var number in inputNumbers)
+			{
+				Console.Write(number + " ");
+			}
+
+5
+===============================
+
+                                Console.ReadLine()
+				.Split()
+				.Where(x => x.Length % 2 == 0)
+				.ToList()
+				.ForEach(x => Console.WriteLine(x));

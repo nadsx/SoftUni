@@ -1,0 +1,10 @@
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\05_MultiplicationSign\bin\Debug\netcoreapp2.1\05_MultiplicationSign.deps.json
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\05_MultiplicationSign\bin\Debug\netcoreapp2.1\05_MultiplicationSign.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\05_MultiplicationSign\bin\Debug\netcoreapp2.1\05_MultiplicationSign.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\05_MultiplicationSign\bin\Debug\netcoreapp2.1\05_MultiplicationSign.dll
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\05_MultiplicationSign\bin\Debug\netcoreapp2.1\05_MultiplicationSign.pdb
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\05_MultiplicationSign\obj\Debug\netcoreapp2.1\05_MultiplicationSign.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\05_MultiplicationSign\obj\Debug\netcoreapp2.1\05_MultiplicationSign.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\05_MultiplicationSign\obj\Debug\netcoreapp2.1\05_MultiplicationSign.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\05_MultiplicationSign\obj\Debug\netcoreapp2.1\05_MultiplicationSign.dll
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\05_MultiplicationSign\obj\Debug\netcoreapp2.1\05_MultiplicationSign.pdb

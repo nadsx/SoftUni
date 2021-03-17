@@ -1,0 +1,607 @@
+1
+=================================
+
+			var contestsAndPasswords = new Dictionary<string, string>();
+
+			string input = Console.ReadLine();
+
+			while (input != "end of contests")
+			{
+				var contestInfo = input.Split(":").ToList();
+				string contestName = contestInfo[0];
+				string contestPassword = contestInfo[1];
+
+				contestsAndPasswords[contestName] = contestPassword;
+
+				input = Console.ReadLine();
+			}
+
+			var students = new Dictionary<string, Dictionary<string, int>>();
+
+			input = Console.ReadLine();
+
+			while (input != "end of submissions")
+			{
+				var submission = input.Split("=>").ToList();
+				string contest = submission[0];
+				string password = submission[1];
+				string candidate = submission[2];
+				int points = int.Parse(submission[3]);
+
+				if (contestsAndPasswords.ContainsKey(contest) &&
+					contestsAndPasswords[contest] == password)
+				{
+					if (!students.ContainsKey(candidate))
+					{
+						students[candidate] = new Dictionary<string, int>();
+						students[candidate].Add(contest, points);
+					}
+					else
+					{
+						if (!students[candidate].ContainsKey(contest))
+						{
+							students[candidate].Add(contest, points);
+						}
+						else if (students[candidate][contest] < points)
+						{
+							students[candidate][contest] = points;
+						}
+					}
+				}
+
+				input = Console.ReadLine();
+			}
+
+			KeyValuePair<string, Dictionary<string, int>> bestCandidate = students.OrderByDescending(x => x.Value.Values.Sum()).First();
+
+			Console.WriteLine($"Best candidate is {bestCandidate.Key} with total " +
+				$"{bestCandidate.Value.Values.Sum()} points.");
+
+			Console.WriteLine("Ranking:");
+
+			var sortedStudents = students.OrderBy(x => x.Key);
+
+			foreach (KeyValuePair<string, Dictionary<string, int>> student in sortedStudents)
+			{
+				Console.WriteLine(student.Key);
+
+				var valuePair = student.Value.OrderByDescending(x => x.Value);
+
+				foreach (var contest in valuePair)
+				{
+					Console.WriteLine($"#  {contest.Key} -> {contest.Value}");
+				}
+			}
+
+2
+=================================
+
+			var contests = new Dictionary<string, Dictionary<string, int>>();
+			var participants = new Dictionary<string, Dictionary<string, int>>();
+
+			while (true)
+			{
+				var tokens = Console.ReadLine().Split(" -> ").ToList();
+
+				if(tokens[0] == "no more time")
+				{
+					break;
+				}
+
+				string username = tokens[0];
+				string contest = tokens[1];
+				int points = int.Parse(tokens[2]);
+
+				if (!contests.ContainsKey(contest))
+				{
+					contests[contest] = new Dictionary<string, int>();
+					contests[contest].Add(username, points);
+				}
+				else if (!contests[contest].ContainsKey(username))
+				{
+					contests[contest].Add(username, points);
+				}
+				else if(contests[contest][username] < points)
+				{
+					contests[contest][username] = points;
+				}
+
+				if (!participants.ContainsKey(username))
+				{
+					participants[username] = new Dictionary<string, int>();
+					participants[username].Add(contest, points);
+				}
+				else if (!participants[username].ContainsKey(contest))
+				{
+					participants[username].Add(contest, points);
+				}
+				else if(participants[username][contest] < points)
+				{
+					participants[username][contest] = points; // <== kato edna cqla promenliva, koqto pazi stoinost
+				}
+			}
+
+			foreach(var contest in contests)
+			{
+				Console.WriteLine($"{contest.Key}: {contest.Value.Count} participants");
+
+				int counter = 0;
+
+				foreach(var participant in contest.Value.OrderByDescending(x => x.Value).ThenBy(x => x.Key))
+				{
+					counter++;
+					Console.WriteLine($"{counter}. {participant.Key} <::> {participant.Value}");
+				}
+			}
+
+			Console.WriteLine("Individual standings:");
+
+			int rank = 0;
+
+			foreach(var participant in participants.OrderByDescending(x => x.Value.Values.Sum()).ThenBy(x => x.Key))
+			{
+				rank++;
+				Console.WriteLine($"{rank}. {participant.Key} -> {participant.Value.Values.Sum()}");
+			}
+3
+=================================
+
+			var players = new Dictionary<string, Dictionary<string, int>>();
+
+			while (true)
+			{
+				string input = Console.ReadLine();
+
+				if (input == "Season end")
+					break;
+
+				if (input.Contains("->"))
+				{
+					var playerInfo = input.Split(" -> ").ToList();
+					string player = playerInfo[0];
+					string position = playerInfo[1];
+					int skill = int.Parse(playerInfo[2]);
+
+					if (!players.ContainsKey(player))
+					{
+						players[player] = new Dictionary<string, int>();
+					}
+
+					if (!players[player].ContainsKey(position))
+					{
+						players[player].Add(position, skill);
+					}
+					else if (players[player][position] < skill)
+					{
+						players[player][position] = skill;
+					}
+				}
+				else
+				{
+					var playersList = input.Split(" vs ").ToList();
+					string player1 = playersList[0];
+					string player2 = playersList[1];
+
+					if (!players.ContainsKey(player1) || !players.ContainsKey(player2))
+						continue;
+
+					bool isCommonPosition = false;
+
+					foreach (var position in players[player1].Keys)
+					{
+						if (players[player2].ContainsKey(position))
+						{
+							isCommonPosition = true;
+						}
+					}
+
+					if (isCommonPosition)
+					{
+						int totalSkills1Player = players[player1].Values.Sum();
+						int totalSkills2Player = players[player2].Values.Sum();
+
+						if (totalSkills1Player > totalSkills2Player)
+						{
+							players.Remove(player2);
+						}
+						else if (totalSkills2Player > totalSkills1Player)
+						{
+							players.Remove(player1);
+						}
+					}
+				}
+			}
+
+			foreach (var player in players.OrderByDescending(x => x.Value.Values.Sum()).ThenBy(x => x.Key))
+			{
+				Console.WriteLine($"{player.Key}: {player.Value.Values.Sum()} skill");
+
+				foreach (var valuePair in player.Value.OrderByDescending(x => x.Value).ThenBy(x => x.Key))
+				{
+					Console.WriteLine($"- {valuePair.Key} <::> {valuePair.Value}");
+				}
+			}
+
+
+---------------------------------------
+
+ Dictionary<string, Dictionary<string, int>> playersStats = new Dictionary<string, Dictionary<string, int>>();
+ 
+            string player = "";
+            string position = "";
+            int skill = 0;
+			
+            while (true)
+            {
+                List<string> input = Console.ReadLine()
+				.Split(new char[] { ' ', '-', '>' }, StringSplitOptions.RemoveEmptyEntries)
+				.ToList();
+				
+                if (input[0] == "Season")
+                    break;
+ 
+                if (!(input.Contains("vs")))
+                {
+                    player = input[0];
+                    position = input[1];
+                    skill = int.Parse(input[2]);
+ 
+                    if (playersStats.ContainsKey(player))
+                    {
+                        if (playersStats[player].ContainsKey(position))
+                        {
+                            if (playersStats[player][position] < skill)
+                            {
+                                playersStats[player][position] = skill;
+                            }
+                        }
+                        else
+                        {
+                            playersStats[player][position] = skill;
+                        }
+ 
+                    }
+                    else
+                    {
+                        Dictionary<string, int> assistDic = new Dictionary<string, int>();
+                        assistDic.Add(position, skill);
+                        playersStats[player] = assistDic;
+												
+                    }
+                }
+                else
+                {
+                    string playerOne = input[0];
+                    string playerTwo = input[2];
+					
+                    if (playersStats.ContainsKey(playerOne) && playersStats.ContainsKey(playerTwo))
+                    {
+                        bool defeated = false;
+                        foreach (var role in playersStats[playerOne])
+                        {
+                            foreach (var pos in playersStats[playerTwo])
+                            {
+                                if (role.Key == pos.Key)
+                                {
+                                    if (playersStats[playerOne].Values.Sum() > playersStats[playerTwo].Values.Sum())
+                                    {
+                                        playersStats.Remove(playerTwo);
+                                        defeated = true;
+                                        break;
+                                    }
+                                    else if (playersStats[playerOne].Values.Sum() < playersStats[playerTwo].Values.Sum())
+                                    {
+                                        playersStats.Remove(playerOne);
+                                        defeated = true;
+                                        break;
+                                    }
+                                }
+                            }
+							
+                            if (defeated)
+                            {
+                                break;
+                            }
+                        }
+                    }
+                }
+            }
+			
+            foreach (var playa in playersStats.OrderByDescending(x => x.Value.Values.Sum()).ThenBy(x => x.Key))
+            {
+                Console.WriteLine($"{playa.Key}: {playa.Value.Values.Sum()} skill");
+                foreach (var pair in playa.Value.OrderByDescending(x => x.Value).ThenBy(x => x.Key))
+                {
+                    Console.WriteLine($"- {pair.Key} <::> {pair.Value}");
+                }
+            }
+        }
+
+4
+=================================
+
+			var dwarfs = new Dictionary<string, Dictionary<string, int>>();
+
+			string input = Console.ReadLine();
+
+			while (input != "Once upon a time")
+			{
+				var dwarfsInfo = input.Split(" <:> ").ToArray();
+				string name = dwarfsInfo[0];
+				string color = dwarfsInfo[1];
+				int physics = int.Parse(dwarfsInfo[2]);
+
+				if (dwarfs.ContainsKey(color))
+				{
+					if (dwarfs[color].ContainsKey(name))
+					{
+						if (dwarfs[color][name] < physics)
+						{
+							dwarfs[color][name] = physics;
+						}
+					}
+					else
+					{
+						dwarfs[color].Add(name, physics);
+					}
+				}
+				else
+				{
+					dwarfs[color] = new Dictionary<string, int>();
+					dwarfs[color].Add(name, physics);
+
+				}
+
+				input = Console.ReadLine();
+			}
+
+			Dictionary<string, int> sortedDwarfs = new Dictionary<string, int>();
+
+			foreach (var dwarf in dwarfs.OrderByDescending(x => x.Value.Count()))
+			{
+				foreach (var valuePair in dwarf.Value)
+				{
+					sortedDwarfs.Add($"({dwarf.Key}) {valuePair.Key} <-> ", valuePair.Value);
+				}
+			}
+
+			foreach (var dwarf in sortedDwarfs.OrderByDescending(x => x.Value))
+			{
+				Console.WriteLine($"{dwarf.Key}{dwarf.Value}");
+			}
+
+---------------------------------
+           List<Dwarf> dwarfs = new List<Dwarf>();
+            string input = Console.ReadLine();
+            while (input != "Once upon a time")
+            {
+                string[] inputs = input.Split(new string[] { " <:> " }, StringSplitOptions.None);
+                string name = inputs[0];
+                string color = inputs[1];
+                int physics = int.Parse(inputs[2]);
+ 
+                Dwarf repeat = dwarfs.Find(x => x.Name == name && x.Color == color);
+                if (repeat == null)
+                {
+                    Dwarf dwarf = new Dwarf(name, color, physics);
+                    dwarfs.Add(dwarf);
+                }
+                else
+                {
+                    repeat.Physics = Math.Max(repeat.Physics, physics);
+                }
+                input = Console.ReadLine();
+            }
+            foreach (var dwarf in dwarfs
+                .OrderByDescending(x => x.Physics)
+                .ThenByDescending(x => dwarfs.Count(y => y.Color == x.Color)))
+            {
+                Console.WriteLine("({0}) {1} <-> {2}", dwarf.Color, dwarf.Name, dwarf.Physics);
+            }
+        }
+    }
+ 
+    class Dwarf
+    {
+        public string Name { get; set; }
+        public string Color { get; set; }
+        public int Physics { get; set; }
+ 
+        public Dwarf(string name, string color, int physics)
+        {
+            Name = name;
+            Color = color;
+            Physics = physics;
+        }
+    }
+---------------------------------
+  var dwarfs = new Dictionary<string, int>();
+            string input = Console.ReadLine();
+            while (input != "Once upon a time")
+            {
+                string[] inputs = input.Split(new string[] { " <:> " }, StringSplitOptions.None);
+                string name = inputs[0];
+                string color = inputs[1];
+                int physics = int.Parse(inputs[2]);
+
+                string ID = name + ":" + color;
+                if (!dwarfs.ContainsKey(ID))
+                {
+                    dwarfs.Add(ID, physics);
+                }
+                else
+                {
+                    dwarfs[ID] = Math.Max(dwarfs[ID], physics);
+                }
+
+                input = Console.ReadLine();
+            }
+            foreach (var dwarf in dwarfs
+                .OrderByDescending(x => x.Value)
+                .ThenByDescending(x => dwarfs.Where(y => y.Key.Split(':')[1] == x.Key.Split(':')[1])
+                                             .Count()))
+            {
+                Console.WriteLine("({0}) {1} <-> {2}", 
+                    dwarf.Key.Split(':')[1],
+                    dwarf.Key.Split(':')[0],
+                    dwarf.Value);
+            }
+			
+			
+
+5
+=================================
+
+	class Program
+	{
+		static void Main(string[] args)
+		{
+			var dragonsTypeNameStats = new Dictionary<string, SortedDictionary<string, List<int>>>();
+
+			GetDragonsInfo(dragonsTypeNameStats);
+			PrintDragonInfo(dragonsTypeNameStats);
+		}
+
+		private static void PrintDragonInfo(Dictionary<string, SortedDictionary<string, List<int>>> dragonsTypeNameStats)
+		{
+			foreach(var dragonType in dragonsTypeNameStats)
+			{
+				Console.WriteLine($"{dragonType.Key}::({GetDragonTypeAverageStats(dragonType.Value)})");
+
+				Console.WriteLine(string.Join("\n", dragonType.Value
+					.Select(x => $"-{x.Key} -> damage: {x.Value[0]}, health: {x.Value[1]}, armor: {x.Value[2]}")));
+			}
+		}
+
+		private static object GetDragonTypeAverageStats(SortedDictionary<string, List<int>> dragonNames)
+		{
+			var damageList = new List<int>();
+			var healthList = new List<int>();
+			var armorList = new List<int>();
+
+			foreach(var name in dragonNames)
+			{
+				damageList.Add(name.Value[0]);
+				healthList.Add(name.Value[1]);
+				armorList.Add(name.Value[2]);
+			}
+
+			return $"{damageList.Average():f2}/{healthList.Average():f2}/{armorList.Average():f2}";
+		}
+
+		private static void GetDragonsInfo(Dictionary<string, SortedDictionary<string, List<int>>> dragonsTypeNameStats)
+		{
+			var dragonsCount = int.Parse(Console.ReadLine());
+
+			for (int i = 0; i < dragonsCount; i++)
+			{
+				var dataList = Console.ReadLine().Split().ToList();
+				string dragonType = dataList[0];
+				string name = dataList[1];
+				int damage = int.TryParse(dataList[2], out damage) ? damage : 45;
+				int health = int.TryParse(dataList[3], out health) ? health : 250;
+				int armor = int.TryParse(dataList[4], out armor) ? armor : 10;
+
+				if (!dragonsTypeNameStats.ContainsKey(dragonType))
+				{
+					dragonsTypeNameStats[dragonType] = new SortedDictionary<string, List<int>>();
+				}
+
+				if (!dragonsTypeNameStats[dragonType].ContainsKey(name))
+				{
+					dragonsTypeNameStats[dragonType][name] = new List<int>();
+				}
+				else
+				{
+					dragonsTypeNameStats[dragonType][name].Clear();
+				}
+
+				dragonsTypeNameStats[dragonType][name].Add(damage);
+				dragonsTypeNameStats[dragonType][name].Add(health);
+				dragonsTypeNameStats[dragonType][name].Add(armor);
+			}
+		}
+
+----------------------------------------
+
+class Program
+	{
+		static void Main(string[] args)
+		{
+			int n = int.Parse(Console.ReadLine());
+			var dragons = new List<Dragon>();
+
+			for (int i = 0; i < n; i++)
+			{
+				string[] dragonInfo = Console.ReadLine().Split();
+				string type = dragonInfo[0];
+				string name = dragonInfo[1];
+				int damage = dragonInfo[2] == "null" ? 45 : int.Parse(dragonInfo[2]);
+				int health = dragonInfo[3] == "null" ? 250 : int.Parse(dragonInfo[3]);
+				int armor = dragonInfo[4] == "null" ? 10 : int.Parse(dragonInfo[4]);
+
+				Dragon dragon = new Dragon(type, name, damage, health, armor);
+
+				int typeIndex = dragons.FindIndex(x => x.Type == type);
+				int nameIndex = dragons.FindIndex(x => x.Name == name);
+
+				if(typeIndex != -1 && nameIndex != -1)
+				{
+					if (dragons[typeIndex].Type == type && dragons[typeIndex].Name == name)
+					{
+						dragons.RemoveAt(typeIndex);
+						dragons.Insert(typeIndex, dragon);
+					}
+					else if(dragons[nameIndex].Type == type && dragons[nameIndex].Name == name)
+					{
+						dragons.RemoveAt(nameIndex);
+						dragons.Insert(nameIndex, dragon);
+					}
+					else
+					{
+						dragons.Add(dragon);
+					}
+				}
+				else
+				{
+					dragons.Add(dragon);
+				}
+			}
+
+			var groupedDragons = dragons.GroupBy(x => x.Type).ToList();
+
+			foreach(var dragonsList in groupedDragons)
+			{
+				var sortedDragons = dragonsList.OrderBy(x => x.Name).ToList();
+
+				double averageDamage = sortedDragons.Select(x => x.Damage).Average();
+				double averageHealth = sortedDragons.Select(x => x.Health).Average();
+				double averageArmor = sortedDragons.Select(x => x.Armor).Average();
+
+				Console.WriteLine($"{dragonsList.Key}::({averageDamage:f2}/{averageHealth:f2}/{averageArmor:f2})");
+
+				foreach(var value in sortedDragons)
+				{
+					Console.WriteLine($"-{value.Name} -> damage: {value.Damage}, health: {value.Health}, armor: {value.Armor}");
+				}
+			}
+		}
+	}
+	class Dragon
+	{
+		public string Type { get; set; }
+		public string Name { get; set; }
+		public int Damage { get; set; }
+		public int Health { get; set; }
+		public int Armor { get; set; }	
+		
+		public Dragon(string type, string name, int damage, int health, int armor)
+		{
+			Type = type;
+			Name = name;
+			Damage = damage;
+			Health = health;
+			Armor = armor;
+		}
+	}
+	

@@ -1,0 +1,148 @@
+1
+===========================
+
+		static void Main(string[] args)
+		{
+			List<int> numbers = Console.ReadLine()
+				.Split(new[] { ' ', ',' }, StringSplitOptions.RemoveEmptyEntries)
+				.Select(Parse)
+				.Where(Filter)
+				.OrderBy(Sort)
+				.ToList();
+
+			Console.WriteLine(string.Join(", ", numbers));
+		}
+
+		public static int Sort(int number)
+		{
+			return number;
+		}
+
+		public static bool Filter(int number)
+		{
+			return number % 2 == 0;
+		}
+
+		public static int Parse(string input)
+		{
+			return int.Parse(input);
+		}
+
+2
+===========================
+
+			string input = Console.ReadLine();
+
+			Func<string, int> parser = n => int.Parse(n);
+
+			int[] numbers = input
+				.Split(new string[] { ", " }, StringSplitOptions.RemoveEmptyEntries)
+				.Select(parser)
+				.ToArray();
+
+			Console.WriteLine(numbers.Length);
+			Console.WriteLine(numbers.Sum());
+
+3
+===========================
+
+			List<string> text = Console.ReadLine()
+				.Split(" ", StringSplitOptions.RemoveEmptyEntries)
+				.Where(w => char.IsUpper(w[0]))
+				.ToList();
+
+			foreach (var word in text)
+			{
+				Console.WriteLine(word);
+			}
+
+---------------------------
+
+			Console.ReadLine()
+				.Split()
+				.Where(w => char.IsUpper(w[0]))
+				.ToList()
+				.ForEach(Console.WriteLine);
+
+4
+===========================
+
+			double[] prices = Console.ReadLine()
+				.Split(new string[] { ", " }, StringSplitOptions.RemoveEmptyEntries)
+				.Select(double.Parse)
+				.Select(n => n * 1.2)
+				.ToArray();
+
+			foreach(var price in prices)
+			{
+				Console.WriteLine($"{price:f2}");
+			}
+
+5
+===========================
+
+			int totalPeople = int.Parse(Console.ReadLine());
+
+			List<Person> people = new List<Person>();
+
+			for (int i = 0; i < totalPeople; i++)
+			{
+				string[] personInfo = Console.ReadLine()
+					.Split(new[] { ',', ' ' }, StringSplitOptions.RemoveEmptyEntries)
+					.ToArray();
+
+				Person person = new Person
+				{
+					Name = personInfo[0],
+					Age = int.Parse(personInfo[1])
+				};
+
+				people.Add(person);
+			}
+
+			string condition = Console.ReadLine();
+			int age = int.Parse(Console.ReadLine());
+
+			// p => p is input!!
+			// Func<Person(input), bool(output)>
+			Func<Person, bool> filterPredicate;
+			
+			if(condition == "older")
+			{
+				filterPredicate = p => p.Age >= age;
+			}
+			else
+			{
+				filterPredicate = p => p.Age < age;
+			}
+
+			string format = Console.ReadLine();
+
+			Func<Person, string> selectFunc;
+
+			if(format == "name")
+			{
+				selectFunc = p => $"{p.Name}";
+			}
+			else if(format == "age")
+			{				
+				selectFunc = p => $"{p.Age}";
+			}
+			else
+			{			
+				selectFunc = p => $"{p.Name} - {p.Age}";
+			}
+
+			people
+				.Where(filterPredicate)
+				.Select(selectFunc)
+				.ToList()
+				.ForEach(Console.WriteLine);
+		}
+	}
+
+	public class Person
+	{
+		public string Name { get; set; }
+		public int Age { get; set; }
+	}

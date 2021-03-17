@@ -1,0 +1,10 @@
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\07_FoodShortage\bin\Debug\netcoreapp3.0\07_FoodShortage.exe
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\07_FoodShortage\bin\Debug\netcoreapp3.0\07_FoodShortage.deps.json
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\07_FoodShortage\bin\Debug\netcoreapp3.0\07_FoodShortage.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\07_FoodShortage\bin\Debug\netcoreapp3.0\07_FoodShortage.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\07_FoodShortage\bin\Debug\netcoreapp3.0\07_FoodShortage.dll
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\07_FoodShortage\bin\Debug\netcoreapp3.0\07_FoodShortage.pdb
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\07_FoodShortage\obj\Debug\netcoreapp3.0\07_FoodShortage.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\07_FoodShortage\obj\Debug\netcoreapp3.0\07_FoodShortage.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\07_FoodShortage\obj\Debug\netcoreapp3.0\07_FoodShortage.dll
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\07_FoodShortage\obj\Debug\netcoreapp3.0\07_FoodShortage.pdb

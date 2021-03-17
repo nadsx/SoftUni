@@ -1,0 +1,10 @@
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Exercise\07_OrderByAge\bin\Debug\netcoreapp2.1\07_OrderByAge.deps.json
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Exercise\07_OrderByAge\bin\Debug\netcoreapp2.1\07_OrderByAge.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Exercise\07_OrderByAge\bin\Debug\netcoreapp2.1\07_OrderByAge.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Exercise\07_OrderByAge\bin\Debug\netcoreapp2.1\07_OrderByAge.dll
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Exercise\07_OrderByAge\bin\Debug\netcoreapp2.1\07_OrderByAge.pdb
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Exercise\07_OrderByAge\obj\Debug\netcoreapp2.1\07_OrderByAge.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Exercise\07_OrderByAge\obj\Debug\netcoreapp2.1\07_OrderByAge.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Exercise\07_OrderByAge\obj\Debug\netcoreapp2.1\07_OrderByAge.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Exercise\07_OrderByAge\obj\Debug\netcoreapp2.1\07_OrderByAge.dll
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Exercise\07_OrderByAge\obj\Debug\netcoreapp2.1\07_OrderByAge.pdb

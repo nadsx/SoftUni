@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Exercises\02_SetsOfElements\bin\Debug\netcoreapp2.1\02_SetsOfElements.deps.json
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Exercises\02_SetsOfElements\bin\Debug\netcoreapp2.1\02_SetsOfElements.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Exercises\02_SetsOfElements\bin\Debug\netcoreapp2.1\02_SetsOfElements.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Exercises\02_SetsOfElements\bin\Debug\netcoreapp2.1\02_SetsOfElements.dll
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Exercises\02_SetsOfElements\bin\Debug\netcoreapp2.1\02_SetsOfElements.pdb
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Exercises\02_SetsOfElements\obj\Debug\netcoreapp2.1\02_SetsOfElements.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Exercises\02_SetsOfElements\obj\Debug\netcoreapp2.1\02_SetsOfElements.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Exercises\02_SetsOfElements\obj\Debug\netcoreapp2.1\02_SetsOfElements.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Exercises\02_SetsOfElements\obj\Debug\netcoreapp2.1\02_SetsOfElements.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Exercises\02_SetsOfElements\obj\Debug\netcoreapp2.1\02_SetsOfElements.dll
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Exercises\02_SetsOfElements\obj\Debug\netcoreapp2.1\02_SetsOfElements.pdb

@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\06_FullDirectoryTraversal\bin\Debug\netcoreapp2.1\06_FullDirectoryTraversal.deps.json
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\06_FullDirectoryTraversal\bin\Debug\netcoreapp2.1\06_FullDirectoryTraversal.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\06_FullDirectoryTraversal\bin\Debug\netcoreapp2.1\06_FullDirectoryTraversal.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\06_FullDirectoryTraversal\bin\Debug\netcoreapp2.1\06_FullDirectoryTraversal.dll
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\06_FullDirectoryTraversal\bin\Debug\netcoreapp2.1\06_FullDirectoryTraversal.pdb
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\06_FullDirectoryTraversal\obj\Debug\netcoreapp2.1\06_FullDirectoryTraversal.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\06_FullDirectoryTraversal\obj\Debug\netcoreapp2.1\06_FullDirectoryTraversal.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\06_FullDirectoryTraversal\obj\Debug\netcoreapp2.1\06_FullDirectoryTraversal.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\06_FullDirectoryTraversal\obj\Debug\netcoreapp2.1\06_FullDirectoryTraversal.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\06_FullDirectoryTraversal\obj\Debug\netcoreapp2.1\06_FullDirectoryTraversal.dll
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\06_FullDirectoryTraversal\obj\Debug\netcoreapp2.1\06_FullDirectoryTraversal.pdb

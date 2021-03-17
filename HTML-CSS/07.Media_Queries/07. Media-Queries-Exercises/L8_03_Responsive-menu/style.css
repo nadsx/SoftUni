@@ -1,0 +1,78 @@
+body {
+    background-color: #EBEBEB;
+    font-family: sans-serif;
+}
+
+header {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    text-transform: uppercase;
+}
+
+nav {
+    display: flex;
+    align-items: flex-end;
+}
+
+nav ul {
+    padding: 10px;
+    display: flex;
+    background-color: white;
+    list-style: none;
+}
+
+nav li {
+    background-color: #2D2D2D;
+    border-radius: 8px;
+    margin-right: 5px;
+}
+
+nav li a {
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 800px) {
+    header {
+        max-width: 500px;
+        flex-direction: column;
+    }
+
+    nav {
+        position: relative;
+        flex-grow: 1;
+    }
+
+    nav ul {
+        flex-direction: column;
+        flex-grow: 1;
+        border-bottom: 2px solid black;
+        border-top: 2px solid black;
+    }
+
+    nav li {
+        margin-top: 5px;
+    }
+
+    nav::before {
+        position: absolute;
+        content: 'X Menu';
+        top: -5px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-weight: 600;
+
+        /* left 50% will move the element exactly at the center 
+         of the main container where this element belongs!
+         BUT translateX(50%) will move the element right 
+         exactly to 50% of its width, and NOT at the 
+         center of the whole Container element! */
+    }
+}

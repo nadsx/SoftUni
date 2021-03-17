@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Lab\06_FolderSize\bin\Debug\netcoreapp2.1\06_FolderSize.deps.json
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Lab\06_FolderSize\bin\Debug\netcoreapp2.1\06_FolderSize.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Lab\06_FolderSize\bin\Debug\netcoreapp2.1\06_FolderSize.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Lab\06_FolderSize\bin\Debug\netcoreapp2.1\06_FolderSize.dll
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Lab\06_FolderSize\bin\Debug\netcoreapp2.1\06_FolderSize.pdb
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Lab\06_FolderSize\obj\Debug\netcoreapp2.1\06_FolderSize.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Lab\06_FolderSize\obj\Debug\netcoreapp2.1\06_FolderSize.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Lab\06_FolderSize\obj\Debug\netcoreapp2.1\06_FolderSize.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Lab\06_FolderSize\obj\Debug\netcoreapp2.1\06_FolderSize.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Lab\06_FolderSize\obj\Debug\netcoreapp2.1\06_FolderSize.dll
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Lab\06_FolderSize\obj\Debug\netcoreapp2.1\06_FolderSize.pdb

@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P03Vacation\bin\Debug\netcoreapp2.1\P03Vacation.deps.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P03Vacation\bin\Debug\netcoreapp2.1\P03Vacation.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P03Vacation\bin\Debug\netcoreapp2.1\P03Vacation.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P03Vacation\bin\Debug\netcoreapp2.1\P03Vacation.dll
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P03Vacation\bin\Debug\netcoreapp2.1\P03Vacation.pdb
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P03Vacation\obj\Debug\netcoreapp2.1\P03Vacation.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P03Vacation\obj\Debug\netcoreapp2.1\P03Vacation.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P03Vacation\obj\Debug\netcoreapp2.1\P03Vacation.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P03Vacation\obj\Debug\netcoreapp2.1\P03Vacation.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P03Vacation\obj\Debug\netcoreapp2.1\P03Vacation.dll
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P03Vacation\obj\Debug\netcoreapp2.1\P03Vacation.pdb

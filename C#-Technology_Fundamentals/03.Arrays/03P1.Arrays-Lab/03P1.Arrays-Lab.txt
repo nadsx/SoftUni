@@ -1,0 +1,228 @@
+1
+====================================
+	string[] weekDays =
+	{
+		"Monday",
+		"Tuesday",
+		"Wednesday",
+		"Thursday",
+		"Friday",
+		"Saturday",
+		"Sunday"
+	};
+
+	int day = int.Parse(Console.ReadLine());
+
+	if(day < 1 || day > 7)
+	{
+		Console.WriteLine("Invalid day!");
+	}
+	else
+	{
+		Console.WriteLine(weekDays[day - 1]);
+	}
+
+2
+====================================
+int n = int.Parse(Console.ReadLine());
+
+int[] numbers = new int[n];
+
+for (int i = 0; i < n; i++)
+{
+	numbers[i] = int.Parse(Console.ReadLine());
+}
+
+for (int i = numbers.Length - 1; i >= 0; i--)
+{
+	Console.Write(numbers[i] + " ");
+}
+
+3
+====================================
+double[] numbers = Console.ReadLine()
+	.Split()
+	.Select(double.Parse)
+	.ToArray();
+
+for (int i = 0; i < numbers.Length; i++)
+{
+	double originalNumber = numbers[i];
+	int roundedNumber = (int)Math.Round(originalNumber, MidpointRounding.AwayFromZero);
+	Console.WriteLine($"{originalNumber} => {roundedNumber}");
+}
+
+4
+====================================
+string[] arrOfStrings = Console.ReadLine().Split().ToArray();
+
+for (int i = arrOfStrings.Length - 1; i >= 0; i--)
+{
+	Console.Write(arrOfStrings[i] + " ");
+}
+Console.WriteLine();
+
+-------------------------------------
+
+string[] myArray = Console.ReadLine().Split();
+
+            Array.Reverse(myArray);
+
+            Console.WriteLine(string.Join(" ",myArray)); 
+
+5
+====================================
+int[] numbers = Console.ReadLine().Split().Select(int.Parse).ToArray();
+
+int sum = 0;
+
+for (int i = 0; i < numbers.Length; i++)
+{
+	int currentNumber = numbers[i];
+
+	if(currentNumber % 2 == 0)
+	{
+		sum += currentNumber;
+	}
+
+}
+Console.WriteLine(sum);
+------------------------------------
+
+int[] numbers = Console.ReadLine()
+	.Split()
+	.Select(int.Parse)
+	.Where(x => x % 2 == 0)
+	.ToArray();
+
+Console.WriteLine(numbers.Sum());
+
+6
+====================================
+int[] numbers = Console.ReadLine().Split().Select(int.Parse).ToArray();
+
+int difference = 0;
+
+for (int i = 0; i < numbers.Length; i++)
+{
+	int currentNumber = numbers[i];
+
+	if(currentNumber % 2 == 0)
+	{
+		difference += currentNumber;
+	}
+	else
+	{
+		difference -= currentNumber;
+	}
+
+}
+
+Console.WriteLine(difference);
+
+7
+====================================
+
+int[] arrOne = Console.ReadLine().Split().Select(int.Parse).ToArray();
+int[] arrTwo = Console.ReadLine().Split().Select(int.Parse).ToArray();
+
+int sum = 0;
+for (int i = 0; i < arrOne.Length; i++)
+{
+    if(arrOne[i] != arrTwo[i])
+	{
+		Console.WriteLine($"Arrays are not identical. Found difference at {i} index");
+		return;
+	}
+
+	sum += arrTwo[i];
+}
+
+Console.WriteLine($"Arrays are identical. Sum: {sum}");
+
+------------------------------------
+
+int[] firstArray = Console.ReadLine().Split().Select(int.Parse).ToArray();
+int[] secondArray = Console.ReadLine().Split().Select(int.Parse).ToArray();
+
+bool areEqual = true;
+int differIndex = 0;
+for (int i = 0; i < firstArray.Length; i++)
+{
+	if (firstArray[i] != secondArray[i])
+	{
+		areEqual = false;
+		differIndex = i;
+		break;
+	}
+}
+
+if (areEqual)
+{
+	Console.WriteLine($"Arrays are identical. Sum: {firstArray.Sum()}");
+}
+else
+{
+	Console.WriteLine($"Arrays are not identical. Found difference at {differIndex} index");
+}
+
+
+8
+====================================
+
+List<int> numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
+        //!!!!!! i = numbers.Count - 1 se smalqva v obratniq i = 0 se uvelichava  
+for (int i = numbers.Count - 1; i > 0; i--)
+{			
+	for (int j = 0; j < numbers.Count; j++)
+	{
+		if (j + 1 < numbers.Count)
+		{
+			numbers[j] += numbers[j + 1];
+		}
+		else
+		{
+			numbers.RemoveAt(numbers.Count - 1);
+		}
+	}
+}
+
+Console.WriteLine(numbers[0]);
+
+------------------------------------
+
+List<int> numbers = Console.ReadLine()
+                .Split()
+                .Select(int.Parse)
+                .ToList();
+                        
+            while (numbers.Count > 1)
+            {
+                for (int i = 0; i < numbers.Count - 1; i++)
+                {
+                    numbers.Insert(i + 1, numbers[i] + numbers[i + 1]);
+                    numbers.RemoveAt(i);
+                }
+                numbers.RemoveAt(numbers.Count - 1);
+            }
+            Console.WriteLine(numbers[0]);
+
+------------------------------------
+List<int> numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
+
+			while (numbers.Count - 1 > 0)
+			{
+				for (int j = 0; j < numbers.Count; j++)
+				{
+					if (j + 1 < numbers.Count)
+					{
+						numbers[j] += numbers[j + 1];
+					}
+					else
+					{
+						numbers.RemoveAt(numbers.Count - 1);
+					}
+				}
+			}
+
+			Console.WriteLine(numbers[0]);

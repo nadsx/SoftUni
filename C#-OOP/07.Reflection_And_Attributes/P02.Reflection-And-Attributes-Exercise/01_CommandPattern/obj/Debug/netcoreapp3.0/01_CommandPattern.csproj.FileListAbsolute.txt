@@ -1,0 +1,11 @@
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Exercise\01_CommandPattern\bin\Debug\netcoreapp3.0\01_CommandPattern.exe
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Exercise\01_CommandPattern\bin\Debug\netcoreapp3.0\01_CommandPattern.deps.json
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Exercise\01_CommandPattern\bin\Debug\netcoreapp3.0\01_CommandPattern.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Exercise\01_CommandPattern\bin\Debug\netcoreapp3.0\01_CommandPattern.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Exercise\01_CommandPattern\bin\Debug\netcoreapp3.0\01_CommandPattern.dll
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Exercise\01_CommandPattern\bin\Debug\netcoreapp3.0\01_CommandPattern.pdb
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Exercise\01_CommandPattern\obj\Debug\netcoreapp3.0\01_CommandPattern.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Exercise\01_CommandPattern\obj\Debug\netcoreapp3.0\01_CommandPattern.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Exercise\01_CommandPattern\obj\Debug\netcoreapp3.0\01_CommandPattern.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Exercise\01_CommandPattern\obj\Debug\netcoreapp3.0\01_CommandPattern.dll
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Exercise\01_CommandPattern\obj\Debug\netcoreapp3.0\01_CommandPattern.pdb

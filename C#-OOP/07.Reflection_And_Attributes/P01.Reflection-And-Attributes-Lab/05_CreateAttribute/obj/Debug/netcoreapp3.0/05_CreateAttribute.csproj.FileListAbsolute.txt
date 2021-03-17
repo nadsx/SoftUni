@@ -1,0 +1,10 @@
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\05_CreateAttribute\bin\Debug\netcoreapp3.0\05_CreateAttribute.exe
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\05_CreateAttribute\bin\Debug\netcoreapp3.0\05_CreateAttribute.deps.json
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\05_CreateAttribute\bin\Debug\netcoreapp3.0\05_CreateAttribute.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\05_CreateAttribute\bin\Debug\netcoreapp3.0\05_CreateAttribute.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\05_CreateAttribute\bin\Debug\netcoreapp3.0\05_CreateAttribute.dll
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\05_CreateAttribute\bin\Debug\netcoreapp3.0\05_CreateAttribute.pdb
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\05_CreateAttribute\obj\Debug\netcoreapp3.0\05_CreateAttribute.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\05_CreateAttribute\obj\Debug\netcoreapp3.0\05_CreateAttribute.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\05_CreateAttribute\obj\Debug\netcoreapp3.0\05_CreateAttribute.dll
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\05_CreateAttribute\obj\Debug\netcoreapp3.0\05_CreateAttribute.pdb

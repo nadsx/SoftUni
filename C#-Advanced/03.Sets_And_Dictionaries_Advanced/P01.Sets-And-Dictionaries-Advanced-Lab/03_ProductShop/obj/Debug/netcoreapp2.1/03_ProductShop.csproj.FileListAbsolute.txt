@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\03_ProductShop\bin\Debug\netcoreapp2.1\03_ProductShop.deps.json
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\03_ProductShop\bin\Debug\netcoreapp2.1\03_ProductShop.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\03_ProductShop\bin\Debug\netcoreapp2.1\03_ProductShop.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\03_ProductShop\bin\Debug\netcoreapp2.1\03_ProductShop.dll
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\03_ProductShop\bin\Debug\netcoreapp2.1\03_ProductShop.pdb
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\03_ProductShop\obj\Debug\netcoreapp2.1\03_ProductShop.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\03_ProductShop\obj\Debug\netcoreapp2.1\03_ProductShop.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\03_ProductShop\obj\Debug\netcoreapp2.1\03_ProductShop.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\03_ProductShop\obj\Debug\netcoreapp2.1\03_ProductShop.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\03_ProductShop\obj\Debug\netcoreapp2.1\03_ProductShop.dll
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\03_ProductShop\obj\Debug\netcoreapp2.1\03_ProductShop.pdb

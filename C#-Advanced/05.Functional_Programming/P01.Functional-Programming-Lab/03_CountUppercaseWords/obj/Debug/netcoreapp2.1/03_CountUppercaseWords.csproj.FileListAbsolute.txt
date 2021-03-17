@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\03_CountUppercaseWords\bin\Debug\netcoreapp2.1\03_CountUppercaseWords.deps.json
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\03_CountUppercaseWords\bin\Debug\netcoreapp2.1\03_CountUppercaseWords.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\03_CountUppercaseWords\bin\Debug\netcoreapp2.1\03_CountUppercaseWords.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\03_CountUppercaseWords\bin\Debug\netcoreapp2.1\03_CountUppercaseWords.dll
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\03_CountUppercaseWords\bin\Debug\netcoreapp2.1\03_CountUppercaseWords.pdb
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\03_CountUppercaseWords\obj\Debug\netcoreapp2.1\03_CountUppercaseWords.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\03_CountUppercaseWords\obj\Debug\netcoreapp2.1\03_CountUppercaseWords.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\03_CountUppercaseWords\obj\Debug\netcoreapp2.1\03_CountUppercaseWords.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\03_CountUppercaseWords\obj\Debug\netcoreapp2.1\03_CountUppercaseWords.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\03_CountUppercaseWords\obj\Debug\netcoreapp2.1\03_CountUppercaseWords.dll
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\03_CountUppercaseWords\obj\Debug\netcoreapp2.1\03_CountUppercaseWords.pdb

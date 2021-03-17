@@ -1,0 +1,11 @@
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\01_DefineAnInterfaceIPerson\bin\Debug\netcoreapp3.0\01_DefineAnInterfaceIPerson.exe
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\01_DefineAnInterfaceIPerson\bin\Debug\netcoreapp3.0\01_DefineAnInterfaceIPerson.deps.json
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\01_DefineAnInterfaceIPerson\bin\Debug\netcoreapp3.0\01_DefineAnInterfaceIPerson.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\01_DefineAnInterfaceIPerson\bin\Debug\netcoreapp3.0\01_DefineAnInterfaceIPerson.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\01_DefineAnInterfaceIPerson\bin\Debug\netcoreapp3.0\01_DefineAnInterfaceIPerson.dll
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\01_DefineAnInterfaceIPerson\bin\Debug\netcoreapp3.0\01_DefineAnInterfaceIPerson.pdb
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\01_DefineAnInterfaceIPerson\obj\Debug\netcoreapp3.0\01_DefineAnInterfaceIPerson.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\01_DefineAnInterfaceIPerson\obj\Debug\netcoreapp3.0\01_DefineAnInterfaceIPerson.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\01_DefineAnInterfaceIPerson\obj\Debug\netcoreapp3.0\01_DefineAnInterfaceIPerson.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\01_DefineAnInterfaceIPerson\obj\Debug\netcoreapp3.0\01_DefineAnInterfaceIPerson.dll
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\01_DefineAnInterfaceIPerson\obj\Debug\netcoreapp3.0\01_DefineAnInterfaceIPerson.pdb

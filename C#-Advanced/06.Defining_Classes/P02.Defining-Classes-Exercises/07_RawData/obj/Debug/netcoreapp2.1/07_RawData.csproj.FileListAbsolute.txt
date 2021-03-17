@@ -1,0 +1,10 @@
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Exercises\07_RawData\bin\Debug\netcoreapp2.1\07_RawData.deps.json
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Exercises\07_RawData\bin\Debug\netcoreapp2.1\07_RawData.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Exercises\07_RawData\bin\Debug\netcoreapp2.1\07_RawData.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Exercises\07_RawData\bin\Debug\netcoreapp2.1\07_RawData.dll
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Exercises\07_RawData\bin\Debug\netcoreapp2.1\07_RawData.pdb
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Exercises\07_RawData\obj\Debug\netcoreapp2.1\07_RawData.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Exercises\07_RawData\obj\Debug\netcoreapp2.1\07_RawData.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Exercises\07_RawData\obj\Debug\netcoreapp2.1\07_RawData.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Exercises\07_RawData\obj\Debug\netcoreapp2.1\07_RawData.dll
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Exercises\07_RawData\obj\Debug\netcoreapp2.1\07_RawData.pdb

@@ -1,0 +1,10 @@
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P10LowerOrUpper\bin\Debug\netcoreapp2.1\P10LowerOrUpper.deps.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P10LowerOrUpper\bin\Debug\netcoreapp2.1\P10LowerOrUpper.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P10LowerOrUpper\bin\Debug\netcoreapp2.1\P10LowerOrUpper.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P10LowerOrUpper\bin\Debug\netcoreapp2.1\P10LowerOrUpper.dll
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P10LowerOrUpper\bin\Debug\netcoreapp2.1\P10LowerOrUpper.pdb
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P10LowerOrUpper\obj\Debug\netcoreapp2.1\P10LowerOrUpper.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P10LowerOrUpper\obj\Debug\netcoreapp2.1\P10LowerOrUpper.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P10LowerOrUpper\obj\Debug\netcoreapp2.1\P10LowerOrUpper.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P10LowerOrUpper\obj\Debug\netcoreapp2.1\P10LowerOrUpper.dll
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P10LowerOrUpper\obj\Debug\netcoreapp2.1\P10LowerOrUpper.pdb

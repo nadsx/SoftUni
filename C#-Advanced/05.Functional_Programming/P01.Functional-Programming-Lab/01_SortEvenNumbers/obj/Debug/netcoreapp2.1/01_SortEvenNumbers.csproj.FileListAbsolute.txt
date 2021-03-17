@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\01_SortEvenNumbers\bin\Debug\netcoreapp2.1\01_SortEvenNumbers.deps.json
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\01_SortEvenNumbers\bin\Debug\netcoreapp2.1\01_SortEvenNumbers.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\01_SortEvenNumbers\bin\Debug\netcoreapp2.1\01_SortEvenNumbers.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\01_SortEvenNumbers\bin\Debug\netcoreapp2.1\01_SortEvenNumbers.dll
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\01_SortEvenNumbers\bin\Debug\netcoreapp2.1\01_SortEvenNumbers.pdb
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\01_SortEvenNumbers\obj\Debug\netcoreapp2.1\01_SortEvenNumbers.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\01_SortEvenNumbers\obj\Debug\netcoreapp2.1\01_SortEvenNumbers.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\01_SortEvenNumbers\obj\Debug\netcoreapp2.1\01_SortEvenNumbers.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\01_SortEvenNumbers\obj\Debug\netcoreapp2.1\01_SortEvenNumbers.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\01_SortEvenNumbers\obj\Debug\netcoreapp2.1\01_SortEvenNumbers.dll
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\01_SortEvenNumbers\obj\Debug\netcoreapp2.1\01_SortEvenNumbers.pdb

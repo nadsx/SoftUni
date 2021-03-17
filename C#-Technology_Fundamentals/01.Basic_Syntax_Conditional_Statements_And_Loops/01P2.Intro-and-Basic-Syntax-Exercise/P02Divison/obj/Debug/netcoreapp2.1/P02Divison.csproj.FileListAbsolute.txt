@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P02Divison\bin\Debug\netcoreapp2.1\P02Divison.deps.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P02Divison\bin\Debug\netcoreapp2.1\P02Divison.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P02Divison\bin\Debug\netcoreapp2.1\P02Divison.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P02Divison\bin\Debug\netcoreapp2.1\P02Divison.dll
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P02Divison\bin\Debug\netcoreapp2.1\P02Divison.pdb
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P02Divison\obj\Debug\netcoreapp2.1\P02Divison.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P02Divison\obj\Debug\netcoreapp2.1\P02Divison.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P02Divison\obj\Debug\netcoreapp2.1\P02Divison.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P02Divison\obj\Debug\netcoreapp2.1\P02Divison.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P02Divison\obj\Debug\netcoreapp2.1\P02Divison.dll
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P02Divison\obj\Debug\netcoreapp2.1\P02Divison.pdb

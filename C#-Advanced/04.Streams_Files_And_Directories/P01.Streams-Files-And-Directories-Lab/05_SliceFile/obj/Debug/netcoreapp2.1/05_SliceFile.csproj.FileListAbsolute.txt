@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Lab\05_SliceFile\bin\Debug\netcoreapp2.1\05_SliceFile.deps.json
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Lab\05_SliceFile\bin\Debug\netcoreapp2.1\05_SliceFile.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Lab\05_SliceFile\bin\Debug\netcoreapp2.1\05_SliceFile.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Lab\05_SliceFile\bin\Debug\netcoreapp2.1\05_SliceFile.dll
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Lab\05_SliceFile\bin\Debug\netcoreapp2.1\05_SliceFile.pdb
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Lab\05_SliceFile\obj\Debug\netcoreapp2.1\05_SliceFile.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Lab\05_SliceFile\obj\Debug\netcoreapp2.1\05_SliceFile.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Lab\05_SliceFile\obj\Debug\netcoreapp2.1\05_SliceFile.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Lab\05_SliceFile\obj\Debug\netcoreapp2.1\05_SliceFile.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Lab\05_SliceFile\obj\Debug\netcoreapp2.1\05_SliceFile.dll
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Lab\05_SliceFile\obj\Debug\netcoreapp2.1\05_SliceFile.pdb

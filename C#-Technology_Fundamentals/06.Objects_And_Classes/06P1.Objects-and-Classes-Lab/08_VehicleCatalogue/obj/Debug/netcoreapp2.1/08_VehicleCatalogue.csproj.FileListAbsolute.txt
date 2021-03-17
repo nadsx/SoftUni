@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\08_VehicleCatalogue\bin\Debug\netcoreapp2.1\08_VehicleCatalogue.deps.json
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\08_VehicleCatalogue\bin\Debug\netcoreapp2.1\08_VehicleCatalogue.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\08_VehicleCatalogue\bin\Debug\netcoreapp2.1\08_VehicleCatalogue.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\08_VehicleCatalogue\bin\Debug\netcoreapp2.1\08_VehicleCatalogue.dll
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\08_VehicleCatalogue\bin\Debug\netcoreapp2.1\08_VehicleCatalogue.pdb
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\08_VehicleCatalogue\obj\Debug\netcoreapp2.1\08_VehicleCatalogue.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\08_VehicleCatalogue\obj\Debug\netcoreapp2.1\08_VehicleCatalogue.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\08_VehicleCatalogue\obj\Debug\netcoreapp2.1\08_VehicleCatalogue.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\08_VehicleCatalogue\obj\Debug\netcoreapp2.1\08_VehicleCatalogue.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\08_VehicleCatalogue\obj\Debug\netcoreapp2.1\08_VehicleCatalogue.dll
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\08_VehicleCatalogue\obj\Debug\netcoreapp2.1\08_VehicleCatalogue.pdb

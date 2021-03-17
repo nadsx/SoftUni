@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Lists-More-Exercises\04_MixedUpLists\bin\Debug\netcoreapp2.1\04_MixedUpLists.deps.json
+C:\Users\ASUS NB\source\repos\Lists-More-Exercises\04_MixedUpLists\bin\Debug\netcoreapp2.1\04_MixedUpLists.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Lists-More-Exercises\04_MixedUpLists\bin\Debug\netcoreapp2.1\04_MixedUpLists.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Lists-More-Exercises\04_MixedUpLists\bin\Debug\netcoreapp2.1\04_MixedUpLists.dll
+C:\Users\ASUS NB\source\repos\Lists-More-Exercises\04_MixedUpLists\bin\Debug\netcoreapp2.1\04_MixedUpLists.pdb
+C:\Users\ASUS NB\source\repos\Lists-More-Exercises\04_MixedUpLists\obj\Debug\netcoreapp2.1\04_MixedUpLists.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Lists-More-Exercises\04_MixedUpLists\obj\Debug\netcoreapp2.1\04_MixedUpLists.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Lists-More-Exercises\04_MixedUpLists\obj\Debug\netcoreapp2.1\04_MixedUpLists.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Lists-More-Exercises\04_MixedUpLists\obj\Debug\netcoreapp2.1\04_MixedUpLists.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Lists-More-Exercises\04_MixedUpLists\obj\Debug\netcoreapp2.1\04_MixedUpLists.dll
+C:\Users\ASUS NB\source\repos\Lists-More-Exercises\04_MixedUpLists\obj\Debug\netcoreapp2.1\04_MixedUpLists.pdb

@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\04_FindEvensOrOdds\bin\Debug\netcoreapp2.1\04_FindEvensOrOdds.deps.json
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\04_FindEvensOrOdds\bin\Debug\netcoreapp2.1\04_FindEvensOrOdds.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\04_FindEvensOrOdds\bin\Debug\netcoreapp2.1\04_FindEvensOrOdds.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\04_FindEvensOrOdds\bin\Debug\netcoreapp2.1\04_FindEvensOrOdds.dll
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\04_FindEvensOrOdds\bin\Debug\netcoreapp2.1\04_FindEvensOrOdds.pdb
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\04_FindEvensOrOdds\obj\Debug\netcoreapp2.1\04_FindEvensOrOdds.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\04_FindEvensOrOdds\obj\Debug\netcoreapp2.1\04_FindEvensOrOdds.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\04_FindEvensOrOdds\obj\Debug\netcoreapp2.1\04_FindEvensOrOdds.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\04_FindEvensOrOdds\obj\Debug\netcoreapp2.1\04_FindEvensOrOdds.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\04_FindEvensOrOdds\obj\Debug\netcoreapp2.1\04_FindEvensOrOdds.dll
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\04_FindEvensOrOdds\obj\Debug\netcoreapp2.1\04_FindEvensOrOdds.pdb

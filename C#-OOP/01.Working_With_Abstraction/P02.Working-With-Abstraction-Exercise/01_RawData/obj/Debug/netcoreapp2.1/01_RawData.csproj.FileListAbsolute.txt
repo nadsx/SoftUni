@@ -1,0 +1,10 @@
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Exercises\01_RawData\bin\Debug\netcoreapp2.1\01_RawData.deps.json
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Exercises\01_RawData\bin\Debug\netcoreapp2.1\01_RawData.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Exercises\01_RawData\bin\Debug\netcoreapp2.1\01_RawData.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Exercises\01_RawData\bin\Debug\netcoreapp2.1\01_RawData.dll
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Exercises\01_RawData\bin\Debug\netcoreapp2.1\01_RawData.pdb
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Exercises\01_RawData\obj\Debug\netcoreapp2.1\01_RawData.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Exercises\01_RawData\obj\Debug\netcoreapp2.1\01_RawData.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Exercises\01_RawData\obj\Debug\netcoreapp2.1\01_RawData.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Exercises\01_RawData\obj\Debug\netcoreapp2.1\01_RawData.dll
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Exercises\01_RawData\obj\Debug\netcoreapp2.1\01_RawData.pdb

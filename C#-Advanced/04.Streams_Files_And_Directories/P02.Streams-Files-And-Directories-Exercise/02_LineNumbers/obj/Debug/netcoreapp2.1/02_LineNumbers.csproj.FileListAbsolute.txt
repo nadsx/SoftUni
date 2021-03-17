@@ -1,0 +1,12 @@
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\02_LineNumbers\bin\Debug\netcoreapp2.1\text.txt
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\02_LineNumbers\bin\Debug\netcoreapp2.1\02_LineNumbers.deps.json
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\02_LineNumbers\bin\Debug\netcoreapp2.1\02_LineNumbers.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\02_LineNumbers\bin\Debug\netcoreapp2.1\02_LineNumbers.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\02_LineNumbers\bin\Debug\netcoreapp2.1\02_LineNumbers.dll
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\02_LineNumbers\bin\Debug\netcoreapp2.1\02_LineNumbers.pdb
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\02_LineNumbers\obj\Debug\netcoreapp2.1\02_LineNumbers.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\02_LineNumbers\obj\Debug\netcoreapp2.1\02_LineNumbers.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\02_LineNumbers\obj\Debug\netcoreapp2.1\02_LineNumbers.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\02_LineNumbers\obj\Debug\netcoreapp2.1\02_LineNumbers.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\02_LineNumbers\obj\Debug\netcoreapp2.1\02_LineNumbers.dll
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\02_LineNumbers\obj\Debug\netcoreapp2.1\02_LineNumbers.pdb

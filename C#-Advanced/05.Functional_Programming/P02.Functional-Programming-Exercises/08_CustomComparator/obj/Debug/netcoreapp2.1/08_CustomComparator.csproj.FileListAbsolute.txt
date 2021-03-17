@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\08_CustomComparator\bin\Debug\netcoreapp2.1\08_CustomComparator.deps.json
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\08_CustomComparator\bin\Debug\netcoreapp2.1\08_CustomComparator.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\08_CustomComparator\bin\Debug\netcoreapp2.1\08_CustomComparator.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\08_CustomComparator\bin\Debug\netcoreapp2.1\08_CustomComparator.dll
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\08_CustomComparator\bin\Debug\netcoreapp2.1\08_CustomComparator.pdb
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\08_CustomComparator\obj\Debug\netcoreapp2.1\08_CustomComparator.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\08_CustomComparator\obj\Debug\netcoreapp2.1\08_CustomComparator.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\08_CustomComparator\obj\Debug\netcoreapp2.1\08_CustomComparator.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\08_CustomComparator\obj\Debug\netcoreapp2.1\08_CustomComparator.dll
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\08_CustomComparator\obj\Debug\netcoreapp2.1\08_CustomComparator.pdb
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\08_CustomComparator\obj\Debug\netcoreapp2.1\08_CustomComparator.csprojAssemblyReference.cache

@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P05SpecialNumbers\bin\Debug\netcoreapp2.1\P05SpecialNumbers.deps.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P05SpecialNumbers\bin\Debug\netcoreapp2.1\P05SpecialNumbers.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P05SpecialNumbers\bin\Debug\netcoreapp2.1\P05SpecialNumbers.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P05SpecialNumbers\bin\Debug\netcoreapp2.1\P05SpecialNumbers.dll
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P05SpecialNumbers\bin\Debug\netcoreapp2.1\P05SpecialNumbers.pdb
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P05SpecialNumbers\obj\Debug\netcoreapp2.1\P05SpecialNumbers.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P05SpecialNumbers\obj\Debug\netcoreapp2.1\P05SpecialNumbers.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P05SpecialNumbers\obj\Debug\netcoreapp2.1\P05SpecialNumbers.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P05SpecialNumbers\obj\Debug\netcoreapp2.1\P05SpecialNumbers.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P05SpecialNumbers\obj\Debug\netcoreapp2.1\P05SpecialNumbers.dll
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P05SpecialNumbers\obj\Debug\netcoreapp2.1\P05SpecialNumbers.pdb

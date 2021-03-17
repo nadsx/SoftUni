@@ -1,0 +1,10 @@
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\06.C# OOP (Exam) - 14 April 2019\01. Structure_Skeleton\Skeleton\MortalEngines\bin\Debug\netcoreapp2.1\MortalEngines.deps.json
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\06.C# OOP (Exam) - 14 April 2019\01. Structure_Skeleton\Skeleton\MortalEngines\bin\Debug\netcoreapp2.1\MortalEngines.runtimeconfig.json
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\06.C# OOP (Exam) - 14 April 2019\01. Structure_Skeleton\Skeleton\MortalEngines\bin\Debug\netcoreapp2.1\MortalEngines.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\06.C# OOP (Exam) - 14 April 2019\01. Structure_Skeleton\Skeleton\MortalEngines\bin\Debug\netcoreapp2.1\MortalEngines.dll
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\06.C# OOP (Exam) - 14 April 2019\01. Structure_Skeleton\Skeleton\MortalEngines\bin\Debug\netcoreapp2.1\MortalEngines.pdb
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\06.C# OOP (Exam) - 14 April 2019\01. Structure_Skeleton\Skeleton\MortalEngines\obj\Debug\netcoreapp2.1\MortalEngines.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\06.C# OOP (Exam) - 14 April 2019\01. Structure_Skeleton\Skeleton\MortalEngines\obj\Debug\netcoreapp2.1\MortalEngines.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\06.C# OOP (Exam) - 14 April 2019\01. Structure_Skeleton\Skeleton\MortalEngines\obj\Debug\netcoreapp2.1\MortalEngines.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\06.C# OOP (Exam) - 14 April 2019\01. Structure_Skeleton\Skeleton\MortalEngines\obj\Debug\netcoreapp2.1\MortalEngines.dll
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\06.C# OOP (Exam) - 14 April 2019\01. Structure_Skeleton\Skeleton\MortalEngines\obj\Debug\netcoreapp2.1\MortalEngines.pdb

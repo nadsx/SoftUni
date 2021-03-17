@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P01IntegerOperations\bin\Debug\netcoreapp2.1\P01IntegerOperations.deps.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P01IntegerOperations\bin\Debug\netcoreapp2.1\P01IntegerOperations.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P01IntegerOperations\bin\Debug\netcoreapp2.1\P01IntegerOperations.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P01IntegerOperations\bin\Debug\netcoreapp2.1\P01IntegerOperations.dll
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P01IntegerOperations\bin\Debug\netcoreapp2.1\P01IntegerOperations.pdb
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P01IntegerOperations\obj\Debug\netcoreapp2.1\P01IntegerOperations.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P01IntegerOperations\obj\Debug\netcoreapp2.1\P01IntegerOperations.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P01IntegerOperations\obj\Debug\netcoreapp2.1\P01IntegerOperations.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P01IntegerOperations\obj\Debug\netcoreapp2.1\P01IntegerOperations.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P01IntegerOperations\obj\Debug\netcoreapp2.1\P01IntegerOperations.dll
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P01IntegerOperations\obj\Debug\netcoreapp2.1\P01IntegerOperations.pdb

@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\05_TopIntegers\bin\Debug\netcoreapp2.1\05_TopIntegers.deps.json
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\05_TopIntegers\bin\Debug\netcoreapp2.1\05_TopIntegers.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\05_TopIntegers\bin\Debug\netcoreapp2.1\05_TopIntegers.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\05_TopIntegers\bin\Debug\netcoreapp2.1\05_TopIntegers.dll
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\05_TopIntegers\bin\Debug\netcoreapp2.1\05_TopIntegers.pdb
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\05_TopIntegers\obj\Debug\netcoreapp2.1\05_TopIntegers.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\05_TopIntegers\obj\Debug\netcoreapp2.1\05_TopIntegers.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\05_TopIntegers\obj\Debug\netcoreapp2.1\05_TopIntegers.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\05_TopIntegers\obj\Debug\netcoreapp2.1\05_TopIntegers.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\05_TopIntegers\obj\Debug\netcoreapp2.1\05_TopIntegers.dll
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\05_TopIntegers\obj\Debug\netcoreapp2.1\05_TopIntegers.pdb

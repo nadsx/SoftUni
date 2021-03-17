@@ -1,0 +1,27 @@
+header {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('assets/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    min-height: 100vh;
+}
+
+@media all and (max-width: 900px) {
+    header {
+        min-height: 600px;
+    }
+}
+
+.header-content-title {
+    font-size: 50px;
+    width: 37%;
+    margin: 100px auto 0 auto;
+}
+
+@media all and (max-width: 900px) {
+    .header-content-title {
+        font-size: 25px;
+        width: 90%;
+    }
+}

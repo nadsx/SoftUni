@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P06StrongNumber\bin\Debug\netcoreapp2.1\P06StrongNumber.deps.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P06StrongNumber\bin\Debug\netcoreapp2.1\P06StrongNumber.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P06StrongNumber\bin\Debug\netcoreapp2.1\P06StrongNumber.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P06StrongNumber\bin\Debug\netcoreapp2.1\P06StrongNumber.dll
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P06StrongNumber\bin\Debug\netcoreapp2.1\P06StrongNumber.pdb
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P06StrongNumber\obj\Debug\netcoreapp2.1\P06StrongNumber.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P06StrongNumber\obj\Debug\netcoreapp2.1\P06StrongNumber.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P06StrongNumber\obj\Debug\netcoreapp2.1\P06StrongNumber.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P06StrongNumber\obj\Debug\netcoreapp2.1\P06StrongNumber.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P06StrongNumber\obj\Debug\netcoreapp2.1\P06StrongNumber.dll
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P06StrongNumber\obj\Debug\netcoreapp2.1\P06StrongNumber.pdb

@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\06_Courses\bin\Debug\netcoreapp2.1\06_Courses.deps.json
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\06_Courses\bin\Debug\netcoreapp2.1\06_Courses.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\06_Courses\bin\Debug\netcoreapp2.1\06_Courses.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\06_Courses\bin\Debug\netcoreapp2.1\06_Courses.dll
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\06_Courses\bin\Debug\netcoreapp2.1\06_Courses.pdb
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\06_Courses\obj\Debug\netcoreapp2.1\06_Courses.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\06_Courses\obj\Debug\netcoreapp2.1\06_Courses.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\06_Courses\obj\Debug\netcoreapp2.1\06_Courses.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\06_Courses\obj\Debug\netcoreapp2.1\06_Courses.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\06_Courses\obj\Debug\netcoreapp2.1\06_Courses.dll
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\06_Courses\obj\Debug\netcoreapp2.1\06_Courses.pdb

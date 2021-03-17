@@ -1,0 +1,445 @@
+NE E OBURKANO SPOKO !!
+1
+============================
+
+ int n = int.Parse(Console.ReadLine()); //THE WING FLAPS
+            double m = double.Parse(Console.ReadLine()); //THE DISTANCE (IN METERS) PER 1000 WING FLAPS
+            int p = int.Parse(Console.ReadLine()); //THE ENDURANCE
+
+            //GET HOW MANY RESTS WE WILL HAVE (DIVIDE THE WING FLAPS BY THE ENDURANCE)
+            int rests = n / p; 
+            
+            //GET THE TOTAL SECONDS WE WILL REST, MULTIPLY THE "rests" BY "5" (L) (LONG)
+            //IF WE MULTIPLY "rests" by "5" IT DOES NOT MATTER THAT WE ARE STORING IT IN A LONG TYPE VARIABLE
+            //INT * INT = INT (AND IF THE VALUES ARE TOO BIG, IT WILL OVERFLOW)
+            //WHICH IS WHY WE CAST "5" TO LONG
+            long seconds = rests * 5L;
+
+            //CALCULATE THE DISTANCE (DIVIDE THE WING FLAPS BY 1000) AND MULTIPLY IT BY "m" (THE DISTANCE FOR 1000 METERS)
+            double distance = (n / 1000) * m;
+
+            //ADD THE TIME TAKEN WHILE TRAVELLING (EVERY 100 FLAPS - A SECOND) (ALL WING FLAPS DIVIDED BY 100)
+            seconds += (n / 100);
+
+            //PRINT THE OUTPUT
+            Console.WriteLine("{0:F2} m.", distance); //FORMATED TO THE SECOND DIGIT AFTER THE DECIMAL POINT
+            Console.WriteLine("{0} s.", seconds); //THE SECONDS PRINTED WITHOUT FORMATTING
+
+----------------------------
+int n = int.Parse(Console.ReadLine());
+			double m = double.Parse(Console.ReadLine());
+			int p = int.Parse(Console.ReadLine());
+
+			double distance = (n / 1000) * m;
+			double time = (n / 100) + (n / p) * 5;
+
+			Console.WriteLine($"{distance:f2} m.");
+			Console.WriteLine($"{time} s.");
+
+
+
+2
+============================
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            List<string> messages = new List<string>(); //CREATE A LIST OF STRINGS TO HOLD OUR MESSAGES
+            List<string> broadcasts = new List<string>(); //CREATE A LIST OF STRINGS TO HOLD OUR BROADCASTS
+
+            //CREATE TWO REGEX PATTERNS TO MATCH THE TWO TYPES OF QUERIES
+            //THE PATTERNS ARE ALMOST IDENTICAL
+            //THE MESSAGE ONE IS WITH (\d) BECAUSE IT WANTS ONLY DIGITS ON THE FIRST QUERY
+            //THE BROADCAST ONE IS WITH (\D) BECAUSE IT WANTS EVERYTHING BUT DIGITS ON THE FIRST QUERY
+            //THE SECOND QUERY IS THE SAME FOR BOTH CASES
+            string messagePattern = @"^(\d+) \<\-\> ([a-zA-Z0-9]+)$"; //WE USE REGEX GROUPS 
+            string broadcastPattern = @"^(\D+) \<\-\> ([a-zA-Z0-9]+)$"; //SO WE CAN EXTRACT THE INFORMATION EASIER
+
+            //INITIALIZE THE 2 REGEX VARIABLES
+            Regex messageRegex = new Regex(messagePattern);
+            Regex broadcastRegex = new Regex(broadcastPattern);
+
+            //READ THE FIRST INPUT LINE
+            string inputLine = Console.ReadLine();
+
+            //CREATE A WHILE LOOP THAT READS TILL YOU REACH THE END COMMAND
+            while (inputLine != "Hornet is Green")
+            {
+                //IF THE MESSAGE REGEX MATCHES DO THE MESSAGE LOGIC
+                if (messageRegex.IsMatch(inputLine))
+                {
+                    //TAKE THE MATCH WITH THE REGEX
+                    Match match = messageRegex.Match(inputLine);
+
+                    //NOTICE HOW WE USE THE GROUPS FROM THE REGEX TO EXTRACT THE 2 QUERIES
+                    //TAKE THE FIRST QUERY, REVERSE THE STRING => IT TURNS INTO A COLLECTION OF CHARACTER "char"
+                    //THEN STRING JOIN IT BY NOTHING "", AND IT TURNS INTO A STRING (CLEVER EYH)
+                    string recipientCode = string.Join("", match.Groups[1].Value.Reverse());
+                    
+                    string message = match.Groups[2].Value; //TAKE THE MESSAGE
+                    
+                    //FORM A STRING (FIRST QUERY) -> (SECOND QUERY)
+                    //ADD IT TO THE LIST OF MESSAGES
+                    messages.Add(recipientCode + " -> " + message);
+                }
+                
+                //IF THE BROADCAST REGEX MATCHES DO THE BROADCAST LOGIC
+                if (broadcastRegex.IsMatch(inputLine))
+                {
+                    //TAKE THE MATCH WITH THE REGEX
+                    Match match = broadcastRegex.Match(inputLine);
+
+                    string message = match.Groups[1].Value; //TAKE THE MESSAGE
+                    
+                    //TAKE THE FREQUENCY AND DECRYPT IT WITH A METHOD
+                    string frequency = DecryptFrequency(match.Groups[2].Value);
+
+                    //FORM A STRING (SECOND QUERY) -> (FIRST QUERY)
+                    //ADD IT TO THE LIST OF BROADCASTS
+                    broadcasts.Add(frequency + " -> " + message);
+                }
+
+                //READ THE NEXT INPUT LINE
+                inputLine = Console.ReadLine();
+            }
+
+            //PRINT BROADCASTS
+            Console.WriteLine("Broadcasts:");
+
+            //IF THERE ARE ANY BROADCASTS PRINT THEM JOINED BY "\n" (NEW LINE)
+            //ELSE, PRINT "None"
+            if (broadcasts.Count > 0)
+            {
+                Console.WriteLine(string.Join("\n", broadcasts));
+            }
+            else
+            {
+                Console.WriteLine("None");
+            }
+            
+            //THE COOL WAY - WITH LINQ AND TERNARY OPERATOR
+            //Console.WriteLine(broadcasts.Any() ? string.Join("\n", broadcasts) : "None");
+
+            //PRINT MESSAGES
+            Console.WriteLine("Messages:");
+
+            //IF THERE ARE ANY MESSAGES PRINT THEM JOINED BY "\n" (NEW LINE)
+            //ELSE, PRINT "None"
+            if (messages.Count > 0)
+            {
+                Console.WriteLine(string.Join("\n", messages));
+            }
+            else
+            {
+                Console.WriteLine("None");
+            }
+
+            //THE COOL WAY - WITH LINQ AND TERNARY OPERATOR
+            //Console.WriteLine(messages.Any() ? string.Join("\n", messages) : "None");
+        }
+
+        //METHOD FOR DECRYPTING THE FREQUENCY
+        //TAKES EVERY CHARACTER FROM A GIVEN STRING
+        //APPENDS IT TO ANOTHER STRING
+        //IF THE CHARACTER IS A UPPERCASE LETTER => TRANSFORMS IT INTO A LOWERCASE LETTER BEFORE APPENDING IT
+        //IF THE CHARACTER IS A LOWERCASE LETTER => TRANSFORMS IT INTO AN UPPERCASE LETTER BEFORE APPENDING IT
+        private static string DecryptFrequency(string encryptedFrequency)
+        {
+            //THE RESULT STRING
+            string decryptedFrequency = "";
+
+            //THE FOREACH THAT PASSES TROUGH ALL CHARACTERS
+            foreach (char currentChar in encryptedFrequency)
+            {
+                //IF ITS AN UPPERCASE LETTER, MAKE IT A LOWERCASE
+                //IF ITS A LOWERCASE LETTER, MAKE IT AN UPPERCASE
+                //ELSE, JUST APPEND IT
+                if (currentChar >= 65 && currentChar <= 90)
+                {
+                    decryptedFrequency += (char)(currentChar + 32);
+                }
+                else if (currentChar >= 97 && currentChar <= 122)
+                {
+                    decryptedFrequency += (char)(currentChar - 32);
+                }
+                else
+                {
+                    decryptedFrequency += currentChar;
+                }
+            }
+
+            //RETURN THE RESULT STRING
+            return decryptedFrequency;
+        }
+    }
+}
+
+//MUST BE WHOLE SENTENCE (^$)
+//BROADCAST / MESSAGE
+//
+//MESSAGE - ONE WITH DIGITS / MESSAGE
+//BROADCAST - ONE WITH MESSAGE / DIGITS
+//
+//MESSAGE - DIGITS ONLY - THE RECIPENT'S CODE / LETTERS AND DIGITS - THE MESSAGE
+//BROADCAST - LETTERS AND DIGITS - THE MESSAGE / DIGITS AND LETTERS - THE FREQUENCY
+//
+//RECIPENT'S CODE - REVERSED
+//FREQUENCY - ALL UPPERCASE LETTERS - TO LOWERCASE, ALL LOWERCASE LETTERS - TO UPPERCASE
+//
+//PRINTED BROADCASTS
+//{FREQUENCY} -> {MESSAGE}
+//PRINTED MESSAGES
+//{RECIPENT} ~ {MESSAGE}
+
+3
+============================
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //READ THE TWO INPUT SEQUENCES
+            //READ THEM AS LONG TO AVOID OVERFLOWS
+            long[] beehives = Console.ReadLine().Split(' ').Select(long.Parse).ToArray();
+            
+            //HORNETS GET REMOVED WHEN DEAD, WHICH IS WHY WE NEED A LIST HERE
+            List<long> hornets = Console.ReadLine().Split(' ').Select(long.Parse).ToList();
+
+            //THE LOOP THAT GOES THROUGH THE BEEHIVES
+            for (int i = 0; i < beehives.Length; i++)
+            {
+                //IF ALL HORNETS DIED, BREAK THE LOOP
+                //MIGHT BE AN EDGE CASE ??
+                if (hornets.Count == 0)
+                {
+                    break;
+                }
+
+                //TAKE THE CURRENT BEEHIVE BEES COUNT
+                long beehiveCount = beehives[i];
+
+                long hornetPower = SumHornetsPower(hornets); //SUM ALL HORNETS POWERS WITH A SIMPLE METHOD
+                
+                //THE COOL WAY => WITH LINQ
+                //long hornetPower = hornets.Sum();
+
+                //KILL BEES EQUAL TO THE HORNETS POWER, DECREASE THE INTEGER AT THAT POSITION
+                beehives[i] -= hornetPower;
+
+                //IF THE BEES ARE MORE OR EQUAL TO THE HORNETS POWER, REMOVE THE FIRST ELEMENT, BECAUSE THE FIRST HORNET DIES
+                if (beehiveCount >= hornetPower)
+                {
+                    hornets.RemoveAt(0);
+                }
+            }
+
+            //PRINT THE WINNING SIDE WITH A SIMPLE METHOD
+            PrintWinningSide(beehives, hornets);
+
+            //THE COOL WAY => WITH LINQ
+            //if (beehives.Any(bh => bh > 0))
+            //{
+            //    Console.WriteLine(string.Join(" ", beehives.Where(bh => bh > 0)));
+            //}
+            //else
+            //{
+            //    Console.WriteLine(string.Join(" ", hornets));
+            //}
+        }
+
+        //SUMS THE ELEMENTS OF A SEQUENCE OF TYPE - LONG
+        private static long SumHornetsPower(List<long> hornets)
+        {
+            //CREATE THE RESULT VARIABLE
+            long sum = 0L;
+
+            //FOREACH THE COLLECTION
+            foreach (var hornet in hornets)
+            {
+                //ADD EVERY ELEMENT TO THE SUM
+                sum += hornet;
+            }
+
+            //RETURN THE RESULT
+            return sum;
+        }
+
+        //PRINT THE WINNING SIDE
+        //CHECKS THE COLLECTION OF BEEHIVES IF IT HAS ANY ALIVE ONES
+        //IF IT DOES, PRINT THEM
+        //ELSE, PRINT THE COLLECTION OF HORNETS
+        private static void PrintWinningSide(long[] beehives, List<long> hornets)
+        {
+            //CREATE A SIMPLE LIST OF LONG, TO STORE THE ALIVE BEEHIVES
+            List<long> aliveBeehives = new List<long>();
+
+            //FOREACH THROUGH THE COLLECTION OF BEEHIVES
+            foreach (var beehive in beehives)
+            {
+                //ADD EVERY ALIVE BEEHIVE TO THE COLLECTION OF ALIVE BEEHIVES
+                if (beehive > 0)
+                {
+                    aliveBeehives.Add(beehive);
+                }
+            }
+
+            //IF THERE ARE ANY ALIVE BEEHIVES PRINT THEM
+            //ELSE, PRINT THE HORNETS
+            //IN BOTH CASES, JOIN THE COLLECTIONS BY SPACE 
+            if (aliveBeehives.Count > 0)
+            {
+                Console.WriteLine(string.Join(" ", aliveBeehives));
+            }
+            else
+            {
+                Console.WriteLine(string.Join(" ", hornets));
+            }
+        }
+    }
+
+----------------------------
+                        List<long> beehives = Console.ReadLine().Split().Select(long.Parse).ToList();
+			List<long> hornets = Console.ReadLine().Split().Select(long.Parse).ToList();
+			
+			long power = hornets.Sum();
+			
+			for (int i = 0; i < beehives.Count; i++)
+			{
+				if (hornets.Count == 0)
+				{
+					break;
+				}
+				
+				if (power > beehives[i])
+				{
+					beehives[i] = 0;
+				}
+				else
+				{
+					beehives[i] -= power;
+					hornets.RemoveAt(0);
+					power = hornets.Sum();
+				}
+
+			}
+
+			if (beehives.All(x => x == 0))
+			{
+				Console.WriteLine(string.Join(" ", hornets));
+			}
+			else
+			{
+				Console.WriteLine(string.Join(" ", beehives.Where(x => x != 0).ToList()));
+			}
+4
+============================
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //EVERY LEGION HAS ITS ACTIVITY
+            //CREATE TWO DICTIONARIES
+            //ONE TO STORE THE LEGIONS BY ACTIVITES
+            //AND ONE TO STORE THEM BY NAME, WITH A NESTED ONE => SOLDIER TYPES AND THEIR COUNT
+            Dictionary<string, int> legionsWithActivity = new Dictionary<string, int>();
+            Dictionary<string, Dictionary<string, long>> legionsWithSoldiers = new Dictionary<string, Dictionary<string, long>>(); //THERE IS A LONG HERE
+
+            //READ N
+            int n = int.Parse(Console.ReadLine());
+
+            //A SIMPLE REGEX PATTERN WITH GROUPS TO EXTRACT THE INPUT
+            //I'M LAZY TO SPLIT
+            string inputPattern = @"(\d+)\s\=\s(.+)\s\-\>\s(.+)\:(\d+)";
+            Regex inputRegex = new Regex(inputPattern);
+
+            //THE LOOP THAT GOES FROM 0 TO N TO READ N LINES
+            for (int i = 0; i < n; i++)
+            {
+                //READ THE INPUT LINE AND CREATE A MATCH WITH THE REGEX ON IT
+                //BY DEFINITION THERE ARE NO INVALID LINES
+                //SO NO NEED TO CHECK IT
+                Match inputMatch = inputRegex.Match(Console.ReadLine());
+
+                //EXTRACT THE DATA
+                int lastActivity = int.Parse(inputMatch.Groups[1].Value); //EXTRACT THE LAST ACTIVITY
+                string legionName = inputMatch.Groups[2].Value; //EXTRACT THE LEGION NAME
+                string soldierType = inputMatch.Groups[3].Value; //EXTRACT THE SOLDIER TYPE
+                int soldierCount = int.Parse(inputMatch.Groups[4].Value); //EXTRACT THE SOLDIER COUNT
+
+                //IF THE LEGION DOES NOT EXIST
+                if (!legionsWithActivity.ContainsKey(legionName))
+                {
+                    //ADD IT IN BOTH DICTIONARIES
+                    legionsWithActivity.Add(legionName, lastActivity);
+                    legionsWithSoldiers.Add(legionName, new Dictionary<string, long>());
+                }
+
+                //TAKE FROM THE DICTIONARY WITH ACTIVITIES, THE ONE THAT CORRESPONDS TO THE GIVEN LEGION NAME
+                //IF IT IS LOWER THAN THE GIVEN ONE, UPDATE IT WITH THE NEW ONE
+                if (lastActivity > legionsWithActivity[legionName])
+                {
+                    legionsWithActivity[legionName] = lastActivity;
+                }
+
+                //IF THE CURRENT LEGION DOES NOT CONTAIN THE GIVEN SOLDIER TYPE
+                if (!legionsWithSoldiers[legionName].ContainsKey(soldierType))
+                {
+                    //ADD THE CURRENT SOLDIER TYPE
+                    legionsWithSoldiers[legionName].Add(soldierType, 0);
+                }
+                
+                //INCREASE THE COUNT OF SOLDIERS
+                legionsWithSoldiers[legionName][soldierType] += soldierCount;
+            }
+
+            //GET THE QUERY OF THE LAST LINE OF INPUT AFTER WE'VE PROCESSED ALL N INPUT LINES
+            //SPLIT IT BY "\"
+            //IF IT HAS 2 ELEMENTS THEN IT IS "activity\soldierType"
+            //IF IT HAS 1 ELEMENT THEN IT IS "soldierType"
+            string[] queryParams = Console.ReadLine().Split('\\');
+
+            //THE CHECK FOR PARAMETER COUNT
+            if (queryParams.Length > 1)
+            {
+                //TAKE THE GIVEN ACTIVITY
+                int activity = int.Parse(queryParams[0]);
+                //TAKE THE GIVEN SOLDIER TYPE
+                string soldierType = queryParams[1];
+
+                //FILTER ALL LEGIONS
+                //WHERE (TAKE) EVERY LEGION CONTAINS THE GIVEN SOLDIER TYPE
+                //ORDER BY DESCENDING BY THE VALUE OF THE GIVEN SOLDIER TYPE
+                foreach (var legionEntry in legionsWithSoldiers
+                    .Where(legion => legion.Value.ContainsKey(soldierType))
+                    .OrderByDescending(legion => legion.Value[soldierType]))
+                {
+                    //TAKE THE LEGION'S NAME AND CHECK IN THE DICTIONARY WITH ACTIVITIES
+                    //IF ITS VALUE IS LOWER THAN THE GIVEN ACTIVITY, PRINT IT
+                    if (legionsWithActivity[legionEntry.Key] < activity)
+                    {
+                        Console.WriteLine("{0} -> {1}", legionEntry.Key, legionsWithSoldiers[legionEntry.Key][soldierType]);
+                    }
+                }
+            }
+            else
+            {
+                //TAKE THE SOLDIER TYPE
+                string soldierType = queryParams[0];
+
+                //THIS TIME FOREACH THE LEGIONS WITH ACTIVITY DICTIONARY
+                //AND ORDER THEM DESCENDING BY VALUE (ACTIVITY)
+                foreach (var legionEntry in legionsWithActivity.OrderByDescending(legion => legion.Value))
+                {
+                    //TAKE THE LEGION'S KEY (NAME) AND CHECK IN THE DICTIONARY WITH SOLDIER TYPES
+                    //IF IT CONTAINS THE GIVEN SOLDIER TYPE
+                    //IF YES, PRINT THE LEGION WITH ITS DATA
+                    if (legionsWithSoldiers[legionEntry.Key].ContainsKey(soldierType))
+                    {
+                        Console.WriteLine("{0} : {1}", legionEntry.Value, legionEntry.Key);
+                    }
+                }
+            }
+        }
+    }

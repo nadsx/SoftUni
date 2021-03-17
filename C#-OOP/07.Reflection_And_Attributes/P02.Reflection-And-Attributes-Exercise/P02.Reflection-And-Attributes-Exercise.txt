@@ -1,0 +1,238 @@
+01
+==================================
+
+using System;
+using System.Linq;
+using System.Reflection;
+
+namespace _01_Exercise
+{
+    public class StartUp
+    {
+        public static void Main()
+        {
+            ICommandInterpreter command = new CommandInterpreter();
+            IEngine engine = new Engine(command);
+
+            engine.Run();
+        }
+    }
+
+    public interface ICommand
+    {
+        string Execute(string[] args);
+    }
+
+    public class HelloCommand : ICommand
+    {
+        public string Execute(string[] args)
+        {
+            return $"Hello, {args[0]}";
+        }
+    }
+
+    public class ExitCommand : ICommand
+    {
+        public string Execute(string[] args)
+        {
+            Environment.Exit(0);
+
+            return null;
+        }
+    }
+
+    public class OpenCommand : ICommand
+    {
+        public string Execute(string[] args)
+        {
+            string path = args[0];
+            //https://stackoverflow.com/questions/4580263/how-to-open-in-default-browser-in-c-sharp StackOverflow
+            //var path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "/YourSubDirectory/yourprogram.exe");
+            //Process.Start(new ProcessStartInfo(path));
+            //Use Process.Start here.
+            //Process.Start("C:\\");
+            System.Diagnostics.Process.Start("cmd", $"/c start {path}");
+
+            return "Started successfully!"; 
+        }
+    }
+
+    public interface ICommandInterpreter
+    {
+        string Read(string inputLine);
+    }
+
+    public class CommandInterpreter : ICommandInterpreter
+    {
+        private const string COMMAND_POSTFIX = "Command";
+
+        public string Read(string inputLine)
+        {
+            string[] cmdTokens = inputLine.Split().ToArray();
+            string commandName = cmdTokens[0] + COMMAND_POSTFIX;
+            string[] commandArguments = cmdTokens.Skip(1).ToArray();
+
+            Assembly assembly = Assembly.GetCallingAssembly();
+
+            Type[] types = assembly.GetTypes();
+            Type typeToCreate = types.FirstOrDefault(t => t.Name == commandName);
+
+            if (typeToCreate == null)
+            {
+                throw new InvalidOperationException("Invalid command type!");
+            }
+
+            //Object instance = Activator.CreateInstance(typeToCreate);
+            //ICommand command = (ICommand)instance;
+            ICommand commandInstance = Activator.CreateInstance(typeToCreate) as ICommand;
+
+            if(commandInstance == null)
+            {
+                throw new InvalidOperationException("Invalid command type!");
+            }
+
+            string result = commandInstance.Execute(commandArguments);
+
+            return result;
+        }
+    }
+
+    public interface IEngine
+    {
+        void Run();
+    }
+
+    public class Engine : IEngine
+    {
+        private readonly ICommandInterpreter commandInterpreter;
+
+        public Engine(ICommandInterpreter commandInterpreter)
+        {
+            this.commandInterpreter = commandInterpreter;
+        }
+
+        public void Run()
+        {
+            while (true)
+            {
+                string commandLine = Console.ReadLine();
+
+                string result = this.commandInterpreter.Read(commandLine);
+
+                Console.WriteLine(result); 
+            }
+        }
+    }
+}
+
+02
+==================================
+
+using System;
+using System.Linq;
+using System.Reflection;
+
+namespace _02_Exercise
+{
+    public class StartUp
+    {
+        public static void Main()
+        {
+            Person person = new Person(null, -1);
+
+            bool isValidEntity = Validator.IsValid(person);
+
+            Console.WriteLine(isValidEntity);
+        }
+    }
+
+    [AttributeUsage(AttributeTargets.Property)]
+    public abstract class MyValidationAttribute : Attribute
+    {
+        public abstract bool IsValid(object obj);
+    }
+
+    public class MyRangeAttribute : MyValidationAttribute
+    {
+        private readonly int minValue;
+        private readonly int maxValue;
+
+        public MyRangeAttribute(int minValue, int maxValue)
+        {
+            this.minValue = minValue;
+            this.maxValue = maxValue;
+        }
+
+        public override bool IsValid(object obj)
+        {
+            int value = Convert.ToInt32(obj);
+
+            if(value < this.minValue || value > this.maxValue)
+            {
+                return false;
+            }
+
+            return true;
+        }
+    }
+
+    public class MyRequiredAttribute : MyValidationAttribute
+    {
+        public override bool IsValid(object obj)
+        {
+            if(obj == null)
+            {
+                return false;
+            }
+
+            return true;
+        }
+    }
+
+    public class Person
+    {
+        private const int MIN_AGE = 12;
+        private const int MAX_AGE = 90;
+
+        public Person(string fullName, int age)
+        {
+            this.FullName = fullName;
+            this.Age = age;
+        }
+
+        [MyRequired]
+        public string FullName { get; private set; }
+
+        [MyRange(MIN_AGE, MAX_AGE)]
+        public int Age { get; private set; }
+    }
+
+    public static class Validator
+    {
+        public static bool IsValid(object obj)
+        {
+            PropertyInfo[] propertiesInfo = obj
+                .GetType()
+                .GetProperties();
+
+            foreach(PropertyInfo property in propertiesInfo)
+            {
+                MyValidationAttribute[] attributes = property
+                    .GetCustomAttributes()
+                    .Where(a => a is MyValidationAttribute)
+                    .Cast<MyValidationAttribute>()
+                    .ToArray();
+
+                foreach(MyValidationAttribute attribute in attributes)
+                {
+                    if (!attribute.IsValid(property.GetValue(obj)))
+                    {
+                        return false;
+                    }
+                }
+            }
+
+            return true;
+        }
+    }
+}

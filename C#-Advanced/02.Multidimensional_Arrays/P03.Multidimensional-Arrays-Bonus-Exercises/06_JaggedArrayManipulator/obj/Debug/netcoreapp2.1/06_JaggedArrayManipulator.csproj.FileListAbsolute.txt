@@ -1,0 +1,10 @@
+C:\Users\ASUS\Desktop\repos\20.09-Exercises\06_JaggedArrayManipulator\bin\Debug\netcoreapp2.1\06_JaggedArrayManipulator.deps.json
+C:\Users\ASUS\Desktop\repos\20.09-Exercises\06_JaggedArrayManipulator\bin\Debug\netcoreapp2.1\06_JaggedArrayManipulator.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\20.09-Exercises\06_JaggedArrayManipulator\bin\Debug\netcoreapp2.1\06_JaggedArrayManipulator.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\20.09-Exercises\06_JaggedArrayManipulator\bin\Debug\netcoreapp2.1\06_JaggedArrayManipulator.dll
+C:\Users\ASUS\Desktop\repos\20.09-Exercises\06_JaggedArrayManipulator\bin\Debug\netcoreapp2.1\06_JaggedArrayManipulator.pdb
+C:\Users\ASUS\Desktop\repos\20.09-Exercises\06_JaggedArrayManipulator\obj\Debug\netcoreapp2.1\06_JaggedArrayManipulator.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\repos\20.09-Exercises\06_JaggedArrayManipulator\obj\Debug\netcoreapp2.1\06_JaggedArrayManipulator.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\20.09-Exercises\06_JaggedArrayManipulator\obj\Debug\netcoreapp2.1\06_JaggedArrayManipulator.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\20.09-Exercises\06_JaggedArrayManipulator\obj\Debug\netcoreapp2.1\06_JaggedArrayManipulator.dll
+C:\Users\ASUS\Desktop\repos\20.09-Exercises\06_JaggedArrayManipulator\obj\Debug\netcoreapp2.1\06_JaggedArrayManipulator.pdb

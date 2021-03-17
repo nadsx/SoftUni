@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font: 20px/1.5 'Open Sans', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.wrapper {
+    max-width: 900px;
+    margin: 2rem auto;
+    border: 2px solid #969595;
+    border-radius: 0.3em;
+    display: flex;
+    color: #4D4C4F;
+}
+
+.image {
+    background-image: url('../Requirements-and-Resources/image/image.png');
+    flex: 0 0 50%;
+    background-size: cover;
+}
+
+.calculator {
+    flex: 0 0 50%;
+    padding: 1.5rem 1rem;
+    background-color: #F6F7F8;
+}
+
+h1 {
+    text-align: center;
+}
+
+.units {
+    display: flex;
+    margin: 1.5rem 0 0.5rem 0;
+    text-align: center;
+}
+
+.units p:nth-child(1) {
+    background-color: #EFE562;
+    flex-basis: 50%;
+    padding: 0.3rem 0;
+}
+
+.units p:nth-child(2) {
+    background-color: #E0E0DF;
+    flex-basis: 50%;
+    padding: 0.3rem 0;
+}
+
+label {
+    display: block;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+form div {
+    flex-basis: 45%;
+    margin-top: 1.5rem;
+}
+
+form .weight {
+    flex-basis: 100%;
+}
+
+form button {
+    flex-basis: 100%;
+}
+
+input,
+select {
+    border: none;
+    border: 1px solid #969595;
+    border-radius: 3px;
+    padding: 0.5rem 0.3rem;
+    width: 100%;
+    font-style: italic;
+    font-size: 18px;
+}
+
+select,
+option {
+    color: #4D4C4F;
+    padding: 0.45rem 0.3rem;
+}
+
+input::placeholder {
+    color: #4D4C4F;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+button {
+    background-color: #05A2D3;
+    color: #fff;
+    width: 100%;
+    border-radius: 0.3em;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0.5em 0;
+    font-size: 18px;
+    margin-top: 1rem;
+}

@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P03Elevator\bin\Debug\netcoreapp2.1\P03Elevator.deps.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P03Elevator\bin\Debug\netcoreapp2.1\P03Elevator.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P03Elevator\bin\Debug\netcoreapp2.1\P03Elevator.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P03Elevator\bin\Debug\netcoreapp2.1\P03Elevator.dll
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P03Elevator\bin\Debug\netcoreapp2.1\P03Elevator.pdb
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P03Elevator\obj\Debug\netcoreapp2.1\P03Elevator.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P03Elevator\obj\Debug\netcoreapp2.1\P03Elevator.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P03Elevator\obj\Debug\netcoreapp2.1\P03Elevator.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P03Elevator\obj\Debug\netcoreapp2.1\P03Elevator.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P03Elevator\obj\Debug\netcoreapp2.1\P03Elevator.dll
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P03Elevator\obj\Debug\netcoreapp2.1\P03Elevator.pdb

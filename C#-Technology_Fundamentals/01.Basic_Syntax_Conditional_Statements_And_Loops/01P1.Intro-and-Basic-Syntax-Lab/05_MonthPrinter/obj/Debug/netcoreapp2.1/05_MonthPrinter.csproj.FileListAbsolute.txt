@@ -1,0 +1,10 @@
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\05_MonthPrinter\bin\Debug\netcoreapp2.1\05_MonthPrinter.deps.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\05_MonthPrinter\bin\Debug\netcoreapp2.1\05_MonthPrinter.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\05_MonthPrinter\bin\Debug\netcoreapp2.1\05_MonthPrinter.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\05_MonthPrinter\bin\Debug\netcoreapp2.1\05_MonthPrinter.dll
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\05_MonthPrinter\bin\Debug\netcoreapp2.1\05_MonthPrinter.pdb
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\05_MonthPrinter\obj\Debug\netcoreapp2.1\05_MonthPrinter.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\05_MonthPrinter\obj\Debug\netcoreapp2.1\05_MonthPrinter.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\05_MonthPrinter\obj\Debug\netcoreapp2.1\05_MonthPrinter.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\05_MonthPrinter\obj\Debug\netcoreapp2.1\05_MonthPrinter.dll
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\05_MonthPrinter\obj\Debug\netcoreapp2.1\05_MonthPrinter.pdb

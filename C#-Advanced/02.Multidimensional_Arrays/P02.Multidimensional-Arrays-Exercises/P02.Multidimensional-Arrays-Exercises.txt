@@ -1,0 +1,858 @@
+1
+===========================
+
+    public class DiagonalDifference
+    {
+        public static void Main()
+        {
+            int matrixSize = int.Parse(Console.ReadLine());
+
+            int[][] matrix = new int[matrixSize][];
+            int leftDiagonalSum = 0;
+            int rightDiagonalSum = 0;
+
+            for (int i = 0; i < matrixSize; i++)
+            {
+                matrix[i] = Console.ReadLine()
+                                    .Split(" ", StringSplitOptions.RemoveEmptyEntries)
+                                    .Select(int.Parse)
+                                    .ToArray();
+
+                leftDiagonalSum += matrix[i][i];
+                rightDiagonalSum += matrix[i][matrix[i].Length - 1 - i];
+
+            }
+
+            Console.WriteLine(Math.Abs(leftDiagonalSum - rightDiagonalSum));
+        }
+
+---------------------------
+    public class DiagonalDifference
+    {
+        public static void Main(string[] args)
+        {
+            int n = int.Parse(Console.ReadLine());
+
+            long[][] matrix = new long[n][];
+
+            for (int i = 0; i < n; i++)
+            {
+                matrix[i] = Console.ReadLine()
+                .Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
+                .Select(long.Parse)
+                .ToArray();
+            }
+
+            long primarySum = 0;
+
+            for (int row = 0; row < n; row++)
+            {
+                primarySum += matrix[row][row];
+            }
+
+            long secondarySum = 0;
+
+            for (int row = 0, col = n - 1; row < n; row++, col--)
+            {
+                secondarySum += matrix[row][col];
+            }
+
+            Console.WriteLine(Math.Abs(primarySum - secondarySum));
+        }
+2
+===========================
+
+            int[] dimensions = Console.ReadLine()
+                .Split(" ", StringSplitOptions.RemoveEmptyEntries)
+                .Select(int.Parse)
+                .ToArray();
+
+            int rows = dimensions[0];
+	    int cols = dimensions[1];
+
+            char[,] matrix = new char[rows, cols];
+
+            for (int row = 0; row < matrix.GetLength(0); row++)
+            {
+                char[] letters = Console.ReadLine()
+                    .Split(" ", StringSplitOptions.RemoveEmptyEntries)
+                    .Select(char.Parse)
+                    .ToArray();
+
+                for (int col = 0; col < matrix.GetLength(1); col++)
+                {
+                    matrix[row, col] = letters[col];
+                }
+            }
+
+            int counter = 0;
+
+            for (int row = 0; row < matrix.GetLength(0) - 1; row++)
+            {
+                for (int col = 0; col < matrix.GetLength(1) - 1; col++)
+                {
+                    if (matrix[row, col] == matrix[row, col + 1] && 
+                    	matrix[row, col + 1] == matrix[row + 1, col + 1] && 
+                    	matrix[row + 1, col + 1] == matrix[row + 1, col])
+                    {
+                        counter++;
+                    }
+                }
+            }
+
+            Console.WriteLine(counter);
+        }
+    }
+
+3
+===========================
+
+			int[] dimensions = Console.ReadLine()
+				.Split(" ", StringSplitOptions.RemoveEmptyEntries)
+				.Select(int.Parse)
+				.ToArray();
+
+			int rows = dimensions[0];
+			int cols = dimensions[1];
+
+			int[,] matrix = new int[rows, cols];
+
+			for (int row = 0; row < matrix.GetLength(0); row++)
+			{
+				int[] numbers = Console.ReadLine()
+					.Split(" ", StringSplitOptions.RemoveEmptyEntries)
+					.Select(int.Parse)
+					.ToArray();
+
+				for (int col = 0; col < matrix.GetLength(1); col++)
+				{
+					matrix[row, col] = numbers[col];
+				}
+			}
+
+			int maxSum = int.MinValue;
+			int targetRow = 0;
+			int targetCol = 0;
+
+			for (int row = 0; row < matrix.GetLength(0) - 2; row++)
+			{
+				for (int col = 0; col < matrix.GetLength(1) - 2; col++)
+				{
+					int currentSum = matrix[row, col] + matrix[row, col + 1] + matrix[row, col + 2] +
+									 matrix[row + 1, col] + matrix[row + 1, col + 1] + matrix[row + 1, col + 2] +
+									 matrix[row + 2, col] + matrix[row + 2, col + 1] + matrix[row + 2, col + 2];
+
+					if(currentSum > maxSum)
+					{
+						maxSum = currentSum;
+						targetRow = row;
+						targetCol = col;
+					}
+				}
+			}
+
+			Console.WriteLine("Sum = " + maxSum);
+
+			for (int row = targetRow; row <= targetRow + 2; row++)
+			{
+				for (int col = targetCol; col <= targetCol + 2; col++)
+				{
+					Console.Write(matrix[row, col] + " ");
+				}
+
+				Console.WriteLine();
+			}
+
+4
+===========================
+
+         	int[] matrixSize = Console.ReadLine()
+			  .Split()
+			  .Select(int.Parse)
+			  .ToArray();
+			int rows = matrixSize[0];
+			int cols = matrixSize[1];
+
+			string[,] matrix = new string[rows, cols];
+			GetMatrix(matrix);
+
+			while (true)
+			{
+				string[] commandParts = Console.ReadLine().Split().ToArray();
+
+				if (commandParts[0] == "END")
+				{
+					break;
+				}
+
+				if (commandParts[0] == "swap" && commandParts.Length == 5)
+				{
+					int firstRow = int.Parse(commandParts[1]);
+					int firstCol = int.Parse(commandParts[2]);
+					int secondRow = int.Parse(commandParts[3]);
+					int secondCol = int.Parse(commandParts[4]);
+
+					bool firstIsValid = IsInside(firstRow, firstCol, matrix);
+					bool secondIsValid = IsInside(secondRow, secondCol, matrix);
+
+					if (firstIsValid && secondIsValid)
+					{
+						string tempNumber = matrix[firstRow, firstCol];
+						matrix[firstRow, firstCol] = matrix[secondRow, secondCol];
+						matrix[secondRow, secondCol] = tempNumber;
+
+						PrintMatrix(matrix);
+					}
+					else
+					{
+						Console.WriteLine("Invalid input!");
+					}
+				}
+				else
+				{
+					Console.WriteLine("Invalid input!");
+				}
+			}
+		}
+
+		private static void PrintMatrix(string[,] matrix)
+		{
+			for (int row = 0; row < matrix.GetLength(0); row++)
+			{
+				for (int col = 0; col < matrix.GetLength(1); col++)
+				{
+					Console.Write(matrix[row, col] + " ");
+				}
+
+				Console.WriteLine();
+			}
+		}
+
+		private static bool IsInside(int row, int col, string[,] matrix)
+		{
+			return (row >= 0 && row < matrix.GetLength(0)) &&
+			(col >= 0 && col < matrix.GetLength(1));
+		}
+
+		private static void GetMatrix(string[,] matrix)
+		{
+			for (int row = 0; row < matrix.GetLength(0); row++)
+			{
+				string[] currentRow = Console.ReadLine().Split().ToArray();
+
+				for (int col = 0; col < matrix.GetLength(1); col++)
+				{
+					matrix[row, col] = currentRow[col];
+				}
+			}
+		}
+
+5
+===========================
+
+			int[] matrixSize = Console.ReadLine()
+			 .Split(" ", StringSplitOptions.RemoveEmptyEntries)
+			 .Select(int.Parse)
+			 .ToArray();
+
+			int rows = matrixSize[0];
+			int cols = matrixSize[1];
+
+			if (matrixSize.Length == 0)
+			{
+				return;
+			}
+
+			var matrix = new char[rows][];
+			var text = Console.ReadLine().ToCharArray();
+
+			int counter = 0;
+
+			for (int row = 0; row < matrix.Length; row++)
+			{
+				matrix[row] = new char[matrixSize[1]];
+
+				for (int col = 0; col < matrix[row].Length; col++)
+				{
+					matrix[row][col] = text[counter % text.Length];
+					counter++;
+				}
+			}
+
+			foreach (var row in matrix)
+			{
+				Console.WriteLine(string.Join("", row));
+			}
+
+---------------------------
+
+			int[] dimension = Console.ReadLine()
+				.Split(" ", StringSplitOptions.RemoveEmptyEntries)
+				.Select(int.Parse)
+				.ToArray();
+
+			int rows = dimension[0];
+			int cols = dimension[1];
+
+			char[,] matrix = new char[rows, cols];
+
+			string snake = Console.ReadLine();
+			int counter = 0;
+
+			for (int row = 0; row < matrix.GetLength(0); row++)
+			{
+				for (int col = 0; col < matrix.GetLength(1); col++)
+				{
+					if(counter >= snake.Length)
+					{
+						counter = 0;
+					}
+
+					matrix[row, col] = snake[counter++];
+				}
+			}
+
+			for (int row = 0; row < matrix.GetLength(0); row++)
+			{
+				for (int col = 0; col < matrix.GetLength(1); col++)
+				{
+					Console.Write(matrix[row, col]);
+				}
+
+				Console.WriteLine();
+			}
+6
+===========================
+
+			int[] dimensions = Console.ReadLine()
+				.Split(" ", StringSplitOptions.RemoveEmptyEntries)
+				.Select(int.Parse)
+				.ToArray();
+
+			int rows = dimensions[0];
+			int cols = dimensions[1];
+
+			int[][] basement = new int[rows][];
+
+			for (int row = 0; row < basement.Length; row++)
+			{
+				basement[row] = new int[cols];
+			}
+
+			int[] coordinates = Console.ReadLine()
+				.Split(" ", StringSplitOptions.RemoveEmptyEntries)
+				.Select(int.Parse)
+				.ToArray();
+
+			int targetRow = coordinates[0];
+			int targetCol = coordinates[1];
+			int radius = coordinates[2];
+
+			for (int row = 0; row < basement.Length; row++)
+			{
+				for (int col = 0; col < basement[row].Length; col++)
+				{
+					bool isInRadius = Math.Pow(row - targetRow, 2) +
+					Math.Pow(col - targetCol, 2) <= Math.Pow(radius, 2);
+
+					if (isInRadius)
+					{
+						basement[row][col] = 1;
+					}
+				}
+			}
+
+			for (int col = 0; col < basement[0].Length; col++)
+			{
+				int counter = 0;
+
+				for (int row = 0; row < basement.Length; row++)
+				{
+					if (basement[row][col] == 1)
+					{
+						counter++;
+						basement[row][col] = 0;
+					}
+				}
+
+				for (int row = 0; row < counter; row++)
+				{
+					basement[row][col] = 1;
+				}
+			}
+
+			foreach (var row in basement)
+			{
+				Console.WriteLine(string.Join("", row));
+			}
+
+7
+===========================
+
+		int rows = int.Parse(Console.ReadLine());
+			char[,] board = new char[rows, rows];
+
+			int[] indexes = new int[]
+			{
+				 1, 2,
+				 1,-2,
+				-1, 2,
+				-1,-2,
+				 2, 1,
+				 2,-1,
+				-2, 1,
+				-2,-1,
+			};
+
+			for (int row = 0; row < rows; row++)
+			{
+				char[] currentRow = Console.ReadLine().ToCharArray();
+
+				for (int col = 0; col < rows; col++)
+				{
+					board[row, col] = currentRow[col];
+				}
+			}
+
+			int countOfRemovedKnights = 0;
+
+			while (true)
+			{
+				int maxCount = 0;
+				int knightRow = 0;
+				int knightCol = 0;
+
+				for (int row = 0; row < board.GetLength(0); row++)
+				{
+					for (int col = 0; col < board.GetLength(1); col++)
+					{
+						int count = 0;
+
+						if (board[row, col] == 'K')
+						{
+							for (int i = 0; i < indexes.Length; i += 2)
+							{      
+								if (IsInside(board, row + indexes[i], col + indexes[i + 1]) &&
+									board[row + indexes[i], col + indexes[i + 1]] == 'K')
+								{
+									count++;
+								}
+							}
+						}
+
+						if (count > maxCount)
+						{
+							maxCount = count;
+							knightRow = row;
+							knightCol = col;
+						}
+					}
+				}
+
+				if (maxCount == 0)
+				{
+					break;
+				}
+
+				board[knightRow, knightCol] = '0';
+				countOfRemovedKnights++; 
+			}
+
+			Console.WriteLine(countOfRemovedKnights);
+		}
+
+		private static bool IsInside(char[,] board, int row, int col)
+		{
+			return (row >= 0  && row < board.GetLength(0)) &&
+				(col >= 0 && col < board.GetLength(1));
+		}
+
+8
+===========================
+
+ 			int matrixSize = int.Parse(Console.ReadLine());
+			int[][] matrix = new int[matrixSize][];
+
+			for (int row = 0; row < matrixSize; row++)
+			{
+				matrix[row] = Console.ReadLine()
+					.Split(' ', StringSplitOptions.RemoveEmptyEntries)
+					.Select(int.Parse)
+					.ToArray();
+			}
+
+			string[] bombIndexes = Console.ReadLine()
+				.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+
+			for (int i = 0; i < bombIndexes.Length; i++)
+			{
+				int bombRow = int.Parse(bombIndexes[i].Split(",")[0]);
+				int bombCol = int.Parse(bombIndexes[i].Split(",")[1]);
+				int bombDamage = matrix[bombRow][bombCol];
+
+				if (bombDamage > 0)
+				{
+					for (int row = bombRow - 1; row <= bombRow + 1; row++)
+					{
+						for (int col = bombCol - 1; col <= bombCol + 1; col++)
+						{
+							if (IsInside(matrix, row, col))
+							{
+								if (matrix[row][col] > 0)
+								{
+									matrix[row][col] -= bombDamage;
+								}
+							}
+						}
+					}
+				}
+			}
+
+			List<int> aliveCells = new List<int>();
+
+			foreach (int[] numbers in matrix)
+			{
+				foreach (int number in numbers.Where(x => x > 0))
+				{
+					aliveCells.Add(number);
+				}
+			}
+
+			Console.WriteLine($"Alive cells: {aliveCells.Count}");
+			Console.WriteLine($"Sum: {aliveCells.Sum()}");
+
+			foreach (int[] numbers in matrix)
+			{
+				Console.WriteLine(string.Join(" ", numbers));
+			}
+		}
+
+		private static bool IsInside(int[][] matrix, int bombRow, int bombCol)
+		{
+			return (bombRow >= 0 && bombRow < matrix.Length) && (bombCol >= 0 && bombCol < matrix[bombRow].Length);
+		}
+
+9
+===========================
+
+    class Program
+    {
+        static char[,] matrix;
+        static int minorRow;
+        static int minorCol;
+        static int coals;
+        static void Main(string[] args)
+        {
+            int size = int.Parse(Console.ReadLine());
+
+            string[] directions = Console.ReadLine().Split().ToArray();
+
+            matrix = new char[size, size];
+
+            PopulateMatrix();
+
+            foreach(var currentDirection in directions)
+            {
+                switch (currentDirection)
+                {
+                    case "left":
+                        Move(0, - 1);
+                        break;
+                    case "right":
+                        Move(0, 1);
+                        break;
+                    case "up":
+                        Move(-1, 0);
+                        break;
+                    case "down":
+                        Move(1, 0);
+                        break;
+                }
+            }
+
+            Console.WriteLine($"{coals} coals left. ({minorRow}, {minorCol})");
+        }
+
+        private static void Move(int row, int col)
+        {
+           if(IsInside(minorRow + row, minorCol + col))
+            {
+                minorRow += row;
+                minorCol += col;
+
+                if(matrix[minorRow, minorCol] == 'e')
+                {
+                    Console.WriteLine($"Game over! ({minorRow}, {minorCol})");
+                    Environment.Exit(0);
+                }
+
+                if(matrix[minorRow, minorCol] == 'c')
+                {
+                    coals--;
+                    matrix[minorRow, minorCol] = '*';
+
+                    if (coals == 0)
+                    {
+                        Console.WriteLine($"You collected all coals! ({minorRow}, {minorCol})");
+                        Environment.Exit(0);
+                    }
+                }
+            }
+        }
+
+        private static void PopulateMatrix()
+        {
+            for (int row = 0; row < matrix.GetLength(0); row++)
+            {
+                char[] input = Console.ReadLine()
+                    .Split()
+                    .Select(char.Parse)
+                    .ToArray();
+
+                for (int col = 0; col < matrix.GetLength(1); col++)
+                {
+                    matrix[row, col] = input[col];
+
+                    if (matrix[row, col] == 's')
+                    {
+                        minorRow = row;
+                        minorCol = col;
+                    }
+
+                    if(matrix[row, col] == 'c')
+                    {
+                        coals++;
+                    }
+                }
+            }
+        }
+
+        private static bool IsInside(int row, int col)
+        {
+            return row >= 0 && row < matrix.GetLength(0) &&
+                col >= 0 && col < matrix.GetLength(1);
+        }
+
+---------------------------
+
+			int fieldSize = int.Parse(Console.ReadLine());
+			string[] commands = Console.ReadLine()
+				.Split(" ", StringSplitOptions.RemoveEmptyEntries)
+				.ToArray();
+
+			List<int[]> coalIndexes = new List<int[]>();
+			int[] playerIndex = new int[2];
+			int[] endIndex = new int[2];
+
+			for (int row = 0; row <= fieldSize; row++)
+			{		
+				char[] currentLine = Console.ReadLine()
+					.Split(" ", StringSplitOptions.RemoveEmptyEntries)
+					.Select(char.Parse)
+					.ToArray();
+
+				for (int col = 0; col < currentLine.Length; col++)
+				{
+					if(currentLine[col] == 'c')
+					{						
+						coalIndexes.Add(new int[] { row, col });
+					}
+					else if(currentLine[col] == 'e')
+					{
+						endIndex = new int[] { row, col };
+					}
+					else if(currentLine[col] == 's')
+					{
+						playerIndex = new int[] { row, col };
+					}
+				}
+			}
+
+			for (int i = 0; i < commands.Length; i++)
+			{
+				string command = commands[i];
+
+				switch (command)
+				{
+					case "up":
+						if(IsValidIndex(playerIndex[0] - 1, playerIndex[1], fieldSize))
+						{
+							playerIndex[0] -= 1;
+						}
+						break;
+					case "right":
+						if(IsValidIndex(playerIndex[0], playerIndex[1] + 1, fieldSize))
+						{
+							playerIndex[1] += 1;
+						}
+						break;
+					case "down":
+						if(IsValidIndex(playerIndex[0] + 1, playerIndex[1], fieldSize))
+						{
+							playerIndex[0] += 1;
+						}
+						break;
+					case "left":
+						if (IsValidIndex(playerIndex[0], playerIndex[1] - 1, fieldSize))
+						{
+							playerIndex[1] -= 1;
+						}
+						break;
+				}
+
+				if(coalIndexes.Exists(x => x.SequenceEqual(playerIndex)))
+				{
+					for (int j = 0; j < coalIndexes.Count; j++)
+					{
+						if (coalIndexes[j].SequenceEqual(playerIndex))
+						{
+							coalIndexes.RemoveAt(j);
+							//j = coalIndex.Count;
+							break;
+						}
+					}
+
+					if(coalIndexes.Count == 0)
+					{
+						Console.WriteLine($"You collected all coals! ({playerIndex[0]}, {playerIndex[1]})");
+						return;
+					}
+				}
+				else if (endIndex.SequenceEqual(playerIndex))
+				{
+					Console.WriteLine($"Game over! ({playerIndex[0]}, {playerIndex[1]})");
+					return;
+				}
+			}
+
+			Console.WriteLine($"{coalIndexes.Count} coals left. ({playerIndex[0]}, {playerIndex[1]})");
+		}
+
+		private static bool IsValidIndex(int row, int col, int fieldSize)
+		{
+			return (row >= 0 && row < fieldSize) && (col >= 0 && col < fieldSize);
+		}
+
+10
+===========================
+
+      			int[] dimensions = Console.ReadLine()
+				.Split()
+				.Select(int.Parse)
+				.ToArray();
+
+			int rows = dimensions[0];
+			int cols = dimensions[1];
+
+			bool[,] bunnies = new bool[rows, cols];
+
+			int playerRow = -1, playerCol = -1;
+
+			for (int row = 0; row < rows; row++)
+			{
+				string currentRow = Console.ReadLine();
+
+				for (int col = 0; col < cols; col++)
+				{
+					char currentSymbol = currentRow[col];
+
+					if (currentSymbol == 'P')
+					{
+						playerRow = row;
+						playerCol = col;
+					}
+
+					bunnies[row, col] = currentSymbol == 'B';
+				}
+			}
+
+			string commands = Console.ReadLine();
+
+			bool playerEscaped = false;
+
+			foreach (var command in commands)
+			{
+				int targetRow = playerRow;
+				int targetCol = playerCol;
+
+				switch (command)
+				{
+					case 'R':
+						targetCol++;
+						break;
+					case 'L':
+						targetCol--;
+						break;
+					case 'D':
+						targetRow++;
+						break;
+					case 'U':
+						targetRow--;
+						break;
+				}
+
+				if (targetCol < 0 || targetCol >= cols ||
+					targetRow < 0 || targetRow >= rows)
+				{
+					playerEscaped = true;
+				}
+
+				bool[,] newBunnies = new bool[rows, cols];
+
+				for (int row = 0; row < rows; row++)
+				{
+					for (int col = 0; col < cols; col++)
+					{
+						if (!bunnies[row, col] || newBunnies[row, col])
+							continue;
+
+						if (row > 0 && !bunnies[row - 1, col])
+						{
+							bunnies[row - 1, col] = true;
+							newBunnies[row - 1, col] = true;
+						}
+
+						if (row < rows - 1 && !bunnies[row + 1, col])
+						{
+							bunnies[row + 1, col] = true;
+							newBunnies[row + 1, col] = true;
+						}
+
+						if (col > 0 && !bunnies[row, col - 1])
+						{
+							bunnies[row, col - 1] = true;
+							newBunnies[row, col - 1] = true;
+						}
+
+						if (col < cols - 1 && !bunnies[row, col + 1])
+						{
+							bunnies[row, col + 1] = true;
+							newBunnies[row, col + 1] = true;
+						}
+					}
+				}
+
+				if (!playerEscaped)
+				{
+					playerRow = targetRow;
+					playerCol = targetCol;
+				}
+
+				if (playerEscaped || bunnies[playerRow, playerCol])
+				{
+					break;
+				}
+			}
+
+			for (int row = 0; row < rows; row++)
+			{
+				for (int col = 0; col < cols; col++)
+				{
+					Console.Write(bunnies[row, col] ? 'B' : '.');
+				}
+
+				Console.WriteLine();
+			}
+
+			Console.WriteLine($"{(playerEscaped ? "won" : "dead")}: {playerRow} {playerCol}");
+		}

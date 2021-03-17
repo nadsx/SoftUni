@@ -1,0 +1,416 @@
+1
+=============================================
+	int age = int.Parse(Console.ReadLine());
+
+			if (0 <= age && age <= 2)
+			{
+				Console.WriteLine("baby");
+			}
+			else if (3 <= age && age <= 13)
+			{
+				Console.WriteLine("child");
+			}
+			else if (14 <= age && age <= 19)
+			{
+				Console.WriteLine("teenager");
+			}
+			else if (20 <= age && age <= 65)
+			{
+				Console.WriteLine("adult");
+			}
+			else if (age >= 65)
+			{
+				Console.WriteLine("elder");
+			}
+2
+=============================================
+int number = int.Parse(Console.ReadLine());
+
+			if(number % 10 == 0)
+			{
+				Console.WriteLine("The number is divisible by 10");
+			}
+			else if(number % 7 == 0)
+			{
+				Console.WriteLine("The number is divisible by 7");
+			}
+			else if (number % 6 == 0)
+			{
+				Console.WriteLine("The number is divisible by 6");
+			}
+			else if (number % 3 == 0)
+			{
+				Console.WriteLine("The number is divisible by 3");
+			}
+			else if (number % 2 == 0)
+			{
+				Console.WriteLine("The number is divisible by 2");
+			}
+			else
+			{
+				Console.WriteLine("Not divisible");
+			}
+3
+=============================================
+int numberOfPeople = int.Parse(Console.ReadLine());
+			string groupType = Console.ReadLine();
+			string day = Console.ReadLine();
+
+			double price = 0;
+			switch (groupType)
+			{
+				case "Students":
+					if(day == "Friday")
+					{
+						price = 8.45;
+					}
+					else if(day == "Saturday")
+					{
+						price = 9.80;
+					}
+					else if(day == "Sunday")
+					{
+						price = 10.46;
+					}
+					break;
+				case "Business":
+					if (day == "Friday")
+					{
+						price = 10.90;
+					}
+					else if (day == "Saturday")
+					{
+						price = 15.60;
+					}
+					else if (day == "Sunday")
+					{
+						price = 16;
+					}
+					break;
+				case "Regular":
+					if (day == "Friday")
+					{
+						price = 15;
+					}
+					else if (day == "Saturday")
+					{
+						price = 20;
+					}
+					else if (day == "Sunday")
+					{
+						price = 22.50;
+					}
+					break;
+			}
+
+			double totalPrice = 0;
+			if(numberOfPeople >= 30 && groupType == "Students")
+			{
+				totalPrice = (price * numberOfPeople) * 0.85;
+			}
+			else if(numberOfPeople >= 100 && groupType == "Business")
+			{
+				totalPrice = (numberOfPeople - 10) * price;
+			}
+			else if(numberOfPeople >= 10 && numberOfPeople <= 20 && groupType == "Regular")
+			{
+				totalPrice = (price * numberOfPeople) * 0.95;
+			}
+			else
+			{
+				totalPrice = numberOfPeople * price;
+			}
+
+			Console.WriteLine($"Total price: {totalPrice:f2}");
+
+4
+=============================================
+int startDigit = int.Parse(Console.ReadLine());
+			int endDigit = int.Parse(Console.ReadLine());
+
+			int sum = 0;
+
+			for (int i = startDigit; i <= endDigit; i++)
+			{
+				sum += i;
+				Console.Write(i + " ");
+			}
+			Console.WriteLine();
+
+			Console.WriteLine($"Sum: {sum}");
+5
+=============================================
+                        string username = Console.ReadLine();
+
+			string passwordReverse = "";
+
+			for (int i = username.Length - 1; i >= 0; i--)
+			{
+				passwordReverse += username[i];
+			}
+
+			string tryPassword = Console.ReadLine();
+			int counter = 0;
+
+			while(tryPassword != passwordReverse)
+			{							
+                                counter++;
+
+				if(counter == 4)
+				{
+					Console.WriteLine($"User {username} blocked!");
+					return;
+				}
+
+				Console.WriteLine("Incorrect password. Try again.");
+
+				tryPassword = Console.ReadLine();
+			}
+
+			Console.WriteLine($"User {username} logged in.");
+
+Atanas
+------------------------------------------------------
+string username = Console.ReadLine();
+			string password = "";
+
+			for (int i = username.Length - 1; i >= 0; i--)
+			{
+				password += username[i];
+			}
+
+			string currentPassword = Console.ReadLine();
+
+			int invalidPasswordAttempts = 0;
+
+			while(currentPassword != password)
+			{
+				invalidPasswordAttempts += 1;
+
+				if(invalidPasswordAttempts == 4)
+				{
+					Console.WriteLine($"User {username} blocked!");
+					break;
+				}
+			
+				Console.WriteLine("Incorrect password. Try again.");
+				currentPassword = Console.ReadLine();
+			}
+
+			if(invalidPasswordAttempts < 4)
+			{
+             Console.WriteLine($"User {username} logged in.");
+			}
+6
+=============================================
+int originalNum = int.Parse(Console.ReadLine());
+
+			int num = originalNum;
+			int lastDigit = 0;
+			int factorial = 1;
+			int sum = 0;
+
+			while (num != 0)
+			{
+				lastDigit = num % 10;
+				num /= 10;
+
+				while(lastDigit != 0)
+				{					
+					factorial *= lastDigit;
+					lastDigit--;
+				}
+
+				sum += factorial;
+				factorial = 1;
+			}
+
+			if(sum == originalNum)
+			{
+				Console.WriteLine("yes");
+			}
+			else
+			{
+				Console.WriteLine("no");
+			}
+
+Atanas
+-----------------------------------------------
+                        int originNumber = int.Parse(Console.ReadLine());
+			int number = originNumber;
+			int sum = 0;
+
+			while(number > 0)
+			{
+				int lastDigit = number % 10;
+				number /= 10;
+
+				int currentFactorial = 1;
+
+				for (int i = 2; i <= lastDigit; i++)
+				{
+					currentFactorial *= i;
+				}
+
+				sum += currentFactorial;
+			}
+
+			bool isStrong = originNumber == sum;
+
+			if (isStrong)
+			{
+				Console.WriteLine("yes");
+			}
+			else
+			{
+				Console.WriteLine("no");
+			}
+7
+=============================================
+                        string input = Console.ReadLine();
+
+			double balance = 0;
+
+			while(input != "Start")
+			{
+				double coin = double.Parse(input);
+
+				if(coin == 0.1 || 
+					coin == 0.2 || 
+					coin == 0.5 || 
+					coin == 1 || 
+					coin == 2)
+				{
+					balance += coin;
+				}
+				else
+				{
+                                 Console.WriteLine($"Cannot accept {coin}");					
+				}
+
+				input = Console.ReadLine();
+			}
+
+			input = Console.ReadLine();
+
+				
+			while(input != "End")
+			{
+				double productPrice = 0;
+				switch (input)
+				{
+					case "Nuts":
+						productPrice = 2.0;
+						break;
+					case "Water":
+						productPrice = 0.7;
+						break;
+					case "Crisps":
+						productPrice = 1.5;
+						break;
+					case "Soda":
+						productPrice = 0.8;						
+						break;
+					case "Coke":
+						productPrice = 1.0;						
+						break;
+					default:
+						Console.WriteLine("Invalid product");						
+						break;
+				}
+
+				if(balance >= productPrice && productPrice > 0) // Tuka mnogo vnimatelno vij.. za da vlezi v tozi if trqbva productPrice da e puhnal nqkakva cena(productPrice > po-golqmo ot 0)
+				{                                               // vajna proverka da ne vleze nqkakuv drug product tuk kato Beer      
+					string productToLower = input.ToLower();
+					Console.WriteLine($"Purchased {productToLower}");
+					balance -= productPrice;
+				}
+				else if(productPrice > 0)
+				{
+					Console.WriteLine("Sorry, not enough money");					
+				}
+
+				input = Console.ReadLine();
+			}
+
+
+			Console.WriteLine($"Change: {balance:f2}");
+8
+=============================================
+int n = int.Parse(Console.ReadLine());
+
+			for (int i = 1; i <= n; i++)
+			{
+				for (int j = 1; j <= i; j++)
+				{
+					Console.Write(i + " ");
+				}
+				Console.WriteLine();
+			}
+9
+=============================================
+double money = double.Parse(Console.ReadLine());
+			int studentsCount = int.Parse(Console.ReadLine());
+			double sabersPrice = double.Parse(Console.ReadLine());
+			double robesPrice = double.Parse(Console.ReadLine());
+			double beltsPrice = double.Parse(Console.ReadLine());
+
+			var spendedMoney = sabersPrice * Math.Ceiling(studentsCount * 1.1) +
+			robesPrice * studentsCount + beltsPrice * (studentsCount - (studentsCount / 6));
+
+			if(spendedMoney <= money)
+			{
+				Console.WriteLine($"The money is enough - it would cost {spendedMoney:f2}lv.");
+			}
+			else
+			{
+				Console.WriteLine($"Ivan Cho will need {spendedMoney - money:f2}lv more.");
+			}
+10
+=============================================
+var lostGames = double.Parse(Console.ReadLine());
+			var headsetPrice = double.Parse(Console.ReadLine());
+			var mousePrice = double.Parse(Console.ReadLine());
+			var keyboardPrice = double.Parse(Console.ReadLine());
+			var displayPrice = double.Parse(Console.ReadLine());
+
+			double money = 0;
+
+			for (int i = 1; i <= lostGames; i++)
+			{
+				if(i % 12 == 0)
+				{
+					money += displayPrice;
+				}
+				if(i % 6 == 0)
+				{
+					money += keyboardPrice;
+				}
+				if(i % 2 == 0)
+				{
+					money += headsetPrice;
+				}
+				if(i % 3 == 0)
+				{
+					money += mousePrice;
+				}
+
+			}
+
+				Console.WriteLine($"Rage expenses: {money:f2} lv.");
+
+---------------------------------------------------------
+int lostGamesCount = int.Parse(Console.ReadLine());
+			double headsetPrice = double.Parse(Console.ReadLine());
+			double mousePrice = double.Parse(Console.ReadLine());
+			double keyboardPrice = double.Parse(Console.ReadLine());
+			double displayPrice = double.Parse(Console.ReadLine());
+
+			double headsetMoney = (lostGamesCount / 2) * headsetPrice;
+			double mouseMoney = (lostGamesCount / 3) * mousePrice;
+			double keyboardMoney = (lostGamesCount / 6) * keyboardPrice;
+			double displayMoney = (lostGamesCount / 12) * displayPrice;
+
+			double totalMoney = headsetMoney + mouseMoney + keyboardMoney + displayMoney;
+
+			Console.WriteLine($"Rage expenses: {totalMoney:f2} lv.");

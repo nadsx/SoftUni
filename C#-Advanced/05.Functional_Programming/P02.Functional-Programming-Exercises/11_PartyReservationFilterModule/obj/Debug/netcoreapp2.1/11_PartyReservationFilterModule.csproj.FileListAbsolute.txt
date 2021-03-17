@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\11_PartyReservationFilterModule\bin\Debug\netcoreapp2.1\11_PartyReservationFilterModule.deps.json
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\11_PartyReservationFilterModule\bin\Debug\netcoreapp2.1\11_PartyReservationFilterModule.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\11_PartyReservationFilterModule\bin\Debug\netcoreapp2.1\11_PartyReservationFilterModule.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\11_PartyReservationFilterModule\bin\Debug\netcoreapp2.1\11_PartyReservationFilterModule.dll
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\11_PartyReservationFilterModule\bin\Debug\netcoreapp2.1\11_PartyReservationFilterModule.pdb
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\11_PartyReservationFilterModule\obj\Debug\netcoreapp2.1\11_PartyReservationFilterModule.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\11_PartyReservationFilterModule\obj\Debug\netcoreapp2.1\11_PartyReservationFilterModule.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\11_PartyReservationFilterModule\obj\Debug\netcoreapp2.1\11_PartyReservationFilterModule.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\11_PartyReservationFilterModule\obj\Debug\netcoreapp2.1\11_PartyReservationFilterModule.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\11_PartyReservationFilterModule\obj\Debug\netcoreapp2.1\11_PartyReservationFilterModule.dll
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\11_PartyReservationFilterModule\obj\Debug\netcoreapp2.1\11_PartyReservationFilterModule.pdb

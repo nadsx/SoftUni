@@ -1,0 +1,10 @@
+C:\Users\ASUS NB\source\repos\Lists-Lab\02_GaussTrick\bin\Debug\netcoreapp2.1\02_GaussTrick.deps.json
+C:\Users\ASUS NB\source\repos\Lists-Lab\02_GaussTrick\bin\Debug\netcoreapp2.1\02_GaussTrick.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Lists-Lab\02_GaussTrick\bin\Debug\netcoreapp2.1\02_GaussTrick.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Lists-Lab\02_GaussTrick\bin\Debug\netcoreapp2.1\02_GaussTrick.dll
+C:\Users\ASUS NB\source\repos\Lists-Lab\02_GaussTrick\bin\Debug\netcoreapp2.1\02_GaussTrick.pdb
+C:\Users\ASUS NB\source\repos\Lists-Lab\02_GaussTrick\obj\Debug\netcoreapp2.1\02_GaussTrick.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Lists-Lab\02_GaussTrick\obj\Debug\netcoreapp2.1\02_GaussTrick.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Lists-Lab\02_GaussTrick\obj\Debug\netcoreapp2.1\02_GaussTrick.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Lists-Lab\02_GaussTrick\obj\Debug\netcoreapp2.1\02_GaussTrick.dll
+C:\Users\ASUS NB\source\repos\Lists-Lab\02_GaussTrick\obj\Debug\netcoreapp2.1\02_GaussTrick.pdb

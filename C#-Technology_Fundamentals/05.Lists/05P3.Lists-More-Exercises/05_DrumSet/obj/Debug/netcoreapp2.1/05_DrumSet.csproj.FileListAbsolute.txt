@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Lists-More-Exercises\05_DrumSet\bin\Debug\netcoreapp2.1\05_DrumSet.deps.json
+C:\Users\ASUS NB\source\repos\Lists-More-Exercises\05_DrumSet\bin\Debug\netcoreapp2.1\05_DrumSet.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Lists-More-Exercises\05_DrumSet\bin\Debug\netcoreapp2.1\05_DrumSet.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Lists-More-Exercises\05_DrumSet\bin\Debug\netcoreapp2.1\05_DrumSet.dll
+C:\Users\ASUS NB\source\repos\Lists-More-Exercises\05_DrumSet\bin\Debug\netcoreapp2.1\05_DrumSet.pdb
+C:\Users\ASUS NB\source\repos\Lists-More-Exercises\05_DrumSet\obj\Debug\netcoreapp2.1\05_DrumSet.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Lists-More-Exercises\05_DrumSet\obj\Debug\netcoreapp2.1\05_DrumSet.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Lists-More-Exercises\05_DrumSet\obj\Debug\netcoreapp2.1\05_DrumSet.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Lists-More-Exercises\05_DrumSet\obj\Debug\netcoreapp2.1\05_DrumSet.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Lists-More-Exercises\05_DrumSet\obj\Debug\netcoreapp2.1\05_DrumSet.dll
+C:\Users\ASUS NB\source\repos\Lists-More-Exercises\05_DrumSet\obj\Debug\netcoreapp2.1\05_DrumSet.pdb

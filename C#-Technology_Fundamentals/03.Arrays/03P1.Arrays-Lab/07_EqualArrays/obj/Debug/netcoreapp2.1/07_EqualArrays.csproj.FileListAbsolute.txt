@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Arrays-Lab\07_EqualArrays\bin\Debug\netcoreapp2.1\07_EqualArrays.deps.json
+C:\Users\ASUS NB\source\repos\Arrays-Lab\07_EqualArrays\bin\Debug\netcoreapp2.1\07_EqualArrays.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Arrays-Lab\07_EqualArrays\bin\Debug\netcoreapp2.1\07_EqualArrays.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Arrays-Lab\07_EqualArrays\bin\Debug\netcoreapp2.1\07_EqualArrays.dll
+C:\Users\ASUS NB\source\repos\Arrays-Lab\07_EqualArrays\bin\Debug\netcoreapp2.1\07_EqualArrays.pdb
+C:\Users\ASUS NB\source\repos\Arrays-Lab\07_EqualArrays\obj\Debug\netcoreapp2.1\07_EqualArrays.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Arrays-Lab\07_EqualArrays\obj\Debug\netcoreapp2.1\07_EqualArrays.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Arrays-Lab\07_EqualArrays\obj\Debug\netcoreapp2.1\07_EqualArrays.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Arrays-Lab\07_EqualArrays\obj\Debug\netcoreapp2.1\07_EqualArrays.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Arrays-Lab\07_EqualArrays\obj\Debug\netcoreapp2.1\07_EqualArrays.dll
+C:\Users\ASUS NB\source\repos\Arrays-Lab\07_EqualArrays\obj\Debug\netcoreapp2.1\07_EqualArrays.pdb

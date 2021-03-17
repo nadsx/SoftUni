@@ -1,0 +1,10 @@
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Lab\03_CarConstructors\bin\Debug\netcoreapp2.1\03_CarConstructors.deps.json
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Lab\03_CarConstructors\bin\Debug\netcoreapp2.1\03_CarConstructors.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Lab\03_CarConstructors\bin\Debug\netcoreapp2.1\03_CarConstructors.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Lab\03_CarConstructors\bin\Debug\netcoreapp2.1\03_CarConstructors.dll
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Lab\03_CarConstructors\bin\Debug\netcoreapp2.1\03_CarConstructors.pdb
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Lab\03_CarConstructors\obj\Debug\netcoreapp2.1\03_CarConstructors.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Lab\03_CarConstructors\obj\Debug\netcoreapp2.1\03_CarConstructors.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Lab\03_CarConstructors\obj\Debug\netcoreapp2.1\03_CarConstructors.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Lab\03_CarConstructors\obj\Debug\netcoreapp2.1\03_CarConstructors.dll
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Lab\03_CarConstructors\obj\Debug\netcoreapp2.1\03_CarConstructors.pdb

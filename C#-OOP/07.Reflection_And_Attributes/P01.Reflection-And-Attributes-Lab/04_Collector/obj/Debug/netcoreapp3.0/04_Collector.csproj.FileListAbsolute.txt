@@ -1,0 +1,11 @@
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\04_Collector\bin\Debug\netcoreapp3.0\04_Collector.exe
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\04_Collector\bin\Debug\netcoreapp3.0\04_Collector.deps.json
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\04_Collector\bin\Debug\netcoreapp3.0\04_Collector.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\04_Collector\bin\Debug\netcoreapp3.0\04_Collector.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\04_Collector\bin\Debug\netcoreapp3.0\04_Collector.dll
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\04_Collector\bin\Debug\netcoreapp3.0\04_Collector.pdb
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\04_Collector\obj\Debug\netcoreapp3.0\04_Collector.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\04_Collector\obj\Debug\netcoreapp3.0\04_Collector.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\04_Collector\obj\Debug\netcoreapp3.0\04_Collector.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\04_Collector\obj\Debug\netcoreapp3.0\04_Collector.dll
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\04_Collector\obj\Debug\netcoreapp3.0\04_Collector.pdb

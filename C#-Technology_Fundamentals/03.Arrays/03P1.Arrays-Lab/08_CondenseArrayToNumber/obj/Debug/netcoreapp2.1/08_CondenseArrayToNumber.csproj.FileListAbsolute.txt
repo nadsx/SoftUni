@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Arrays-Lab\08_CondenseArrayToNumber\bin\Debug\netcoreapp2.1\08_CondenseArrayToNumber.deps.json
+C:\Users\ASUS NB\source\repos\Arrays-Lab\08_CondenseArrayToNumber\bin\Debug\netcoreapp2.1\08_CondenseArrayToNumber.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Arrays-Lab\08_CondenseArrayToNumber\bin\Debug\netcoreapp2.1\08_CondenseArrayToNumber.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Arrays-Lab\08_CondenseArrayToNumber\bin\Debug\netcoreapp2.1\08_CondenseArrayToNumber.dll
+C:\Users\ASUS NB\source\repos\Arrays-Lab\08_CondenseArrayToNumber\bin\Debug\netcoreapp2.1\08_CondenseArrayToNumber.pdb
+C:\Users\ASUS NB\source\repos\Arrays-Lab\08_CondenseArrayToNumber\obj\Debug\netcoreapp2.1\08_CondenseArrayToNumber.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Arrays-Lab\08_CondenseArrayToNumber\obj\Debug\netcoreapp2.1\08_CondenseArrayToNumber.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Arrays-Lab\08_CondenseArrayToNumber\obj\Debug\netcoreapp2.1\08_CondenseArrayToNumber.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Arrays-Lab\08_CondenseArrayToNumber\obj\Debug\netcoreapp2.1\08_CondenseArrayToNumber.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Arrays-Lab\08_CondenseArrayToNumber\obj\Debug\netcoreapp2.1\08_CondenseArrayToNumber.dll
+C:\Users\ASUS NB\source\repos\Arrays-Lab\08_CondenseArrayToNumber\obj\Debug\netcoreapp2.1\08_CondenseArrayToNumber.pdb

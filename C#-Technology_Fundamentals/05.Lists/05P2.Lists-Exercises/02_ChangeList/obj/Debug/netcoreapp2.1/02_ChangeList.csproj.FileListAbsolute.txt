@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Lists-Exercises\02_ChangeList\bin\Debug\netcoreapp2.1\02_ChangeList.deps.json
+C:\Users\ASUS NB\source\repos\Lists-Exercises\02_ChangeList\bin\Debug\netcoreapp2.1\02_ChangeList.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Lists-Exercises\02_ChangeList\bin\Debug\netcoreapp2.1\02_ChangeList.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Lists-Exercises\02_ChangeList\bin\Debug\netcoreapp2.1\02_ChangeList.dll
+C:\Users\ASUS NB\source\repos\Lists-Exercises\02_ChangeList\bin\Debug\netcoreapp2.1\02_ChangeList.pdb
+C:\Users\ASUS NB\source\repos\Lists-Exercises\02_ChangeList\obj\Debug\netcoreapp2.1\02_ChangeList.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Lists-Exercises\02_ChangeList\obj\Debug\netcoreapp2.1\02_ChangeList.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Lists-Exercises\02_ChangeList\obj\Debug\netcoreapp2.1\02_ChangeList.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Lists-Exercises\02_ChangeList\obj\Debug\netcoreapp2.1\02_ChangeList.dll
+C:\Users\ASUS NB\source\repos\Lists-Exercises\02_ChangeList\obj\Debug\netcoreapp2.1\02_ChangeList.pdb
+C:\Users\ASUS NB\source\repos\Lists-Exercises\02_ChangeList\obj\Debug\netcoreapp2.1\02_ChangeList.csprojAssemblyReference.cache

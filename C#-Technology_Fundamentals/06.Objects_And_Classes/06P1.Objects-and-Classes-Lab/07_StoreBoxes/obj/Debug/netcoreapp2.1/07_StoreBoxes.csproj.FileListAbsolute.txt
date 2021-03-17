@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\07_StoreBoxes\bin\Debug\netcoreapp2.1\07_StoreBoxes.deps.json
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\07_StoreBoxes\bin\Debug\netcoreapp2.1\07_StoreBoxes.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\07_StoreBoxes\bin\Debug\netcoreapp2.1\07_StoreBoxes.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\07_StoreBoxes\bin\Debug\netcoreapp2.1\07_StoreBoxes.dll
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\07_StoreBoxes\bin\Debug\netcoreapp2.1\07_StoreBoxes.pdb
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\07_StoreBoxes\obj\Debug\netcoreapp2.1\07_StoreBoxes.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\07_StoreBoxes\obj\Debug\netcoreapp2.1\07_StoreBoxes.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\07_StoreBoxes\obj\Debug\netcoreapp2.1\07_StoreBoxes.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\07_StoreBoxes\obj\Debug\netcoreapp2.1\07_StoreBoxes.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\07_StoreBoxes\obj\Debug\netcoreapp2.1\07_StoreBoxes.dll
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\07_StoreBoxes\obj\Debug\netcoreapp2.1\07_StoreBoxes.pdb

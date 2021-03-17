@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\04_FastFood\bin\Debug\netcoreapp2.1\04_FastFood.deps.json
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\04_FastFood\bin\Debug\netcoreapp2.1\04_FastFood.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\04_FastFood\bin\Debug\netcoreapp2.1\04_FastFood.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\04_FastFood\bin\Debug\netcoreapp2.1\04_FastFood.dll
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\04_FastFood\bin\Debug\netcoreapp2.1\04_FastFood.pdb
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\04_FastFood\obj\Debug\netcoreapp2.1\04_FastFood.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\04_FastFood\obj\Debug\netcoreapp2.1\04_FastFood.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\04_FastFood\obj\Debug\netcoreapp2.1\04_FastFood.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\04_FastFood\obj\Debug\netcoreapp2.1\04_FastFood.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\04_FastFood\obj\Debug\netcoreapp2.1\04_FastFood.dll
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\04_FastFood\obj\Debug\netcoreapp2.1\04_FastFood.pdb

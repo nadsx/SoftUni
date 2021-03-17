@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\04_ArrayRotation\bin\Debug\netcoreapp2.1\04_ArrayRotation.deps.json
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\04_ArrayRotation\bin\Debug\netcoreapp2.1\04_ArrayRotation.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\04_ArrayRotation\bin\Debug\netcoreapp2.1\04_ArrayRotation.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\04_ArrayRotation\bin\Debug\netcoreapp2.1\04_ArrayRotation.dll
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\04_ArrayRotation\bin\Debug\netcoreapp2.1\04_ArrayRotation.pdb
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\04_ArrayRotation\obj\Debug\netcoreapp2.1\04_ArrayRotation.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\04_ArrayRotation\obj\Debug\netcoreapp2.1\04_ArrayRotation.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\04_ArrayRotation\obj\Debug\netcoreapp2.1\04_ArrayRotation.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\04_ArrayRotation\obj\Debug\netcoreapp2.1\04_ArrayRotation.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\04_ArrayRotation\obj\Debug\netcoreapp2.1\04_ArrayRotation.dll
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\04_ArrayRotation\obj\Debug\netcoreapp2.1\04_ArrayRotation.pdb

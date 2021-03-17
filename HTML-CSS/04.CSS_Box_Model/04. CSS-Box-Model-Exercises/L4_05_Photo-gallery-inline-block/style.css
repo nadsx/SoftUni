@@ -1,0 +1,23 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+li {
+    border: 0.4rem solid black;
+    display: inline-block;
+    width: 25%;
+    margin: 2%;
+    vertical-align: middle;
+}
+
+img {
+    padding: 1em;
+    width: 100%;
+    display: block;
+}

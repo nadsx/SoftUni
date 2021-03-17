@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Multidimensional-Arrays-Lab\06_JaggedArrayModification\bin\Debug\netcoreapp2.1\06_JaggedArrayModification.deps.json
+C:\Users\ASUS NB\source\repos\Multidimensional-Arrays-Lab\06_JaggedArrayModification\bin\Debug\netcoreapp2.1\06_JaggedArrayModification.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Multidimensional-Arrays-Lab\06_JaggedArrayModification\bin\Debug\netcoreapp2.1\06_JaggedArrayModification.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Multidimensional-Arrays-Lab\06_JaggedArrayModification\bin\Debug\netcoreapp2.1\06_JaggedArrayModification.dll
+C:\Users\ASUS NB\source\repos\Multidimensional-Arrays-Lab\06_JaggedArrayModification\bin\Debug\netcoreapp2.1\06_JaggedArrayModification.pdb
+C:\Users\ASUS NB\source\repos\Multidimensional-Arrays-Lab\06_JaggedArrayModification\obj\Debug\netcoreapp2.1\06_JaggedArrayModification.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Multidimensional-Arrays-Lab\06_JaggedArrayModification\obj\Debug\netcoreapp2.1\06_JaggedArrayModification.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Multidimensional-Arrays-Lab\06_JaggedArrayModification\obj\Debug\netcoreapp2.1\06_JaggedArrayModification.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Multidimensional-Arrays-Lab\06_JaggedArrayModification\obj\Debug\netcoreapp2.1\06_JaggedArrayModification.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Multidimensional-Arrays-Lab\06_JaggedArrayModification\obj\Debug\netcoreapp2.1\06_JaggedArrayModification.dll
+C:\Users\ASUS NB\source\repos\Multidimensional-Arrays-Lab\06_JaggedArrayModification\obj\Debug\netcoreapp2.1\06_JaggedArrayModification.pdb

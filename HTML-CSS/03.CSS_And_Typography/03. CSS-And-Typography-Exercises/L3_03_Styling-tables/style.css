@@ -1,0 +1,28 @@
+html, *{
+    box-sizing: content-box;
+}
+
+table {
+    width: 100%;
+}
+
+table, td, th {
+    border-width: 1px;
+    border-color: rgb(221, 221, 221);
+    border-style: solid;
+    padding: 5px 10px;
+}
+
+th {
+    text-align: left;
+    background-color: rgb(221, 221, 221);
+}
+
+tr:nth-child(odd) td { 
+   background-color: rgb(241, 241, 241);
+}
+
+tr:hover td {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}

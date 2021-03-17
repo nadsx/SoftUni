@@ -1,0 +1,11 @@
+C:\Users\ASUS\Desktop\repos\Inheritance-Exercise\04_NeedForSpeed\obj\Debug\netcoreapp3.0\04_NeedForSpeed.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\repos\Inheritance-Exercise\04_NeedForSpeed\obj\Debug\netcoreapp3.0\04_NeedForSpeed.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\Inheritance-Exercise\04_NeedForSpeed\obj\Debug\netcoreapp3.0\04_NeedForSpeed.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\Inheritance-Exercise\04_NeedForSpeed\bin\Debug\netcoreapp3.0\04_NeedForSpeed.exe
+C:\Users\ASUS\Desktop\repos\Inheritance-Exercise\04_NeedForSpeed\bin\Debug\netcoreapp3.0\04_NeedForSpeed.deps.json
+C:\Users\ASUS\Desktop\repos\Inheritance-Exercise\04_NeedForSpeed\bin\Debug\netcoreapp3.0\04_NeedForSpeed.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\Inheritance-Exercise\04_NeedForSpeed\bin\Debug\netcoreapp3.0\04_NeedForSpeed.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\Inheritance-Exercise\04_NeedForSpeed\bin\Debug\netcoreapp3.0\04_NeedForSpeed.dll
+C:\Users\ASUS\Desktop\repos\Inheritance-Exercise\04_NeedForSpeed\bin\Debug\netcoreapp3.0\04_NeedForSpeed.pdb
+C:\Users\ASUS\Desktop\repos\Inheritance-Exercise\04_NeedForSpeed\obj\Debug\netcoreapp3.0\04_NeedForSpeed.dll
+C:\Users\ASUS\Desktop\repos\Inheritance-Exercise\04_NeedForSpeed\obj\Debug\netcoreapp3.0\04_NeedForSpeed.pdb

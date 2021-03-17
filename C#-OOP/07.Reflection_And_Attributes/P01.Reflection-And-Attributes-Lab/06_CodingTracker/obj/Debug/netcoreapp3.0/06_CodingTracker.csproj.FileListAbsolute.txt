@@ -1,0 +1,10 @@
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\06_CodingTracker\bin\Debug\netcoreapp3.0\06_CodingTracker.exe
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\06_CodingTracker\bin\Debug\netcoreapp3.0\06_CodingTracker.deps.json
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\06_CodingTracker\bin\Debug\netcoreapp3.0\06_CodingTracker.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\06_CodingTracker\bin\Debug\netcoreapp3.0\06_CodingTracker.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\06_CodingTracker\bin\Debug\netcoreapp3.0\06_CodingTracker.dll
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\06_CodingTracker\bin\Debug\netcoreapp3.0\06_CodingTracker.pdb
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\06_CodingTracker\obj\Debug\netcoreapp3.0\06_CodingTracker.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\06_CodingTracker\obj\Debug\netcoreapp3.0\06_CodingTracker.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\06_CodingTracker\obj\Debug\netcoreapp3.0\06_CodingTracker.dll
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\06_CodingTracker\obj\Debug\netcoreapp3.0\06_CodingTracker.pdb

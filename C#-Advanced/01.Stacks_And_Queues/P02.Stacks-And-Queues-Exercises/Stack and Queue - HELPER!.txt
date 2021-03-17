@@ -1,0 +1,17 @@
+Stack:
+input => 57 45 62 70 33 90 88 76
+stack => 76 88 90 33 70 62 45 57
+
+stack.Push(); add-va kato v list v nachaloto 0-lev index
+stack.Pop(); remove-va kato v list v nachaloto 0lev index
+stack.Peek(); peek-va nachalniq element na 0-lev index
+
+Queue:
+https://www.guru99.com/c-sharp-queue.html
+
+input => 57 45 62 70 33 90 88 76
+queue => 57 45 62 70 33 90 88 76
+
+queue.Enqueue add-va kato List v kraq 
+queue.Dequeue() remove-va kato List SAMOCHE V NACHALOTO 0-lev index
+queue.Peek() peek-va nachalniq element na 0-lev index

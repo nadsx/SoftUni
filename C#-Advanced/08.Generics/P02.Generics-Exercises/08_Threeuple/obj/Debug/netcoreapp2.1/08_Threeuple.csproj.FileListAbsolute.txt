@@ -1,0 +1,10 @@
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\08_Threeuple\bin\Debug\netcoreapp2.1\08_Threeuple.deps.json
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\08_Threeuple\bin\Debug\netcoreapp2.1\08_Threeuple.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\08_Threeuple\bin\Debug\netcoreapp2.1\08_Threeuple.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\08_Threeuple\bin\Debug\netcoreapp2.1\08_Threeuple.dll
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\08_Threeuple\bin\Debug\netcoreapp2.1\08_Threeuple.pdb
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\08_Threeuple\obj\Debug\netcoreapp2.1\08_Threeuple.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\08_Threeuple\obj\Debug\netcoreapp2.1\08_Threeuple.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\08_Threeuple\obj\Debug\netcoreapp2.1\08_Threeuple.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\08_Threeuple\obj\Debug\netcoreapp2.1\08_Threeuple.dll
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\08_Threeuple\obj\Debug\netcoreapp2.1\08_Threeuple.pdb

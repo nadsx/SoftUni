@@ -1,0 +1,346 @@
+1
+==========================================
+           
+		   int numberOfStrings = int.Parse(Console.ReadLine());
+
+			char[] arrOfVowelLetters =
+			{
+				'a', 'A', 'e', 'E', 'i', 'I', 'o', 'O', 'u', 'U'
+			};
+
+			int[] result = new int[numberOfStrings];
+			
+			for (int i = 0; i < numberOfStrings; i++)
+			{
+				string word = Console.ReadLine();
+				char[] separateLetters = word.ToCharArray();
+				int sum = 0;
+				foreach (var letter in separateLetters)
+				{
+					if (arrOfVowelLetters.Contains(letter))
+					{
+						sum += letter * separateLetters.Length;
+					}
+					else
+					{
+						sum += letter / separateLetters.Length;
+					}
+				}
+
+				result[i] = sum;
+			}
+
+			result = result.OrderBy(x => x).ToArray();
+
+			foreach(var number in result)
+			{
+				Console.WriteLine(number);
+			}
+	
+
+-----------------------------------------------
+
+            int numberStrings = int.Parse(Console.ReadLine());
+ 
+            int[] numbers = new int[numberStrings];
+ 
+            string vowels = "aAeEiIoOuU";
+            char[] vowelsArr = vowels.ToCharArray();
+            string consonants = "bBcCdDfFgGhHjJkKlLmMnNpPqQrRsStTvVwWxXzZyY";
+            char[] consonantsArr = consonants.ToCharArray();
+ 
+            for (int i = 0; i < numberStrings; i++)
+            {
+                string word = Console.ReadLine();
+                char[] letters = word.ToCharArray();
+ 
+                int sum = 0;
+				
+                for (int j = 0; j < letters.Length; j++)
+                {
+                    char currentChar = letters[j];
+                    if (vowelsArr.Contains(currentChar))
+                    {
+                        sum += letters[j] * letters.Length;
+                    }
+                    else
+                    {
+                        sum += letters[j] / letters.Length;
+                    }
+                }
+                numbers[i] = sum;
+            }
+ 
+            Array.Sort(numbers);
+ 
+            foreach (var element in numbers)
+            {
+                Console.WriteLine($"{element}");
+            }
+2
+==========================================
+            
+			int numberOfRows = int.Parse(Console.ReadLine());
+
+			if(numberOfRows == 1)
+			{
+				Console.WriteLine(1);
+				return;
+			}
+					
+			Console.WriteLine(1);
+
+			int[] array = { 1, 1 };
+			Console.WriteLine(string.Join(" ", array));
+
+			if (numberOfRows == 2)
+			return;
+
+			for (int i = array.Length; i < numberOfRows; i++) //
+			{
+				int[] changingArray = new int[array.Length + 1];
+
+				for (int j = 1; j < changingArray.Length - 1; j++)
+				{
+					changingArray[0] = 1;
+					changingArray[changingArray.Length - 1] = 1;
+
+					changingArray[j] = array[j - 1] + array[j];
+				}
+
+				Console.WriteLine(string.Join(" ", changingArray));
+
+				array = changingArray;				
+			}	
+			
+		
+3
+==========================================
+
+int fibonacciNumber = int.Parse(Console.ReadLine());
+            if (fibonacciNumber == 1)
+            {
+                Console.WriteLine(1);
+            }
+            else
+            {
+                int[] myArray = new int[fibonacciNumber];
+                myArray[0] = 1;
+                myArray[1] = 1;
+
+                for (int i = 2; i < fibonacciNumber; i++)
+                {
+                    myArray[i] = myArray[i - 1] + myArray[i - 2];
+                }
+
+                Console.WriteLine(myArray[fibonacciNumber - 1]);
+
+4
+==========================================
+
+static void Main(string[] args)
+        {
+			int[] numbers = Console.ReadLine().Split().Select(int.Parse).ToArray();
+
+			int k = numbers.Length / 4; // purvite i poslednite cifri
+
+			int[] upper = new int[numbers.Length / 2]; // obshto cifri v dvata masiva
+			int[] lower = new int[numbers.Length / 2];
+
+			for (int i = 0; i < 2 * k; i++)
+			{
+				lower[i] = numbers[k + i]; // sreda
+			}
+
+			for (int i = 0; i < k; i++) // 2 puti zavurtq
+			{
+				upper[i] = numbers[k - 1 - i]; // nai - lqvata strana obrushta
+				upper[k + i] = numbers[4 * k - 1 - i]; // nai - dqsnata strana obrushta
+			}
+
+			int[] sum = new int[2 * k];
+
+			for (int i = 0; i < 2 * k; i++) // 2 * 2 = 4
+			{
+				sum[i] = upper[i] + lower[i]; // subira 4 chisla i ot dvata masiva, prez koito da mine
+			}
+
+			Console.WriteLine(string.Join(" ", sum));
+        }	
+		
+---------------------------------------
+		
+		    int[] numbers = Console.ReadLine().Split().Select(int.Parse).ToArray();
+
+			int k = numbers.Length / 4;
+			
+			int[] leftArray = numbers.Take(k).ToArray();
+			int[] rightArray = numbers.Skip(3 * k).Take(k).ToArray();
+			int[] lowerArray = numbers.Skip(k).Take(2 * k).ToArray();
+
+			Array.Reverse(leftArray);
+			Array.Reverse(rightArray);
+
+			int[] sum = new int[2 * k];
+
+			int[] upperArray = leftArray.Concat(rightArray).ToArray();
+
+			for (int i = 0; i < 2 * k; i++)
+			{
+				sum[i] = lowerArray[i] + upperArray[i];
+			}
+
+			Console.WriteLine(string.Join(" ", sum));
+
+5
+==========================================
+
+                     static void Main(string[] args)
+		{							
+    			var sequence = Console.ReadLine()
+				.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
+				.Select(int.Parse)
+				.ToArray();
+
+			var longestSeq = FindLongestIncreasingSubsequence(sequence);
+
+			Console.WriteLine(string.Join(" ", longestSeq));
+		}
+
+		private static int[] FindLongestIncreasingSubsequence(int[] sequence)
+		{
+			int[] length = new int[sequence.Length];
+			int[] prev = new int[sequence.Length];
+			int maxLength = 0;
+			int lastIndex = -1;
+
+			
+			for (int i = 0; i < sequence.Length; i++)
+			{
+				length[i] = 1; 
+				prev[i] = -1;  
+							   
+				for (int j = 0; j < i; j++)
+				{
+					if(sequence[j] < sequence[i] && length[j] >= length[i]) // sravnqva i s nai- dulgo narastvashtata posledovatelnost ot po - rannite.
+					{
+						length[i] = 1 + length[j]; // otiva na [i] poziciq, zashtoto po - gore go sravnqva s neq
+						prev[i] = j; // tuka zapisva predi i indexa, koito e j
+					}
+				}
+
+				if(length[i] > maxLength)
+				{
+					maxLength = length[i];
+					lastIndex = i; // slaga posledniq index na nai - dulgata posledovatelnost
+				}
+			}
+
+			var longestSeq = new List<int>();
+
+			for (int i = 0; i < maxLength; i++)
+			{
+				longestSeq.Add(sequence[lastIndex]); // add-va lastIndex, koito e i v sluchaq 
+				lastIndex = prev[lastIndex]; // <== razgledai go hubavo !!!!!
+				// zapisani sa po indexi, kudeto sa zapisani chisla s golqma posledovatelnost.. predi posledniq index i toest j
+			}
+
+			longestSeq.Reverse();
+			return longestSeq.ToArray();
+		}
+
+
+--------------------------------------------
+
+			var numList = Console.ReadLine().Split().Select(int.Parse).ToList();
+			var numListLength = numList.Count;
+
+			var lengths = new int[numListLength].Select(n => n = 1).ToArray();
+			
+			// pravi vsichki indexi na 1 v lengths, zashtoto v nachalot duljinata e 1
+			//(1 chislo = 1 duljina na posledovatelnostta)
+			
+			var previousLongestEndIndex = lengths.Select(n => n = -1).ToArray();
+			
+			// pravi vsichki indexi na nachalna stoinost -1, zashtoto indexa moje da e i 0
+
+			var bestLength = 0;
+			var lastIndex = -1;
+
+			for (int i = 1; i < numListLength; i++)
+			{
+				var caughtNum = numList[i];
+
+				for (int j = 0; j < i; j++)
+				{
+					var currentNum = numList[j];
+					
+					if (currentNum < caughtNum && lengths[j] == lengths[i])
+					{
+						lengths[i]++;
+						previousLongestEndIndex[i] = j; // tuka kudeto se sravnqvat gore.. ta predishnoto s po - golqma posl.
+					}
+
+					if (lengths[i] > bestLength)
+					{
+						bestLength = lengths[i];
+						lastIndex = i;
+					}
+				}
+			}
+
+			var maxSubsequenceIndex = Array.IndexOf(lengths, lengths.Max());
+
+			var maxSubsequence = new List<int>();
+
+			for (int i = maxSubsequenceIndex; i >= 0;)
+			{
+				maxSubsequence.Add(numList[i]);
+				i = previousLongestEndIndex[i];
+			}
+
+			maxSubsequence.Reverse();
+			Console.WriteLine(String.Join(" ", maxSubsequence));
+
+-----------------------------------------
+
+                        int[] myArray = Console.ReadLine().Split().Select(int.Parse).ToArray();
+
+			int[] temArray = new int[myArray.Length];
+			int[] resultArray = new int[myArray.Length];
+
+			int maxLength = 0;
+			int lastIndex = -1;
+
+			for (int i = 0; i < myArray.Length; i++)
+			{
+				temArray[i] = 1;
+				resultArray[i] = -1;
+
+				for (int j = 0; j < i; j++)
+				{
+					if(myArray[j] < myArray[i] && temArray[j] + 1 > temArray[i])
+					{
+						temArray[i] = temArray[j] + 1;
+						resultArray[i] = j;
+					}
+				}
+				if(temArray[i] > maxLength)
+				{
+					maxLength = temArray[i];
+					lastIndex = i;
+				}
+			}
+
+			int counter = 0;
+			int[] finalArray = new int[maxLength];
+
+			while(lastIndex != -1)
+			{
+				finalArray[counter] = myArray[lastIndex];
+				counter++;
+				lastIndex = resultArray[lastIndex];
+			}
+
+			Array.Sort(finalArray);
+			Console.WriteLine(string.Join(" ", finalArray));

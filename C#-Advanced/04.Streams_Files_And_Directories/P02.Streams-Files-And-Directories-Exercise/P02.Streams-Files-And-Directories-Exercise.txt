@@ -1,0 +1,438 @@
+1
+===========================
+
+			string textFilePath = "../../../text.txt";
+
+			int counter = 0;
+
+			using (StreamReader streamReader = new StreamReader(textFilePath))
+			{
+				string currentLine = streamReader.ReadLine();
+
+				while (currentLine != null)
+				{
+					if(counter % 2 == 0)
+					{
+						string replaceSymbols = ReplaceSpecialCharacters(currentLine);
+						string reversedWords = ReversedWords(replaceSymbols);
+
+						Console.WriteLine(reversedWords);
+					}
+					
+					currentLine = streamReader.ReadLine();
+
+					counter++;
+				}
+			}		
+		}
+
+		private static string ReversedWords(string replaceSymbols)
+		{
+			return string.Join(" ", replaceSymbols.Split().Reverse()); 		
+		}
+
+		private static string ReplaceSpecialCharacters(string currentLine)
+		{
+			return currentLine.Replace("-", "@")
+				.Replace(",", "@")
+				.Replace(".", "@")
+				.Replace("!", "@")
+				.Replace("?", "@");
+		}
+
+---------------------------
+
+       var symbols = new string[] { "-", ",", ".", "!", "?" };
+            using (var reader = new StreamReader("../../../text.txt"))
+            {
+                var counter = 0;
+                using (var writer = new StreamWriter("../../../Output.txt"))
+                {
+                    while (true)
+                    {
+                        var line = reader.ReadLine();
+                        if (line == null)
+                        {
+                            break;
+                        }
+
+                        if (counter % 2 == 0)
+                        {
+                            var currentLine = string.Empty;
+                            foreach (var character in line)
+                            {
+                                if (symbols.Contains(character.ToString()))
+                                {
+                                    currentLine += "@";
+                                }
+                                else
+                                {
+                                    currentLine += character;
+                                }
+                            }
+
+                            var wordsArray = currentLine.Split(" ", StringSplitOptions.RemoveEmptyEntries);
+                            var words = new Stack<string>(wordsArray);
+
+                            writer.WriteLine(string.Join(" ", words));
+                        }
+
+                        counter++;
+                    }
+                }
+
+2
+===========================
+
+			string textPath = "text.txt";
+			string outputPath = "output.txt";
+			string[] textLines = File.ReadAllLines(textPath);
+
+			int lineCounter = 1;
+
+			foreach(var currentLine in textLines)
+			{
+				int lettersCount = currentLine.Count(char.IsLetter);
+				int puncsCount = currentLine.Count(char.IsPunctuation);
+
+				File.AppendAllText(outputPath, $"Line {lineCounter}:{currentLine} ({lettersCount})({puncsCount})" +
+					$"{Environment.NewLine}");
+
+				lineCounter++;
+			}
+
+---------------------------
+
+           var lineCounter = 1;
+            using (var reader = new StreamReader("../../../text.txt"))
+            {
+                using (var writer = new StreamWriter("../../../Output.txt"))
+                {
+                    while (true)
+                    {
+                        var line = reader.ReadLine();
+                        if (line == null)
+                        {
+                            break;
+                        }
+
+                        var specialSymbolCount = 0;
+                        var space = 0;
+                        foreach (var symbol in line)
+                        {
+                            if (symbol == ' ')
+                            {
+                                space++;
+                            }
+                            else if (!char.IsLetter(symbol))
+                            {
+                                specialSymbolCount++;
+                            }
+                        }
+                        var symbolCount = line.Length - specialSymbolCount-space;
+
+                        writer.WriteLine($"Line {lineCounter}:{line}({symbolCount})({specialSymbolCount})");
+                        lineCounter++;
+                    }
+
+                }
+            }
+
+3
+===========================
+
+			string textPath = "text.txt";
+			string wordsPath = "words.txt";
+
+			string[] textLines = File.ReadAllLines(textPath);
+			string[] words = File.ReadAllLines(wordsPath);
+
+			var wordsInfo = new Dictionary<string, int>();
+
+			foreach(var word in words)
+			{
+				string currentWord = word.ToLower();
+
+				if (!wordsInfo.ContainsKey(currentWord))
+				{
+					wordsInfo.Add(currentWord, 0);
+				}
+			}
+
+			foreach(var currentLine in textLines)
+			{
+				string[] currentLineWords = currentLine
+					.ToLower()
+					.Split(new[] { ' ', '-', ',', '?', '!', '.', '\'', ':', ';' })
+					.ToArray();
+
+				foreach(var currentWord in currentLineWords)
+				{
+					if (wordsInfo.ContainsKey(currentWord))
+					{
+						wordsInfo[currentWord]++;
+					}
+				}
+			}
+
+			string actualResultPath = "actualResult.txt";
+			string expectedResultPath = "expectedResult.txt";
+
+			foreach (var (key, value) in wordsInfo) 
+			{
+				File.AppendAllText(actualResultPath, $"{key} - {value}" +
+					$"{Environment.NewLine}");
+			}
+
+			foreach(var (key, value) in wordsInfo.OrderByDescending(x => x.Value))
+			{
+				File.AppendAllText(expectedResultPath, $"{key} - {value}" +
+					$"{Environment.NewLine}");
+			}
+
+---------------------------
+
+            var listOfWords = new Dictionary<string, int>();
+            using (var reader = new StreamReader("../../../words.txt"))
+            {
+                while (true)
+                {
+                    var line = reader.ReadLine();
+
+                    if (line == null)
+                    {
+                        break;
+                    }
+
+                    var words = line.Split();
+
+                    foreach (var word in words)
+                    {
+                        if (!listOfWords.ContainsKey(word))
+                        {
+                            listOfWords.Add(word.ToLower(), 0);
+                        }
+                    }
+                }
+            }
+
+            using (var reader = new StreamReader("../../../text.txt"))
+            {
+                while (true)
+                {
+                    var line = reader.ReadLine();
+
+                    if (line == null)
+                    {
+                        break;
+                    }
+
+                    var words = line.Split(new char[] { ' ', ',', '?', ';', '-', '.' }, StringSplitOptions.RemoveEmptyEntries);
+
+                    foreach (var word in words)
+                    {
+                        if (listOfWords.ContainsKey(word.ToLower()))
+                        {
+                            listOfWords[word.ToLower()]++;
+                        }
+                    }
+                }
+            }
+
+            using (var writer = new StreamWriter("../../../Output.txt"))
+            {
+                foreach (var words in listOfWords.OrderByDescending(x => x.Value))
+                {
+                    var line = (words.Key + " - " + words.Value);
+
+                    writer.WriteLine(line);
+                }
+            }
+
+            using (var firstReader = new StreamReader("../../../Output.txt"))
+            {
+                using (var secondReader = new StreamReader("../../../expectedResult.txt"))
+                {
+                    var firstFileLine = firstReader.ReadLine();
+                    var secondFileLine = secondReader.ReadLine();
+
+                    while (firstFileLine==null && secondFileLine==null)
+                    {
+                        break;
+                    }
+
+                    if (firstFileLine!=secondFileLine)
+                    {
+                        Console.WriteLine("Files aren't the same.");
+                        return;
+                    }
+                }
+            }
+
+            Console.WriteLine("Files are the same.");
+        }
+
+4
+===========================
+
+			string picPath = "copyMe.png";
+			string picCopyPath = "copyMe-copy.png";
+
+			using (FileStream streamReader = new FileStream(picPath, FileMode.Open))
+			{
+				using(FileStream streamWriter = new FileStream(picCopyPath, FileMode.Create))
+				{
+					while (true)
+					{
+						byte[] buffer = new byte[4096];
+						int size = streamReader.Read(buffer, 0, buffer.Length);
+
+						if(size == 0)
+						{
+							break;
+						}
+
+						streamWriter.Write(buffer, 0, size);
+					}
+
+				}
+			}
+
+---------------------------
+
+           using (var reader = new FileStream("../../../copyMe.png", FileMode.Open))
+            {
+                var buffer = new byte[4096];
+
+                using (var writer = new FileStream("../../../copied.png", FileMode.Create))
+                {
+                    while (true)
+                    {
+                        var totalByte = reader.Read(buffer, 0, buffer.Length);
+                        if (totalByte == 0)
+                        {
+                            break;
+                        }
+
+                        writer.Write(buffer, 0, totalByte);
+                    }
+                }
+            }
+
+5
+===========================
+
+			var dirInfo = new Dictionary<string, Dictionary<string, double>>();
+
+			DirectoryInfo directoryInfo = new DirectoryInfo(".");// nastoqshtata papka
+
+			FileInfo[] allFiles = directoryInfo.GetFiles();
+
+			foreach(FileInfo currentFile in allFiles)
+			{
+				double size = currentFile.Length / 1024d;
+				string fileName = currentFile.Name;
+				string extension = currentFile.Extension;
+
+				if (!dirInfo.ContainsKey(extension))
+				{
+					dirInfo.Add(extension, new Dictionary<string, double>());
+				}
+
+				if (!dirInfo[extension].ContainsKey(fileName))
+				{
+					dirInfo[extension].Add(fileName, size);
+				}
+			}
+
+			string path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + @"/report.txt";
+
+			var sortedDict = dirInfo
+				.OrderByDescending(x => x.Value.Count)
+				.ThenBy(x => x.Key)
+				.ToDictionary(k => k.Key, v => v.Value);
+
+			foreach (var (extension, value) in sortedDict)
+			{
+				File.AppendAllText(path, extension + Environment.NewLine);
+
+				foreach(var (fileName, size) in value.OrderBy(x => x.Value))
+				{
+					File.AppendAllText(path, $"--{fileName} - {Math.Round(size, 3)}kb" 
+						+ Environment.NewLine);
+				}
+			}
+
+---------------------------
+
+    		var path = Console.ReadLine();
+            var filesInfo = new Dictionary<string, List<FileInfo>>();
+            var files = Directory.GetFiles(path, "*.*", SearchOption.TopDirectoryOnly);
+
+            foreach (var file in files)
+            {
+                var info = new FileInfo(file);
+
+                if (!filesInfo.ContainsKey(info.Extension))
+                {
+                    filesInfo.Add(info.Extension, new List<FileInfo>());
+                }
+
+                filesInfo[info.Extension].Add(info);
+            }
+
+            var pathToDesktop = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "/Report.txt";
+
+            using (var writer = new StreamWriter(pathToDesktop))
+            {
+                foreach (var fileInfo in filesInfo.OrderByDescending(x => x.Value.Count).ThenBy(x => x.Key))
+                {
+                    writer.WriteLine(fileInfo.Key);
+
+                    foreach (var info in fileInfo.Value.OrderBy(x => x.Length))
+                    {
+                        writer.WriteLine($"--{info.Name} - {(info.Length / 1024):F3}kb");
+                    }
+                }
+            }
+
+6
+===========================
+
+			string zipFile = @"..\..\..\myNewZip.zip";
+			string file = "copyMe.png";
+			
+			using(var archive = ZipFile.Open(zipFile, ZipArchiveMode.Create))
+			{
+				archive.CreateEntryFromFile(file, Path.GetFileName(file));
+			}
+
+--------------------------
+
+         	var path = Console.ReadLine();
+            var filesInfo = new Dictionary<string, List<FileInfo>>();
+            var files = Directory.GetFiles(path, "*.*", SearchOption.AllDirectories);
+
+            foreach (var file in files)
+            {
+                var info = new FileInfo(file);
+
+                if (!filesInfo.ContainsKey(info.Extension))
+                {
+                    filesInfo.Add(info.Extension, new List<FileInfo>());
+                }
+                filesInfo[info.Extension].Add(info);
+            }
+            var pathToDesktop = Environment.GetFolderPath(Environment.SpecialFolder.Desktop)+"/Report.txt";
+            using (var writer = new StreamWriter(pathToDesktop))
+            {
+                foreach (var fileInfo in filesInfo.OrderByDescending(x => x.Value.Count).ThenBy(x => x.Key))
+                {
+                   writer.WriteLine(fileInfo.Key);
+                    foreach (var info in fileInfo.Value.OrderBy(x => x.Length))
+                    {
+                        writer.WriteLine($"--{info.Name} - {(info.Length/1024):F3}kb");
+                    }
+                }
+            }
+        }

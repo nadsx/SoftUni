@@ -1,0 +1,11 @@
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\09_CollectionHierarchy\obj\Debug\netcoreapp3.0\09_CollectionHierarchy.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\09_CollectionHierarchy\obj\Debug\netcoreapp3.0\09_CollectionHierarchy.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\09_CollectionHierarchy\obj\Debug\netcoreapp3.0\09_CollectionHierarchy.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\09_CollectionHierarchy\bin\Debug\netcoreapp3.0\09_CollectionHierarchy.exe
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\09_CollectionHierarchy\bin\Debug\netcoreapp3.0\09_CollectionHierarchy.deps.json
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\09_CollectionHierarchy\bin\Debug\netcoreapp3.0\09_CollectionHierarchy.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\09_CollectionHierarchy\bin\Debug\netcoreapp3.0\09_CollectionHierarchy.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\09_CollectionHierarchy\bin\Debug\netcoreapp3.0\09_CollectionHierarchy.dll
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\09_CollectionHierarchy\bin\Debug\netcoreapp3.0\09_CollectionHierarchy.pdb
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\09_CollectionHierarchy\obj\Debug\netcoreapp3.0\09_CollectionHierarchy.dll
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\09_CollectionHierarchy\obj\Debug\netcoreapp3.0\09_CollectionHierarchy.pdb

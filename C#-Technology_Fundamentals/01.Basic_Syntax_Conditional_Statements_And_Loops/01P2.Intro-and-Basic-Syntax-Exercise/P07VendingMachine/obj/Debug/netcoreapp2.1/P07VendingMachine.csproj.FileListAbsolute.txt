@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P07VendingMachine\bin\Debug\netcoreapp2.1\P07VendingMachine.deps.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P07VendingMachine\bin\Debug\netcoreapp2.1\P07VendingMachine.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P07VendingMachine\bin\Debug\netcoreapp2.1\P07VendingMachine.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P07VendingMachine\bin\Debug\netcoreapp2.1\P07VendingMachine.dll
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P07VendingMachine\bin\Debug\netcoreapp2.1\P07VendingMachine.pdb
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P07VendingMachine\obj\Debug\netcoreapp2.1\P07VendingMachine.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P07VendingMachine\obj\Debug\netcoreapp2.1\P07VendingMachine.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P07VendingMachine\obj\Debug\netcoreapp2.1\P07VendingMachine.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P07VendingMachine\obj\Debug\netcoreapp2.1\P07VendingMachine.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P07VendingMachine\obj\Debug\netcoreapp2.1\P07VendingMachine.dll
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P07VendingMachine\obj\Debug\netcoreapp2.1\P07VendingMachine.pdb

@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P11Snowballs\bin\Debug\netcoreapp2.1\P11Snowballs.deps.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P11Snowballs\bin\Debug\netcoreapp2.1\P11Snowballs.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P11Snowballs\bin\Debug\netcoreapp2.1\P11Snowballs.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P11Snowballs\bin\Debug\netcoreapp2.1\P11Snowballs.dll
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P11Snowballs\bin\Debug\netcoreapp2.1\P11Snowballs.pdb
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P11Snowballs\obj\Debug\netcoreapp2.1\P11Snowballs.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P11Snowballs\obj\Debug\netcoreapp2.1\P11Snowballs.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P11Snowballs\obj\Debug\netcoreapp2.1\P11Snowballs.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P11Snowballs\obj\Debug\netcoreapp2.1\P11Snowballs.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P11Snowballs\obj\Debug\netcoreapp2.1\P11Snowballs.dll
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P11Snowballs\obj\Debug\netcoreapp2.1\P11Snowballs.pdb

@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\04_Orders\bin\Debug\netcoreapp2.1\04_Orders.deps.json
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\04_Orders\bin\Debug\netcoreapp2.1\04_Orders.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\04_Orders\bin\Debug\netcoreapp2.1\04_Orders.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\04_Orders\bin\Debug\netcoreapp2.1\04_Orders.dll
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\04_Orders\bin\Debug\netcoreapp2.1\04_Orders.pdb
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\04_Orders\obj\Debug\netcoreapp2.1\04_Orders.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\04_Orders\obj\Debug\netcoreapp2.1\04_Orders.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\04_Orders\obj\Debug\netcoreapp2.1\04_Orders.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\04_Orders\obj\Debug\netcoreapp2.1\04_Orders.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\04_Orders\obj\Debug\netcoreapp2.1\04_Orders.dll
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\04_Orders\obj\Debug\netcoreapp2.1\04_Orders.pdb

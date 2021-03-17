@@ -1,0 +1,10 @@
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\03_CustomMinFunction\bin\Debug\netcoreapp2.1\03_CustomMinFunction.deps.json
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\03_CustomMinFunction\bin\Debug\netcoreapp2.1\03_CustomMinFunction.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\03_CustomMinFunction\bin\Debug\netcoreapp2.1\03_CustomMinFunction.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\03_CustomMinFunction\bin\Debug\netcoreapp2.1\03_CustomMinFunction.dll
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\03_CustomMinFunction\bin\Debug\netcoreapp2.1\03_CustomMinFunction.pdb
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\03_CustomMinFunction\obj\Debug\netcoreapp2.1\03_CustomMinFunction.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\03_CustomMinFunction\obj\Debug\netcoreapp2.1\03_CustomMinFunction.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\03_CustomMinFunction\obj\Debug\netcoreapp2.1\03_CustomMinFunction.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\03_CustomMinFunction\obj\Debug\netcoreapp2.1\03_CustomMinFunction.dll
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\03_CustomMinFunction\obj\Debug\netcoreapp2.1\03_CustomMinFunction.pdb

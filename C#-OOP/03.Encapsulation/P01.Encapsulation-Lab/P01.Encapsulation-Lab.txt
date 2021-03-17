@@ -1,0 +1,441 @@
+01
+==================================
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace _01_Exercise
+{
+    public class StartUp
+    {
+        public static void Main()
+        {
+            int lines = int.Parse(Console.ReadLine());
+            List<Person> persons = new List<Person>();
+
+            for (int i = 0; i < lines; i++)
+            {
+                string[] args = Console.ReadLine()
+                    .Split()
+                    .ToArray();
+
+                Person person = new Person(args[0], args[1], int.Parse(args[2]));
+                persons.Add(person);
+            }
+
+            persons.OrderBy(p => p.FirstName)
+                .ThenBy(p => p.Age)
+                .ToList()
+                .ForEach(p => Console.WriteLine(p.ToString()));
+
+        }
+    }
+
+    public class Person
+    {
+        public Person(string firstName, string lastName, int age)
+        {
+            this.FirstName = firstName;
+            this.LastName = lastName;
+            this.Age = age;
+        }
+
+        public string FirstName { get; private set; }
+
+        public string LastName { get; private set; }
+
+        public int Age { get; private set; }
+
+        public override string ToString()
+        {
+            return $"{this.FirstName} {this.LastName} is {this.Age} years old.";
+        }
+    }
+}
+
+02
+==================================
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace _02_Exercise
+{
+    public class StartUp
+    {
+        public static void Main()
+        {
+            int lines = int.Parse(Console.ReadLine());
+            List<Person> persons = new List<Person>();
+
+            for (int i = 0; i < lines; i++)
+            {
+                string[] args = Console.ReadLine()
+                    .Split()
+                    .ToArray();
+
+                Person person = new Person(args[0], args[1], int.Parse(args[2]), decimal.Parse(args[3]));
+
+                persons.Add(person);
+            }
+
+            decimal percentage = decimal.Parse(Console.ReadLine());
+
+            persons.ForEach(p => p.IncreaseSalary(percentage));
+            persons.ForEach(p => Console.WriteLine(p.ToString()));
+        }
+    }
+
+    public class Person
+    {
+        public Person(string firstName, string lastName, int age, decimal salary)
+        {
+            this.FirstName = firstName;
+            this.LastName = lastName;
+            this.Age = age;
+            this.Salary = salary;
+        }
+
+        public string FirstName { get; private set; }
+
+        public string LastName { get; private set; }
+
+        public int Age { get; private set; }
+
+        public decimal Salary { get; private set; }
+        
+        public void IncreaseSalary(decimal percentage)
+        {
+            decimal percent = percentage / 100;
+
+            if(this.Age > 30)
+            {
+                this.Salary += this.Salary * percent;
+            }
+            else
+            {
+                this.Salary += this.Salary * percent / 2;
+            }
+        }
+
+        public override string ToString()
+        {
+            return $"{this.FirstName} {this.LastName} receives {this.Salary:F2} leva.";
+        }
+    }
+}
+
+03
+==================================
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace _03_Exercise
+{
+    public class StartUp
+    {
+        public static void Main()
+        {
+            int lines = int.Parse(Console.ReadLine());
+            List<Person> persons = new List<Person>();
+
+            for (int i = 0; i < lines; i++)
+            {
+                string[] args = Console.ReadLine()
+                    .Split()
+                    .ToArray();
+
+                try
+                {
+                    Person person = new Person(args[0], args[1], int.Parse(args[2]), decimal.Parse(args[3]));
+                    persons.Add(person);
+                }
+                catch (Exception exception)
+                {
+                    Console.WriteLine(exception.Message);
+                }
+            }
+
+            decimal percentage = decimal.Parse(Console.ReadLine());
+
+            persons.ForEach(p => p.IncreaseSalary(percentage));
+            persons.ForEach(p => Console.WriteLine(p.ToString()));
+        }
+    }
+
+    public class Person
+    {
+        private string firstName;
+        private string lastName;
+        private int age;
+        private decimal salary;
+
+        public Person(string firstName, string lastName, int age, decimal salary) 
+        {
+            this.FirstName = firstName;
+            this.LastName = lastName;
+            this.Age = age;
+            this.Salary = salary;
+        }
+
+        public string FirstName
+        {
+            get => this.firstName;
+            private set
+            {
+                if(value.Length < 3)
+                {
+                    throw new ArgumentException("First name cannot contain fewer than 3 symbols!");
+                }
+
+                this.firstName = value;
+            }
+        }
+
+        public string LastName
+        {
+            get => this.lastName;
+            private set
+            {
+                if(value.Length < 3)
+                {
+                    throw new ArgumentException("Last name cannot contain fewer than 3 symbols!");
+                }
+
+                this.lastName = value;
+            }
+        }
+
+        public int Age
+        {
+            get => this.age;
+            private set
+            {
+                if(value <= 0)
+                {
+                    throw new ArgumentException("Age cannot be zero or a negative integer!");
+                }
+
+                this.age = value;
+            }
+        }
+
+        public decimal Salary
+        {
+            get => this.salary;
+            private set
+            {
+                if(value < 460)
+                {
+                    throw new ArgumentException("Salary cannot be less than 460 leva!");
+                }
+
+                this.salary = value;
+            }
+        }
+
+        public void IncreaseSalary(decimal percentage)
+        {
+            decimal percent = percentage / 100;
+
+            if (this.Age > 30)
+            {
+                this.Salary += this.Salary * percent;
+            }
+            else
+            {
+                this.Salary += this.Salary * percent / 2;
+            }
+        }
+
+        public override string ToString()
+        {
+            return $"{this.FirstName} {this.LastName} gets {this.Salary:F2} leva.";
+        }
+    }
+}
+
+04
+==================================
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace _04_Exercise
+{
+    public class StartUp
+    {
+        public static void Main()
+        {
+            Engine engine = new Engine();
+            engine.Run();
+        }
+    }
+
+    public class Person
+    {
+        private string firstName;
+        private string lastName;
+        private int age;
+        private decimal salary;
+
+        public Person(string firstName, string lastName, int age, decimal salary)
+        {
+            this.FirstName = firstName;
+            this.LastName = lastName;
+            this.Age = age;
+            this.Salary = salary;
+        }
+
+        public string FirstName
+        {
+            get => this.firstName;
+            private set
+            {
+                if (value.Length < 3)
+                {
+                    throw new ArgumentException("First name cannot contain fewer than 3 symbols!");
+                }
+
+                this.firstName = value;
+            }
+        }
+
+        public string LastName
+        {
+            get => this.lastName;
+            private set
+            {
+                if (value.Length < 3)
+                {
+                    throw new ArgumentException("Last name cannot contain fewer than 3 symbols!");
+                }
+
+                this.lastName = value;
+            }
+        }
+
+        public int Age
+        {
+            get => this.age;
+            private set
+            {
+                if (value <= 0)
+                {
+                    throw new ArgumentException("Age cannot be zero or a negative integer!");
+                }
+
+                this.age = value;
+            }
+        }
+
+        public decimal Salary
+        {
+            get => this.salary;
+            private set
+            {
+                if (value < 460)
+                {
+                    throw new ArgumentException("Salary cannot be less than 460 leva!");
+                }
+
+                this.salary = value;
+            }
+        }
+
+        public void IncreaseSalary(decimal percentage)
+        {
+            decimal percent = percentage / 100;
+
+            if (this.Age > 30)
+            {
+                this.Salary += this.Salary * percent;
+            }
+            else
+            {
+                this.Salary += this.Salary * percent / 2;
+            }
+        }
+
+        public override string ToString()
+        {
+            return $"{this.FirstName} {this.LastName} gets {this.Salary:F2} leva.";
+        }
+    }
+
+    public class Team
+    {
+        private string name;
+        private List<Person> firstTeam;
+        private List<Person> reserveTeam;
+
+        public Team(string name)
+        {
+            this.name = name;
+            this.firstTeam = new List<Person>();
+            this.reserveTeam = new List<Person>();
+        }
+
+        public IReadOnlyCollection<Person> FirstTeam => this.firstTeam.AsReadOnly();
+        public IReadOnlyCollection<Person> ReserveTeam => this.reserveTeam.AsReadOnly();
+
+        public void AddPlayer(Person person)
+        {
+            if(person.Age >= 40)
+            {
+                reserveTeam.Add(person);
+            }
+            else
+            {
+                firstTeam.Add(person);
+            }
+        }
+    }
+
+    public class Engine
+    {
+        private List<Person> people;
+
+        public Engine()
+        {
+            this.people = new List<Person>();
+        }
+
+        public void Run()
+        {
+            int lines = int.Parse(Console.ReadLine());
+
+            for (int i = 0; i < lines; i++)
+            {
+                string[] args = Console.ReadLine()
+                    .Split()
+                    .ToArray();
+
+                try
+                {
+                    Person person = new Person(args[0], args[1], int.Parse(args[2]), decimal.Parse(args[3]));
+                    people.Add(person);
+                }
+                catch (ArgumentException ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+            }
+
+            Team team = new Team("SoftUni");
+
+            foreach(Person person in people)
+            {
+                team.AddPlayer(person);
+            }
+
+            Console.WriteLine($"First team has {team.FirstTeam.Count} players.");
+            Console.WriteLine($"Reserve team has {team.ReserveTeam.Count} players.");
+        }
+    }
+}

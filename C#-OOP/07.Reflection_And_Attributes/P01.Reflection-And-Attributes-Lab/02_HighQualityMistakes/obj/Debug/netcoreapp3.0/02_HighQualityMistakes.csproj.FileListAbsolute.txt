@@ -1,0 +1,11 @@
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\02_HighQualityMistakes\bin\Debug\netcoreapp3.0\02_HighQualityMistakes.exe
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\02_HighQualityMistakes\bin\Debug\netcoreapp3.0\02_HighQualityMistakes.deps.json
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\02_HighQualityMistakes\bin\Debug\netcoreapp3.0\02_HighQualityMistakes.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\02_HighQualityMistakes\bin\Debug\netcoreapp3.0\02_HighQualityMistakes.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\02_HighQualityMistakes\bin\Debug\netcoreapp3.0\02_HighQualityMistakes.dll
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\02_HighQualityMistakes\bin\Debug\netcoreapp3.0\02_HighQualityMistakes.pdb
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\02_HighQualityMistakes\obj\Debug\netcoreapp3.0\02_HighQualityMistakes.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\02_HighQualityMistakes\obj\Debug\netcoreapp3.0\02_HighQualityMistakes.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\02_HighQualityMistakes\obj\Debug\netcoreapp3.0\02_HighQualityMistakes.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\02_HighQualityMistakes\obj\Debug\netcoreapp3.0\02_HighQualityMistakes.dll
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\02_HighQualityMistakes\obj\Debug\netcoreapp3.0\02_HighQualityMistakes.pdb

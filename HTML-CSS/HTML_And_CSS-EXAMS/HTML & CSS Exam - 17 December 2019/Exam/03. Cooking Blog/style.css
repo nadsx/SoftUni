@@ -1,0 +1,235 @@
+@import url('https://use.fontawesome.com/releases/v5.15.2/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Gelasio&display=swap');
+
+html {
+    font-family: 'Gelasio', serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Header Styling */
+
+header,
+.navigation,
+.header-login {
+    display: flex;
+    align-items: center;
+}
+
+header {
+    justify-content: space-between;
+    background-color: #E6E3DE;
+    color: #554938;
+    height: 60px;
+}
+
+.navigation {
+    justify-content: space-between;
+    width: 300px;
+    margin-right: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #554938;
+}
+
+header h2 {
+    margin: 20px
+}
+
+.header-login {
+    margin-right: 20px;
+}
+
+.main-btn {
+    color: white;
+    background-color: #554938;
+    border: none;
+    padding: 6px;
+    margin-right: 25px;
+}
+
+.header-login li i {
+    color: black;
+}
+
+/* Main Styling */
+
+.wrapper-main-footer {
+    background-image: url('./Requirements-and-Resources/Media/background.jpg');
+    height: 111.75rem;
+    background-position: center;
+    /* ~ i like it in center sorryy  */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-section-craving {
+    background-image: url('./Requirements-and-Resources/Media/craving.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.main-section-craving-search {
+    text-align: center;
+    height: inherit;
+    /* inherit from parent element 
+    .main-section-craving*/
+    transform: translateY(30%);
+}
+
+.main-section-craving-search h1 {
+    font-size: 3em;
+    color: white;
+    padding-bottom: 15px;
+}
+
+.main-section-craving-search p {
+    background-color: rgb(230, 227, 222, 0.671);
+    display: flex;
+    margin: 0 auto;
+    width: 34%;
+    height: 35px;
+    align-items: center;
+    padding: 5px;
+}
+
+.main-section-craving-search p input {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    width: 100%;
+    margin-left: 5px;
+}
+
+.main-section-craving-search p i {
+    color: rgb(136, 129, 129);
+    margin-left: 5px;
+}
+
+.main-section {
+    width: 80%;
+    display: flex;
+    background-color: rgb(230, 227, 222);
+    margin: 50px auto;
+    align-items: center;
+}
+
+.main-section .image-container {
+    width: 124px;
+    height: 300px;
+    flex-grow: 3;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.main-section .description-container {
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+    flex-grow: 1;
+    /* padding-top: 50px; */
+}
+
+.description-container h2 {
+    font-size: 1.9em;
+}
+
+.description-container h3 {
+    font-size: 1.3em;
+}
+
+.recipes-btn {
+    margin: 11px auto;
+    padding: 5px;
+}
+
+.main-section-toolbox {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main-section-toolbox ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.article {
+    width: 200px;
+    height: 166px;
+    margin-right: 50px;
+    background-color: rgba(230, 227, 222, 0.637);
+    font-style: italic;
+}
+
+.article img {
+    width: 100%;
+}
+
+.main-section-toolbox h1 {
+    background-color: rgba(221, 222, 220, 0.918);
+    display: inline;
+    padding: 10px 40px;
+    color: #554938;
+}
+
+.main-section-toolbox button {
+    color: white;
+    background-color: #DD4F37;
+    border: none;
+    padding: 5px 60px;
+    margin: 50px 0;
+    font-weight: bold;
+}
+
+/* Footer styling */
+
+footer {
+    background-color: rgba(230, 227, 222, 0.637);
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer ul:first-child {
+    width: 16%;
+}
+
+footer ul:last-child {
+    width: 13%;
+}
+
+footer ul li {
+    border-right: 1px solid grey;
+    padding: 0 9px;
+    height: 20px;
+}
+
+footer ul li:last-child {
+    border: none;
+}

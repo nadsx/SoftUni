@@ -1,0 +1,21 @@
+C:\Users\ASUS NB\source\repos\Generics-Exercises\04_GenericSwapMethodIntegers\bin\Debug\netcoreapp2.1\04_GenericSwapMethodIntegers.deps.json
+C:\Users\ASUS NB\source\repos\Generics-Exercises\04_GenericSwapMethodIntegers\bin\Debug\netcoreapp2.1\04_GenericSwapMethodIntegers.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Generics-Exercises\04_GenericSwapMethodIntegers\bin\Debug\netcoreapp2.1\04_GenericSwapMethodIntegers.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Generics-Exercises\04_GenericSwapMethodIntegers\bin\Debug\netcoreapp2.1\04_GenericSwapMethodIntegers.dll
+C:\Users\ASUS NB\source\repos\Generics-Exercises\04_GenericSwapMethodIntegers\bin\Debug\netcoreapp2.1\04_GenericSwapMethodIntegers.pdb
+C:\Users\ASUS NB\source\repos\Generics-Exercises\04_GenericSwapMethodIntegers\obj\Debug\netcoreapp2.1\04_GenericSwapMethodIntegers.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Generics-Exercises\04_GenericSwapMethodIntegers\obj\Debug\netcoreapp2.1\04_GenericSwapMethodIntegers.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Generics-Exercises\04_GenericSwapMethodIntegers\obj\Debug\netcoreapp2.1\04_GenericSwapMethodIntegers.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Generics-Exercises\04_GenericSwapMethodIntegers\obj\Debug\netcoreapp2.1\04_GenericSwapMethodIntegers.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Generics-Exercises\04_GenericSwapMethodIntegers\obj\Debug\netcoreapp2.1\04_GenericSwapMethodIntegers.dll
+C:\Users\ASUS NB\source\repos\Generics-Exercises\04_GenericSwapMethodIntegers\obj\Debug\netcoreapp2.1\04_GenericSwapMethodIntegers.pdb
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\04_GenericSwapMethodIntegers\bin\Debug\netcoreapp2.1\04_GenericSwapMethodIntegers.deps.json
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\04_GenericSwapMethodIntegers\bin\Debug\netcoreapp2.1\04_GenericSwapMethodIntegers.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\04_GenericSwapMethodIntegers\bin\Debug\netcoreapp2.1\04_GenericSwapMethodIntegers.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\04_GenericSwapMethodIntegers\bin\Debug\netcoreapp2.1\04_GenericSwapMethodIntegers.dll
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\04_GenericSwapMethodIntegers\bin\Debug\netcoreapp2.1\04_GenericSwapMethodIntegers.pdb
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\04_GenericSwapMethodIntegers\obj\Debug\netcoreapp2.1\04_GenericSwapMethodIntegers.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\04_GenericSwapMethodIntegers\obj\Debug\netcoreapp2.1\04_GenericSwapMethodIntegers.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\04_GenericSwapMethodIntegers\obj\Debug\netcoreapp2.1\04_GenericSwapMethodIntegers.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\04_GenericSwapMethodIntegers\obj\Debug\netcoreapp2.1\04_GenericSwapMethodIntegers.dll
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\04_GenericSwapMethodIntegers\obj\Debug\netcoreapp2.1\04_GenericSwapMethodIntegers.pdb

@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\02_Passed\bin\Debug\netcoreapp2.1\02_Passed.deps.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\02_Passed\bin\Debug\netcoreapp2.1\02_Passed.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\02_Passed\bin\Debug\netcoreapp2.1\02_Passed.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\02_Passed\bin\Debug\netcoreapp2.1\02_Passed.dll
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\02_Passed\bin\Debug\netcoreapp2.1\02_Passed.pdb
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\02_Passed\obj\Debug\netcoreapp2.1\02_Passed.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\02_Passed\obj\Debug\netcoreapp2.1\02_Passed.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\02_Passed\obj\Debug\netcoreapp2.1\02_Passed.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\02_Passed\obj\Debug\netcoreapp2.1\02_Passed.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\02_Passed\obj\Debug\netcoreapp2.1\02_Passed.dll
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\02_Passed\obj\Debug\netcoreapp2.1\02_Passed.pdb

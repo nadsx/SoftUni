@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Lab\02_OddOccurrences\bin\Debug\netcoreapp2.1\02_OddOccurrences.deps.json
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Lab\02_OddOccurrences\bin\Debug\netcoreapp2.1\02_OddOccurrences.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Lab\02_OddOccurrences\bin\Debug\netcoreapp2.1\02_OddOccurrences.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Lab\02_OddOccurrences\bin\Debug\netcoreapp2.1\02_OddOccurrences.dll
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Lab\02_OddOccurrences\bin\Debug\netcoreapp2.1\02_OddOccurrences.pdb
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Lab\02_OddOccurrences\obj\Debug\netcoreapp2.1\02_OddOccurrences.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Lab\02_OddOccurrences\obj\Debug\netcoreapp2.1\02_OddOccurrences.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Lab\02_OddOccurrences\obj\Debug\netcoreapp2.1\02_OddOccurrences.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Lab\02_OddOccurrences\obj\Debug\netcoreapp2.1\02_OddOccurrences.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Lab\02_OddOccurrences\obj\Debug\netcoreapp2.1\02_OddOccurrences.dll
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Lab\02_OddOccurrences\obj\Debug\netcoreapp2.1\02_OddOccurrences.pdb

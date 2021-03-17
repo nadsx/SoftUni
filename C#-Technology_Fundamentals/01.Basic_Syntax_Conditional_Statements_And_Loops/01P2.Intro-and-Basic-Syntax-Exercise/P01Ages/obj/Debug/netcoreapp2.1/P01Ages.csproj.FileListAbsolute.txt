@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P01Ages\bin\Debug\netcoreapp2.1\P01Ages.deps.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P01Ages\bin\Debug\netcoreapp2.1\P01Ages.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P01Ages\bin\Debug\netcoreapp2.1\P01Ages.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P01Ages\bin\Debug\netcoreapp2.1\P01Ages.dll
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P01Ages\bin\Debug\netcoreapp2.1\P01Ages.pdb
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P01Ages\obj\Debug\netcoreapp2.1\P01Ages.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P01Ages\obj\Debug\netcoreapp2.1\P01Ages.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P01Ages\obj\Debug\netcoreapp2.1\P01Ages.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P01Ages\obj\Debug\netcoreapp2.1\P01Ages.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P01Ages\obj\Debug\netcoreapp2.1\P01Ages.dll
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P01Ages\obj\Debug\netcoreapp2.1\P01Ages.pdb

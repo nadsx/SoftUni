@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\01_CountSameValuesInArray\bin\Debug\netcoreapp2.1\01_CountSameValuesInArray.deps.json
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\01_CountSameValuesInArray\bin\Debug\netcoreapp2.1\01_CountSameValuesInArray.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\01_CountSameValuesInArray\bin\Debug\netcoreapp2.1\01_CountSameValuesInArray.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\01_CountSameValuesInArray\bin\Debug\netcoreapp2.1\01_CountSameValuesInArray.dll
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\01_CountSameValuesInArray\bin\Debug\netcoreapp2.1\01_CountSameValuesInArray.pdb
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\01_CountSameValuesInArray\obj\Debug\netcoreapp2.1\01_CountSameValuesInArray.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\01_CountSameValuesInArray\obj\Debug\netcoreapp2.1\01_CountSameValuesInArray.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\01_CountSameValuesInArray\obj\Debug\netcoreapp2.1\01_CountSameValuesInArray.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\01_CountSameValuesInArray\obj\Debug\netcoreapp2.1\01_CountSameValuesInArray.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\01_CountSameValuesInArray\obj\Debug\netcoreapp2.1\01_CountSameValuesInArray.dll
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\01_CountSameValuesInArray\obj\Debug\netcoreapp2.1\01_CountSameValuesInArray.pdb

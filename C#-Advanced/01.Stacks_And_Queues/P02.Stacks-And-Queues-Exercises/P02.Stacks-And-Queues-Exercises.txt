@@ -1,0 +1,723 @@
+1
+===========================
+
+			var commands = Console.ReadLine().Split().Select(int.Parse).ToArray();
+			var numbers = Console.ReadLine().Split().Select(int.Parse).ToArray();
+
+			Stack<int> stack = new Stack<int>(numbers);
+
+			//for (int i = 0; i < commands[0]; i++)
+			//	stack.Push(numbers[i]);
+			
+			int countOfNumbersToPopS = commands[1];
+			int searchedNumberX = commands[2];
+
+			for (int i = 0; i < countOfNumbersToPopS; i++)
+			{
+				stack.Pop();
+			}
+
+			if (stack.Contains(searchedNumberX))
+			{
+				Console.WriteLine("true");
+			}
+			else if(stack.Count == 0)
+			{
+				Console.WriteLine(0);
+			}
+			else
+			{
+				Console.WriteLine(stack.Min());
+			}
+
+2
+===========================
+
+			var commands = Console.ReadLine().Split().Select(int.Parse).ToArray();
+			var numbers = Console.ReadLine().Split().Select(int.Parse).ToArray();
+
+			Queue<int> queue = new Queue<int>(numbers);
+
+			//for (int i = 0; i < commands[0]; i++)
+			//	queue.Enqueue(numbers[i]);
+
+			int countOfNumbersToDequeueS = commands[1];
+			int searchedNumberX = commands[2];
+
+			for (int i = 0; i < countOfNumbersToDequeueS; i++)
+			{
+				queue.Dequeue();
+			}
+
+			if (queue.Contains(searchedNumberX))
+			{
+				Console.WriteLine("true");
+			}
+			else if(queue.Count == 0)
+			{
+				Console.WriteLine(0);
+			}
+			else
+			{
+				Console.WriteLine(queue.Min());
+			}
+
+3
+===========================
+
+			int n = int.Parse(Console.ReadLine());
+
+			Stack<int> stack = new Stack<int>();
+
+			for (int i = 0; i < n; i++)
+			{
+				int[] commandTokens = Console.ReadLine().Split().Select(int.Parse).ToArray();
+				int command = commandTokens[0];
+
+				if(command == 1)
+				{
+					int number = commandTokens[1];
+					stack.Push(number);
+				}
+
+				if (stack.Count > 0)
+				{
+					switch (command)
+					{
+						case 2:
+							stack.Pop();
+							break;
+						case 3:
+							Console.WriteLine(stack.Max());
+							break;
+						case 4:
+							Console.WriteLine(stack.Min());
+							break;
+					}
+				}
+			}
+
+			Console.WriteLine(string.Join(", ", stack));
+
+4
+===========================
+
+			int foodQuantity = int.Parse(Console.ReadLine());
+			int[] orders = Console.ReadLine().Split().Select(int.Parse).ToArray();
+			Queue<int> queue = new Queue<int>(orders);
+
+			Console.WriteLine(queue.Max());
+
+			int n = queue.Count;
+
+			for (int i = 0; i < n; i++)
+			{
+				if (foodQuantity - queue.Peek() >= 0)
+				{
+					foodQuantity -= queue.Dequeue();
+				}
+				else
+				{
+					break;
+				}
+			}
+
+			if (queue.Count == 0)
+			{
+				Console.WriteLine("Orders complete");
+			}
+			else
+			{
+				Console.Write("Orders left: ");
+				Console.WriteLine(string.Join(" ", queue));
+			}
+5
+===========================
+
+			int[] clothes = Console.ReadLine().Split().Select(int.Parse).ToArray();
+			int rackCapacity = int.Parse(Console.ReadLine());
+
+			Stack<int> clothesValues = new Stack<int>(clothes);
+
+			int racks = 1;
+			int sum = 0;
+
+			while (clothesValues.Any())
+			{
+				if(sum + clothesValues.Peek() <= rackCapacity)
+				{
+					sum += clothesValues.Pop();
+				}
+				else
+				{
+					sum = 0;
+					racks++;
+				}
+			}
+
+			Console.WriteLine(racks);
+
+6
+===========================
+
+			string[] carModels = Console.ReadLine().Split().ToArray();
+			Queue<string> cars = new Queue<string>(carModels);
+			Stack<string> servedCars = new Stack<string>();
+
+			string input = Console.ReadLine();
+
+			while (input != "End")
+			{
+				string[] commandTokens = input.Split("-").ToArray();
+				string command = commandTokens[0];
+
+				switch (command)
+				{
+					case "Service":
+						if(cars.Count > 0)
+						{
+							string currentVehicle = cars.Dequeue();
+							servedCars.Push(currentVehicle);
+							Console.WriteLine($"Vehicle {currentVehicle} got served.");
+						}
+						break;
+					case "CarInfo":
+						string carModelName = commandTokens[1];
+
+						string waitingOrServed = cars.Contains(carModelName) ?
+							"Still waiting for service." : "Served.";
+
+						Console.WriteLine(waitingOrServed);
+						break;
+					case "History":
+						Console.WriteLine(string.Join(", ", servedCars));
+						break;
+				}
+
+				input = Console.ReadLine();
+			}
+
+			if(cars.Count > 0)
+			{
+				Console.WriteLine($"Vehicles for service: {string.Join(", ", cars)}");
+			}
+
+			Console.WriteLine($"Served vehicles: {string.Join(", ", servedCars)}");
+
+7
+===========================
+
+			int pumpsCount = int.Parse(Console.ReadLine());
+
+			Queue<int> difference = new Queue<int>();
+
+			for (int i = 0; i < pumpsCount; i++)
+			{
+				int[] pumpProps = Console.ReadLine().Split().Select(int.Parse).ToArray();
+
+				difference.Enqueue(pumpProps[0] - pumpProps[1]);
+			}
+
+			int index = 0;
+
+			while (true)
+			{
+				Queue<int> copyDifference = new Queue<int>(difference);
+				int fuel = -1;
+
+				while (copyDifference.Any())
+				{
+					if (copyDifference.Peek() > 0 && fuel == -1)
+					{
+						fuel = copyDifference.Dequeue();
+						difference.Enqueue(difference.Dequeue());
+					}
+					else if (copyDifference.Peek() < 0 && fuel == -1)
+					{
+						copyDifference.Enqueue(copyDifference.Dequeue());
+						difference.Enqueue(difference.Dequeue());
+						index++;
+					}
+					else
+					{
+						fuel += copyDifference.Dequeue();
+
+						if (fuel < 0)
+						{
+							break;
+						}
+					}
+				}
+
+				if (fuel >= 0)
+				{
+					Console.WriteLine(index);
+					return;
+				}
+
+				index++;
+			}
+
+
+---------------------------
+
+			var pumpsCount = int.Parse(Console.ReadLine());
+			var pumpsAndDistances = new Queue<int[]>();
+
+			for (int i = 0; i < pumpsCount; i++)
+			{
+				var input = Console.ReadLine().Split().Select(int.Parse).ToArray();
+
+				pumpsAndDistances.Enqueue(input);
+			}
+
+			int index = 0;
+
+			while (true)
+			{
+				var totalFuel = 0;
+
+				foreach (var token in pumpsAndDistances)
+				{
+					var fuel = token[0];
+					var distance = token[1];
+					totalFuel += fuel - distance;
+
+					if (totalFuel < 0)
+					{
+						var currentTokens = pumpsAndDistances.Dequeue();
+						pumpsAndDistances.Enqueue(currentTokens);
+						index++;
+						break;
+					}
+				}
+
+				if (totalFuel >= 0)
+				{
+					break;
+				}
+			}
+
+			Console.WriteLine(index);
+
+---------------------------
+
+            int n = int.Parse(Console.ReadLine());
+            Queue<int[]> pumps = new Queue<int[]>();
+
+            for (int i = 0; i < n; i++)
+            {
+                pumps.Enqueue(Console.ReadLine()
+                    .Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
+                    .Select(int.Parse)
+                    .ToArray());
+            }
+
+            var truckFuel = 0;
+            var startIndex = 0;
+            var loopBottom = pumps.Count;
+
+            for (int i = 0; i <= loopBottom && startIndex < pumps.Count; i++)
+            {
+                var currentPump = pumps.Dequeue();
+                pumps.Enqueue(currentPump);
+                truckFuel += currentPump[0] - currentPump[1];
+
+                if (truckFuel < 0)
+                {
+                    startIndex = i + 1;
+                    loopBottom += pumps.Count;
+                    truckFuel = 0;
+                }
+            }
+
+            Console.WriteLine(startIndex);
+
+---------------------------
+
+			int pumpsCount = int.Parse(Console.ReadLine());
+			int startIndex = 0;
+			int truckFuel = 0;
+
+			for (int i = 0; i < pumpsCount; i++)
+			{
+				var pumpData = Console.ReadLine().Split().Select(int.Parse).ToArray();
+				int fuel = pumpData[0];
+				int distance = pumpData[1];
+
+				truckFuel += fuel - distance;
+
+				if(truckFuel < 0)
+				{
+					truckFuel = 0;
+					startIndex = i + 1;
+				}
+			}
+
+			Console.WriteLine(startIndex);
+
+
+8
+===========================
+
+			string sequenceOfParentheses = Console.ReadLine();
+
+			Stack<char> parentheses = new Stack<char>();
+
+			bool balanced = true;
+
+			foreach (var bracket in sequenceOfParentheses)
+			{
+				if (bracket == '{' || bracket == '[' || bracket == '(')
+				{
+					parentheses.Push(bracket);
+					continue;
+				}
+
+				if (parentheses.Count == 0 ||
+					bracket == '}' && parentheses.Pop() != '{' ||
+					bracket == ']' && parentheses.Pop() != '[' ||
+					bracket == ')' && parentheses.Pop() != '(')
+				{
+					balanced = false;
+					break;
+				}
+			}
+
+			Console.WriteLine(balanced ? "YES" : "NO");
+
+
+9
+===========================
+
+			int numberOfOperations = int.Parse(Console.ReadLine());
+			Stack<string> statesOfTexts = new Stack<string>();
+		
+			statesOfTexts.Push(string.Empty);
+
+			for (int i = 0; i < numberOfOperations; i++)
+			{
+				string[] tokens = Console.ReadLine().Split().ToArray();
+				string command = tokens[0];
+
+				switch (command)
+				{
+					case "1":
+						string textToAdd = tokens[1];
+						string lastText = statesOfTexts.Peek();
+						lastText += textToAdd;
+						statesOfTexts.Push(lastText);
+						break;
+					case "2":
+						int count = int.Parse(tokens[1]);
+						string textToCut = statesOfTexts.Peek();
+						textToCut = textToCut.Substring(0, textToCut.Length - count);
+						statesOfTexts.Push(textToCut);
+						break;
+					case "3":
+						int index = int.Parse(tokens[1]);
+						Console.WriteLine(statesOfTexts.Peek()[index - 1]);
+						break;
+					case "4":
+						statesOfTexts.Pop();
+						break;
+				}
+			}
+
+---------------------------
+
+			int commandCount = int.Parse(Console.ReadLine());
+
+			Stack<string> versions = new Stack<string>();
+			StringBuilder text = new StringBuilder();
+
+			for (int i = 0; i < commandCount; i++)
+			{
+				string[] commandProps = Console.ReadLine().Split();
+
+				string command = commandProps[0];
+
+				switch (command)
+				{
+					case "1":
+						versions.Push(text.ToString());
+						string textToAdd = commandProps[1];
+						text.Append(textToAdd);
+						break;
+					case "2":
+						versions.Push(text.ToString());
+						int removeElementsCount = int.Parse(commandProps[1]);
+						text.Remove(text.Length - removeElementsCount, removeElementsCount);
+						break;
+					case "3":
+						int index = int.Parse(commandProps[1]) - 1;
+						Console.WriteLine(text[index]);
+						break;
+					case "4":
+						text.Clear();
+						text.Append(versions.Pop());
+						break;
+					default:
+						break;
+				}
+			}
+
+---------------------------
+
+			int numberOfOperations = int.Parse(Console.ReadLine());
+			Stack<string> statesOfTexts = new Stack<string>();
+			string text = string.Empty;
+			statesOfTexts.Push(text);
+
+			for (int i = 0; i < numberOfOperations; i++)
+			{
+				string[] inputTokens = Console.ReadLine().Split().ToArray();
+				string command = inputTokens[0];
+
+				switch (command)
+				{
+					case "1":
+						text += inputTokens[1];
+						statesOfTexts.Push(text);
+						break;
+					case "2":
+						int count = int.Parse(inputTokens[1]);
+						text = text.Substring(0, text.Length - count);
+						statesOfTexts.Push(text);
+						break;
+					case "3":
+						int index = int.Parse(inputTokens[1]);
+						Console.WriteLine(text[index - 1]);
+						break;
+					case "4":
+						statesOfTexts.Pop();
+						text = statesOfTexts.Peek();
+						break;
+					default:
+						break;
+				}
+			}
+
+---------------------------
+
+       int numberOfLines = int.Parse(Console.ReadLine());
+            Stack<string> stack = new Stack<string>();
+
+            for (int i = 0; i < numberOfLines; i++)
+            {
+                string[] inputParts = Console.ReadLine().Split(' ');
+                string command = inputParts[0];
+                switch (command)
+                {
+                    case "1":
+                        string text = inputParts[1];
+                        if (stack.Count == 0)
+                        {
+                            stack.Push(text);
+                        }
+                        else
+                        {
+                            string lastText = stack.Peek();
+                            lastText += text;
+                            stack.Push(lastText);
+                        }
+                        break;
+                    case "2":
+                        int length = int.Parse(inputParts[1]);
+                        string textToCut = stack.Peek();
+                        textToCut = textToCut.Substring(0, textToCut.Length - length);
+                        stack.Push(textToCut);
+                        break;
+                    case "3":
+                        int index = int.Parse(inputParts[1]) - 1;
+                        Console.WriteLine(stack.Peek()[index]);
+                        break;
+                    case "4":
+                        stack.Pop();
+                        break;
+                }
+            }
+
+10
+===========================
+
+			int greenLight = int.Parse(Console.ReadLine());
+			int yellowLight = int.Parse(Console.ReadLine());
+			Queue<string> queue = new Queue<string>();
+			int passedCars = 0;
+
+			string input = Console.ReadLine();
+
+			while (input != "END")
+			{	
+				if(input != "green")
+				{
+					queue.Enqueue(input);
+				}
+				else 
+				{
+					int remainingSeconds = greenLight;
+					
+					while (remainingSeconds > 0 && queue.Count > 0)
+					{
+						string currentCar = queue.Peek();
+
+						if (currentCar.Length <= remainingSeconds)
+						{
+							remainingSeconds -= queue.Dequeue().Length;						
+						}
+						else if(currentCar.Length <= remainingSeconds + yellowLight)
+						{
+							queue.Dequeue();
+							remainingSeconds = 0;
+						}
+						else
+						{
+							string crashedCar = queue.Dequeue();
+							char hitChar = crashedCar[remainingSeconds + yellowLight];
+
+							Console.WriteLine("A crash happened!");
+							Console.WriteLine($"{crashedCar} was hit at {hitChar}.");
+							return;
+						}
+
+						passedCars++;
+					}				
+				}
+
+				input = Console.ReadLine();
+			}
+
+			Console.WriteLine("Everyone is safe.");
+			Console.WriteLine($"{passedCars} total cars passed the crossroads.");
+
+---------------------------
+Same - BUT more short
+
+			int greenLight = int.Parse(Console.ReadLine());
+			int yellowLight = int.Parse(Console.ReadLine());
+			Queue<string> queue = new Queue<string>();
+			int passedCars = 0;
+
+			string input = Console.ReadLine();
+
+			while (input != "END")
+			{
+				if (input != "green")
+				{
+					queue.Enqueue(input);
+				}
+				else
+				{
+					int remainingSeconds = greenLight;
+
+					while (remainingSeconds > 0 && queue.Count > 0)
+					{
+						string currentCar = queue.Dequeue();
+
+						if (currentCar.Length <= remainingSeconds)
+						{
+							remainingSeconds -= currentCar.Length;
+						}
+						else if (currentCar.Length <= remainingSeconds + yellowLight)
+						{
+							remainingSeconds = 0;
+						}
+						else
+						{
+							char hitedChar = currentCar[remainingSeconds + yellowLight];
+
+							Console.WriteLine("A crash happened!");
+							Console.WriteLine($"{currentCar} was hit at {hitedChar}.");
+							return;
+						}
+
+						passedCars++;
+					}
+				}
+
+				input = Console.ReadLine();
+			}
+
+			Console.WriteLine("Everyone is safe.");
+			Console.WriteLine($"{passedCars} total cars passed the crossroads.");
+
+11
+===========================
+
+			int bulletPrice = int.Parse(Console.ReadLine());
+			int barrelSize = int.Parse(Console.ReadLine());
+			var bullets = Console.ReadLine().Split().Select(int.Parse).ToArray();
+			var locks = Console.ReadLine().Split().Select(int.Parse).Reverse().ToArray();
+			int money = int.Parse(Console.ReadLine());
+
+			Stack<int> bulletsValue = new Stack<int>(bullets);
+			Stack<int> locksValue = new Stack<int>(locks);
+
+			int count = 0;
+			int bulletCount = bulletsValue.Count;
+
+			while (bulletsValue.Any() && locksValue.Any())
+			{
+				int bullet = bulletsValue.Pop();
+				int @lock = locksValue.Pop();
+
+				if (bullet > @lock)
+				{
+					Console.WriteLine("Ping!");
+					locksValue.Push(@lock);
+				}
+				else
+				{
+					Console.WriteLine("Bang!");
+				}
+
+				count++;
+
+				if (count == barrelSize && bulletsValue.Any())
+				{
+					Console.WriteLine("Reloading!");
+					count = 0;
+				}
+			}
+
+			if (locksValue.Any() == false)
+			{
+				int leftMoney = money - (bulletCount - bulletsValue.Count) * bulletPrice;
+				Console.WriteLine($"{bulletsValue.Count} bullets left. Earned ${leftMoney}");
+			}
+			else
+			{
+				Console.WriteLine($"Couldn't get through. Locks left: {locksValue.Count}");
+			}
+		
+12
+===========================
+
+			var firstLine = Console.ReadLine().Split().Select(int.Parse).Reverse().ToArray();
+			var secondLine = Console.ReadLine().Split().Select(int.Parse).ToArray();
+			Stack<int> cups = new Stack<int>(firstLine);
+			Stack<int> bottles = new Stack<int>(secondLine);
+			int wastedWater = 0;
+
+			while (cups.Count != 0 && bottles.Count != 0)
+			{
+				int currentCup = cups.Pop();
+				int currentBottle = bottles.Pop();
+
+				if (currentBottle >= currentCup)
+				{
+					wastedWater += currentBottle - currentCup;
+				}
+				else
+				{
+					currentCup -= currentBottle;
+					cups.Push(currentCup);
+				}
+			}
+
+			Console.WriteLine(cups.Count == 0
+				? $"Bottles: {string.Join(" ", bottles)}"
+				: $"Cups: {string.Join(" ", cups)}");
+			
+			Console.WriteLine($"Wasted litters of water: {wastedWater}");

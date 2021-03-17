@@ -1,0 +1,32 @@
+@media all and (max-width: 600px) {
+    ul.icons li {
+        font-size: 19px;
+    }
+
+    section.thumbnails {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    section.thumbnails > div {
+        width: 100%;
+    }
+
+    section.thumbnails > div a img {
+        max-height: 200px;
+        object-fit: cover;
+    }
+
+    section.thumbnails > div:first-child a:first-child img {
+        object-position: 0px -128px;
+    }
+
+    section.thumbnails > div:last-child a:last-child img {
+        object-position: 0px -236px;
+    }
+
+    footer p {
+        font-weight: bold;
+        color: #828282;
+    }
+}

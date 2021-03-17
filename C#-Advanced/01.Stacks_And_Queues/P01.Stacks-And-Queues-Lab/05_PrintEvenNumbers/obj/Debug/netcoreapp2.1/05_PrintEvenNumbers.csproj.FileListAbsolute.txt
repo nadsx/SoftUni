@@ -1,0 +1,10 @@
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\05_PrintEvenNumbers\bin\Debug\netcoreapp2.1\05_PrintEvenNumbers.deps.json
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\05_PrintEvenNumbers\bin\Debug\netcoreapp2.1\05_PrintEvenNumbers.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\05_PrintEvenNumbers\bin\Debug\netcoreapp2.1\05_PrintEvenNumbers.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\05_PrintEvenNumbers\bin\Debug\netcoreapp2.1\05_PrintEvenNumbers.dll
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\05_PrintEvenNumbers\bin\Debug\netcoreapp2.1\05_PrintEvenNumbers.pdb
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\05_PrintEvenNumbers\obj\Debug\netcoreapp2.1\05_PrintEvenNumbers.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\05_PrintEvenNumbers\obj\Debug\netcoreapp2.1\05_PrintEvenNumbers.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\05_PrintEvenNumbers\obj\Debug\netcoreapp2.1\05_PrintEvenNumbers.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\05_PrintEvenNumbers\obj\Debug\netcoreapp2.1\05_PrintEvenNumbers.dll
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\05_PrintEvenNumbers\obj\Debug\netcoreapp2.1\05_PrintEvenNumbers.pdb

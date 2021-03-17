@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Lab\04_MergeFiles\bin\Debug\netcoreapp2.1\04_MergeFiles.deps.json
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Lab\04_MergeFiles\bin\Debug\netcoreapp2.1\04_MergeFiles.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Lab\04_MergeFiles\bin\Debug\netcoreapp2.1\04_MergeFiles.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Lab\04_MergeFiles\bin\Debug\netcoreapp2.1\04_MergeFiles.dll
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Lab\04_MergeFiles\bin\Debug\netcoreapp2.1\04_MergeFiles.pdb
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Lab\04_MergeFiles\obj\Debug\netcoreapp2.1\04_MergeFiles.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Lab\04_MergeFiles\obj\Debug\netcoreapp2.1\04_MergeFiles.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Lab\04_MergeFiles\obj\Debug\netcoreapp2.1\04_MergeFiles.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Lab\04_MergeFiles\obj\Debug\netcoreapp2.1\04_MergeFiles.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Lab\04_MergeFiles\obj\Debug\netcoreapp2.1\04_MergeFiles.dll
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Lab\04_MergeFiles\obj\Debug\netcoreapp2.1\04_MergeFiles.pdb

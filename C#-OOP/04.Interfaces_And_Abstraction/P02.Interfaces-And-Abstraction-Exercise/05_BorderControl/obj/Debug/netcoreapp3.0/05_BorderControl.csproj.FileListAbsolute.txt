@@ -1,0 +1,11 @@
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\05_BorderControl\bin\Debug\netcoreapp3.0\05_BorderControl.exe
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\05_BorderControl\bin\Debug\netcoreapp3.0\05_BorderControl.deps.json
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\05_BorderControl\bin\Debug\netcoreapp3.0\05_BorderControl.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\05_BorderControl\bin\Debug\netcoreapp3.0\05_BorderControl.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\05_BorderControl\bin\Debug\netcoreapp3.0\05_BorderControl.dll
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\05_BorderControl\bin\Debug\netcoreapp3.0\05_BorderControl.pdb
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\05_BorderControl\obj\Debug\netcoreapp3.0\05_BorderControl.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\05_BorderControl\obj\Debug\netcoreapp3.0\05_BorderControl.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\05_BorderControl\obj\Debug\netcoreapp3.0\05_BorderControl.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\05_BorderControl\obj\Debug\netcoreapp3.0\05_BorderControl.dll
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\05_BorderControl\obj\Debug\netcoreapp3.0\05_BorderControl.pdb

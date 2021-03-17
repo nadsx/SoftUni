@@ -1,0 +1,21 @@
+C:\Users\ASUS NB\source\repos\Defining-Classes-Exercises\10_SoftUniParking\bin\Debug\netcoreapp2.1\10_SoftUniParking.deps.json
+C:\Users\ASUS NB\source\repos\Defining-Classes-Exercises\10_SoftUniParking\bin\Debug\netcoreapp2.1\10_SoftUniParking.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Defining-Classes-Exercises\10_SoftUniParking\bin\Debug\netcoreapp2.1\10_SoftUniParking.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Defining-Classes-Exercises\10_SoftUniParking\bin\Debug\netcoreapp2.1\10_SoftUniParking.dll
+C:\Users\ASUS NB\source\repos\Defining-Classes-Exercises\10_SoftUniParking\bin\Debug\netcoreapp2.1\10_SoftUniParking.pdb
+C:\Users\ASUS NB\source\repos\Defining-Classes-Exercises\10_SoftUniParking\obj\Debug\netcoreapp2.1\10_SoftUniParking.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Defining-Classes-Exercises\10_SoftUniParking\obj\Debug\netcoreapp2.1\10_SoftUniParking.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Defining-Classes-Exercises\10_SoftUniParking\obj\Debug\netcoreapp2.1\10_SoftUniParking.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Defining-Classes-Exercises\10_SoftUniParking\obj\Debug\netcoreapp2.1\10_SoftUniParking.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Defining-Classes-Exercises\10_SoftUniParking\obj\Debug\netcoreapp2.1\10_SoftUniParking.dll
+C:\Users\ASUS NB\source\repos\Defining-Classes-Exercises\10_SoftUniParking\obj\Debug\netcoreapp2.1\10_SoftUniParking.pdb
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Exercises\10_SoftUniParking\bin\Debug\netcoreapp2.1\10_SoftUniParking.deps.json
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Exercises\10_SoftUniParking\bin\Debug\netcoreapp2.1\10_SoftUniParking.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Exercises\10_SoftUniParking\bin\Debug\netcoreapp2.1\10_SoftUniParking.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Exercises\10_SoftUniParking\bin\Debug\netcoreapp2.1\10_SoftUniParking.dll
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Exercises\10_SoftUniParking\bin\Debug\netcoreapp2.1\10_SoftUniParking.pdb
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Exercises\10_SoftUniParking\obj\Debug\netcoreapp2.1\10_SoftUniParking.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Exercises\10_SoftUniParking\obj\Debug\netcoreapp2.1\10_SoftUniParking.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Exercises\10_SoftUniParking\obj\Debug\netcoreapp2.1\10_SoftUniParking.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Exercises\10_SoftUniParking\obj\Debug\netcoreapp2.1\10_SoftUniParking.dll
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Exercises\10_SoftUniParking\obj\Debug\netcoreapp2.1\10_SoftUniParking.pdb

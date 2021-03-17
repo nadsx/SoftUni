@@ -1,0 +1,200 @@
+1
+=======================================
+int firstNumber = int.Parse(Console.ReadLine());
+int secondNumber = int.Parse(Console.ReadLine());
+int thirdNumber = int.Parse(Console.ReadLine());
+int fourthNumber = int.Parse(Console.ReadLine());
+
+int result = (firstNumber + secondNumber) / thirdNumber * fourthNumber;
+
+Console.WriteLine(result);
+
+2
+=======================================
+int number = int.Parse(Console.ReadLine());
+
+int lastDigit = 0;
+int sumOfDigits = 0;
+
+while(number != 0)
+{
+	lastDigit = number % 10;
+	number /= 10;
+	sumOfDigits += lastDigit;
+}
+Console.WriteLine(sumOfDigits);
+
+
+3
+=======================================
+int numberOfPeople = int.Parse(Console.ReadLine());
+int capacity = int.Parse(Console.ReadLine());
+
+int courses = (int)Math.Ceiling((double)numberOfPeople / capacity);
+// if (numberOfpeople % capacity != 0)
+//{
+//	courses++;
+//}			
+Console.WriteLine(courses);
+
+
+4
+=======================================
+int numberOfChars = int.Parse(Console.ReadLine());
+
+int sumOfChars = 0;
+for (int i = 0; i < numberOfChars; i++)
+{
+	char letter = char.Parse(Console.ReadLine());
+
+	sumOfChars += letter;
+}
+
+Console.WriteLine($"The sum equals: {sumOfChars}");
+
+
+5
+=======================================
+int startIndex = int.Parse(Console.ReadLine());
+int endIndex = int.Parse(Console.ReadLine());
+
+for (int i = startIndex; i <= endIndex; i++)
+{
+	Console.Write((char)i + " ");
+}
+
+
+6
+=======================================
+int number = int.Parse(Console.ReadLine());
+
+for (char i = 'a'; i < 'a' + number; i++) // ne '<=' vkliuchitelno! 'a','b','c' 97, 98, 99
+{
+	for (char j = 'a'; j < 'a' + number; j++) // ako beshe '<=' vkliuchitelno shteshe da hvane i 'd' 100
+	{
+		for (char k = 'a'; k < 'a' + number; k++)
+		{
+			Console.WriteLine($"{i}{j}{k}");
+		}
+	}
+}
+
+7
+=======================================
+int n = int.Parse(Console.ReadLine());
+
+int waterTank = 0;
+
+for (int i = 0; i < n; i++)
+{
+	int quantitiesOfWater = int.Parse(Console.ReadLine());
+	
+	if (waterTank + quantitiesOfWater <= 255)
+	{
+	   waterTank += quantitiesOfWater;
+	}
+	else
+	{
+		Console.WriteLine("Insufficient capacity!");
+	}			
+}
+
+Console.WriteLine(waterTank);
+
+8
+=======================================
+int numberOfKegs = int.Parse(Console.ReadLine());
+string biggestKegModel = string.Empty;
+double biggestVolume = 0;
+
+
+for (int i = 0; i < numberOfKegs; i++)
+{
+	string model = Console.ReadLine();
+	double radius = double.Parse(Console.ReadLine());
+	int height = int.Parse(Console.ReadLine());
+
+	double singleKegVolume = Math.PI * Math.Pow(radius, 2) * height;
+
+	if (singleKegVolume > biggestVolume)
+	{
+		biggestVolume = singleKegVolume;
+		biggestKegModel = model;
+	}
+}
+Console.WriteLine(biggestKegModel);
+
+
+
+9
+=======================================
+int startingYield = int.Parse(Console.ReadLine());
+int days = 0;
+int yield = 0;
+
+while (startingYield >= 100)
+{
+	yield += startingYield - 26;
+	startingYield -= 10;
+	days++;
+}
+
+if(yield >= 26)
+{
+	yield -= 26;
+}
+Console.WriteLine(days);
+Console.WriteLine(yield);
+
+10
+=======================================
+int pokePowerN = int.Parse(Console.ReadLine());
+int distanceM = int.Parse(Console.ReadLine());
+int exhaustionY = int.Parse(Console.ReadLine());
+
+int discountedPokePower = pokePowerN;
+
+int targets = 0;
+
+while (discountedPokePower >= distanceM)
+{
+    discountedPokePower -= distanceM;
+	targets++;
+
+    if (discountedPokePower == pokePowerN * 0.5 && exhaustionY > 0)
+    {
+       discountedPokePower /= exhaustionY;
+    }         
+
+}
+Console.WriteLine(discountedPokePower);
+Console.WriteLine(targets);
+
+11
+=======================================
+int numberOfSnowballs = int.Parse(Console.ReadLine());
+
+int snowballSnow = 0;
+int snowballTime = 0;
+double snowballQuality = 0;
+
+BigInteger snowballValue = 0;
+
+for (int i = 0; i < numberOfSnowballs; i++)
+{
+	int snow = int.Parse(Console.ReadLine());
+	int time = int.Parse(Console.ReadLine());
+	int quality = int.Parse(Console.ReadLine());
+
+	BigInteger newSnowballValue = BigInteger.Pow((snow / time), quality);
+        // big integer, степента може да стигне 1000, и числото става доста голямо, при този тест.
+	if (newSnowballValue >= snowballValue)
+	{
+		snowballValue = newSnowballValue;
+		snowballSnow = snow;
+		snowballTime = time;
+		snowballQuality = quality;
+	}
+}
+Console.WriteLine($"{snowballSnow} : {snowballTime} = {snowballValue} ({snowballQuality})");
+

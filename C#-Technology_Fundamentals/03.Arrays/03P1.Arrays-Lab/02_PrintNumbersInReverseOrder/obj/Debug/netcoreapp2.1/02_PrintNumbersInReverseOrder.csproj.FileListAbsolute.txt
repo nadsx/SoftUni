@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Arrays-Lab\02_PrintNumbersInReverseOrder\bin\Debug\netcoreapp2.1\02_PrintNumbersInReverseOrder.deps.json
+C:\Users\ASUS NB\source\repos\Arrays-Lab\02_PrintNumbersInReverseOrder\bin\Debug\netcoreapp2.1\02_PrintNumbersInReverseOrder.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Arrays-Lab\02_PrintNumbersInReverseOrder\bin\Debug\netcoreapp2.1\02_PrintNumbersInReverseOrder.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Arrays-Lab\02_PrintNumbersInReverseOrder\bin\Debug\netcoreapp2.1\02_PrintNumbersInReverseOrder.dll
+C:\Users\ASUS NB\source\repos\Arrays-Lab\02_PrintNumbersInReverseOrder\bin\Debug\netcoreapp2.1\02_PrintNumbersInReverseOrder.pdb
+C:\Users\ASUS NB\source\repos\Arrays-Lab\02_PrintNumbersInReverseOrder\obj\Debug\netcoreapp2.1\02_PrintNumbersInReverseOrder.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Arrays-Lab\02_PrintNumbersInReverseOrder\obj\Debug\netcoreapp2.1\02_PrintNumbersInReverseOrder.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Arrays-Lab\02_PrintNumbersInReverseOrder\obj\Debug\netcoreapp2.1\02_PrintNumbersInReverseOrder.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Arrays-Lab\02_PrintNumbersInReverseOrder\obj\Debug\netcoreapp2.1\02_PrintNumbersInReverseOrder.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Arrays-Lab\02_PrintNumbersInReverseOrder\obj\Debug\netcoreapp2.1\02_PrintNumbersInReverseOrder.dll
+C:\Users\ASUS NB\source\repos\Arrays-Lab\02_PrintNumbersInReverseOrder\obj\Debug\netcoreapp2.1\02_PrintNumbersInReverseOrder.pdb

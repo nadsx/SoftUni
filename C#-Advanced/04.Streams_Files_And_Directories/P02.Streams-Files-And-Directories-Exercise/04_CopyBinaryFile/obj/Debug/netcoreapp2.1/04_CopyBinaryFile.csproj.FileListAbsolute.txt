@@ -1,0 +1,12 @@
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\04_CopyBinaryFile\bin\Debug\netcoreapp2.1\copyMe.png
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\04_CopyBinaryFile\bin\Debug\netcoreapp2.1\04_CopyBinaryFile.deps.json
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\04_CopyBinaryFile\bin\Debug\netcoreapp2.1\04_CopyBinaryFile.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\04_CopyBinaryFile\bin\Debug\netcoreapp2.1\04_CopyBinaryFile.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\04_CopyBinaryFile\bin\Debug\netcoreapp2.1\04_CopyBinaryFile.dll
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\04_CopyBinaryFile\bin\Debug\netcoreapp2.1\04_CopyBinaryFile.pdb
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\04_CopyBinaryFile\obj\Debug\netcoreapp2.1\04_CopyBinaryFile.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\04_CopyBinaryFile\obj\Debug\netcoreapp2.1\04_CopyBinaryFile.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\04_CopyBinaryFile\obj\Debug\netcoreapp2.1\04_CopyBinaryFile.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\04_CopyBinaryFile\obj\Debug\netcoreapp2.1\04_CopyBinaryFile.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\04_CopyBinaryFile\obj\Debug\netcoreapp2.1\04_CopyBinaryFile.dll
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\04_CopyBinaryFile\obj\Debug\netcoreapp2.1\04_CopyBinaryFile.pdb

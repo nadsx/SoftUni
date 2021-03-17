@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\01_BasicStackOperations\bin\Debug\netcoreapp2.1\01_BasicStackOperations.deps.json
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\01_BasicStackOperations\bin\Debug\netcoreapp2.1\01_BasicStackOperations.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\01_BasicStackOperations\bin\Debug\netcoreapp2.1\01_BasicStackOperations.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\01_BasicStackOperations\bin\Debug\netcoreapp2.1\01_BasicStackOperations.dll
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\01_BasicStackOperations\bin\Debug\netcoreapp2.1\01_BasicStackOperations.pdb
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\01_BasicStackOperations\obj\Debug\netcoreapp2.1\01_BasicStackOperations.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\01_BasicStackOperations\obj\Debug\netcoreapp2.1\01_BasicStackOperations.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\01_BasicStackOperations\obj\Debug\netcoreapp2.1\01_BasicStackOperations.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\01_BasicStackOperations\obj\Debug\netcoreapp2.1\01_BasicStackOperations.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\01_BasicStackOperations\obj\Debug\netcoreapp2.1\01_BasicStackOperations.dll
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\01_BasicStackOperations\obj\Debug\netcoreapp2.1\01_BasicStackOperations.pdb

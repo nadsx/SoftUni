@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Lists-More-Exercises\03_TakeSkipRope\bin\Debug\netcoreapp2.1\03_TakeSkipRope.deps.json
+C:\Users\ASUS NB\source\repos\Lists-More-Exercises\03_TakeSkipRope\bin\Debug\netcoreapp2.1\03_TakeSkipRope.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Lists-More-Exercises\03_TakeSkipRope\bin\Debug\netcoreapp2.1\03_TakeSkipRope.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Lists-More-Exercises\03_TakeSkipRope\bin\Debug\netcoreapp2.1\03_TakeSkipRope.dll
+C:\Users\ASUS NB\source\repos\Lists-More-Exercises\03_TakeSkipRope\bin\Debug\netcoreapp2.1\03_TakeSkipRope.pdb
+C:\Users\ASUS NB\source\repos\Lists-More-Exercises\03_TakeSkipRope\obj\Debug\netcoreapp2.1\03_TakeSkipRope.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Lists-More-Exercises\03_TakeSkipRope\obj\Debug\netcoreapp2.1\03_TakeSkipRope.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Lists-More-Exercises\03_TakeSkipRope\obj\Debug\netcoreapp2.1\03_TakeSkipRope.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Lists-More-Exercises\03_TakeSkipRope\obj\Debug\netcoreapp2.1\03_TakeSkipRope.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Lists-More-Exercises\03_TakeSkipRope\obj\Debug\netcoreapp2.1\03_TakeSkipRope.dll
+C:\Users\ASUS NB\source\repos\Lists-More-Exercises\03_TakeSkipRope\obj\Debug\netcoreapp2.1\03_TakeSkipRope.pdb

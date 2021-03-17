@@ -1,0 +1,10 @@
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\09_SumOfOddNumbers\bin\Debug\netcoreapp2.1\09_SumOfOddNumbers.deps.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\09_SumOfOddNumbers\bin\Debug\netcoreapp2.1\09_SumOfOddNumbers.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\09_SumOfOddNumbers\bin\Debug\netcoreapp2.1\09_SumOfOddNumbers.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\09_SumOfOddNumbers\bin\Debug\netcoreapp2.1\09_SumOfOddNumbers.dll
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\09_SumOfOddNumbers\bin\Debug\netcoreapp2.1\09_SumOfOddNumbers.pdb
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\09_SumOfOddNumbers\obj\Debug\netcoreapp2.1\09_SumOfOddNumbers.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\09_SumOfOddNumbers\obj\Debug\netcoreapp2.1\09_SumOfOddNumbers.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\09_SumOfOddNumbers\obj\Debug\netcoreapp2.1\09_SumOfOddNumbers.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\09_SumOfOddNumbers\obj\Debug\netcoreapp2.1\09_SumOfOddNumbers.dll
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\09_SumOfOddNumbers\obj\Debug\netcoreapp2.1\09_SumOfOddNumbers.pdb

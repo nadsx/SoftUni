@@ -1,0 +1,327 @@
+1
+===========================
+
+            using(var reader = new StreamReader("Input.txt"))
+            {
+                using (var writer = new StreamWriter("Output.txt"))
+                {
+                    int counter = 0;
+
+                    while (!reader.EndOfStream)
+                    {
+                        string line = reader.ReadLine();
+
+                        if (counter % 2 == 1)
+                        {
+                            writer.WriteLine(line);
+                        }
+
+                        counter++;
+                    }
+                }
+            }
+
+---------------------------
+
+			using(var reader = new StreamReader("../../../Input.txt"))
+			{
+				int counter = 0;
+
+				while (true)
+				{
+					string currentLine = reader.ReadLine();
+
+					if(currentLine == null)
+					{
+						break;
+					}
+
+					if(counter % 2 != 0)
+					{
+						Console.WriteLine(currentLine);
+					}
+
+					counter++;
+				}
+			}
+
+---------------------------
+
+          using (var reader = new StreamReader(@"Input.txt"))
+            {
+                using (var writer = new StreamWriter("Output.txt"))
+                {
+                    int counter = 0;
+
+                    while (true)
+                    {
+                        var currentLine = reader.ReadLine();
+
+                        if (currentLine == null)
+                        {
+                            break;
+                        }
+
+                        if (counter % 2 == 1)
+                        {
+                            writer.WriteLine(currentLine);
+                        }
+
+                        counter++;
+                    }
+                }
+            }
+
+2
+===========================
+
+            using (var reader = new StreamReader("Input.txt"))
+            {
+                using (var writer = new StreamWriter("Output.txt"))
+                {
+                    int counter = 1;
+
+                    while (!reader.EndOfStream)
+                    {
+                        string line = reader.ReadLine();
+                        writer.WriteLine($"{counter}. {line}");
+                        counter++;
+                    }
+                }
+            }
+
+---------------------------
+			using(var reader = new StreamReader("Input.txt"))
+			{
+				using (var writer = new StreamWriter("Output.txt", true))
+				{
+					int counter = 1;
+
+					while (true)
+					{
+						string currentLine = reader.ReadLine();
+
+						if (currentLine == null)
+						{
+							break;
+						}
+
+						currentLine = $"{counter}. {currentLine}";
+						counter++;
+
+						writer.WriteLine(currentLine);
+					}
+				}
+			}
+
+---------------------------
+
+       using (var reader = new StreamReader(@"Input.txt"))
+            {
+                using (var writer = new StreamWriter("Output.txt"))
+                {
+                    int counter = 1;
+
+                    while (true)
+                    {
+                        var line = reader.ReadLine();
+                        if (line == null)
+                        {
+                            break;
+                        }
+
+                        line = $"{counter}. {line}";
+
+                        writer.WriteLine(line);
+
+                        counter++;
+                    }
+                }
+            }
+
+3
+===========================
+
+			var wordsDict = new Dictionary<string, int>();
+
+			using (var reader = new StreamReader("words.txt"))
+			{
+				while (true)
+				{
+					string currentLine = reader.ReadLine();
+
+					if (currentLine == null)
+					{
+						break;
+					}
+
+					string[] words = currentLine.Split().ToArray();
+
+					foreach (var word in words)
+					{
+						if (!wordsDict.ContainsKey(word))
+						{
+							wordsDict.Add(word.ToLower(), 0);
+						}
+					}
+				}
+			}
+
+			using (var reader = new StreamReader("text.txt"))
+			{
+				while (true)
+				{
+					string currentLine = reader.ReadLine();
+
+					if (currentLine == null)
+					{
+						break;
+					}
+
+					string[] words = currentLine
+					.Split(new char[] { ' ', ',', '?', ';', '-', '.' }, StringSplitOptions.RemoveEmptyEntries)
+					.ToArray();
+
+					foreach (var word in words)
+					{
+                        string currentWord = word.ToLower();
+
+                        if (wordsDict.ContainsKey(currentWord))
+						{
+							wordsDict[currentWord]++;
+						}
+					}
+				}
+			}
+
+			using (var writer = new StreamWriter("Output.txt"))
+			{
+				foreach (var word in wordsDict.OrderByDescending(x => x.Value))
+				{
+					var currentLine = (word.Key + " - " + word.Value);
+
+					writer.WriteLine(currentLine);
+				}
+			}
+
+4
+===========================
+
+			using (var firstReader = new StreamReader("Input1.txt"))
+			{
+				using (var secondReader = new StreamReader("Input2.txt"))
+				{
+					using (var writer = new StreamWriter("Output.txt"))
+					{
+						while (true)
+						{
+							string firstFileLine = firstReader.ReadLine();
+							string secondFileLine = secondReader.ReadLine();
+
+							if (firstFileLine == null && secondFileLine == null)
+							{
+								break;
+							}
+
+							if (firstFileLine != null)
+							{
+								writer.WriteLine(firstFileLine);
+							}
+
+							if (firstFileLine != null) 
+							{
+								writer.WriteLine(secondFileLine);
+							}
+						}
+					}
+				}
+			}
+
+5
+===========================
+
+			int fileCount = int.Parse(Console.ReadLine());
+
+			using(var reader = new FileStream("sliceMe.txt", FileMode.Open))
+			{
+				double partLength = Math.Ceiling((double)reader.Length / fileCount);
+
+				for (int i = 1; i <= fileCount; i++)
+				{
+					string currentFileName = $"Part-{i}.txt";
+
+					int currentFileTotalBytes = 0;
+
+					using (var writer = new FileStream($"{currentFileName}", FileMode.Create))
+					{
+						while (true)
+						{
+							byte[] buffer = new byte[4096];
+
+							int totalReadBytes = reader.Read(buffer, 0, buffer.Length);
+
+							if (totalReadBytes == 0)
+							{
+								break;
+							}
+
+							currentFileTotalBytes += totalReadBytes;
+
+							writer.Write(buffer, 0, totalReadBytes);
+
+							if (currentFileTotalBytes >= partLength)
+							{
+								break;
+							}
+						}
+					}
+				}
+			}
+
+---------------------------
+
+    using (var reader = new FileStream("sliceMe.txt", FileMode.Open))
+            {
+                var filePart = (int)Math.Ceiling(reader.Length / 4.0);
+                var buffer = new byte[4096];
+                for (int i = 1; i <= 4; i++)
+                {
+                    var totalWrite = 0;
+                    var fileName = $"slice - {i}.txt";
+                    using (var writer = new FileStream($"{fileName}", FileMode.Create))
+                    {
+                        while (true)
+                        {
+                            var readerLength = Math.Min(buffer.Length,filePart-totalWrite);
+                            var currentRead = reader.Read(buffer, 0, readerLength);
+                            if (currentRead==0)
+                            {
+                                return;
+                            }
+
+                            writer.Write(buffer,0,currentRead);
+                            totalWrite += currentRead;
+                            if (totalWrite>=filePart)
+                            {
+                                break;
+                            }
+                        }
+                    }
+                }
+            }
+
+6
+===========================
+
+ 	    string[] files = Directory.GetFiles("../../../TestFolder");
+            double sum = 0;
+
+            foreach (string file in files)
+            {
+                FileInfo fileInfo = new FileInfo(file);
+                sum += fileInfo.Length;
+            }
+
+            sum = sum / 1024 / 1024;
+            //prevrushtane v Kb posle v Mb
+            File.WriteAllText("Output.txt", sum.ToString());

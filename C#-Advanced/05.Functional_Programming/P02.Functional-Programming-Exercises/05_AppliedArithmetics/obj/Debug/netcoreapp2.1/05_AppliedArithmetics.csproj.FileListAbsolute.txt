@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\05_AppliedArithmetics\bin\Debug\netcoreapp2.1\05_AppliedArithmetics.deps.json
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\05_AppliedArithmetics\bin\Debug\netcoreapp2.1\05_AppliedArithmetics.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\05_AppliedArithmetics\bin\Debug\netcoreapp2.1\05_AppliedArithmetics.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\05_AppliedArithmetics\bin\Debug\netcoreapp2.1\05_AppliedArithmetics.dll
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\05_AppliedArithmetics\bin\Debug\netcoreapp2.1\05_AppliedArithmetics.pdb
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\05_AppliedArithmetics\obj\Debug\netcoreapp2.1\05_AppliedArithmetics.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\05_AppliedArithmetics\obj\Debug\netcoreapp2.1\05_AppliedArithmetics.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\05_AppliedArithmetics\obj\Debug\netcoreapp2.1\05_AppliedArithmetics.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\05_AppliedArithmetics\obj\Debug\netcoreapp2.1\05_AppliedArithmetics.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\05_AppliedArithmetics\obj\Debug\netcoreapp2.1\05_AppliedArithmetics.dll
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\05_AppliedArithmetics\obj\Debug\netcoreapp2.1\05_AppliedArithmetics.pdb

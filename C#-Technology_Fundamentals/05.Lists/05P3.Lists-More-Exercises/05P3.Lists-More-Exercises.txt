@@ -1,0 +1,384 @@
+1
+============================
+
+			List<int> numbers = Console.ReadLine().Split().Select(int.Parse).ToList();
+			List<char> text = Console.ReadLine().ToList();
+
+			int digitsSum = 0;
+
+			for (int i = 0; i < numbers.Count; i++)
+			{
+				while (numbers[i] > 0)
+				{
+					digitsSum += numbers[i] % 10;
+					numbers[i] /= 10;
+				}
+				if (digitsSum < text.Count)
+				{
+					Console.Write(text[digitsSum]);
+					text.RemoveAt(digitsSum);
+				}
+				else
+				{
+					digitsSum = digitsSum - text.Count;
+					Console.Write(text[digitsSum]);
+					text.RemoveAt(digitsSum);
+				}
+
+				digitsSum = 0;
+			}
+
+			Console.WriteLine();
+
+2
+============================
+
+List<double> minutes = Console.ReadLine().Split().Select(double.Parse).ToList();
+			double leftCarTime = 0;
+			double rightCarTime = 0;
+
+			for (int i = 0; i < minutes.Count / 2; i++)
+			{
+				if (minutes[i] == 0)
+				{
+					leftCarTime *= 0.8;
+				}
+
+				leftCarTime += minutes[i];
+			}
+
+			for (int i = minutes.Count - 1; i > minutes.Count / 2; i--)
+			{
+				if (minutes[i] == 0)
+				{
+					rightCarTime *= 0.8;
+				}
+
+				rightCarTime += minutes[i];
+			}
+
+			if (leftCarTime < rightCarTime)
+			{
+				Console.WriteLine($"The winner is left with total time: {leftCarTime}");
+			}
+			else 
+			{
+				Console.WriteLine($"The winner is right with total time: {rightCarTime}");
+			}
+        
+3
+============================
+FINAL ONE
+---------
+static void Main(string[] args)
+		{
+			char[] messageIntoChars = Console.ReadLine().ToArray();
+
+			char[] chars = messageIntoChars
+			.Where(c => !char.IsDigit(c))
+			.ToArray();
+
+			int[] digits = messageIntoChars
+				.Where(d => char.IsDigit(d))
+				.Select(d => int.Parse(d.ToString()))
+				.ToArray();
+				
+                         //.Where((digit, index))
+			//A function to test each source element for a condition; 
+			//the second parameter of the function represents the index 
+			//of the source element.
+			
+			var takeList = digits.Where((digit, index) => index % 2 == 0).ToList(); // s (digit, index) vzima chislata na cheten index
+			var skipList = digits.Where((digit, index) => index % 2 == 1).ToList(); // bez "digit" (index) vzima chsilata, koito sa chetni 
+
+			int totalSkipCount = 0;
+			string finalMessage = string.Empty;
+
+			for (int i = 0; i < takeList.Count; i++)
+			{
+				int takeCount = takeList[i];
+				int skipCount = skipList[i];
+
+				finalMessage += new string(chars // <== CHARS !!NQMA da skip-vame i take-vame chisla!!!
+					 .Skip(totalSkipCount) // 1vonachalno nishto ne Skip-va, minavame prez letters chrez SUMATA na predishniq Skip i Take(count)!!
+					 .Take(takeCount) // totalSkipCount-a otiva za sledvashtoto vurtene!!!
+					 .ToArray());
+
+				totalSkipCount += takeCount + skipCount;
+			}
+
+			Console.WriteLine(finalMessage);
+		}
+	
+// ZASHTOTO, ako Take-va 1vo i Skip-va sled tova moje da obhvane Take borikata 
+//i shte poluchim prazen string ""!!!!!	
+			
+------------------------------
+
+static void Main(string[] args)
+		{
+           char[] messageIntoChars = Console.ReadLine().ToArray();
+
+			char[] chars = messageIntoChars
+			.Where(c => !char.IsDigit(c))
+			.ToArray();
+
+			int[] digits = messageIntoChars
+				.Where(d => char.IsDigit(d))
+				.Select(d => int.Parse(d.ToString()))
+				.ToArray();
+
+			List<int> takeList = new List<int>();
+			List<int> skipList = new List<int>();
+
+			for (int i = 0; i < digits.Length; i++)
+			{
+				if (i % 2 == 0)
+				{
+					takeList.Add(digits[i]);
+				}
+				else
+				{
+					skipList.Add(digits[i]);
+				}
+			}
+
+			int totalSkipCount = 0;
+			string finalMessage = string.Empty;
+
+			for (int i = 0; i < takeList.Count; i++)
+			{
+				int takeCount = takeList[i];
+				int skipCount = skipList[i];
+
+				finalMessage += new string(chars // <== CHARS !!NQMA da skip-vame i take-vame chisla!!!
+					 .Skip(totalSkipCount) // 1vonachalno nishto ne Skip-va, minavame prez letters chrez SUMATA na predishniq Skip i Take(count)!!
+					 .Take(takeCount) // totalSkipCount-a otiva za sledvashtoto vurtene!!!
+					 .ToArray());
+
+				totalSkipCount += takeCount + skipCount;
+			}
+
+			Console.WriteLine(finalMessage);
+		}
+			
+// ZASHTOTO, ako Take-va 1vo i Skip-va sled tova moje da obhvane Take borikata 
+//i shte poluchim prazen string ""!!!!!
+
+-------------------------------
+
+            var inputString = Console.ReadLine().ToList();
+           
+            var digits = inputString
+			.Where(symbol => char.IsDigit(symbol))
+			.Select(symbol => int.Parse(symbol.ToString()))
+			.ToList();
+			
+            var nonDigits = inputString
+			.Where(symbol => !char.IsDigit(symbol))
+			.ToList();
+			
+			//.Where((digit, index))
+			//A function to test each source element for a condition; 
+			//the second parameter of the function represents the index 
+			//of the source element.
+			
+            var takeList = digits.Where((digit, index) => index % 2 == 0).ToList(); // s (digit, index) vzima chislata na cheten index
+            var skipList = digits.Where((digit, index) => index % 2 == 1).ToList(); // bez "digit" (index) vzima chsilata, koito sa chetni 
+			
+            var result = string.Empty;
+            var totalSkip = 0;
+
+            for (int i = 0; i < takeList.Count; i++)
+            {
+                var skip = skipList[i];
+                var take = takeList[i];
+				
+                var currentResult = new string(nonDigits // s "+=" ne stava, zashtoto ne e inicializirana promenlivata => var currentResult = "";
+				.Skip(totalSkip)
+				.Take(take)
+				.ToArray());
+				
+                result = string.Concat(result, currentResult);
+                totalSkip += skip + take;
+            }
+
+            Console.WriteLine(result);
+
+-----------------------------
+
+var rawMessage = Console.ReadLine()
+                .ToCharArray()
+                .ToList();
+				
+            var message = rawMessage
+                .Where(x => !IsDigit(x))
+                .ToList();
+				
+            var numList = rawMessage
+                .Where(x => IsDigit(x))
+                .Select(x => int.Parse(x.ToString()))
+                .ToList();
+				
+            var takeList = numList
+                .Where((x, i) => i % 2 == 0)
+                .ToList();
+				
+            var skipList = numList
+                .Where((x, i) => i % 2 == 1)
+                .ToList();
+				
+            string result = string.Empty;
+			
+            foreach (var item in takeList.Zip(skipList, Tuple.Create))
+            {
+                result += string.Join(null, message.Select(x => x).Take(item.Item1));
+                message = message.Skip(item.Item1 + item.Item2).ToList();
+            }
+			
+            Console.WriteLine(result);
+        }
+
+        static bool IsDigit(char symbol)
+            => '0' <= symbol && symbol <= '9';   
+
+
+-----------------------------
+
+  string str = Console.ReadLine();
+  
+            var numbersList = str
+                .Where(c => c >= '0' && c <= '9')
+                .Select(c => c - '0')
+                .ToList();
+				
+            var nonNumbersList = str
+                .Where(c => c < '0' || c > '9')
+                .ToList();
+				
+            var takeList = numbersList
+                .Where((t, i) => i % 2 == 0)
+                .ToList();
+				
+            var skipList = numbersList
+                .Where((t, i) => i % 2 != 0)
+                .ToList();
+				
+            string result = string.Empty;
+			
+            int currentIndex = 0;
+			
+            for (int i = 0; i < takeList.Count; i++)
+            {
+                result += new string(nonNumbersList
+                    .Skip(currentIndex)
+                    .Take(takeList[i])
+                    .ToArray());
+                currentIndex += skipList[i] + takeList[i];
+            }
+            Console.WriteLine(result);
+
+4
+============================
+	
+	    static void Main(string[] args)
+		{
+			// PREMAHVANE NA INDEXI OT ARRAY!!!!
+			// maxArray = maxArray
+			//.Except(new[] {maxArray[maxArray.Length - 1], maxArray[maxArray.Length - 2]}).ToArray();
+
+			List<int> firstNumbersList = Console.ReadLine().Split().Select(int.Parse).ToList();
+			List<int> secondNumbersList = Console.ReadLine().Split().Select(int.Parse).ToList();
+
+			List<int> maxList = new List<int>();
+
+			if(firstNumbersList.Count > secondNumbersList.Count)
+			{
+				maxList = firstNumbersList;
+			}
+			else
+			{
+				maxList = secondNumbersList;
+				maxList.Reverse();
+			}
+
+			List<int> rangeList = new List<int>();
+			rangeList = maxList.GetRange(maxList.Count - 2, 2); 
+
+			rangeList.Sort();
+
+			if(firstNumbersList.Count > secondNumbersList.Count)
+			{
+				firstNumbersList.RemoveRange(firstNumbersList.Count - 2, 2);
+				secondNumbersList.Reverse();
+			}
+			else
+			{
+				secondNumbersList.RemoveRange(secondNumbersList.Count - 2, 2);
+				secondNumbersList.Reverse();
+			}
+
+			List<int> mixedList = new List<int>();
+
+			for (int i = 0; i < firstNumbersList.Count; i++)
+			{
+				mixedList.Add(firstNumbersList[i]);
+				mixedList.Add(secondNumbersList[i]);
+			}
+
+			List<int> finalList = mixedList.FindAll(x => x > rangeList[0] && x < rangeList[1]);
+			finalList.Sort();
+
+			Console.WriteLine(string.Join(" ", finalList));
+		}
+
+5
+============================
+
+                        double savings = double.Parse(Console.ReadLine());
+			List<int> drumsList = Console.ReadLine().Split().Select(int.Parse).ToList();	
+			List<int> copyDrumsList = drumsList.GetRange(0, drumsList.Count);
+			
+			// List => List<int> copyDrumsList = drumsList.Take(drumsList.Count).ToList();		
+			//Array COPY => int[] copyDrumsList = (int[]) drumsList.Clone()
+			
+			string input = Console.ReadLine();
+
+			while (input != "Hit it again, Gabsy!")
+			{
+				int hitPower = int.Parse(input);
+
+				for (int i = 0; i < drumsList.Count; i++)
+				{
+					drumsList[i] -= hitPower;
+				}
+
+				if (drumsList.Exists(x => x <= 0))
+				{
+					for (int i = 0; i < drumsList.Count; i++)
+					{
+						if (drumsList[i] <= 0)
+						{
+							int price = copyDrumsList[i] * 3;
+
+							if (price > savings)
+							{
+								drumsList.RemoveAt(i);
+								copyDrumsList.RemoveAt(i);
+							}
+							else
+							{
+								savings -= price;
+								drumsList[i] = copyDrumsList[i];
+							}
+						}
+					}
+				}
+
+				input = Console.ReadLine();
+			}
+
+			Console.WriteLine(string.Join(" ", drumsList));
+			Console.WriteLine($"Gabsy has {savings:f2}lv.");
+
+

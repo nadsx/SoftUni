@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Multidimensional-Arrays-Exercises\10_RadioactiveMutantVampireBunnies\bin\Debug\netcoreapp2.1\10_RadioactiveMutantVampireBunnies.deps.json
+C:\Users\ASUS NB\source\repos\Multidimensional-Arrays-Exercises\10_RadioactiveMutantVampireBunnies\bin\Debug\netcoreapp2.1\10_RadioactiveMutantVampireBunnies.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Multidimensional-Arrays-Exercises\10_RadioactiveMutantVampireBunnies\bin\Debug\netcoreapp2.1\10_RadioactiveMutantVampireBunnies.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Multidimensional-Arrays-Exercises\10_RadioactiveMutantVampireBunnies\bin\Debug\netcoreapp2.1\10_RadioactiveMutantVampireBunnies.dll
+C:\Users\ASUS NB\source\repos\Multidimensional-Arrays-Exercises\10_RadioactiveMutantVampireBunnies\bin\Debug\netcoreapp2.1\10_RadioactiveMutantVampireBunnies.pdb
+C:\Users\ASUS NB\source\repos\Multidimensional-Arrays-Exercises\10_RadioactiveMutantVampireBunnies\obj\Debug\netcoreapp2.1\10_RadioactiveMutantVampireBunnies.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Multidimensional-Arrays-Exercises\10_RadioactiveMutantVampireBunnies\obj\Debug\netcoreapp2.1\10_RadioactiveMutantVampireBunnies.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Multidimensional-Arrays-Exercises\10_RadioactiveMutantVampireBunnies\obj\Debug\netcoreapp2.1\10_RadioactiveMutantVampireBunnies.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Multidimensional-Arrays-Exercises\10_RadioactiveMutantVampireBunnies\obj\Debug\netcoreapp2.1\10_RadioactiveMutantVampireBunnies.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Multidimensional-Arrays-Exercises\10_RadioactiveMutantVampireBunnies\obj\Debug\netcoreapp2.1\10_RadioactiveMutantVampireBunnies.dll
+C:\Users\ASUS NB\source\repos\Multidimensional-Arrays-Exercises\10_RadioactiveMutantVampireBunnies\obj\Debug\netcoreapp2.1\10_RadioactiveMutantVampireBunnies.pdb

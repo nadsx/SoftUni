@@ -1,0 +1,10 @@
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Exercises\08_CarSalesman\bin\Debug\netcoreapp2.1\08_CarSalesman.deps.json
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Exercises\08_CarSalesman\bin\Debug\netcoreapp2.1\08_CarSalesman.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Exercises\08_CarSalesman\bin\Debug\netcoreapp2.1\08_CarSalesman.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Exercises\08_CarSalesman\bin\Debug\netcoreapp2.1\08_CarSalesman.dll
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Exercises\08_CarSalesman\bin\Debug\netcoreapp2.1\08_CarSalesman.pdb
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Exercises\08_CarSalesman\obj\Debug\netcoreapp2.1\08_CarSalesman.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Exercises\08_CarSalesman\obj\Debug\netcoreapp2.1\08_CarSalesman.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Exercises\08_CarSalesman\obj\Debug\netcoreapp2.1\08_CarSalesman.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Exercises\08_CarSalesman\obj\Debug\netcoreapp2.1\08_CarSalesman.dll
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Exercises\08_CarSalesman\obj\Debug\netcoreapp2.1\08_CarSalesman.pdb

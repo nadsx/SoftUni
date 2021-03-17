@@ -1,0 +1,21 @@
+C:\Users\ASUS NB\source\repos\Generics-Exercises\01_GenericBoxOfString\bin\Debug\netcoreapp2.1\01_GenericBoxOfString.deps.json
+C:\Users\ASUS NB\source\repos\Generics-Exercises\01_GenericBoxOfString\bin\Debug\netcoreapp2.1\01_GenericBoxOfString.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Generics-Exercises\01_GenericBoxOfString\bin\Debug\netcoreapp2.1\01_GenericBoxOfString.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Generics-Exercises\01_GenericBoxOfString\bin\Debug\netcoreapp2.1\01_GenericBoxOfString.dll
+C:\Users\ASUS NB\source\repos\Generics-Exercises\01_GenericBoxOfString\bin\Debug\netcoreapp2.1\01_GenericBoxOfString.pdb
+C:\Users\ASUS NB\source\repos\Generics-Exercises\01_GenericBoxOfString\obj\Debug\netcoreapp2.1\01_GenericBoxOfString.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Generics-Exercises\01_GenericBoxOfString\obj\Debug\netcoreapp2.1\01_GenericBoxOfString.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Generics-Exercises\01_GenericBoxOfString\obj\Debug\netcoreapp2.1\01_GenericBoxOfString.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Generics-Exercises\01_GenericBoxOfString\obj\Debug\netcoreapp2.1\01_GenericBoxOfString.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Generics-Exercises\01_GenericBoxOfString\obj\Debug\netcoreapp2.1\01_GenericBoxOfString.dll
+C:\Users\ASUS NB\source\repos\Generics-Exercises\01_GenericBoxOfString\obj\Debug\netcoreapp2.1\01_GenericBoxOfString.pdb
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\01_GenericBoxOfString\bin\Debug\netcoreapp2.1\01_GenericBoxOfString.deps.json
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\01_GenericBoxOfString\bin\Debug\netcoreapp2.1\01_GenericBoxOfString.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\01_GenericBoxOfString\bin\Debug\netcoreapp2.1\01_GenericBoxOfString.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\01_GenericBoxOfString\bin\Debug\netcoreapp2.1\01_GenericBoxOfString.dll
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\01_GenericBoxOfString\bin\Debug\netcoreapp2.1\01_GenericBoxOfString.pdb
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\01_GenericBoxOfString\obj\Debug\netcoreapp2.1\01_GenericBoxOfString.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\01_GenericBoxOfString\obj\Debug\netcoreapp2.1\01_GenericBoxOfString.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\01_GenericBoxOfString\obj\Debug\netcoreapp2.1\01_GenericBoxOfString.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\01_GenericBoxOfString\obj\Debug\netcoreapp2.1\01_GenericBoxOfString.dll
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\01_GenericBoxOfString\obj\Debug\netcoreapp2.1\01_GenericBoxOfString.pdb

@@ -1,0 +1,11 @@
+C:\Users\ASUS\Desktop\repos\Encapsulation-Lab\02_SalaryIncrease\bin\Debug\netcoreapp3.0\02_SalaryIncrease.exe
+C:\Users\ASUS\Desktop\repos\Encapsulation-Lab\02_SalaryIncrease\bin\Debug\netcoreapp3.0\02_SalaryIncrease.deps.json
+C:\Users\ASUS\Desktop\repos\Encapsulation-Lab\02_SalaryIncrease\bin\Debug\netcoreapp3.0\02_SalaryIncrease.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\Encapsulation-Lab\02_SalaryIncrease\bin\Debug\netcoreapp3.0\02_SalaryIncrease.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\Encapsulation-Lab\02_SalaryIncrease\bin\Debug\netcoreapp3.0\02_SalaryIncrease.dll
+C:\Users\ASUS\Desktop\repos\Encapsulation-Lab\02_SalaryIncrease\bin\Debug\netcoreapp3.0\02_SalaryIncrease.pdb
+C:\Users\ASUS\Desktop\repos\Encapsulation-Lab\02_SalaryIncrease\obj\Debug\netcoreapp3.0\02_SalaryIncrease.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\repos\Encapsulation-Lab\02_SalaryIncrease\obj\Debug\netcoreapp3.0\02_SalaryIncrease.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\Encapsulation-Lab\02_SalaryIncrease\obj\Debug\netcoreapp3.0\02_SalaryIncrease.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\Encapsulation-Lab\02_SalaryIncrease\obj\Debug\netcoreapp3.0\02_SalaryIncrease.dll
+C:\Users\ASUS\Desktop\repos\Encapsulation-Lab\02_SalaryIncrease\obj\Debug\netcoreapp3.0\02_SalaryIncrease.pdb

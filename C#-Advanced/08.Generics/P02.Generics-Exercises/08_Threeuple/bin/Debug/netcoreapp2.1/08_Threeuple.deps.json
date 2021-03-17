@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "08_Threeuple/1.0.0": {
+        "runtime": {
+          "08_Threeuple.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "08_Threeuple/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

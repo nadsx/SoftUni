@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Lists-Lab\04_ListOfProducts\bin\Debug\netcoreapp2.1\04_ListOfProducts.deps.json
+C:\Users\ASUS NB\source\repos\Lists-Lab\04_ListOfProducts\bin\Debug\netcoreapp2.1\04_ListOfProducts.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Lists-Lab\04_ListOfProducts\bin\Debug\netcoreapp2.1\04_ListOfProducts.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Lists-Lab\04_ListOfProducts\bin\Debug\netcoreapp2.1\04_ListOfProducts.dll
+C:\Users\ASUS NB\source\repos\Lists-Lab\04_ListOfProducts\bin\Debug\netcoreapp2.1\04_ListOfProducts.pdb
+C:\Users\ASUS NB\source\repos\Lists-Lab\04_ListOfProducts\obj\Debug\netcoreapp2.1\04_ListOfProducts.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Lists-Lab\04_ListOfProducts\obj\Debug\netcoreapp2.1\04_ListOfProducts.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Lists-Lab\04_ListOfProducts\obj\Debug\netcoreapp2.1\04_ListOfProducts.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Lists-Lab\04_ListOfProducts\obj\Debug\netcoreapp2.1\04_ListOfProducts.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Lists-Lab\04_ListOfProducts\obj\Debug\netcoreapp2.1\04_ListOfProducts.dll
+C:\Users\ASUS NB\source\repos\Lists-Lab\04_ListOfProducts\obj\Debug\netcoreapp2.1\04_ListOfProducts.pdb

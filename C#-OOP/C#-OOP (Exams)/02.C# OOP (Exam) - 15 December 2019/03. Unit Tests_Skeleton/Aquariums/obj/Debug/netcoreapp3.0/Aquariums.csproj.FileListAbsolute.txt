@@ -1,0 +1,22 @@
+C:\Users\ASUS\Desktop\Folder for exercises\03. Unit Tests_Skeleton\Aquariums\bin\Debug\netcoreapp3.0\Aquariums.exe
+C:\Users\ASUS\Desktop\Folder for exercises\03. Unit Tests_Skeleton\Aquariums\bin\Debug\netcoreapp3.0\Aquariums.deps.json
+C:\Users\ASUS\Desktop\Folder for exercises\03. Unit Tests_Skeleton\Aquariums\bin\Debug\netcoreapp3.0\Aquariums.runtimeconfig.json
+C:\Users\ASUS\Desktop\Folder for exercises\03. Unit Tests_Skeleton\Aquariums\bin\Debug\netcoreapp3.0\Aquariums.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\Folder for exercises\03. Unit Tests_Skeleton\Aquariums\bin\Debug\netcoreapp3.0\Aquariums.dll
+C:\Users\ASUS\Desktop\Folder for exercises\03. Unit Tests_Skeleton\Aquariums\bin\Debug\netcoreapp3.0\Aquariums.pdb
+C:\Users\ASUS\Desktop\Folder for exercises\03. Unit Tests_Skeleton\Aquariums\obj\Debug\netcoreapp3.0\Aquariums.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\Folder for exercises\03. Unit Tests_Skeleton\Aquariums\obj\Debug\netcoreapp3.0\Aquariums.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\Folder for exercises\03. Unit Tests_Skeleton\Aquariums\obj\Debug\netcoreapp3.0\Aquariums.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\Folder for exercises\03. Unit Tests_Skeleton\Aquariums\obj\Debug\netcoreapp3.0\Aquariums.dll
+C:\Users\ASUS\Desktop\Folder for exercises\03. Unit Tests_Skeleton\Aquariums\obj\Debug\netcoreapp3.0\Aquariums.pdb
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\02.C# OOP (Exam) - 15 December 2019\03. Unit Tests_Skeleton\Aquariums\bin\Debug\netcoreapp3.0\Aquariums.exe
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\02.C# OOP (Exam) - 15 December 2019\03. Unit Tests_Skeleton\Aquariums\bin\Debug\netcoreapp3.0\Aquariums.deps.json
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\02.C# OOP (Exam) - 15 December 2019\03. Unit Tests_Skeleton\Aquariums\bin\Debug\netcoreapp3.0\Aquariums.runtimeconfig.json
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\02.C# OOP (Exam) - 15 December 2019\03. Unit Tests_Skeleton\Aquariums\bin\Debug\netcoreapp3.0\Aquariums.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\02.C# OOP (Exam) - 15 December 2019\03. Unit Tests_Skeleton\Aquariums\bin\Debug\netcoreapp3.0\Aquariums.dll
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\02.C# OOP (Exam) - 15 December 2019\03. Unit Tests_Skeleton\Aquariums\bin\Debug\netcoreapp3.0\Aquariums.pdb
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\02.C# OOP (Exam) - 15 December 2019\03. Unit Tests_Skeleton\Aquariums\obj\Debug\netcoreapp3.0\Aquariums.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\02.C# OOP (Exam) - 15 December 2019\03. Unit Tests_Skeleton\Aquariums\obj\Debug\netcoreapp3.0\Aquariums.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\02.C# OOP (Exam) - 15 December 2019\03. Unit Tests_Skeleton\Aquariums\obj\Debug\netcoreapp3.0\Aquariums.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\02.C# OOP (Exam) - 15 December 2019\03. Unit Tests_Skeleton\Aquariums\obj\Debug\netcoreapp3.0\Aquariums.dll
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\02.C# OOP (Exam) - 15 December 2019\03. Unit Tests_Skeleton\Aquariums\obj\Debug\netcoreapp3.0\Aquariums.pdb

@@ -1,0 +1,213 @@
+1
+============================
+
+			Stack<char> stringReversed = new Stack<char>();
+
+			string input = Console.ReadLine();
+
+			foreach (var symbol in input)
+			{
+				stringReversed.Push(symbol);
+			}
+
+			while (stringReversed.Count > 0)
+			{
+				Console.Write(stringReversed.Pop());
+			}
+
+			Console.WriteLine();
+
+2
+============================
+
+			var numbers = Console.ReadLine().Split().Select(int.Parse).ToArray();
+
+			Stack<int> numbersStack = new Stack<int>(numbers);
+
+			string input = Console.ReadLine();
+
+			while(input.ToLower() != "end")
+			{
+				var commandTokens = input.Split().ToArray();
+				string command = commandTokens[0].ToLower();
+
+				switch (command)
+				{
+					case "add":
+						int firstNum = int.Parse(commandTokens[1]);
+						int secondNum = int.Parse(commandTokens[2]);
+						numbersStack.Push(firstNum);
+						numbersStack.Push(secondNum);
+
+						break;
+					case "remove":
+						int countOfNumbersToRemove = int.Parse(commandTokens[1]);
+
+						if(countOfNumbersToRemove <= numbersStack.Count)
+						{
+							for (int i = 0; i < countOfNumbersToRemove; i++)
+							{
+								numbersStack.Pop();
+							}
+						}
+
+						break;
+				}
+
+				input = Console.ReadLine();
+			}
+
+			Console.WriteLine($"Sum: {numbersStack.Sum()}");
+3
+============================
+
+			string input = Console.ReadLine();
+			var values = input.Split(' ');
+
+			var calculatorStack = new Stack<string>(values.Reverse());
+
+			while (calculatorStack.Count > 1)
+			{
+				int firstOperand = int.Parse(calculatorStack.Pop());
+				string operatorStr = calculatorStack.Pop();
+				int secondOperand = int.Parse(calculatorStack.Pop());
+
+				switch (operatorStr)
+				{
+					case "+":
+						calculatorStack.Push((firstOperand + secondOperand).ToString());
+						break;
+					case "-":
+						calculatorStack.Push((firstOperand - secondOperand).ToString());
+						break;
+				}
+			}
+
+			Console.WriteLine(calculatorStack.Pop());
+
+4
+============================
+
+			string input = Console.ReadLine();
+			Stack<int> symbols = new Stack<int>();
+
+			for (int i = 0; i < input.Length; i++)
+			{
+				if (input[i] == '(')
+				{
+					symbols.Push(i);
+				}
+				else if (input[i] == ')')
+				{
+					var openBracketIndex = symbols.Pop();
+
+					Console.WriteLine(input.Substring(openBracketIndex, i - openBracketIndex + 1));
+				}
+			}
+
+5
+============================
+
+			var numbers = Console.ReadLine().Split().Select(int.Parse).ToArray();
+
+			Queue<int> evenNumbers = new Queue<int>(numbers.Where(n => n % 2 == 0));
+
+			Console.WriteLine(string.Join(", ", evenNumbers));
+
+----------------------------
+
+  Console.WriteLine(string.Join(", ", Console.ReadLine()
+                .Split(new[] { ", " }, StringSplitOptions.RemoveEmptyEntries)
+                .Select(int.Parse)
+                .Where(n => n % 2 == 0)
+                .OrderBy(n => n)));
+
+6
+============================
+
+			Queue<string> supermarket = new Queue<string>();
+
+			string input = Console.ReadLine();
+
+			while(input != "End")
+			{
+				if(input == "Paid")
+				{
+					int numberOfCustomers = supermarket.Count;
+
+					for (int i = 0; i < numberOfCustomers; i++)
+					{
+						Console.WriteLine(supermarket.Dequeue());
+					}
+				}
+				else
+				{
+					supermarket.Enqueue(input);
+				}
+
+				input = Console.ReadLine();
+			}
+
+			Console.WriteLine($"{supermarket.Count} people remaining.");
+
+7
+============================
+
+var allChildren = Console.ReadLine().Split().ToArray();
+			Queue<string> children = new Queue<string>(allChildren);
+
+			var number = int.Parse(Console.ReadLine());
+			int counter = 1;
+
+			while(children.Count > 1)
+			{
+				var currentChild = children.Dequeue();
+
+				if(counter % number != 0)
+				{
+					children.Enqueue(currentChild);
+				}
+				else
+				{
+					Console.WriteLine($"Removed {currentChild}");
+				}
+
+				counter++;
+			}
+
+			Console.WriteLine($"Last is {children.Dequeue()}");
+
+8
+============================
+
+			var countPerGreenLight = int.Parse(Console.ReadLine());
+
+			Queue<string> cars = new Queue<string>();
+			var totalPassed = 0;
+
+			while (true)
+			{
+				var currentLine = Console.ReadLine();
+
+				if(currentLine == "end")
+				{
+					Console.WriteLine($"{totalPassed} cars passed the crossroads.");
+					break;
+				}
+
+				if(currentLine != "green")
+				{
+					cars.Enqueue(currentLine);
+				}
+				else
+				{
+					var carToPass = Math.Min(countPerGreenLight, cars.Count);
+
+					for (int i = 0; i < carToPass; i++)
+					{
+						Console.WriteLine($"{cars.Dequeue()} passed!");
+
+						totalPassed++;
+					}
+				}
+			}

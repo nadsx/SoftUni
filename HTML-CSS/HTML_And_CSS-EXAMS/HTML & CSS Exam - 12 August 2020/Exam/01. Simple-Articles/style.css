@@ -1,0 +1,101 @@
+@import url('https://use.fontawesome.com/releases/v5.15.2/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+
+html {
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    color: #596877;
+    line-height: 0.5;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+section {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin: 0, auto;
+    width: 100vw;
+    height: 100vh;
+}
+
+section article {
+    flex-basis: 50%;
+    max-width: 550px;
+    margin: 50px auto;
+    border-radius: 8px;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
+}
+
+section article:nth-child(1) {
+    padding: 18px;
+    background: #e3f3fd;
+    margin-right: 10px;
+}
+
+section article:nth-child(2) {
+    padding: 66px;
+    border: 5px solid #44a9f8;
+    text-align: center;
+    font-size: 18px;
+}
+
+section article:nth-child(2) h2,
+section article:nth-child(2) h3 {
+    display: inline-block;
+}
+
+section article:nth-child(2) h2 {
+    color: #44a9f8;
+    font-size: 50px;
+}
+
+section article:nth-child(2) h3 {
+    font-size: 20px;
+}
+
+section article:nth-child(2) p {
+    padding: 0 0 18px 0;
+}
+
+section article button {
+    text-transform: uppercase;
+    padding: 8px 57px;
+    ;
+    color: white;
+    font-weight: 500;
+    background: #44a9f8;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+section article h2,
+section article ul {
+    padding-left: 8px;
+}
+
+section article ul li {
+    list-style: none;
+}
+
+section article ul li i {
+    color: #63b7f9;
+}
+
+section article ul li p {
+    display: inline-block;
+    margin-left: 12px;
+}

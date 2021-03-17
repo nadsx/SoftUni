@@ -1,0 +1,10 @@
+C:\Users\ASUS\Desktop\repos\Inheritance-Exercise\06_Animals\bin\Debug\netcoreapp3.0\06_Animals.exe
+C:\Users\ASUS\Desktop\repos\Inheritance-Exercise\06_Animals\bin\Debug\netcoreapp3.0\06_Animals.deps.json
+C:\Users\ASUS\Desktop\repos\Inheritance-Exercise\06_Animals\bin\Debug\netcoreapp3.0\06_Animals.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\Inheritance-Exercise\06_Animals\bin\Debug\netcoreapp3.0\06_Animals.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\Inheritance-Exercise\06_Animals\bin\Debug\netcoreapp3.0\06_Animals.dll
+C:\Users\ASUS\Desktop\repos\Inheritance-Exercise\06_Animals\bin\Debug\netcoreapp3.0\06_Animals.pdb
+C:\Users\ASUS\Desktop\repos\Inheritance-Exercise\06_Animals\obj\Debug\netcoreapp3.0\06_Animals.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\Inheritance-Exercise\06_Animals\obj\Debug\netcoreapp3.0\06_Animals.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\Inheritance-Exercise\06_Animals\obj\Debug\netcoreapp3.0\06_Animals.dll
+C:\Users\ASUS\Desktop\repos\Inheritance-Exercise\06_Animals\obj\Debug\netcoreapp3.0\06_Animals.pdb

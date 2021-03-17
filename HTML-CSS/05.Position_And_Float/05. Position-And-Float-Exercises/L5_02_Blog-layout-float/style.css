@@ -1,0 +1,92 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+main {
+    width: 80%;
+    display: inline-block;
+}
+
+aside {
+    width: 16%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 32px;
+}
+
+aside nav li a {
+    text-decoration: none;
+    color: green;
+}
+
+body {
+    width: 63%;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+}
+
+blockquote, h1, h2 {
+    font-family: Georgia, serif;
+}
+
+.site-title {
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 36px;
+}
+
+header:after {
+    content: '';
+    position: relative;
+    width: 100%;
+    display: block;
+    background-color: black;
+    height: 3px;
+    top: 0;
+    left: 0;
+}
+
+img {
+    border: 3px solid black;
+    padding: 8px;
+}
+
+.img1 {
+    float: right;
+    margin-left: 20px;
+}
+
+.img2 {
+    float: left;
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+.quote {
+    vertical-align: middle;
+    float: right;
+    display: inline-block;
+    width: 35%;
+    color: gray;
+    border-left: 4px solid #E1E1E1;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    font-style: italic;
+}
+
+.quote blockquote {
+    margin: 0;
+    float: right;
+}
+
+.quote figcaption {
+    float: right;
+}
+
+p.inline-p {
+    display: inline-block;
+    width: 47%;;
+}

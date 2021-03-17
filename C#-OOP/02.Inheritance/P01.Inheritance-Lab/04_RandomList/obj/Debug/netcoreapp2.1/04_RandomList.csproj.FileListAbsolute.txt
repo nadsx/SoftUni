@@ -1,0 +1,10 @@
+C:\Users\ASUS\Desktop\repos\Inheritance-Lab\04_RandomList\bin\Debug\netcoreapp2.1\04_RandomList.deps.json
+C:\Users\ASUS\Desktop\repos\Inheritance-Lab\04_RandomList\bin\Debug\netcoreapp2.1\04_RandomList.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\Inheritance-Lab\04_RandomList\bin\Debug\netcoreapp2.1\04_RandomList.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\Inheritance-Lab\04_RandomList\bin\Debug\netcoreapp2.1\04_RandomList.dll
+C:\Users\ASUS\Desktop\repos\Inheritance-Lab\04_RandomList\bin\Debug\netcoreapp2.1\04_RandomList.pdb
+C:\Users\ASUS\Desktop\repos\Inheritance-Lab\04_RandomList\obj\Debug\netcoreapp2.1\04_RandomList.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\repos\Inheritance-Lab\04_RandomList\obj\Debug\netcoreapp2.1\04_RandomList.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\Inheritance-Lab\04_RandomList\obj\Debug\netcoreapp2.1\04_RandomList.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\Inheritance-Lab\04_RandomList\obj\Debug\netcoreapp2.1\04_RandomList.dll
+C:\Users\ASUS\Desktop\repos\Inheritance-Lab\04_RandomList\obj\Debug\netcoreapp2.1\04_RandomList.pdb

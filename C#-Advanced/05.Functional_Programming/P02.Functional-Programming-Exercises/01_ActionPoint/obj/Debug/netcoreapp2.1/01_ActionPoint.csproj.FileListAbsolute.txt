@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\01_ActionPoint\bin\Debug\netcoreapp2.1\01_ActionPoint.deps.json
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\01_ActionPoint\bin\Debug\netcoreapp2.1\01_ActionPoint.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\01_ActionPoint\bin\Debug\netcoreapp2.1\01_ActionPoint.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\01_ActionPoint\bin\Debug\netcoreapp2.1\01_ActionPoint.dll
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\01_ActionPoint\bin\Debug\netcoreapp2.1\01_ActionPoint.pdb
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\01_ActionPoint\obj\Debug\netcoreapp2.1\01_ActionPoint.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\01_ActionPoint\obj\Debug\netcoreapp2.1\01_ActionPoint.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\01_ActionPoint\obj\Debug\netcoreapp2.1\01_ActionPoint.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\01_ActionPoint\obj\Debug\netcoreapp2.1\01_ActionPoint.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\01_ActionPoint\obj\Debug\netcoreapp2.1\01_ActionPoint.dll
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\01_ActionPoint\obj\Debug\netcoreapp2.1\01_ActionPoint.pdb

@@ -1,0 +1,11 @@
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Lab\01_Shapes\bin\Debug\netcoreapp3.0\01_Shapes.exe
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Lab\01_Shapes\bin\Debug\netcoreapp3.0\01_Shapes.deps.json
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Lab\01_Shapes\bin\Debug\netcoreapp3.0\01_Shapes.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Lab\01_Shapes\bin\Debug\netcoreapp3.0\01_Shapes.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Lab\01_Shapes\bin\Debug\netcoreapp3.0\01_Shapes.dll
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Lab\01_Shapes\bin\Debug\netcoreapp3.0\01_Shapes.pdb
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Lab\01_Shapes\obj\Debug\netcoreapp3.0\01_Shapes.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Lab\01_Shapes\obj\Debug\netcoreapp3.0\01_Shapes.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Lab\01_Shapes\obj\Debug\netcoreapp3.0\01_Shapes.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Lab\01_Shapes\obj\Debug\netcoreapp3.0\01_Shapes.dll
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Lab\01_Shapes\obj\Debug\netcoreapp3.0\01_Shapes.pdb

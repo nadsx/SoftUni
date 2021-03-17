@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\07_PredicateForNames\bin\Debug\netcoreapp2.1\07_PredicateForNames.deps.json
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\07_PredicateForNames\bin\Debug\netcoreapp2.1\07_PredicateForNames.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\07_PredicateForNames\bin\Debug\netcoreapp2.1\07_PredicateForNames.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\07_PredicateForNames\bin\Debug\netcoreapp2.1\07_PredicateForNames.dll
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\07_PredicateForNames\bin\Debug\netcoreapp2.1\07_PredicateForNames.pdb
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\07_PredicateForNames\obj\Debug\netcoreapp2.1\07_PredicateForNames.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\07_PredicateForNames\obj\Debug\netcoreapp2.1\07_PredicateForNames.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\07_PredicateForNames\obj\Debug\netcoreapp2.1\07_PredicateForNames.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\07_PredicateForNames\obj\Debug\netcoreapp2.1\07_PredicateForNames.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\07_PredicateForNames\obj\Debug\netcoreapp2.1\07_PredicateForNames.dll
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\07_PredicateForNames\obj\Debug\netcoreapp2.1\07_PredicateForNames.pdb

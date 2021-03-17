@@ -1,0 +1,356 @@
+01
+==================================
+
+using System;
+using System.Text;
+
+namespace _01_Exercise
+{
+    public class StartUp
+    {
+        public static void Main()
+        {
+            int n = int.Parse(Console.ReadLine());
+
+            var rhombusDrawer = new RhombusAsStringDrawer();
+            var rhombusAsString = rhombusDrawer.Draw(n);
+
+            Console.WriteLine(rhombusAsString);
+        }
+    }
+
+    public class RhombusAsStringDrawer
+    {
+        public string Draw(int countOfStars)
+        {
+            StringBuilder sb = new StringBuilder();
+
+            this.DrawTopPart(sb, countOfStars);
+            this.DrawLineOfStars(sb, countOfStars);
+            this.DrawBottomPart(sb, countOfStars);
+
+            return sb.ToString();
+        }
+
+        private void DrawTopPart(StringBuilder sb, int n)
+        {
+            for (int i = 1; i < n; i++)
+            {
+                sb.Append(new string(' ', n - i));
+                DrawLineOfStars(sb, i);
+            }
+        }
+
+        private void DrawBottomPart(StringBuilder sb, int n)
+        {
+            for (int i = n - 1; i >= 1; i--)
+            {
+                sb.Append(new string(' ', n - i));
+                DrawLineOfStars(sb, i);
+            }
+        }
+
+        private void DrawLineOfStars(StringBuilder sb, int numberOfStars)
+        {
+            for (int star = 0; star < numberOfStars; star++)
+            {
+                sb.Append('*');
+
+                if(star < numberOfStars - 1)
+                {
+                    sb.Append(' ');
+                }
+            }
+
+            sb.AppendLine();
+        }
+    }
+}
+
+02
+==================================
+
+using System;
+using System.Linq;
+
+namespace _02_Exercise
+{
+    public class StartUp
+    {
+        public static void Main()
+        {
+            int[] rectangleCoordinates = Console.ReadLine()
+                 .Split(" ", StringSplitOptions.RemoveEmptyEntries)
+                 .Select(int.Parse)
+                 .ToArray();
+
+            int topLeftX = rectangleCoordinates[0];
+            int topLeftY = rectangleCoordinates[1];
+
+            Point topLeftPoint = new Point(topLeftX, topLeftY);
+
+            int bottomRightX = rectangleCoordinates[2];
+            int bottomRightY = rectangleCoordinates[3];
+
+            Point bottomRightPoint = new Point(bottomRightX, bottomRightY);
+
+            Rectangle rectangle = new Rectangle(topLeftPoint, bottomRightPoint);
+
+            int n = int.Parse(Console.ReadLine());
+
+            for (int i = 0; i < n; i++)
+            {
+                int[] pointCoordinates = Console.ReadLine()
+                    .Split(" ", StringSplitOptions.RemoveEmptyEntries)
+                    .Select(int.Parse)
+                    .ToArray();
+
+                int pointX = pointCoordinates[0];
+                int pointY = pointCoordinates[1];
+
+                Point point = new Point(pointX, pointY);
+
+                Console.WriteLine(rectangle.Contains(point));
+            }
+        }
+    }
+
+    public class Point
+    {
+        public Point(int x, int y)
+        {
+            this.X = x;
+            this.Y = y;
+        }
+
+        public int X { get; set; }
+
+        public int Y { get; set; }
+    }
+
+    public class Rectangle
+    {
+        public Rectangle(Point topLeft, Point bottomRight)
+        {
+            this.TopLeft = topLeft;
+            this.BottomRight = bottomRight;
+        }
+
+        public Point TopLeft { get; set; }
+
+        public Point BottomRight { get; set; }
+
+        public bool Contains(Point point)
+        {
+            bool isInX = point.X >= TopLeft.X &&
+                point.X <= BottomRight.X;
+
+            bool isInY = point.Y >= TopLeft.Y &&
+                point.Y <= BottomRight.Y;
+
+            return isInX && isInY;
+        }
+    }
+}
+
+03
+==================================
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace _03_Exercise
+{
+    public class StartUp
+    {
+        public static void Main()
+        {
+            StudentSystem studentSystem = new StudentSystem();
+            studentSystem.ParseCommands();
+        }
+    }
+
+   public class Student
+   {
+        public Student(string name, int age, double grade)
+        {
+            this.Name = name;
+            this.Age = age;
+            this.Grade = grade;
+        }
+
+        public string Name { get; set; }
+
+        public int Age { get; set; }
+
+        public double Grade { get; set; }
+
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+
+            sb.Append($"{this.Name} is {this.Age} years old. ");
+
+            if(this.Grade >= 5.00)
+            {
+                sb.Append("Excellent student.");
+            }
+            else if(this.Grade < 5.00 && this.Grade >= 3.50)
+            {
+                sb.Append("Average student.");
+            }
+            else
+            {
+                sb.Append("Very nice person.");
+            }
+
+            return sb.ToString();
+        }
+   }
+
+    public class StudentsRepository
+    {
+        private Dictionary<string, Student> repository;
+
+        public StudentsRepository()
+        {
+            repository = new Dictionary<string, Student>();
+        }
+
+        public void Add(string name, int age, double grade)
+        {
+            if (!repository.ContainsKey(name))
+            {
+                Student student = new Student(name, age, grade);
+                repository[name] = student;
+            }
+        }
+
+        public Student Find(string name)
+        {
+            if (repository.ContainsKey(name))
+            {
+                return repository[name];
+            }
+
+            return null;
+        }
+    }
+
+    public class StudentSystem
+    {
+        private StudentsRepository students;
+
+        public StudentSystem()
+        {
+            students = new StudentsRepository();
+        }
+
+        public void ParseCommands()
+        {
+            while (true)
+            {
+                string[] args = Console.ReadLine()
+                    .Split()
+                    .ToArray();
+
+                string command = args[0];
+
+                if(command == "Create")
+                {
+                    Create(args);
+                }
+                else if(command == "Show")
+                {
+                    Show(args);
+                }
+                else if(command == "Exit")
+                {
+                    return;
+                }
+            }
+        }
+
+        private void Show(string[] args)
+        {
+            string name = args[1];
+
+            Student student = students.Find(name);
+
+            if(student != null)
+            {
+                Console.WriteLine(student);
+            }
+
+        }
+
+        private void Create(string[] args)
+        {
+            string name = args[1];
+            int age = int.Parse(args[2]);
+            double grade = double.Parse(args[3]);
+
+            students.Add(name, age, grade);
+        }
+    }
+}
+
+04
+==================================
+
+using System;
+using System.Linq;
+
+namespace _04_Exercise
+{
+    public class StartUp
+    {
+        public static void Main()
+        {
+            string[] reservationInfo = Console.ReadLine()
+                .Split()
+                .ToArray();
+
+            decimal pricePerDay = decimal.Parse(reservationInfo[0]);
+            int numberOfDays = int.Parse(reservationInfo[1]);
+
+            Season season = (Season)Enum.Parse(typeof(Season), reservationInfo[2]);
+            DiscountType discount = DiscountType.None;
+
+            if(reservationInfo.Length == 4)
+            {
+                discount = Enum.Parse<DiscountType>(reservationInfo[3]);
+            }
+
+            Console.WriteLine($"{PriceCalculator.GetTotalPrice(pricePerDay, numberOfDays, discount, season):F2}");
+        }
+
+        public enum Season
+        {
+            Autumn = 1,
+            Spring = 2,
+            Winter = 3,
+            Summer = 4,
+        }
+
+        public enum DiscountType
+        {
+            None = 0,
+            SecondVisit = 10,
+            VIP = 20,
+        }
+    }
+
+    public static class PriceCalculator
+    {
+        public static decimal GetTotalPrice(decimal pricePerDay, int numberOfDays, StartUp.DiscountType discount, StartUp.Season season)
+        {
+            decimal price = numberOfDays * pricePerDay * (int)season;
+            price -= price * ((decimal)discount / 100);
+
+            return price;
+        }
+    }
+}

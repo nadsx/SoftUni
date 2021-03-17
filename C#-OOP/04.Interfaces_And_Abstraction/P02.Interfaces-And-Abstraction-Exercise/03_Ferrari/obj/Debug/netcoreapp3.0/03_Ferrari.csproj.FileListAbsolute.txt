@@ -1,0 +1,11 @@
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\03_Ferrari\bin\Debug\netcoreapp3.0\03_Ferrari.exe
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\03_Ferrari\bin\Debug\netcoreapp3.0\03_Ferrari.deps.json
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\03_Ferrari\bin\Debug\netcoreapp3.0\03_Ferrari.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\03_Ferrari\bin\Debug\netcoreapp3.0\03_Ferrari.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\03_Ferrari\bin\Debug\netcoreapp3.0\03_Ferrari.dll
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\03_Ferrari\bin\Debug\netcoreapp3.0\03_Ferrari.pdb
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\03_Ferrari\obj\Debug\netcoreapp3.0\03_Ferrari.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\03_Ferrari\obj\Debug\netcoreapp3.0\03_Ferrari.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\03_Ferrari\obj\Debug\netcoreapp3.0\03_Ferrari.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\03_Ferrari\obj\Debug\netcoreapp3.0\03_Ferrari.dll
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\03_Ferrari\obj\Debug\netcoreapp3.0\03_Ferrari.pdb

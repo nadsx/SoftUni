@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Arrays-Lab\04_ReverseArray0fStrings\bin\Debug\netcoreapp2.1\04_ReverseArray0fStrings.deps.json
+C:\Users\ASUS NB\source\repos\Arrays-Lab\04_ReverseArray0fStrings\bin\Debug\netcoreapp2.1\04_ReverseArray0fStrings.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Arrays-Lab\04_ReverseArray0fStrings\bin\Debug\netcoreapp2.1\04_ReverseArray0fStrings.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Arrays-Lab\04_ReverseArray0fStrings\bin\Debug\netcoreapp2.1\04_ReverseArray0fStrings.dll
+C:\Users\ASUS NB\source\repos\Arrays-Lab\04_ReverseArray0fStrings\bin\Debug\netcoreapp2.1\04_ReverseArray0fStrings.pdb
+C:\Users\ASUS NB\source\repos\Arrays-Lab\04_ReverseArray0fStrings\obj\Debug\netcoreapp2.1\04_ReverseArray0fStrings.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Arrays-Lab\04_ReverseArray0fStrings\obj\Debug\netcoreapp2.1\04_ReverseArray0fStrings.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Arrays-Lab\04_ReverseArray0fStrings\obj\Debug\netcoreapp2.1\04_ReverseArray0fStrings.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Arrays-Lab\04_ReverseArray0fStrings\obj\Debug\netcoreapp2.1\04_ReverseArray0fStrings.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Arrays-Lab\04_ReverseArray0fStrings\obj\Debug\netcoreapp2.1\04_ReverseArray0fStrings.dll
+C:\Users\ASUS NB\source\repos\Arrays-Lab\04_ReverseArray0fStrings\obj\Debug\netcoreapp2.1\04_ReverseArray0fStrings.pdb

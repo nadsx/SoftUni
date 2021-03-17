@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P04PrintAndSum\bin\Debug\netcoreapp2.1\P04PrintAndSum.deps.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P04PrintAndSum\bin\Debug\netcoreapp2.1\P04PrintAndSum.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P04PrintAndSum\bin\Debug\netcoreapp2.1\P04PrintAndSum.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P04PrintAndSum\bin\Debug\netcoreapp2.1\P04PrintAndSum.dll
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P04PrintAndSum\bin\Debug\netcoreapp2.1\P04PrintAndSum.pdb
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P04PrintAndSum\obj\Debug\netcoreapp2.1\P04PrintAndSum.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P04PrintAndSum\obj\Debug\netcoreapp2.1\P04PrintAndSum.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P04PrintAndSum\obj\Debug\netcoreapp2.1\P04PrintAndSum.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P04PrintAndSum\obj\Debug\netcoreapp2.1\P04PrintAndSum.dll
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P04PrintAndSum\obj\Debug\netcoreapp2.1\P04PrintAndSum.pdb
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P04PrintAndSum\obj\Debug\netcoreapp2.1\P04PrintAndSum.csprojAssemblyReference.cache

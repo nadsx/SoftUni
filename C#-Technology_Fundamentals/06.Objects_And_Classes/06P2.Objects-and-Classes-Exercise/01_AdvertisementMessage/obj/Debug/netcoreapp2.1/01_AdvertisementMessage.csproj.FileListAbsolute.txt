@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Exercise\01_AdvertisementMessage\bin\Debug\netcoreapp2.1\01_AdvertisementMessage.deps.json
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Exercise\01_AdvertisementMessage\bin\Debug\netcoreapp2.1\01_AdvertisementMessage.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Exercise\01_AdvertisementMessage\bin\Debug\netcoreapp2.1\01_AdvertisementMessage.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Exercise\01_AdvertisementMessage\bin\Debug\netcoreapp2.1\01_AdvertisementMessage.dll
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Exercise\01_AdvertisementMessage\bin\Debug\netcoreapp2.1\01_AdvertisementMessage.pdb
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Exercise\01_AdvertisementMessage\obj\Debug\netcoreapp2.1\01_AdvertisementMessage.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Exercise\01_AdvertisementMessage\obj\Debug\netcoreapp2.1\01_AdvertisementMessage.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Exercise\01_AdvertisementMessage\obj\Debug\netcoreapp2.1\01_AdvertisementMessage.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Exercise\01_AdvertisementMessage\obj\Debug\netcoreapp2.1\01_AdvertisementMessage.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Exercise\01_AdvertisementMessage\obj\Debug\netcoreapp2.1\01_AdvertisementMessage.dll
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Exercise\01_AdvertisementMessage\obj\Debug\netcoreapp2.1\01_AdvertisementMessage.pdb

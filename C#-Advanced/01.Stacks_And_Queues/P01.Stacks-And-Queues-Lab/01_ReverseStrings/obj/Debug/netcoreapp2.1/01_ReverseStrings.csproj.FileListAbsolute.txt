@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\01_ReverseStrings\bin\Debug\netcoreapp2.1\01_ReverseStrings.deps.json
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\01_ReverseStrings\bin\Debug\netcoreapp2.1\01_ReverseStrings.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\01_ReverseStrings\bin\Debug\netcoreapp2.1\01_ReverseStrings.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\01_ReverseStrings\bin\Debug\netcoreapp2.1\01_ReverseStrings.dll
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\01_ReverseStrings\bin\Debug\netcoreapp2.1\01_ReverseStrings.pdb
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\01_ReverseStrings\obj\Debug\netcoreapp2.1\01_ReverseStrings.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\01_ReverseStrings\obj\Debug\netcoreapp2.1\01_ReverseStrings.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\01_ReverseStrings\obj\Debug\netcoreapp2.1\01_ReverseStrings.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\01_ReverseStrings\obj\Debug\netcoreapp2.1\01_ReverseStrings.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\01_ReverseStrings\obj\Debug\netcoreapp2.1\01_ReverseStrings.dll
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\01_ReverseStrings\obj\Debug\netcoreapp2.1\01_ReverseStrings.pdb

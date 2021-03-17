@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Lab\01_CountRealNumbers\bin\Debug\netcoreapp2.1\01_CountRealNumbers.deps.json
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Lab\01_CountRealNumbers\bin\Debug\netcoreapp2.1\01_CountRealNumbers.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Lab\01_CountRealNumbers\bin\Debug\netcoreapp2.1\01_CountRealNumbers.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Lab\01_CountRealNumbers\bin\Debug\netcoreapp2.1\01_CountRealNumbers.dll
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Lab\01_CountRealNumbers\bin\Debug\netcoreapp2.1\01_CountRealNumbers.pdb
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Lab\01_CountRealNumbers\obj\Debug\netcoreapp2.1\01_CountRealNumbers.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Lab\01_CountRealNumbers\obj\Debug\netcoreapp2.1\01_CountRealNumbers.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Lab\01_CountRealNumbers\obj\Debug\netcoreapp2.1\01_CountRealNumbers.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Lab\01_CountRealNumbers\obj\Debug\netcoreapp2.1\01_CountRealNumbers.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Lab\01_CountRealNumbers\obj\Debug\netcoreapp2.1\01_CountRealNumbers.dll
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Lab\01_CountRealNumbers\obj\Debug\netcoreapp2.1\01_CountRealNumbers.pdb

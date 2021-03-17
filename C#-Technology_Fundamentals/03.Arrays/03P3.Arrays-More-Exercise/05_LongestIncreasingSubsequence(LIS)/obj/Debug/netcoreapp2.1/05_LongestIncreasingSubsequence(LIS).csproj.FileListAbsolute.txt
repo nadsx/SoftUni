@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Arrays-More-Exercise\05_LongestIncreasingSubsequence(LIS)\bin\Debug\netcoreapp2.1\05_LongestIncreasingSubsequence(LIS).deps.json
+C:\Users\ASUS NB\source\repos\Arrays-More-Exercise\05_LongestIncreasingSubsequence(LIS)\bin\Debug\netcoreapp2.1\05_LongestIncreasingSubsequence(LIS).runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Arrays-More-Exercise\05_LongestIncreasingSubsequence(LIS)\bin\Debug\netcoreapp2.1\05_LongestIncreasingSubsequence(LIS).runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Arrays-More-Exercise\05_LongestIncreasingSubsequence(LIS)\bin\Debug\netcoreapp2.1\05_LongestIncreasingSubsequence(LIS).dll
+C:\Users\ASUS NB\source\repos\Arrays-More-Exercise\05_LongestIncreasingSubsequence(LIS)\bin\Debug\netcoreapp2.1\05_LongestIncreasingSubsequence(LIS).pdb
+C:\Users\ASUS NB\source\repos\Arrays-More-Exercise\05_LongestIncreasingSubsequence(LIS)\obj\Debug\netcoreapp2.1\05_LongestIncreasingSubsequence(LIS).csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Arrays-More-Exercise\05_LongestIncreasingSubsequence(LIS)\obj\Debug\netcoreapp2.1\05_LongestIncreasingSubsequence(LIS).csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Arrays-More-Exercise\05_LongestIncreasingSubsequence(LIS)\obj\Debug\netcoreapp2.1\05_LongestIncreasingSubsequence(LIS).AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Arrays-More-Exercise\05_LongestIncreasingSubsequence(LIS)\obj\Debug\netcoreapp2.1\05_LongestIncreasingSubsequence(LIS).AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Arrays-More-Exercise\05_LongestIncreasingSubsequence(LIS)\obj\Debug\netcoreapp2.1\05_LongestIncreasingSubsequence(LIS).dll
+C:\Users\ASUS NB\source\repos\Arrays-More-Exercise\05_LongestIncreasingSubsequence(LIS)\obj\Debug\netcoreapp2.1\05_LongestIncreasingSubsequence(LIS).pdb

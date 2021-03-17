@@ -1,0 +1,252 @@
+1
+======================================
+var name = Console.ReadLine();
+			var age = int.Parse(Console.ReadLine());
+			var grade = double.Parse(Console.ReadLine());
+
+
+			Console.WriteLine($"Name: {name}, Age: {age}, Grade: {grade:f2}");
+2
+======================================
+double grade = double.Parse(Console.ReadLine());
+
+			if(grade >= 3.00)
+			{
+				Console.WriteLine("Passed!");
+			}
+3
+======================================
+	double grade = double.Parse(Console.ReadLine());
+
+			if(grade >= 3.00)
+			{
+				Console.WriteLine("Passed!");
+			}
+			else
+			{
+				Console.WriteLine("Failed!");
+			}
+4
+======================================
+	int hours = int.Parse(Console.ReadLine());
+			int minutes = int.Parse(Console.ReadLine());
+
+			minutes += 30;
+
+			if(minutes > 59)
+			{
+				hours++;
+				minutes -= 60;
+
+				if(hours > 23)
+				{
+					hours -= 24;
+				}
+			}
+
+			Console.WriteLine($"{hours}:{minutes:D2}");
+5
+======================================
+	int month = int.Parse(Console.ReadLine());
+
+			switch (month)
+			{
+				case 1: Console.WriteLine("January"); break;
+				case 2: Console.WriteLine("February"); break;
+				case 3: Console.WriteLine("March"); break;
+				case 4: Console.WriteLine("April"); break;
+				case 5: Console.WriteLine("May"); break;
+				case 6: Console.WriteLine("June"); break;
+				case 7: Console.WriteLine("July"); break;
+				case 8: Console.WriteLine("August"); break;
+				case 9: Console.WriteLine("September"); break;
+				case 10: Console.WriteLine("October"); break;
+				case 11: Console.WriteLine("November"); break;
+				case 12: Console.WriteLine("December"); break;
+				default: Console.WriteLine("Error!"); break;
+			}
+6
+======================================
+Switch
+-----------------------------------
+string country = Console.ReadLine();
+
+            switch (country)
+            {
+                case "England":
+                case "USA":
+                    Console.WriteLine("English");
+                    break;
+                case "Spain":
+                case "Argentina":
+                case "Mexico":
+                    Console.WriteLine("Spanish");
+                    break;
+                default:
+                    Console.WriteLine("unknown");
+                    break;
+            }
+
+If - else
+-------------------------------------------------------------- 
+		string countryName = Console.ReadLine();
+			
+			if(countryName == "USA" || countryName == "England")
+			{
+				Console.WriteLine("English");
+			}
+			else if(countryName == "Spain" || countryName == "Argentina" || countryName == "Mexico")
+			{
+				Console.WriteLine("Spanish");
+			}
+			else
+			{
+				Console.WriteLine("unknown");
+			}
+7
+======================================
+string day = Console.ReadLine().ToLower();
+			int age = int.Parse(Console.ReadLine());
+
+			int price = 0;
+
+			if(day == "weekday")
+			{
+				if(0 <= age && age <= 18 || 64 < age && age <= 122)
+				{
+					price = 12;
+				}
+				else if(18 < age && age <= 64)
+				{
+					price = 18;
+				}				
+			}
+			else if(day == "weekend")
+			{
+				if (0 <= age && age <= 18 || 64 < age && age <= 122)
+				{
+					price = 15;
+				}
+				else if (18 < age && age <= 64)
+				{
+					price = 20;
+				}			
+			}
+			else if(day == "holiday")
+			{
+				if (0 <= age && age <= 18)
+				{
+					price = 5;
+				}
+				else if (18 < age && age <= 64)
+				{
+					price = 12;
+				}
+				else if (64 < age && age <= 122)
+				{
+					price = 10;
+				}
+			}
+
+			if(price != 0)
+			{
+				Console.WriteLine($"{price}$");
+			}
+			else
+			{
+				Console.WriteLine("Error!");
+			}
+8
+======================================
+for (int i = 3; i <= 100; i+=3)
+			{
+				Console.WriteLine(i);
+			}
+9
+======================================
+	int n = int.Parse(Console.ReadLine());
+
+			int sum = 0;
+			int counter = 0;
+			for (int i = 0; counter < n; i++)
+			{
+				if (i % 2 != 0)
+				{
+					Console.WriteLine(i);
+					sum += i;
+
+					counter++;
+				}
+			}
+
+
+			Console.WriteLine($"Sum: {sum}");
+
+---------------------------------------------
+      int n = int.Parse(Console.ReadLine());
+            int num = 1;
+            int sum = 0;
+
+            for (int i = 1; i <= n; i++)
+            {
+                Console.WriteLine(num);
+                sum += num;
+                num += 2;              
+                
+            }
+            Console.WriteLine($"Sum: {sum}");
+10
+======================================
+int n = int.Parse(Console.ReadLine());
+
+			int product = 0;
+			for (int i = 1; i <= 10; i++)
+			{
+				product = n * i;
+				Console.WriteLine($"{n} X {i} = {product}"); // moje na mqstoto na producta da se izchisli
+			}
+11
+======================================
+	int num = int.Parse(Console.ReadLine());
+			int multiplier = int.Parse(Console.ReadLine());
+			
+			if(multiplier > 10)
+			{	
+				Console.WriteLine($"{num} X {multiplier} = {num * multiplier}");			
+			}
+
+			for (int i = multiplier; i <= 10; i++)
+			{
+				Console.WriteLine($"{num} X {i} = {num * i}");			
+			}
+12
+======================================
+int num = int.Parse(Console.ReadLine());
+
+			while (num % 2 != 0)
+			{
+				Console.WriteLine("Please write an even number.");
+				num = int.Parse(Console.ReadLine());
+			}
+
+			Console.WriteLine($"The number is: {Math.Abs(num)}");
+13
+=======================================
+var startDate = DateTime.ParseExact(Console.ReadLine(),
+			"d.M.yyyy", CultureInfo.InvariantCulture);
+
+			var endDate = DateTime.ParseExact(Console.ReadLine(),
+				"d.M.yyyy", CultureInfo.InvariantCulture);
+
+			var holidaysCount = 0;
+
+			for (var date = startDate; date <= endDate; date = date.AddDays(1))
+			{
+				if (date.DayOfWeek == DayOfWeek.Saturday 
+					|| date.DayOfWeek == DayOfWeek.Sunday)
+				{
+                                    holidaysCount++;
+				}			
+			}
+
+		    Console.WriteLine(holidaysCount);

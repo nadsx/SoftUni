@@ -1,0 +1,10 @@
+C:\Users\ASUS\Desktop\repos\Generics-Lab\02_GenericArrayCreator\bin\Debug\netcoreapp2.1\02_GenericArrayCreator.deps.json
+C:\Users\ASUS\Desktop\repos\Generics-Lab\02_GenericArrayCreator\bin\Debug\netcoreapp2.1\02_GenericArrayCreator.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\Generics-Lab\02_GenericArrayCreator\bin\Debug\netcoreapp2.1\02_GenericArrayCreator.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\Generics-Lab\02_GenericArrayCreator\bin\Debug\netcoreapp2.1\02_GenericArrayCreator.dll
+C:\Users\ASUS\Desktop\repos\Generics-Lab\02_GenericArrayCreator\bin\Debug\netcoreapp2.1\02_GenericArrayCreator.pdb
+C:\Users\ASUS\Desktop\repos\Generics-Lab\02_GenericArrayCreator\obj\Debug\netcoreapp2.1\02_GenericArrayCreator.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\repos\Generics-Lab\02_GenericArrayCreator\obj\Debug\netcoreapp2.1\02_GenericArrayCreator.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\Generics-Lab\02_GenericArrayCreator\obj\Debug\netcoreapp2.1\02_GenericArrayCreator.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\Generics-Lab\02_GenericArrayCreator\obj\Debug\netcoreapp2.1\02_GenericArrayCreator.dll
+C:\Users\ASUS\Desktop\repos\Generics-Lab\02_GenericArrayCreator\obj\Debug\netcoreapp2.1\02_GenericArrayCreator.pdb

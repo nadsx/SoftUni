@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\04_Songs\bin\Debug\netcoreapp2.1\04_Songs.deps.json
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\04_Songs\bin\Debug\netcoreapp2.1\04_Songs.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\04_Songs\bin\Debug\netcoreapp2.1\04_Songs.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\04_Songs\bin\Debug\netcoreapp2.1\04_Songs.dll
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\04_Songs\bin\Debug\netcoreapp2.1\04_Songs.pdb
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\04_Songs\obj\Debug\netcoreapp2.1\04_Songs.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\04_Songs\obj\Debug\netcoreapp2.1\04_Songs.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\04_Songs\obj\Debug\netcoreapp2.1\04_Songs.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\04_Songs\obj\Debug\netcoreapp2.1\04_Songs.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\04_Songs\obj\Debug\netcoreapp2.1\04_Songs.dll
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\04_Songs\obj\Debug\netcoreapp2.1\04_Songs.pdb

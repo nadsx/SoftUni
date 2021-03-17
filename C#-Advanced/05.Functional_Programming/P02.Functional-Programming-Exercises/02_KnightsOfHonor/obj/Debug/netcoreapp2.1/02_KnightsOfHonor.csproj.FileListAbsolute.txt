@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\02_KnightsOfHonor\bin\Debug\netcoreapp2.1\02_KnightsOfHonor.deps.json
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\02_KnightsOfHonor\bin\Debug\netcoreapp2.1\02_KnightsOfHonor.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\02_KnightsOfHonor\bin\Debug\netcoreapp2.1\02_KnightsOfHonor.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\02_KnightsOfHonor\bin\Debug\netcoreapp2.1\02_KnightsOfHonor.dll
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\02_KnightsOfHonor\bin\Debug\netcoreapp2.1\02_KnightsOfHonor.pdb
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\02_KnightsOfHonor\obj\Debug\netcoreapp2.1\02_KnightsOfHonor.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\02_KnightsOfHonor\obj\Debug\netcoreapp2.1\02_KnightsOfHonor.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\02_KnightsOfHonor\obj\Debug\netcoreapp2.1\02_KnightsOfHonor.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\02_KnightsOfHonor\obj\Debug\netcoreapp2.1\02_KnightsOfHonor.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\02_KnightsOfHonor\obj\Debug\netcoreapp2.1\02_KnightsOfHonor.dll
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\02_KnightsOfHonor\obj\Debug\netcoreapp2.1\02_KnightsOfHonor.pdb

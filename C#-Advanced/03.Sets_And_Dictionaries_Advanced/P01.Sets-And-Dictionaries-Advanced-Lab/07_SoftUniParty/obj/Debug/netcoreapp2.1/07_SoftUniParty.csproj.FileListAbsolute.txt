@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\07_SoftUniParty\bin\Debug\netcoreapp2.1\07_SoftUniParty.deps.json
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\07_SoftUniParty\bin\Debug\netcoreapp2.1\07_SoftUniParty.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\07_SoftUniParty\bin\Debug\netcoreapp2.1\07_SoftUniParty.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\07_SoftUniParty\bin\Debug\netcoreapp2.1\07_SoftUniParty.dll
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\07_SoftUniParty\bin\Debug\netcoreapp2.1\07_SoftUniParty.pdb
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\07_SoftUniParty\obj\Debug\netcoreapp2.1\07_SoftUniParty.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\07_SoftUniParty\obj\Debug\netcoreapp2.1\07_SoftUniParty.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\07_SoftUniParty\obj\Debug\netcoreapp2.1\07_SoftUniParty.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\07_SoftUniParty\obj\Debug\netcoreapp2.1\07_SoftUniParty.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\07_SoftUniParty\obj\Debug\netcoreapp2.1\07_SoftUniParty.dll
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\07_SoftUniParty\obj\Debug\netcoreapp2.1\07_SoftUniParty.pdb

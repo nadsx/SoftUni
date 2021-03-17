@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P01ConvertMetersToKilometers\bin\Debug\netcoreapp2.1\P01ConvertMetersToKilometers.deps.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P01ConvertMetersToKilometers\bin\Debug\netcoreapp2.1\P01ConvertMetersToKilometers.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P01ConvertMetersToKilometers\bin\Debug\netcoreapp2.1\P01ConvertMetersToKilometers.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P01ConvertMetersToKilometers\bin\Debug\netcoreapp2.1\P01ConvertMetersToKilometers.dll
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P01ConvertMetersToKilometers\bin\Debug\netcoreapp2.1\P01ConvertMetersToKilometers.pdb
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P01ConvertMetersToKilometers\obj\Debug\netcoreapp2.1\P01ConvertMetersToKilometers.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P01ConvertMetersToKilometers\obj\Debug\netcoreapp2.1\P01ConvertMetersToKilometers.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P01ConvertMetersToKilometers\obj\Debug\netcoreapp2.1\P01ConvertMetersToKilometers.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P01ConvertMetersToKilometers\obj\Debug\netcoreapp2.1\P01ConvertMetersToKilometers.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P01ConvertMetersToKilometers\obj\Debug\netcoreapp2.1\P01ConvertMetersToKilometers.dll
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P01ConvertMetersToKilometers\obj\Debug\netcoreapp2.1\P01ConvertMetersToKilometers.pdb

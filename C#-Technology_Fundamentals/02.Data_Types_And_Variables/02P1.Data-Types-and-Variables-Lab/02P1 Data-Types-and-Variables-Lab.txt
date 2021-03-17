@@ -1,0 +1,188 @@
+За notepad++ хващай решенията с ctrl + мишка
+1
+===============================================
+	double meters = double.Parse(Console.ReadLine());
+
+			Console.WriteLine($"{meters / 1000:f2}");
+2
+===============================================
+decimal britishPounds = decimal.Parse(Console.ReadLine());
+
+			Console.WriteLine($"{britishPounds * 1.31m:f3}");
+3
+===============================================
+	int n = int.Parse(Console.ReadLine());
+
+			decimal sum = 0m;
+
+			for (int i = 0; i < n; i++)
+			{
+				var num = decimal.Parse(Console.ReadLine());
+				sum += num;
+			}
+
+			Console.WriteLine(sum);
+4
+===============================================
+int centuries = int.Parse(Console.ReadLine());
+
+			int years = centuries * 100;
+			int days = (int)(years * 365.2422);
+			int hours = days * 24;
+			int minutes = hours * 60;
+
+			Console.WriteLine($"{centuries} centuries = {years} years = {days} " +
+				$"days = {hours} hours = {minutes} minutes");
+5
+===============================================
+int n = int.Parse(Console.ReadLine());
+			
+			for (int i = 1; i <= n; i++)
+			{
+				int number = i;
+				int sum = 0;
+
+				while (number != 0)
+				{
+					int lastDigit = number % 10;
+					number /= 10;
+
+					sum += lastDigit;
+				}
+                                var isSpecial = sum == 5 || sum == 7 || sum == 11;
+
+			   Console.WriteLine($"{i} -> {isSpecial}");
+			}
+
+-----------------------------------------------
+
+			int n = int.Parse(Console.ReadLine());
+
+			for (int i = 1; i <= n; i++)
+			{
+				int sum = i % 10 + i / 10;
+
+				bool isSpecial = sum == 5 || sum == 7 || sum == 11;
+
+				Console.WriteLine($"{i} -> {isSpecial}");
+
+			}
+
+6
+===============================================
+string[] reversedChars = new string[3];
+
+			for (int i = 0; i < 3; i++)
+			{
+				string character = Console.ReadLine(); ;
+
+				reversedChars[i] = character;
+			}
+
+			reversedChars = reversedChars.Reverse().ToArray();
+
+			Console.Write(string.Join(" ", reversedChars));
+
+------------------------------------------------
+string first = Console.ReadLine();
+            string second = Console.ReadLine();
+            string third = Console.ReadLine();
+
+            Console.WriteLine($"{third} {second} {first}");
+
+7
+===============================================
+var firstName = Console.ReadLine();
+var lastName = Console.ReadLine();
+var delimiter = Console.ReadLine();
+
+Console.WriteLine($"{firstName}{delimiter}{lastName}");
+
+8
+===============================================
+string town = Console.ReadLine();
+int population = int.Parse(Console.ReadLine());
+int area = int.Parse(Console.ReadLine());
+
+Console.WriteLine($"Town {town} has population of {population} and area {area} square km.");
+
+9
+===============================================
+char firstChar = char.Parse(Console.ReadLine());
+char secondChar = char.Parse(Console.ReadLine());
+char thirdChar = char.Parse(Console.ReadLine());
+
+Console.WriteLine("" + firstChar + secondChar + thirdChar);
+
+10
+===============================================
+char character = char.Parse(Console.ReadLine());
+
+if (char.IsUpper(character))
+{
+	Console.WriteLine("upper-case");
+}
+else
+{
+	Console.WriteLine("lower-case");
+}
+
+
+------------------------------------------------
+char letter = char.Parse(Console.ReadLine());
+
+if (letter >= 'A' && letter <= 'Z')
+{
+	Console.WriteLine("upper-case");
+}
+else if (letter >= 'a' && letter <= 'z')
+{
+	Console.WriteLine("lower-case");
+}
+
+11
+===============================================
+Console.Write("Length: ");
+var length = double.Parse(Console.ReadLine());
+Console.Write("Width: ");
+var width = double.Parse(Console.ReadLine());
+Console.Write("Height: ");
+ var height = double.Parse(Console.ReadLine());
+
+var volumeOfPyramid = (width * length * height) / 3;
+Console.WriteLine($"Pyramid Volume: {volumeOfPyramid:f2}");
+
+12
+===============================================
+Същата задача като 5
+
+int n = int.Parse(Console.ReadLine());
+
+for (int i = 1; i <= n; i++)
+{
+	int num = i;
+	int sum = 0;
+
+	while (num != 0)
+	{
+		int lastDigit = num % 10;
+		num /= 10;
+		sum += lastDigit;
+	}
+	bool isSpecial = sum == 5 || sum == 7 || sum == 11;
+
+	Console.WriteLine($"{i} -> {isSpecial}");
+
+-----------------------------------------------
+int n = int.Parse(Console.ReadLine());
+
+			for (int i = 1; i <= n; i++)
+			{
+				int sum = i % 10 + i / 10;
+
+				bool isSpecial = sum == 5 || sum == 7 || sum == 11;
+
+				Console.WriteLine($"{i} -> {isSpecial}");
+
+			}
+

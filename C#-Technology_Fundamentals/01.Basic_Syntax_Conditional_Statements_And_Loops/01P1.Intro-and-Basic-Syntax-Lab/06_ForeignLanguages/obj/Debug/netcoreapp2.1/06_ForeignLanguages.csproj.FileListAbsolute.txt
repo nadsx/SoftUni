@@ -1,0 +1,10 @@
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\06_ForeignLanguages\bin\Debug\netcoreapp2.1\06_ForeignLanguages.deps.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\06_ForeignLanguages\bin\Debug\netcoreapp2.1\06_ForeignLanguages.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\06_ForeignLanguages\bin\Debug\netcoreapp2.1\06_ForeignLanguages.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\06_ForeignLanguages\bin\Debug\netcoreapp2.1\06_ForeignLanguages.dll
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\06_ForeignLanguages\bin\Debug\netcoreapp2.1\06_ForeignLanguages.pdb
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\06_ForeignLanguages\obj\Debug\netcoreapp2.1\06_ForeignLanguages.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\06_ForeignLanguages\obj\Debug\netcoreapp2.1\06_ForeignLanguages.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\06_ForeignLanguages\obj\Debug\netcoreapp2.1\06_ForeignLanguages.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\06_ForeignLanguages\obj\Debug\netcoreapp2.1\06_ForeignLanguages.dll
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\06_ForeignLanguages\obj\Debug\netcoreapp2.1\06_ForeignLanguages.pdb

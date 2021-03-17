@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFD9B0;
+    width: 75rem;
+}
+
+main {
+    display: flex;
+    margin: 40px 100px 100px 100px;
+    background-color: #111111;
+    width: 1000px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.main-section-image {
+    width: 60%;
+    height: 600px;
+}
+
+.main-section-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.main-section-booking {
+    width: 40%;
+}
+
+.main-section-booking form {
+    margin-top: 50px;
+    margin-left: 50px;
+    color: white;
+    width: 74%;
+}
+
+.main-section-booking form input {
+    display: block;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid rgb(91, 91, 91);
+    margin: 38px 0;
+    width: 100%;
+}
+
+.main-section-booking button {
+    background-color: #EDB77D;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 30px;
+    font-weight: bolder;
+}
+
+.main-section-booking form h3 {
+    text-align: center;
+}
+
+.main-section-booking form h3 {
+    margin-left: 16px;
+}

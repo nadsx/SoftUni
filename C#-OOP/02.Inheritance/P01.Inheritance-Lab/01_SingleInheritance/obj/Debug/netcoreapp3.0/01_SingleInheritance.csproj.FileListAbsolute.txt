@@ -1,0 +1,11 @@
+C:\Users\ASUS\Desktop\repos\Inheritance-Lab\01_SingleInheritance\bin\Debug\netcoreapp3.0\01_SingleInheritance.exe
+C:\Users\ASUS\Desktop\repos\Inheritance-Lab\01_SingleInheritance\bin\Debug\netcoreapp3.0\01_SingleInheritance.deps.json
+C:\Users\ASUS\Desktop\repos\Inheritance-Lab\01_SingleInheritance\bin\Debug\netcoreapp3.0\01_SingleInheritance.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\Inheritance-Lab\01_SingleInheritance\bin\Debug\netcoreapp3.0\01_SingleInheritance.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\Inheritance-Lab\01_SingleInheritance\bin\Debug\netcoreapp3.0\01_SingleInheritance.dll
+C:\Users\ASUS\Desktop\repos\Inheritance-Lab\01_SingleInheritance\bin\Debug\netcoreapp3.0\01_SingleInheritance.pdb
+C:\Users\ASUS\Desktop\repos\Inheritance-Lab\01_SingleInheritance\obj\Debug\netcoreapp3.0\01_SingleInheritance.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\repos\Inheritance-Lab\01_SingleInheritance\obj\Debug\netcoreapp3.0\01_SingleInheritance.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\Inheritance-Lab\01_SingleInheritance\obj\Debug\netcoreapp3.0\01_SingleInheritance.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\Inheritance-Lab\01_SingleInheritance\obj\Debug\netcoreapp3.0\01_SingleInheritance.dll
+C:\Users\ASUS\Desktop\repos\Inheritance-Lab\01_SingleInheritance\obj\Debug\netcoreapp3.0\01_SingleInheritance.pdb

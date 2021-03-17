@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\06_EqualSums\bin\Debug\netcoreapp2.1\06_EqualSums.deps.json
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\06_EqualSums\bin\Debug\netcoreapp2.1\06_EqualSums.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\06_EqualSums\bin\Debug\netcoreapp2.1\06_EqualSums.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\06_EqualSums\bin\Debug\netcoreapp2.1\06_EqualSums.dll
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\06_EqualSums\bin\Debug\netcoreapp2.1\06_EqualSums.pdb
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\06_EqualSums\obj\Debug\netcoreapp2.1\06_EqualSums.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\06_EqualSums\obj\Debug\netcoreapp2.1\06_EqualSums.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\06_EqualSums\obj\Debug\netcoreapp2.1\06_EqualSums.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\06_EqualSums\obj\Debug\netcoreapp2.1\06_EqualSums.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\06_EqualSums\obj\Debug\netcoreapp2.1\06_EqualSums.dll
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\06_EqualSums\obj\Debug\netcoreapp2.1\06_EqualSums.pdb

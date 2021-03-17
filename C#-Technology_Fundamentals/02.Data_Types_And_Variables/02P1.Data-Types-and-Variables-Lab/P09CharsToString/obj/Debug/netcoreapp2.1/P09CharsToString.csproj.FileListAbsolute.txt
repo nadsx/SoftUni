@@ -1,0 +1,10 @@
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P09CharsToString\bin\Debug\netcoreapp2.1\P09CharsToString.deps.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P09CharsToString\bin\Debug\netcoreapp2.1\P09CharsToString.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P09CharsToString\bin\Debug\netcoreapp2.1\P09CharsToString.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P09CharsToString\bin\Debug\netcoreapp2.1\P09CharsToString.dll
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P09CharsToString\bin\Debug\netcoreapp2.1\P09CharsToString.pdb
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P09CharsToString\obj\Debug\netcoreapp2.1\P09CharsToString.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P09CharsToString\obj\Debug\netcoreapp2.1\P09CharsToString.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P09CharsToString\obj\Debug\netcoreapp2.1\P09CharsToString.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P09CharsToString\obj\Debug\netcoreapp2.1\P09CharsToString.dll
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P09CharsToString\obj\Debug\netcoreapp2.1\P09CharsToString.pdb

@@ -1,0 +1,9 @@
+C:\Users\ASUS\Desktop\repos\Inheritance-Lab\03_HierarchicalInheritance\bin\Debug\netcoreapp2.1\03_HierarchicalInheritance.deps.json
+C:\Users\ASUS\Desktop\repos\Inheritance-Lab\03_HierarchicalInheritance\bin\Debug\netcoreapp2.1\03_HierarchicalInheritance.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\Inheritance-Lab\03_HierarchicalInheritance\bin\Debug\netcoreapp2.1\03_HierarchicalInheritance.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\Inheritance-Lab\03_HierarchicalInheritance\bin\Debug\netcoreapp2.1\03_HierarchicalInheritance.dll
+C:\Users\ASUS\Desktop\repos\Inheritance-Lab\03_HierarchicalInheritance\bin\Debug\netcoreapp2.1\03_HierarchicalInheritance.pdb
+C:\Users\ASUS\Desktop\repos\Inheritance-Lab\03_HierarchicalInheritance\obj\Debug\netcoreapp2.1\03_HierarchicalInheritance.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\Inheritance-Lab\03_HierarchicalInheritance\obj\Debug\netcoreapp2.1\03_HierarchicalInheritance.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\Inheritance-Lab\03_HierarchicalInheritance\obj\Debug\netcoreapp2.1\03_HierarchicalInheritance.dll
+C:\Users\ASUS\Desktop\repos\Inheritance-Lab\03_HierarchicalInheritance\obj\Debug\netcoreapp2.1\03_HierarchicalInheritance.pdb

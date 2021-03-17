@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\01_CountCharsInAString\bin\Debug\netcoreapp2.1\01_CountCharsInAString.deps.json
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\01_CountCharsInAString\bin\Debug\netcoreapp2.1\01_CountCharsInAString.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\01_CountCharsInAString\bin\Debug\netcoreapp2.1\01_CountCharsInAString.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\01_CountCharsInAString\bin\Debug\netcoreapp2.1\01_CountCharsInAString.dll
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\01_CountCharsInAString\bin\Debug\netcoreapp2.1\01_CountCharsInAString.pdb
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\01_CountCharsInAString\obj\Debug\netcoreapp2.1\01_CountCharsInAString.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\01_CountCharsInAString\obj\Debug\netcoreapp2.1\01_CountCharsInAString.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\01_CountCharsInAString\obj\Debug\netcoreapp2.1\01_CountCharsInAString.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\01_CountCharsInAString\obj\Debug\netcoreapp2.1\01_CountCharsInAString.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\01_CountCharsInAString\obj\Debug\netcoreapp2.1\01_CountCharsInAString.dll
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\01_CountCharsInAString\obj\Debug\netcoreapp2.1\01_CountCharsInAString.pdb

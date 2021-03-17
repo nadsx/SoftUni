@@ -1,0 +1,519 @@
+1
+===========================
+
+			Action<string[]> printNames = 
+				names => Console.WriteLine(string.Join(Environment.NewLine, names));
+
+			string[] inputNames = Console.ReadLine()
+			   .Split()
+			   .ToArray();
+
+			printNames(inputNames);
+
+2
+===========================
+
+			Action<string[]> printNames =
+				names => Console.WriteLine("Sir " + string.Join(Environment.NewLine + "Sir ", names));
+
+			string[] inputNames = Console.ReadLine()
+			   .Split()
+			   .ToArray();
+
+			printNames(inputNames);
+
+3
+===========================
+
+Console.WriteLine(Console.ReadLine().Split().Select(int.Parse).Min());
+
+---------------------------
+
+			Action<int> printNumber = x => Console.WriteLine(x);
+
+			Func<int[], int> minFunction =
+				numbers =>
+				{
+					int minValue = int.MaxValue;
+
+					foreach(var number in numbers)
+					{
+						if(number < minValue)
+						{
+							minValue = number;
+						}
+					}
+
+					return minValue;
+				};
+
+			int[] inputNumbers = Console.ReadLine()
+				.Split()
+				.Select(int.Parse)
+				.ToArray();
+
+			int minNumber = minFunction(inputNumbers);
+
+			printNumber(minNumber);
+
+4
+===========================
+
+			List<int> bounds = Console.ReadLine()
+				   .Split(" ", StringSplitOptions.RemoveEmptyEntries)
+				   .Select(int.Parse)
+				   .ToList();
+
+			int lowerBound = bounds[0];
+			int upperBound = bounds[1];
+
+			string condition = Console.ReadLine();
+			List<int> listOfNumbers = new List<int>();
+			Predicate<int> evenOrOdd;
+
+			for (int i = lowerBound; i <= upperBound; i++)
+			{
+				listOfNumbers.Add(i);
+			}
+
+			if (condition == "even")
+			{
+				evenOrOdd = x => x % 2 == 0;
+			}
+			else
+			{
+				evenOrOdd = x => x % 2 != 0;
+			}
+
+			Console.Write(string.Join(" ", listOfNumbers.Where(x => evenOrOdd(x))) + " ");;
+
+---------------------------
+
+			int[] bounds = Console.ReadLine()
+				.Split()
+				.Select(int.Parse)
+				.ToArray();
+
+			int lowerBound = bounds[0];
+			int upperBound = bounds[1];
+
+			List<int> numbers = new List<int>();
+
+			string numberType = Console.ReadLine();
+
+			for (int i = lowerBound; i <= upperBound; i++)
+			{
+				numbers.Add(i);
+			}
+
+			Predicate<int> isEven = x => x % 2 == 0;
+			Predicate<int> isOdd = x => x % 2 != 0;
+			Action<List<int>> printNumber = x => Console.WriteLine(string.Join(" ", x)); 
+
+			if(numberType == "odd")
+			{
+				numbers = numbers
+					.Where(x => isOdd(x))
+					.ToList();
+			}
+			else
+			{
+				numbers = numbers
+					.Where(x => isEven(x))
+					.ToList();
+			}
+
+			printNumber(numbers);
+
+5
+===========================
+
+            List<int> listOfNumbers = Console.ReadLine()
+                .Split(" ", StringSplitOptions.RemoveEmptyEntries)
+                .Select(int.Parse)
+                .ToList();
+
+            while (true)
+            {
+                string command = Console.ReadLine();
+
+                if (command == "end")
+                {
+                    break;
+                }
+
+                Func<int, int> manipulateList;
+
+                switch (command)
+                {
+                    case "add":
+                        manipulateList = x => x + 1;
+                        break;
+                    case "subtract":
+                        manipulateList = x => x - 1;
+                        break;
+                    case "multiply":
+                        manipulateList = x => x * 2;
+                        break;
+                    default:
+                        manipulateList = x => x;
+                        break;
+                }
+
+              listOfNumbers = listOfNumbers.Select(manipulateList).ToList();
+
+                if (command == "print")
+                {
+                    Console.WriteLine(string.Join(" ", listOfNumbers));
+                }
+            }
+
+---------------------------
+
+			int[] inputNumbers = Console.ReadLine()
+				.Split()
+				.Select(int.Parse)
+				.ToArray();
+
+			Func<int, int> incrementByOne = x => x += 1;
+			Func<int, int> subtractByOne = x => x -= 1;
+			Func<int, int> multiply = x => x *= 2;
+			Action<int[]> print = x =>
+			Console.WriteLine(string.Join(" ", x));
+
+			string command = Console.ReadLine();
+
+			while(command != "end")
+			{
+				if(command == "add")
+				{
+					inputNumbers = inputNumbers
+						.Select(incrementByOne)
+						.ToArray();
+
+				}
+				else if(command == "multiply")
+				{
+					inputNumbers = inputNumbers
+						.Select(multiply)
+						.ToArray();
+				}
+				else if (command == "subtract")
+				{
+					inputNumbers = inputNumbers
+						.Select(subtractByOne)
+						.ToArray();
+				}
+				else if (command == "print")
+				{
+					print(inputNumbers);
+				}
+
+				command = Console.ReadLine();
+			}
+
+6
+===========================
+
+			List<int> numbers = Console.ReadLine()
+				.Split(" ", StringSplitOptions.RemoveEmptyEntries)
+				.Select(int.Parse)
+				.Reverse()
+				.ToList();
+
+			int n = int.Parse(Console.ReadLine());
+
+			Predicate<int> filter = x => x % n != 0;
+			
+			Console.WriteLine(string.Join(" ", numbers.FindAll(filter)));
+
+---------------------------
+
+            List<int> numbers = Console.ReadLine()
+                 .Split(" ", StringSplitOptions.RemoveEmptyEntries)
+                 .Select(int.Parse)
+                 .Reverse()
+                 .ToList();
+
+            int n = int.Parse(Console.ReadLine());
+            bool Filter(int x) => x % n != 0;
+            //Predicate<int> filter = x => x % n != 0;
+            Console.WriteLine(string.Join(" ", numbers.Where(Filter)));
+
+7
+===========================
+
+            int nameLength = int.Parse(Console.ReadLine());
+
+            Console.ReadLine()
+                 .Split(" ", StringSplitOptions.RemoveEmptyEntries)
+                 .Where(x => x.Length <= nameLength)
+                 .ToList()
+                 .ForEach(Console.WriteLine)
+
+8
+===========================
+Description:
+Dokato stigne sravnenieto do return 1(ili kraq na masiva) 
+za da premine na drugoto chislo v masiva da sraznqva!
+ot (x, y) - X e GLAVNO ot (a, b) - A e glavno!
+"-1", "1", "0" mesti indexa na chisloto, ne realno chisloto!
+---------------------------
+
+            int[] numbers = Console.ReadLine()
+            .Split()
+            .Select(int.Parse)
+            .ToArray();
+
+            Func<int, int, int> sortFunc = (a, b) =>
+            {
+                if (a % 2 == 0 && b % 2 == 0)
+                {
+                    if (a < b)
+                    {
+                        return -1; // prashta na lqva
+                    }
+
+                    if (a > b)
+                    {
+                        return 1; // prashta na dqsno
+                    }
+
+                    return 0; // kogato sa ravni
+                }
+
+                if (a % 2 != 0 && b % 2 != 0)
+                {                 
+                    if(a < b)
+                    {
+                        return -1;
+                    }
+
+                    if (a > b)
+                    {
+                        return 1;
+                    }
+
+                    return 0;
+                }
+
+                if(a % 2 == 0)
+                {
+                    return -1;
+                }
+
+                if(a % 2 != 0)
+                {
+                    return 1;
+                }
+
+                return 0;
+            };
+
+---------------------------
+
+			int[] numbers = Console.ReadLine()
+				.Split()
+				.Select(int.Parse)
+				.ToArray();
+
+			Func<int, int, int> sortFunc =
+				(x, y) => (x % 2 == 0 && y % 2 != 0) ?
+				-1 : (x % 2 != 0 && y % 2 == 0) ?
+				1 : x > y ?
+				1 : x < y ?
+				-1 : 0;
+
+			Array.Sort(numbers, (x, y) => sortFunc(x, y));
+
+			Console.WriteLine(string.Join(" ", numbers));
+
+---------------------------
+
+            Console.ReadLine()
+                .Split(" ", StringSplitOptions.RemoveEmptyEntries)
+                .Select(int.Parse)
+                .OrderBy(x => x % 2 != 0)
+                .ThenBy(x => x)
+                .ToList()
+                .ForEach(x => Console.Write(x + " "));
+
+9
+===========================
+
+oshte po-sukraten variant
+
+			int upperBound = int.Parse(Console.ReadLine());
+
+			List<int> numbers = Enumerable.Range(1, upperBound).ToList();
+
+			int[] dividers = Console.ReadLine()
+				.Split()
+				.Select(int.Parse)
+				.Distinct()
+				.ToArray();
+
+			for (int i = 0; i < dividers.Length; i++)
+			{
+				Predicate<int> divisible = num => num % dividers[i] == 0;
+				numbers = numbers.FindAll(divisible);
+			}
+
+			Console.WriteLine(string.Join(" ", numbers));
+
+10
+===========================
+
+			List<string> listOfGuests = Console.ReadLine()
+				.Split(" ", StringSplitOptions.RemoveEmptyEntries)
+				.ToList();
+
+			while (true)
+			{
+				string[] input = Console.ReadLine()
+					.Split(" ", StringSplitOptions.RemoveEmptyEntries)
+					.ToArray();
+
+				string command = input[0];
+
+				if (command == "Party!")
+				{
+					break;
+				}
+
+				string criteria = input[1];
+				string condition = input[2];
+				Func<string, bool> filter;
+
+				switch (command)
+				{
+					case "Remove" when criteria == "StartsWith":
+						filter = x => !x.StartsWith(condition);
+						break;
+					case "Remove" when criteria == "EndsWith":
+						filter = x => !x.EndsWith(condition);
+						break;
+					case "Remove":
+						filter = x => x.Length != int.Parse(condition);
+						break;
+					case "Double" when criteria == "StartsWith":
+						filter = x => x.StartsWith(condition);
+						break;
+					case "Double" when criteria == "EndsWith":
+						filter = x => x.EndsWith(condition);
+						break;
+					default:
+						filter = x => x.Length == int.Parse(condition);
+						break;
+				}
+
+				if (command == "Remove")
+				{
+					listOfGuests = listOfGuests.Where(filter).ToList();
+				}
+				else
+				{
+					List<string> tempList = listOfGuests.Where(filter).ToList();
+
+					foreach (var name in tempList)
+					{
+						int index = listOfGuests.IndexOf(name);
+						listOfGuests.Insert(index, name);
+					}
+				}
+			}
+
+			Console.WriteLine(listOfGuests.Any() ?
+				$"{string.Join(", ", listOfGuests)} are going to the party!" :
+				"Nobody is going to the party!");
+
+11
+===========================
+
+			string[] names = Console.ReadLine()
+				.Split()
+				.ToArray();
+
+			string filter = Console.ReadLine();
+
+			List<string> filters = new List<string>();
+
+			while(filter != "Print")
+			{
+				string[] filterInfo = filter
+					.Split(';')
+					.ToArray();
+
+				string action = filterInfo[0];
+
+				if(action == "Add filter")
+				{
+					filters.Add($"{filterInfo[1]};{filterInfo[2]}");
+				}
+				else if (action == "Remove filter")
+				{
+					filters.Remove($"{filterInfo[1]};{filterInfo[2]}");
+				}
+
+				filter = Console.ReadLine();
+			}
+			
+			Func<string, int, bool> lengthFilter = (name, length) => name.Length == length;
+			Func<string, string, bool> startsWithFilter = (name, parameter) => name.StartsWith(parameter);
+			Func<string, string, bool> endsWithFilter = (name, parameter) => name.EndsWith(parameter);
+			Func<string, string, bool> containsFilter = (name, parameter) => name.Contains(parameter);
+
+			foreach (var currentFilter in filters)
+			{
+				string[] currentFilterInfo = currentFilter.Split(';').ToArray();
+
+				string action = currentFilterInfo[0];
+				string parameter = currentFilterInfo[1];
+
+				switch (action)
+				{
+					case "Starts with":
+						names = names.Where(name => !startsWithFilter(name, parameter)).ToArray();
+						break;
+					case "Ends with":
+						names = names.Where(name => !endsWithFilter(name, parameter)).ToArray();
+						break;
+					case "Length":
+						int length = int.Parse(parameter);
+						names = names.Where(name => !lengthFilter(name, length)).ToArray();
+						break;
+					case "Contains":
+						names = names.Where(name => !containsFilter(name, parameter)).ToArray();
+						break;
+				}
+			}
+
+			Console.WriteLine(string.Join(" ", names));
+
+12
+===========================
+
+			int length = int.Parse(Console.ReadLine());
+			string[] names = Console.ReadLine()
+				.Split()
+				.ToArray();
+
+			Func<string, int, bool> isLarger =
+				(name, charsLength) => name.Sum(x => x) >= charsLength;
+
+			Func<string[], Func<string, int, bool>, string> nameFilter =
+				(inputNames, isLargerFilter) => inputNames
+				.FirstOrDefault(x => isLargerFilter(x, length));
+
+			string resultName = nameFilter(names, isLarger);
+
+			Console.WriteLine(resultName);
+
+---------------------------
+
+			int length = int.Parse(Console.ReadLine());
+
+			Console.WriteLine(Console.ReadLine()
+				.Split()
+				.FirstOrDefault(x => x.ToCharArray()
+				.Select(y => (int)y).Sum() >= length));

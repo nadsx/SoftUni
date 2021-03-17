@@ -1,0 +1,10 @@
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\12_EvenNumber\bin\Debug\netcoreapp2.1\12_EvenNumber.deps.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\12_EvenNumber\bin\Debug\netcoreapp2.1\12_EvenNumber.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\12_EvenNumber\bin\Debug\netcoreapp2.1\12_EvenNumber.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\12_EvenNumber\bin\Debug\netcoreapp2.1\12_EvenNumber.dll
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\12_EvenNumber\bin\Debug\netcoreapp2.1\12_EvenNumber.pdb
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\12_EvenNumber\obj\Debug\netcoreapp2.1\12_EvenNumber.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\12_EvenNumber\obj\Debug\netcoreapp2.1\12_EvenNumber.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\12_EvenNumber\obj\Debug\netcoreapp2.1\12_EvenNumber.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\12_EvenNumber\obj\Debug\netcoreapp2.1\12_EvenNumber.dll
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\12_EvenNumber\obj\Debug\netcoreapp2.1\12_EvenNumber.pdb

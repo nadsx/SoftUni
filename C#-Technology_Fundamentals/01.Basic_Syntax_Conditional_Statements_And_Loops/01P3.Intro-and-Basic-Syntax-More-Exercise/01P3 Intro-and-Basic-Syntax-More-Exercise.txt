@@ -1,0 +1,244 @@
+1
+=======================================
+int[] numbers = new int[3];
+
+			for (int i = 0; i < numbers.Length; i++)
+			{
+				numbers[i] = int.Parse(Console.ReadLine());
+			}
+
+			numbers = numbers.OrderByDescending(x => x).ToArray();
+
+			foreach(var num in numbers)
+			{
+				Console.WriteLine(num);
+			}
+
+-----------------------------------------------
+int[] numbers = new int[3].ToArray(); 
+
+			for (int i = 0; i < numbers.Length; i++) 
+			{
+				numbers[i] = int.Parse(Console.ReadLine()); 
+
+			}
+
+			Array.Sort(numbers); 
+			Array.Reverse(numbers);
+
+			for (int j = 0; j < numbers.Length; j++)
+			{
+				Console.WriteLine(numbers[j]); 
+			}
+2
+=======================================
+public static void Main()
+		{
+			long number = long.Parse(Console.ReadLine());
+
+			number = GetLastDigit(number);
+			string[] verbalNums = 
+				{ 
+                                "zero", "one", "two", "three", "four",
+				"five", "six", "seven", "eight", "nine" 
+                                };
+
+			Console.WriteLine(verbalNums[number]);
+
+		}
+
+		public static long GetLastDigit(long number)
+		{
+			long lastDigit = long.Parse(number.ToString().Last().ToString());
+                        // 1vo go presvrushta v string, sled tova vzima posledniq char i go prevrushta char-a otnovo v string za da go pars-ne kum long
+
+			return lastDigit;
+		}
+3
+=======================================
+                  double balance = double.Parse(Console.ReadLine());
+
+			double currentBalance = balance;
+			double gamePrice = 0;
+
+			string input = Console.ReadLine();
+			 
+			while(input != "Game Time")
+			{
+				string gameName = input;
+
+				switch (gameName)
+				{
+					case "OutFall 4":
+						gamePrice = 39.99;
+						break;
+					case "CS: OG":
+						gamePrice = 15.99;
+						break;
+					case "Zplinter Zell":
+						gamePrice = 19.99;
+						break;
+					case "Honored 2":
+						gamePrice = 59.99;
+						break;
+					case "RoverWatch":
+						gamePrice = 29.99;
+						break;
+					case "RoverWatch Origins Edition":
+						gamePrice = 39.99;
+						break;
+					default:
+						Console.WriteLine("Not Found");
+						break;
+				}
+
+				if(gamePrice > 0 && currentBalance >= gamePrice)
+				{
+					Console.WriteLine($"Bought {gameName}");
+					currentBalance -= gamePrice;
+				}
+				else if(currentBalance <= gamePrice)
+				{
+					Console.WriteLine("Too Expensive");
+				}
+
+				if(currentBalance <= 0)
+				{
+					Console.WriteLine("Out of money");
+					return;
+				}
+
+				input = Console.ReadLine();
+			}
+
+			Console.WriteLine($"Total spent: ${balance - currentBalance:f2}." +
+				$"Remaining: ${currentBalance:f2}");
+
+4
+=======================================
+                        string input = Console.ReadLine();
+
+			for (int i = input.Length - 1; i >= 0; i--)
+			{
+				Console.Write(input[i]);
+			}
+
+5
+=======================================
+1vo variant
+
+ int countCharacters = int.Parse(Console.ReadLine());
+
+            int[] array = new int[25];
+            string result = string.Empty;
+
+            for (int i = 0; i < countCharacters; i++)
+            {
+                int textMessage = int.Parse(Console.ReadLine());
+                if (textMessage == 0)
+                {
+                    result += " ";
+                }
+                else
+                {
+                    int length = textMessage.ToString().Length;
+                    int mainDigit = textMessage % 10; // mojem da go vzemem i taka var mainDigit = int.Parse(textMessage[0].ToString());
+                    int startIndex = (mainDigit - 2) * 3;
+                    // 2 - 2 = 0 pochva ot 0lev index i vkliuchva 3 chisla
+                    // chislata ot tablicata sushto sa na indexi 
+
+                    if (mainDigit == 8 || mainDigit == 9)
+                    {
+                        startIndex++;
+                    }
+ 
+                    int letterIndex = startIndex + length - 1;
+                    result+= (char)(97 + letterIndex);
+                }
+            }
+ 
+            Console.WriteLine(result);
+        }
+
+2ri variant
+------------------------------------------
+
+public class SMS_Typing
+{
+    public static void Main()
+    {
+        var n = int.Parse(Console.ReadLine());
+
+        var SMS = string.Empty;
+
+        SMS = GetSMS(n, SMS);
+
+        Console.WriteLine(SMS);
+    }
+
+    private static string GetSMS(int n, string SMS)
+    {
+        for (int i = 0; i < n; i++)
+        {
+            var currentMessageCharacters = Console.ReadLine();
+
+            if (currentMessageCharacters == "0")
+            {
+                SMS += " ";
+            }
+
+            else
+            {
+                var mainDigit = int.Parse(currentMessageCharacters[0].ToString());
+                var numberOfDigits = currentMessageCharacters.Length;
+
+                var offset = (mainDigit - 2) * 3;
+
+                if (mainDigit == 8 || mainDigit == 9)
+                {
+                    offset++;
+                }
+
+                var letterIndex = offset + numberOfDigits - 1;
+
+                var currentMessage = (char)(letterIndex + 97);
+
+                SMS += currentMessage;
+            }
+        }
+
+        return SMS;
+    }
+
+3ti variant
+--------------------------------------------------------------
+int n = int.Parse(Console.ReadLine());
+			string message = string.Empty; // в този стринг ще прибавям по един символ при всяко завъртане на цикъла
+
+			for (int i = 0; i < n; i++) // n на брой завъртания на цикъла
+			{
+				string input = Console.ReadLine(); //чета го като стринг за да ползвам .Lenght
+
+				int lenght = input.Length; // намирам броя въведени цифри
+				int mainDigit = int.Parse(input) % 10; // "парсвам" стринга към int и вземам остатъка при делението на 10 -
+				int offset = 0;                        // най-лесно ми се видя :) , става и  int mainDigit = input[0] - '0';
+				char s = '\0';
+
+				if (mainDigit == 0) s = ' '; // проверка за нула
+				else
+				{
+					offset = (mainDigit - 2) * 3; // формулата от подсказките
+
+					if (mainDigit == 8 || mainDigit == 9) // проверка за 8 и 9 пак от подсказките
+						offset++;
+
+					int index = offset + lenght - 1; // формулата за индекса на буквата (символа)
+
+					s = (char)(97 + index); // обръщане на числото index в търсения символ s
+				}
+
+				message += s; // прибавям намерения символ към стринга
+			}
+
+			Console.WriteLine(message); // печат на готовия стринг
+

@@ -1,0 +1,812 @@
+01
+==================================
+
+using System;
+using System.Text;
+
+namespace _01_Exercise
+{
+    public class StartUp
+    {
+        public static void Main()
+        {
+            string name = Console.ReadLine();
+            int age = int.Parse(Console.ReadLine());
+
+            Person person;
+
+            if (age <= 15)
+            {
+                person = new Child(name, age);
+            }
+            else
+            {
+                person = new Person(name, age);
+            }
+
+            Console.WriteLine(person);
+        }
+    }
+
+    public class Person
+    {
+        private string name;
+        private int age;
+
+        public Person(string name, int age)
+        {
+            this.Name = name;
+            this.Age = age;
+        }
+
+        public virtual string Name
+        {
+            get { return name; }
+            set
+            {
+                if(value.Length < 3)
+                {
+                    throw new ArgumentException("Name's length should not be less than 3 symbols!");
+                }
+
+                name = value;
+            }
+        }
+
+        public virtual int Age
+        {
+            get { return age; }
+            set
+            {
+                if(value < 0)
+                {
+                    throw new ArgumentException("Age must be positive!");
+                }
+
+                age = value;
+            }
+        }
+
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.Append($"Name: {this.Name}, Age: {this.Age}");
+
+            return sb.ToString();
+        }
+    }
+
+    public class Child : Person
+    {
+        public Child(string name, int age)
+            : base(name, age)
+        {
+
+        }
+
+        //public override int Age
+        //{
+        //    get => base.Age;
+        //    set
+        //    {
+        //        if (value > 15)
+        //        {
+        //            throw new ArgumentException("Child's age must be less than 15!");
+        //        }
+
+        //        base.Age = value;
+        //    }
+        //}
+    }
+}
+
+02
+==================================
+
+using System;
+
+namespace _02_Exercise
+{
+    public class StartUp
+    {
+        public static void Main()
+        {
+            // 1, 2, 3, 4
+
+        }
+    }
+
+    public abstract class Animal
+    {
+        protected Animal(string name)
+        {
+            this.Name = name;
+        }
+
+        public string Name { get; set; }
+    }
+
+    public abstract class Mammal : Animal
+    {
+        protected Mammal(string name)
+            : base(name)
+        {
+        }
+    }
+
+    public class Gorilla : Mammal
+    {
+        public Gorilla(string name)
+            : base(name)
+        {
+        }
+    }
+
+    public class Bear : Mammal
+    {
+        public Bear(string name)
+            : base(name)
+        {
+        }
+    }
+    //Another
+
+    public abstract class Reptile : Animal
+    {
+        protected Reptile(string name)
+            : base(name)
+        {
+        }
+    }
+
+    public class Lizard : Reptile
+    {
+        public Lizard(string name)
+            : base(name)
+        {
+        }
+    }
+
+    public class Snake : Reptile
+    {
+        public Snake(string name)
+            : base(name)
+        {
+        }
+    }
+}
+
+03
+==================================
+
+using System;
+
+namespace _03_Exercise
+{
+    public class StartUp
+    {
+        public static void Main()
+        {
+
+        }
+    }
+
+    public class Hero
+    {
+        protected Hero(string username, int level)
+        {
+            this.Username = username;
+            this.Level = level;
+        }
+
+        public string Username { get; set; }
+
+        public int Level { get; set; }
+
+        public override string ToString()
+        {
+            return $"Type: {this.GetType().Name} Username: {this.Username} Level: {this.Level}";
+        }
+    }
+
+    public class Elf : Hero
+    {
+        public Elf(string username, int level)
+            : base(username, level)
+        {
+        }
+    }
+
+    public class MuseElf : Elf
+    {
+        public MuseElf(string username, int level)
+            : base(username, level)
+        {
+        }
+    }
+
+    // Another
+
+    public class Wizard : Hero
+    {
+        public Wizard(string username, int level)
+            : base(username, level)
+        {
+        }
+    }
+
+    public class DarkWizard : Wizard
+    {
+        public DarkWizard(string username, int level)
+            : base(username, level)
+        {
+        }
+    }
+
+    public class SoulMaster : DarkWizard
+    {
+        public SoulMaster(string username, int level)
+            : base(username, level)
+        {
+        }
+    }
+
+    // Another
+
+    public class Knight : Hero
+    {
+        public Knight(string username, int level)
+            : base(username, level)
+        {
+        }
+    }
+
+    public class DarkKnight : Knight
+    {
+        public DarkKnight(string username, int level)
+            : base(username, level)
+        {
+        }
+    }
+
+    public class BladeKnight : DarkKnight
+    {
+        public BladeKnight(string username, int level)
+            : base(username, level)
+        {
+        }
+    }
+}
+
+04
+==================================
+
+using System;
+
+namespace _04_Exercise
+{
+    public class StartUp
+    {
+        public static void Main()
+        {
+            Vehicle car = new Car(300, 100);
+
+            car.Drive(10);
+
+            Console.WriteLine(car.Fuel);  
+        }
+    }
+
+    public abstract class Vehicle
+    {
+        private const double DefaultFuelConsumption = 1.25;
+
+        protected Vehicle(int horsePower, double fuel)
+        {
+            this.HorsePower = horsePower;
+            this.Fuel = fuel;
+        }
+
+        public virtual double FuelConsumption => DefaultFuelConsumption;
+
+        public int HorsePower { get; set; }
+
+        public double Fuel { get; set; }
+
+        public virtual void Drive(double kilometers)
+        {
+            double leftFuel = this.Fuel - this.FuelConsumption * kilometers;
+
+            if(leftFuel >= 0)
+            {
+                this.Fuel -= this.FuelConsumption * kilometers;
+            }
+        }
+    }
+
+    // Another
+
+    public class Motorcycle : Vehicle
+    {
+        public Motorcycle(int horsePower, double fuel)
+            : base(horsePower, fuel)
+        {
+        }
+    }
+
+    public class RaceMotorcycle : Motorcycle
+    {
+        private const double DefaultFuelConsumption = 8;
+
+        public RaceMotorcycle(int horsePower, double fuel)
+            : base(horsePower, fuel)
+        {
+        }
+
+        public override double FuelConsumption => DefaultFuelConsumption;
+    }
+
+    public class CrossMotorcycle : Motorcycle
+    {
+        public CrossMotorcycle(int horsePower, double fuel)
+            : base(horsePower, fuel)
+        {
+        }
+    }
+
+    // Another
+
+    public class Car : Vehicle
+    {
+        private const double DefaultFuelConsumption = 3;
+
+        public Car(int horsePower, double fuel)
+            : base(horsePower, fuel)
+        {
+        }
+
+        public override double FuelConsumption => DefaultFuelConsumption;
+    }
+
+    public class FamilyCar : Car
+    {
+        public FamilyCar(int horsePower, double fuel)
+            : base(horsePower, fuel)
+        {
+        }
+    }
+
+    public class SportCar : Car
+    {
+        private const double DefaultFuelConsumption = 10;
+
+        public SportCar(int horsePower, double fuel)
+            : base(horsePower, fuel)
+        {
+        }
+
+        public override double FuelConsumption => DefaultFuelConsumption;
+    }
+}
+
+05
+==================================
+
+using System;
+
+namespace _05_Exercise
+{
+    public class StartUp
+    {
+        public static void Main()
+        {
+
+        }
+    }
+
+    public abstract class Product
+    {
+        private string name;
+        private decimal price;
+
+        public Product(string name, decimal price)
+        {
+            this.Name = name;
+            this.Price = price;
+        }
+
+        public string Name
+        {
+            get => this.name;
+            set => this.name = value;
+        }
+
+        public decimal Price
+        {
+            get => this.price;
+            set => this.price = value;
+        }
+    }
+
+    // Another
+
+    public class Beverage : Product
+    {
+        private double milliliters;
+
+        public Beverage(string name, decimal price, double milliliters)
+            : base(name, price)
+        {
+            this.Milliliters = milliliters;
+        }
+
+        public double Milliliters //public int Milliliters { get; set; }
+        {
+            get => this.milliliters;
+            set => this.milliliters = value;
+        }
+    }
+
+    public class HotBeverage : Beverage
+    {
+        public HotBeverage(string name, decimal price, double milliliters)
+            : base(name, price, milliliters)
+        {
+        }
+    }
+
+    public class Coffe : HotBeverage
+    {
+        private const double CoffeeMilliliters = 50;
+        private const decimal CoffeePrice = 3.50m;
+        private double caffeine;
+
+        public Coffe(string name, double caffeine)
+            : base(name, coffeePrice, coffeeMilliliters)
+        {
+            this.Caffeine = caffeine;
+        }
+
+        public double Caffeine
+        {
+            get => this.caffeine;
+            set => this.caffeine = value;
+        }
+    }
+
+    public class Tea : HotBeverage
+    {
+        public Tea(string name, decimal price, double milliliters)
+            : base(name, price, milliliters)
+        {
+        }
+    }
+
+    // Another
+
+    public class ColdBeverage : Beverage
+    {
+        public ColdBeverage(string name, decimal price, double milliliters)
+            : base(name, price, milliliters)
+        {
+        }
+    }
+
+    // Another
+
+    public class Food : Product
+    {
+        private double grams;
+
+        public Food(string name, decimal price, double grams)
+            : base(name, price)
+        {
+            this.Grams = grams;
+        }
+
+        public double Grams
+        {
+            get => grams;
+            set => grams = value;
+        }
+    }
+
+    public class Dessert : Food
+    {
+        private double calories;
+
+        public Dessert(string name, decimal price, double grams, double calories)
+            : base(name, price, grams)
+        {
+            this.Calories = calories;
+        }
+
+        public double Calories
+        {
+            get => calories;
+            set => calories = value;
+        }
+    }
+
+    public class Cake : Dessert
+    {
+        private const double CakeGrams = 250;
+        private const double CakeCalories = 1000;
+        private const decimal CakePrice = 5m;
+
+        public Cake(string name)
+            : base(name, cakePrice, cakeGrams, cakeCalories)
+        {
+        }
+    }
+
+    // Another
+
+    public class MainDish : Food
+    {
+        public MainDish(string name, decimal price, double grams)
+            : base(name, price, grams)
+        {
+        }
+    }
+
+    public class Fish : MainDish
+    {
+        private const double FishGrams = 22;
+
+        public Fish(string name, decimal price)
+            : base(name, price, fishGrams)
+        {
+        }
+    }
+
+    // Another
+
+    public class Starter : Food
+    {
+        public Starter(string name, decimal price, double grams)
+            : base(name, price, grams)
+        {
+        }
+    }
+
+    public class Soup : Starter
+    {
+        public Soup(string name, decimal price, double grams)
+            : base(name, price, grams)
+        {
+        }
+    }
+}
+
+06
+==================================
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace _06_Exercise
+{
+    public class StartUp
+    {
+        public static void Main()
+        {
+            Engine engine = new Engine();
+            engine.Run();
+        }
+    }
+
+    public class InvalidInputException : Exception
+    {
+        public override string Message => "Invalid input!";
+    }
+
+    public abstract class Animal
+    {
+        private string name;
+        private int age;
+        private string gender;
+
+        public Animal(string name, int age, string gender)
+        {
+            this.Name = name;
+            this.Age = age;
+            this.Gender = gender;
+        }
+
+        public string Name
+        {
+            get => this.name;
+            set
+            {
+                if (string.IsNullOrWhiteSpace(value))
+                {
+                    throw new InvalidInputException();
+                }
+
+                this.name = value;
+            }
+        }
+
+        public int Age
+        {
+            get { return age; }
+            set
+            {
+                if(value < 0)
+                {
+                    throw new InvalidInputException();
+                }
+
+                age = value;
+            }
+        }
+
+        public string Gender
+        {
+            get { return gender; }
+            set
+            {
+                if(value != "Male" && value != "Female")
+                {
+                    throw new InvalidInputException();
+                }
+
+                gender = value;
+            }
+        }
+
+        public abstract string ProduceSound();
+
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+
+            sb.AppendLine($"{this.GetType().Name}");
+            sb.AppendLine($"{this.Name} {this.Age} {this.Gender}");
+            sb.AppendLine($"{this.ProduceSound()}");
+
+            return sb.ToString().TrimEnd();
+        }
+    }
+
+    // Another
+
+    public class Cat : Animal
+    {
+        public Cat(string name, int age, string gender)
+            : base(name, age, gender)
+        {
+        }
+
+        public override string ProduceSound()
+        {
+            return "Meow meow";
+        }
+    }
+
+    public class Kitten : Cat
+    {
+        private const string KittenGender = "Female";
+
+        public Kitten(string name, int age)
+            : base(name, age, KittenGender)
+        {
+        }
+
+        public override string ProduceSound()
+        {
+            return "Meow";
+        }
+    }
+
+    public class Tomcat : Cat
+    {
+        private const string TomcatGender = "Male";
+
+        public Tomcat(string name, int age)
+            : base(name, age, TomcatGender)
+        {
+        }
+
+        public override string ProduceSound()
+        {
+            return "MEOW";
+        }
+    }
+
+    public class Dog : Animal
+    {
+        public Dog(string name, int age, string gender)
+            : base(name, age, gender)
+        {
+        }
+
+        public override string ProduceSound()
+        {
+            return "Woof!";
+        }
+    }
+
+    public class Frog : Animal
+    {
+        public Frog(string name, int age, string gender)
+            : base(name, age, gender)
+        {
+        }
+
+        public override string ProduceSound()
+        {
+            return "Ribbit";
+        }
+    }
+
+    public class Engine
+    {
+        private List<Animal> animals;
+
+        public Engine()
+        {
+            this.animals = new List<Animal>();
+        }
+
+        public void Run()
+        {
+            string animalType = Console.ReadLine();
+
+            while(animalType != "Beast!")
+            {
+                try
+                {
+                    string[] animalArgs = Console.ReadLine()
+                        .Split()
+                        .ToArray();
+
+                    string name = animalArgs[0];
+                    int age = int.Parse(animalArgs[1]);
+                    string gender = animalArgs[2];
+
+                    switch (animalType)
+                    {
+                        case "Cat":
+                            Cat cat = new Cat(name, age, gender);
+                            animals.Add(cat);
+                            break;
+                        case "Dog":
+                            Dog dog = new Dog(name, age, gender);
+                            animals.Add(dog);
+                            break;
+                        case "Frog":
+                            Frog frog = new Frog(name, age, gender);
+                            animals.Add(frog);
+                            break;
+                        case "Kitten":
+                            Kitten kitten = new Kitten(name, age);
+                            animals.Add(kitten);
+                            break;
+                        case "Tomcat":
+                            Tomcat tomcat = new Tomcat(name, age);
+                            animals.Add(tomcat);
+                            break;
+                        default:
+                            Console.WriteLine("Invalid input!");
+                            break;
+                    }
+                }
+                catch (InvalidInputException exception)
+                {
+                    Console.WriteLine(exception.Message);
+                }
+
+                animalType = Console.ReadLine();
+            }
+
+            foreach(var animal in animals)
+            {
+                Console.WriteLine(animal.ToString());
+            }
+        }
+    }
+}

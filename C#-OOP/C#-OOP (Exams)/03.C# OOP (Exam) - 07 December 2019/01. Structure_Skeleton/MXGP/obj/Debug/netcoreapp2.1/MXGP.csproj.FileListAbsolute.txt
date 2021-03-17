@@ -1,0 +1,10 @@
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\02.C# OOP (Exam) - 07 December 2019\01. Structure_Skeleton\MXGP\bin\Debug\netcoreapp2.1\MXGP.deps.json
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\02.C# OOP (Exam) - 07 December 2019\01. Structure_Skeleton\MXGP\bin\Debug\netcoreapp2.1\MXGP.runtimeconfig.json
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\02.C# OOP (Exam) - 07 December 2019\01. Structure_Skeleton\MXGP\bin\Debug\netcoreapp2.1\MXGP.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\02.C# OOP (Exam) - 07 December 2019\01. Structure_Skeleton\MXGP\bin\Debug\netcoreapp2.1\MXGP.dll
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\02.C# OOP (Exam) - 07 December 2019\01. Structure_Skeleton\MXGP\bin\Debug\netcoreapp2.1\MXGP.pdb
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\02.C# OOP (Exam) - 07 December 2019\01. Structure_Skeleton\MXGP\obj\Debug\netcoreapp2.1\MXGP.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\02.C# OOP (Exam) - 07 December 2019\01. Structure_Skeleton\MXGP\obj\Debug\netcoreapp2.1\MXGP.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\02.C# OOP (Exam) - 07 December 2019\01. Structure_Skeleton\MXGP\obj\Debug\netcoreapp2.1\MXGP.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\02.C# OOP (Exam) - 07 December 2019\01. Structure_Skeleton\MXGP\obj\Debug\netcoreapp2.1\MXGP.dll
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\02.C# OOP (Exam) - 07 December 2019\01. Structure_Skeleton\MXGP\obj\Debug\netcoreapp2.1\MXGP.pdb

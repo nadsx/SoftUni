@@ -1,0 +1,10 @@
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P12RefactorSpecialNumbers\bin\Debug\netcoreapp2.1\P12RefactorSpecialNumbers.deps.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P12RefactorSpecialNumbers\bin\Debug\netcoreapp2.1\P12RefactorSpecialNumbers.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P12RefactorSpecialNumbers\bin\Debug\netcoreapp2.1\P12RefactorSpecialNumbers.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P12RefactorSpecialNumbers\bin\Debug\netcoreapp2.1\P12RefactorSpecialNumbers.dll
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P12RefactorSpecialNumbers\bin\Debug\netcoreapp2.1\P12RefactorSpecialNumbers.pdb
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P12RefactorSpecialNumbers\obj\Debug\netcoreapp2.1\P12RefactorSpecialNumbers.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P12RefactorSpecialNumbers\obj\Debug\netcoreapp2.1\P12RefactorSpecialNumbers.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P12RefactorSpecialNumbers\obj\Debug\netcoreapp2.1\P12RefactorSpecialNumbers.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P12RefactorSpecialNumbers\obj\Debug\netcoreapp2.1\P12RefactorSpecialNumbers.dll
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P12RefactorSpecialNumbers\obj\Debug\netcoreapp2.1\P12RefactorSpecialNumbers.pdb

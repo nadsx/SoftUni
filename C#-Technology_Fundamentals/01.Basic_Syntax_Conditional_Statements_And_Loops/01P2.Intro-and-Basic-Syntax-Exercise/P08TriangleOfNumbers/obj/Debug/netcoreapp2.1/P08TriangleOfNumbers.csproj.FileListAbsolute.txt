@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P08TriangleOfNumbers\bin\Debug\netcoreapp2.1\P08TriangleOfNumbers.deps.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P08TriangleOfNumbers\bin\Debug\netcoreapp2.1\P08TriangleOfNumbers.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P08TriangleOfNumbers\bin\Debug\netcoreapp2.1\P08TriangleOfNumbers.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P08TriangleOfNumbers\bin\Debug\netcoreapp2.1\P08TriangleOfNumbers.dll
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P08TriangleOfNumbers\bin\Debug\netcoreapp2.1\P08TriangleOfNumbers.pdb
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P08TriangleOfNumbers\obj\Debug\netcoreapp2.1\P08TriangleOfNumbers.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P08TriangleOfNumbers\obj\Debug\netcoreapp2.1\P08TriangleOfNumbers.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P08TriangleOfNumbers\obj\Debug\netcoreapp2.1\P08TriangleOfNumbers.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P08TriangleOfNumbers\obj\Debug\netcoreapp2.1\P08TriangleOfNumbers.dll
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P08TriangleOfNumbers\obj\Debug\netcoreapp2.1\P08TriangleOfNumbers.pdb
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P08TriangleOfNumbers\obj\Debug\netcoreapp2.1\P08TriangleOfNumbers.csprojAssemblyReference.cache

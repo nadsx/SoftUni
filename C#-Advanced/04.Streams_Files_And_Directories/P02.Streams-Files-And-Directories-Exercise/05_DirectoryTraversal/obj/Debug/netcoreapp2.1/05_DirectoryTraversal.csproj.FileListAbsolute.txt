@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\05_DirectoryTraversal\bin\Debug\netcoreapp2.1\05_DirectoryTraversal.deps.json
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\05_DirectoryTraversal\bin\Debug\netcoreapp2.1\05_DirectoryTraversal.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\05_DirectoryTraversal\bin\Debug\netcoreapp2.1\05_DirectoryTraversal.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\05_DirectoryTraversal\bin\Debug\netcoreapp2.1\05_DirectoryTraversal.dll
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\05_DirectoryTraversal\bin\Debug\netcoreapp2.1\05_DirectoryTraversal.pdb
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\05_DirectoryTraversal\obj\Debug\netcoreapp2.1\05_DirectoryTraversal.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\05_DirectoryTraversal\obj\Debug\netcoreapp2.1\05_DirectoryTraversal.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\05_DirectoryTraversal\obj\Debug\netcoreapp2.1\05_DirectoryTraversal.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\05_DirectoryTraversal\obj\Debug\netcoreapp2.1\05_DirectoryTraversal.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\05_DirectoryTraversal\obj\Debug\netcoreapp2.1\05_DirectoryTraversal.dll
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\05_DirectoryTraversal\obj\Debug\netcoreapp2.1\05_DirectoryTraversal.pdb

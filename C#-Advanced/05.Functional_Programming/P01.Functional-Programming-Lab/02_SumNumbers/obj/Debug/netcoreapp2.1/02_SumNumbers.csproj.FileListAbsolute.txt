@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\02_SumNumbers\bin\Debug\netcoreapp2.1\02_SumNumbers.deps.json
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\02_SumNumbers\bin\Debug\netcoreapp2.1\02_SumNumbers.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\02_SumNumbers\bin\Debug\netcoreapp2.1\02_SumNumbers.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\02_SumNumbers\bin\Debug\netcoreapp2.1\02_SumNumbers.dll
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\02_SumNumbers\bin\Debug\netcoreapp2.1\02_SumNumbers.pdb
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\02_SumNumbers\obj\Debug\netcoreapp2.1\02_SumNumbers.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\02_SumNumbers\obj\Debug\netcoreapp2.1\02_SumNumbers.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\02_SumNumbers\obj\Debug\netcoreapp2.1\02_SumNumbers.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\02_SumNumbers\obj\Debug\netcoreapp2.1\02_SumNumbers.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\02_SumNumbers\obj\Debug\netcoreapp2.1\02_SumNumbers.dll
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\02_SumNumbers\obj\Debug\netcoreapp2.1\02_SumNumbers.pdb

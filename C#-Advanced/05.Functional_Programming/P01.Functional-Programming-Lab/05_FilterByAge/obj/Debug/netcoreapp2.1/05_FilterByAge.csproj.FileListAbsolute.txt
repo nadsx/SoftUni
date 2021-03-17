@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\05_FilterByAge\bin\Debug\netcoreapp2.1\05_FilterByAge.deps.json
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\05_FilterByAge\bin\Debug\netcoreapp2.1\05_FilterByAge.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\05_FilterByAge\bin\Debug\netcoreapp2.1\05_FilterByAge.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\05_FilterByAge\bin\Debug\netcoreapp2.1\05_FilterByAge.dll
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\05_FilterByAge\bin\Debug\netcoreapp2.1\05_FilterByAge.pdb
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\05_FilterByAge\obj\Debug\netcoreapp2.1\05_FilterByAge.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\05_FilterByAge\obj\Debug\netcoreapp2.1\05_FilterByAge.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\05_FilterByAge\obj\Debug\netcoreapp2.1\05_FilterByAge.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\05_FilterByAge\obj\Debug\netcoreapp2.1\05_FilterByAge.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\05_FilterByAge\obj\Debug\netcoreapp2.1\05_FilterByAge.dll
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\05_FilterByAge\obj\Debug\netcoreapp2.1\05_FilterByAge.pdb

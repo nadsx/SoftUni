@@ -1,0 +1,587 @@
+1
+=============================
+
+	class Program
+	{
+		static void Main(string[] args)
+		{
+			string dateAsText = Console.ReadLine();
+
+			DateTime date = DateTime.ParseExact(dateAsText, "d-M-yyyy", CultureInfo.InvariantCulture);
+
+			Console.WriteLine(date.DayOfWeek);
+		}
+	}
+
+2
+=============================
+
+class Program
+	{
+		static void Main(string[] args)
+		{
+			var words = Console.ReadLine().Split();
+
+			var random = new Random();
+
+			for (int i = 0; i < words.Length; i++)
+			{
+				var randomIndex = random.Next(0, words.Length);
+
+				var tempValue = words[i];
+				words[i] = words[randomIndex];
+				words[randomIndex] = tempValue;
+			}
+
+			for (int i = 0; i < words.Length; i++)
+			{
+				Console.WriteLine(words[i]);
+			}
+		}
+	}
+
+-----------------------------
+
+static void Main(string[] args)
+        {
+            var rand = new Random();
+            var wordsList = Console.ReadLine()
+                .Split(' ')
+                .ToList();
+            var wordsCount = wordsList.Count;
+
+            for (int i = 0; i < wordsCount - 1; i++)
+            {
+                int j = rand.Next(0, wordsCount); //Next() Returns a non-negative random integer.
+                if (i != j)                       //To generate a random number within a different range, use the Random.Next(Int32, Int32)
+                {                                 //rnd.Next(minValue, maxValue).  
+                    var old = wordsList[i];
+                    wordsList[i] = wordsList[j];
+                    wordsList[j] = old;
+                }
+            }
+
+            foreach (var word in wordsList) //Console.WriteLine(string.Join(Environment.NewLine, words));		                   
+            {                               //mejdu vsqka duma slaga nov red Enviroment.NewLine
+                Console.WriteLine(word);
+            }
+        }
+---------------------------------------------
+
+var words = Console.ReadLine().Split(' ').ToArray();
+
+			var random = new Random();
+
+			for (int i = 0; i < words.Length; i++)
+			{
+				var currentWord = words[i];
+				var randomIndex = random.Next(0, words.Length);
+				var randomWord = words[randomIndex];
+
+				words[i] = randomWord;
+				words[randomIndex] = currentWord;
+			}
+
+			foreach(var word in words)
+			{
+				Console.WriteLine(word);
+	
+		}
+----------------------------------------------
+
+
+string[] words = Console.ReadLine().Split();
+
+			Random random = new Random();
+
+			for (int currentIndex = 0; currentIndex < words.Length; currentIndex++)
+			{
+				int randomIndex = random.Next(0, words.Length);
+				
+				string temp = words[currentIndex];
+				words[currentIndex] = words[randomIndex];
+				words[randomIndex] = temp;
+
+			}
+
+			foreach(var word in words)
+			{
+				Console.WriteLine(word);
+			}
+
+3
+=============================
+
+class Program
+	{
+		static void Main(string[] args)
+		{
+			int n = int.Parse(Console.ReadLine());
+
+			BigInteger result = 1;
+
+			for (int i = 2; i <= n; i++)
+			{
+				result *= i;
+			}
+
+			Console.WriteLine(result);
+		}
+	}
+
+------------------------------
+
+static void Main(string[] args) //5! = 5*4*3*2*1 = 120
+        {
+            BigInteger factorial = 1;
+            var n = int.Parse(Console.ReadLine());
+
+            for (int i = 2 ; i <= n; i++)
+            {
+                factorial = factorial * i;
+            }
+
+            Console.WriteLine(factorial);
+        }
+
+-------------------------------
+
+int n = int.Parse(Console.ReadLine());
+
+			BigInteger factorial = 1;
+
+			for (int i = 1; i <= n; i++)
+			{
+				factorial *= i;
+			}
+
+			Console.WriteLine(factorial);
+4
+============================= 
+
+class Program
+	{
+		static void Main(string[] args)
+		{
+			int numberOfSongs = int.Parse(Console.ReadLine());
+
+			List<Song> songs = new List<Song>();
+
+			for (int i = 0; i < numberOfSongs; i++)
+			{
+				string[] data = Console.ReadLine().Split("_");
+
+				string type = data[0];
+				string name = data[1];
+				string time = data[2];
+
+				Song song = new Song();
+
+				song.TypeList = type;
+				song.Name = name;
+				song.Time = time;
+
+				songs.Add(song);
+			}
+
+			string typeList = Console.ReadLine();
+
+			if(typeList == "all")
+			{
+				foreach(Song song in songs)
+				{
+					Console.WriteLine(song.Name);
+				}
+			}
+			else
+			{
+				foreach(Song song in songs)
+				{
+					if(song.TypeList == typeList)
+					{
+						Console.WriteLine(song.Name);
+					}
+				}
+			}
+		}
+	}
+	class Song
+	{
+		public string TypeList { get; set; }
+
+		public string Name { get; set; }
+
+		public string Time { get; set; }
+
+	}
+
+5
+============================= 
+
+	class Program
+	{
+		static void Main(string[] args)
+		{
+			List<Student> students = new List<Student>();
+
+			string inputData = Console.ReadLine();
+
+			while(inputData != "end")
+			{
+				string[] tokens = inputData.Split();
+
+				string firstName = tokens[0];
+				string lastName = tokens[1];
+				int age = int.Parse(tokens[2]);
+				string city = tokens[3];
+
+				Student student = new Student()
+				{
+					FirstName = firstName,
+					LastName = lastName,
+					Age = age,
+					City = city
+				};
+
+				students.Add(student);
+
+				inputData = Console.ReadLine();
+			}
+
+			string filterCity = Console.ReadLine();
+
+			foreach(Student student in students)
+			{
+				if(student.City == filterCity)
+				{
+					Console.WriteLine($"{student.FirstName} {student.LastName} is {student.Age} years old.");
+				}
+			}
+		
+		}
+	}
+	class Student
+	{
+		public string FirstName { get; set; }
+
+		public string LastName { get; set; }
+
+		public int Age { get; set; }
+
+		public string City { get; set; }
+
+	}
+6
+=============================
+
+class Program
+	{
+		static void Main(string[] args)
+		{
+			List<Student> students = new List<Student>();
+
+			string inputData = Console.ReadLine();
+
+			while (inputData != "end")
+			{
+				string[] tokens = inputData.Split();
+
+				string firstName = tokens[0];
+				string lastName = tokens[1];
+				int age = int.Parse(tokens[2]);
+				string city = tokens[3];
+
+				if (IsStudentExisting(students, firstName, lastName))
+				{
+					Student student = GetStudent(students, firstName, lastName);
+
+					student.FirstName = firstName;
+					student.LastName = lastName;
+					student.Age = age;
+					student.City = city;
+				}
+				else
+				{
+					Student student = new Student()
+					{
+						FirstName = firstName,
+						LastName = lastName,
+						Age = age,
+						City = city
+					};
+
+					students.Add(student);
+				}
+
+				inputData = Console.ReadLine();
+			}
+
+			string filterCity = Console.ReadLine();
+
+			foreach (Student student in students)
+			{
+				if (student.City == filterCity)
+				{
+					Console.WriteLine($"{student.FirstName} {student.LastName} is {student.Age} years old.");
+				}
+			}
+
+		}
+
+		private static Student GetStudent(List<Student> students, string firstName, string lastName)
+		{
+			Student existingStudent = null;
+
+			foreach(Student student in students)
+			{
+				if(student.FirstName == firstName && student.LastName == lastName)
+				{
+					existingStudent = student;
+				}
+			}
+
+			return existingStudent;
+		}
+
+		private static bool IsStudentExisting(List<Student> students, string firstName, string lastName)
+		{
+			foreach(Student student in students)
+			{
+				if(student.FirstName == firstName && student.LastName == lastName)
+				{
+					return true;
+				}
+			}
+
+			return false;
+		}
+	}
+	class Student
+	{
+		public string FirstName { get; set; }
+
+		public string LastName { get; set; }
+
+		public int Age { get; set; }
+
+		public string City { get; set; }
+	}
+
+
+-----------------------------
+Same but with LINQ
+
+class Program
+	{
+		static void Main(string[] args)
+		{
+			List<Student> students = new List<Student>();
+
+			string inputData = Console.ReadLine();
+
+			while (inputData != "end")
+			{
+				string[] tokens = inputData.Split();
+
+				string firstName = tokens[0];
+				string lastName = tokens[1];
+				int age = int.Parse(tokens[2]);
+				string city = tokens[3];
+
+				Student student = students.FirstOrDefault(s => s.FirstName == firstName && s.LastName == lastName);
+
+				if(student == null)
+				{
+					students.Add(new Student()
+					{
+						FirstName = firstName,
+						LastName = lastName,
+						Age = age,
+						City = city
+					});
+				}
+				else
+				{
+					student.FirstName = firstName;
+					student.LastName = lastName;
+					student.Age = age;
+					student.City = city;
+				}
+		
+				inputData = Console.ReadLine();
+			}
+
+			string filterCity = Console.ReadLine();
+
+			foreach (Student student in students)
+			{
+				if (student.City == filterCity)
+				{
+					Console.WriteLine($"{student.FirstName} {student.LastName} is {student.Age} years old.");
+				}
+			}
+
+		}
+	}
+	class Student
+	{
+		public string FirstName { get; set; }
+
+		public string LastName { get; set; }
+
+		public int Age { get; set; }
+
+		public string City { get; set; }
+	}
+
+7
+=============================
+
+class Program
+	{
+		static void Main(string[] args)
+		{
+			string input = Console.ReadLine();
+
+			List<Box> boxes = new List<Box>();
+
+			while(input != "end")
+			{
+				string[] tokens = input.Split();
+				string serialNumber = tokens[0];
+				string itemName = tokens[1];
+				int itemQuantity = int.Parse(tokens[2]);
+				double itemPrice = double.Parse(tokens[3]);
+
+				Item item = new Item()
+				{
+					Name = itemName,
+					Price = itemPrice
+				};
+
+				Box box = new Box()
+				{
+					SerialNumber = serialNumber,
+					Item = item,
+					Quantity = itemQuantity,
+					PricePerBox = item.Price * itemQuantity
+				};
+
+				boxes.Add(box);
+				input = Console.ReadLine();
+			}
+	
+			foreach(var box in boxes.OrderByDescending(x => x.PricePerBox))
+			{
+				Console.WriteLine(box.SerialNumber);
+				Console.WriteLine($"-- {box.Item.Name} - ${box.Item.Price:f2}: {box.Quantity}");
+				Console.WriteLine($"-- ${box.PricePerBox:f2}");
+			}
+		}
+	}
+
+	class Item
+	{
+		public string Name { get; set; }
+		public double Price { get; set; }
+	}
+
+	class Box
+	{
+		public string SerialNumber { get; set; }
+		public Item Item { get; set; }
+		public int Quantity { get; set; }
+		public double PricePerBox { get; set; }
+	}
+8
+=============================
+
+	class Program
+	{
+		static void Main(string[] args)
+		{
+			List<Car> carsList = new List<Car>();
+			List<Truck> trucksList = new List<Truck>();
+
+			string input = Console.ReadLine();
+
+			while(input != "end")
+			{
+				string[] tokens = input.Split("/");
+				string typeVehicle = tokens[0];
+
+				if(typeVehicle == "Car")
+				{
+					var car = new Car()
+					{
+						Brand = tokens[1],
+						Model = tokens[2],
+						HorsePower = int.Parse(tokens[3])
+					};
+
+					carsList.Add(car);
+				}
+				else if(typeVehicle == "Truck")
+				{
+					var truck = new Truck()
+					{
+						Brand = tokens[1],
+						Model = tokens[2],
+						Weight = int.Parse(tokens[3])
+					};
+
+					trucksList.Add(truck);
+				}
+
+				input = Console.ReadLine();
+			}
+
+			var catalogVehicle = new CatalogVehicle()
+			{
+				Cars = carsList,
+				Trucks = trucksList
+			};
+
+
+			if (catalogVehicle.Cars.Any())
+			{
+				Console.WriteLine("Cars:");
+
+				foreach (var car in catalogVehicle.Cars.OrderBy(x => x.Brand))
+				{
+					Console.WriteLine($"{car.Brand}: {car.Model} - {car.HorsePower}hp");
+				}
+			}
+
+			if (catalogVehicle.Trucks.Any())
+			{
+				Console.WriteLine("Trucks:");
+
+				foreach (var truck in catalogVehicle.Trucks.OrderBy(x => x.Brand))
+				{
+					Console.WriteLine($"{truck.Brand}: {truck.Model} - {truck.Weight}kg");
+				}
+			}
+
+		}
+	}
+
+	class Car
+	{
+		public string Brand { get; set; }
+		public string Model { get; set; }
+		public int HorsePower { get; set; }
+	}
+
+	class Truck
+	{
+		public string Brand { get; set; }
+		public string Model { get; set; }
+		public int Weight { get; set; }
+	}
+
+	class CatalogVehicle
+	{
+		public List<Car> Cars { get; set; }
+		public List<Truck> Trucks { get; set; }
+	}

@@ -1,0 +1,10 @@
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P06TriplesOfLatinLetters\bin\Debug\netcoreapp2.1\P06TriplesOfLatinLetters.deps.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P06TriplesOfLatinLetters\bin\Debug\netcoreapp2.1\P06TriplesOfLatinLetters.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P06TriplesOfLatinLetters\bin\Debug\netcoreapp2.1\P06TriplesOfLatinLetters.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P06TriplesOfLatinLetters\bin\Debug\netcoreapp2.1\P06TriplesOfLatinLetters.dll
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P06TriplesOfLatinLetters\bin\Debug\netcoreapp2.1\P06TriplesOfLatinLetters.pdb
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P06TriplesOfLatinLetters\obj\Debug\netcoreapp2.1\P06TriplesOfLatinLetters.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P06TriplesOfLatinLetters\obj\Debug\netcoreapp2.1\P06TriplesOfLatinLetters.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P06TriplesOfLatinLetters\obj\Debug\netcoreapp2.1\P06TriplesOfLatinLetters.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P06TriplesOfLatinLetters\obj\Debug\netcoreapp2.1\P06TriplesOfLatinLetters.dll
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P06TriplesOfLatinLetters\obj\Debug\netcoreapp2.1\P06TriplesOfLatinLetters.pdb

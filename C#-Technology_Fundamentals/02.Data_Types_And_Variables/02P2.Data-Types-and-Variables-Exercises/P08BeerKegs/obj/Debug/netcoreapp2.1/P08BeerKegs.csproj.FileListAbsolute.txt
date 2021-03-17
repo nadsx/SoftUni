@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P08BeerKegs\bin\Debug\netcoreapp2.1\P08BeerKegs.deps.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P08BeerKegs\bin\Debug\netcoreapp2.1\P08BeerKegs.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P08BeerKegs\bin\Debug\netcoreapp2.1\P08BeerKegs.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P08BeerKegs\bin\Debug\netcoreapp2.1\P08BeerKegs.dll
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P08BeerKegs\bin\Debug\netcoreapp2.1\P08BeerKegs.pdb
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P08BeerKegs\obj\Debug\netcoreapp2.1\P08BeerKegs.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P08BeerKegs\obj\Debug\netcoreapp2.1\P08BeerKegs.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P08BeerKegs\obj\Debug\netcoreapp2.1\P08BeerKegs.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P08BeerKegs\obj\Debug\netcoreapp2.1\P08BeerKegs.dll
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P08BeerKegs\obj\Debug\netcoreapp2.1\P08BeerKegs.pdb
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P08BeerKegs\obj\Debug\netcoreapp2.1\P08BeerKegs.csprojAssemblyReference.cache

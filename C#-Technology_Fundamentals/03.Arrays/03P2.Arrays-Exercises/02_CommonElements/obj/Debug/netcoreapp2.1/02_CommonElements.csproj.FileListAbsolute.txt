@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\02_CommonElements\bin\Debug\netcoreapp2.1\02_CommonElements.deps.json
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\02_CommonElements\bin\Debug\netcoreapp2.1\02_CommonElements.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\02_CommonElements\bin\Debug\netcoreapp2.1\02_CommonElements.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\02_CommonElements\bin\Debug\netcoreapp2.1\02_CommonElements.dll
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\02_CommonElements\bin\Debug\netcoreapp2.1\02_CommonElements.pdb
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\02_CommonElements\obj\Debug\netcoreapp2.1\02_CommonElements.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\02_CommonElements\obj\Debug\netcoreapp2.1\02_CommonElements.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\02_CommonElements\obj\Debug\netcoreapp2.1\02_CommonElements.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\02_CommonElements\obj\Debug\netcoreapp2.1\02_CommonElements.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\02_CommonElements\obj\Debug\netcoreapp2.1\02_CommonElements.dll
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\02_CommonElements\obj\Debug\netcoreapp2.1\02_CommonElements.pdb

@@ -1,0 +1,238 @@
+@import url('https://use.fontawesome.com/releases/v5.15.2/css/all.css');
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=PT+Serif:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.5 'PT Sans', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+h1 {
+    font-family: 'PT Serif', serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+h2::after {
+    content: '';
+    width: 30px;
+    height: 2px;
+    background-color: #D01919;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.site-header {
+    background-color: #D01919;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3rem 1rem;
+}
+
+.icon::before {
+    display: inline-block;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+}
+
+.icon-brands::before {
+    font-family: 'Font Awesome 5 Brands';
+}
+
+.icon-mobile::before {
+    content: '\f3cd';
+    padding-right: 0.5rem;
+}
+
+.icon-point::before {
+    content: '\f3c5';
+    padding-right: 0.5rem;
+}
+
+.icon-facebook::before {
+    content: '\f39e';
+}
+
+.icon-twitter::before {
+    content: '\f099';
+}
+
+.icon-instagram::before {
+    content: '\f16d';
+}
+
+.icon-youtube::before {
+    content: '\f167';
+}
+
+.site-header a {
+    color: #fff;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons li {
+    list-style: none outside;
+    padding-right: 0.7rem;
+}
+
+.banner {
+    background: url('..//Requirements-and-Resources/image/fitness-main.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 6rem;
+}
+
+.banner nav ul li {
+	font-size: 15px;
+}
+
+.site-navigation ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.site-navigation li {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.site-navigation a {
+    color: #fff;
+    padding: 0.6rem 1.2rem;
+    display: inline-block;
+}
+
+.site-heading {
+    font-size: 60px;
+    letter-spacing: 4px;
+    padding: 6rem 0 3rem 0;
+}
+
+.site-description {
+    font-size: 20px;
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+
+.button {
+    font-weight: 700;
+    background-color: #D01919;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 3px;
+}
+
+.services {
+    padding: 3rem 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.services h1 {
+	text-align: center;
+}
+.services-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+.services-list div {
+    flex: 0 0 30%;
+    text-align: center;
+}
+
+.services-list img {
+    width: 50px;
+    padding-bottom: 1rem;
+}
+
+.services-list h4 {
+    color: #D01919;
+    padding-bottom: 1rem;
+    font-size: 20px;
+}
+
+.services-list p {
+    font-size: 15px;
+}
+
+.coaches {
+    padding: 3rem 0;
+    background-color: #EFEFEF;
+}
+
+.coaches img {
+    width: 210px;
+    height: auto;
+    border-radius: 5px;
+    padding: 0;
+}
+
+.coaches h4 {
+    color: #000;
+    padding-top: 10px;
+    padding-bottom: 0;
+}
+
+.coaches span {
+    color: #D01919;
+    padding-bottom: 0.5rem;
+}
+
+.coaches p {
+    color: #9FA2AC;
+    padding-top: 1rem;
+    width: 12rem;
+    margin-left: 5rem;
+    font-size: 11px;
+}
+
+.coaches .services-list {
+    justify-content: space-around;
+}
+
+.coaches .services-list div {
+    flex: 0 0 25%;
+}
+
+.site-footer {
+    background-color: #D01919;
+    text-align: center;
+    padding: 0.7rem 0;
+}

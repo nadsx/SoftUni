@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Arrays-Lab\03_RoundingNumbers\bin\Debug\netcoreapp2.1\03_RoundingNumbers.deps.json
+C:\Users\ASUS NB\source\repos\Arrays-Lab\03_RoundingNumbers\bin\Debug\netcoreapp2.1\03_RoundingNumbers.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Arrays-Lab\03_RoundingNumbers\bin\Debug\netcoreapp2.1\03_RoundingNumbers.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Arrays-Lab\03_RoundingNumbers\bin\Debug\netcoreapp2.1\03_RoundingNumbers.dll
+C:\Users\ASUS NB\source\repos\Arrays-Lab\03_RoundingNumbers\bin\Debug\netcoreapp2.1\03_RoundingNumbers.pdb
+C:\Users\ASUS NB\source\repos\Arrays-Lab\03_RoundingNumbers\obj\Debug\netcoreapp2.1\03_RoundingNumbers.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Arrays-Lab\03_RoundingNumbers\obj\Debug\netcoreapp2.1\03_RoundingNumbers.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Arrays-Lab\03_RoundingNumbers\obj\Debug\netcoreapp2.1\03_RoundingNumbers.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Arrays-Lab\03_RoundingNumbers\obj\Debug\netcoreapp2.1\03_RoundingNumbers.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Arrays-Lab\03_RoundingNumbers\obj\Debug\netcoreapp2.1\03_RoundingNumbers.dll
+C:\Users\ASUS NB\source\repos\Arrays-Lab\03_RoundingNumbers\obj\Debug\netcoreapp2.1\03_RoundingNumbers.pdb

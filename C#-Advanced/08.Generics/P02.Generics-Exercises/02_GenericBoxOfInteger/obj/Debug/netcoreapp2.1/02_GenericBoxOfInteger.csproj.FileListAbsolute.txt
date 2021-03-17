@@ -1,0 +1,21 @@
+C:\Users\ASUS NB\source\repos\Generics-Exercises\02_GenericBoxOfInteger\bin\Debug\netcoreapp2.1\02_GenericBoxOfInteger.deps.json
+C:\Users\ASUS NB\source\repos\Generics-Exercises\02_GenericBoxOfInteger\bin\Debug\netcoreapp2.1\02_GenericBoxOfInteger.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Generics-Exercises\02_GenericBoxOfInteger\bin\Debug\netcoreapp2.1\02_GenericBoxOfInteger.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Generics-Exercises\02_GenericBoxOfInteger\bin\Debug\netcoreapp2.1\02_GenericBoxOfInteger.dll
+C:\Users\ASUS NB\source\repos\Generics-Exercises\02_GenericBoxOfInteger\bin\Debug\netcoreapp2.1\02_GenericBoxOfInteger.pdb
+C:\Users\ASUS NB\source\repos\Generics-Exercises\02_GenericBoxOfInteger\obj\Debug\netcoreapp2.1\02_GenericBoxOfInteger.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Generics-Exercises\02_GenericBoxOfInteger\obj\Debug\netcoreapp2.1\02_GenericBoxOfInteger.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Generics-Exercises\02_GenericBoxOfInteger\obj\Debug\netcoreapp2.1\02_GenericBoxOfInteger.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Generics-Exercises\02_GenericBoxOfInteger\obj\Debug\netcoreapp2.1\02_GenericBoxOfInteger.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Generics-Exercises\02_GenericBoxOfInteger\obj\Debug\netcoreapp2.1\02_GenericBoxOfInteger.dll
+C:\Users\ASUS NB\source\repos\Generics-Exercises\02_GenericBoxOfInteger\obj\Debug\netcoreapp2.1\02_GenericBoxOfInteger.pdb
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\02_GenericBoxOfInteger\bin\Debug\netcoreapp2.1\02_GenericBoxOfInteger.deps.json
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\02_GenericBoxOfInteger\bin\Debug\netcoreapp2.1\02_GenericBoxOfInteger.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\02_GenericBoxOfInteger\bin\Debug\netcoreapp2.1\02_GenericBoxOfInteger.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\02_GenericBoxOfInteger\bin\Debug\netcoreapp2.1\02_GenericBoxOfInteger.dll
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\02_GenericBoxOfInteger\bin\Debug\netcoreapp2.1\02_GenericBoxOfInteger.pdb
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\02_GenericBoxOfInteger\obj\Debug\netcoreapp2.1\02_GenericBoxOfInteger.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\02_GenericBoxOfInteger\obj\Debug\netcoreapp2.1\02_GenericBoxOfInteger.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\02_GenericBoxOfInteger\obj\Debug\netcoreapp2.1\02_GenericBoxOfInteger.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\02_GenericBoxOfInteger\obj\Debug\netcoreapp2.1\02_GenericBoxOfInteger.dll
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\02_GenericBoxOfInteger\obj\Debug\netcoreapp2.1\02_GenericBoxOfInteger.pdb

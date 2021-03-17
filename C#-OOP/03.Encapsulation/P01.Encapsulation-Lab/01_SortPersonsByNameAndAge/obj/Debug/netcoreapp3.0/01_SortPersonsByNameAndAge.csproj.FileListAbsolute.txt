@@ -1,0 +1,11 @@
+C:\Users\ASUS\Desktop\repos\Encapsulation-Lab\01_SortPersonsByNameAndAge\bin\Debug\netcoreapp3.0\01_SortPersonsByNameAndAge.exe
+C:\Users\ASUS\Desktop\repos\Encapsulation-Lab\01_SortPersonsByNameAndAge\bin\Debug\netcoreapp3.0\01_SortPersonsByNameAndAge.deps.json
+C:\Users\ASUS\Desktop\repos\Encapsulation-Lab\01_SortPersonsByNameAndAge\bin\Debug\netcoreapp3.0\01_SortPersonsByNameAndAge.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\Encapsulation-Lab\01_SortPersonsByNameAndAge\bin\Debug\netcoreapp3.0\01_SortPersonsByNameAndAge.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\Encapsulation-Lab\01_SortPersonsByNameAndAge\bin\Debug\netcoreapp3.0\01_SortPersonsByNameAndAge.dll
+C:\Users\ASUS\Desktop\repos\Encapsulation-Lab\01_SortPersonsByNameAndAge\bin\Debug\netcoreapp3.0\01_SortPersonsByNameAndAge.pdb
+C:\Users\ASUS\Desktop\repos\Encapsulation-Lab\01_SortPersonsByNameAndAge\obj\Debug\netcoreapp3.0\01_SortPersonsByNameAndAge.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\repos\Encapsulation-Lab\01_SortPersonsByNameAndAge\obj\Debug\netcoreapp3.0\01_SortPersonsByNameAndAge.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\Encapsulation-Lab\01_SortPersonsByNameAndAge\obj\Debug\netcoreapp3.0\01_SortPersonsByNameAndAge.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\Encapsulation-Lab\01_SortPersonsByNameAndAge\obj\Debug\netcoreapp3.0\01_SortPersonsByNameAndAge.dll
+C:\Users\ASUS\Desktop\repos\Encapsulation-Lab\01_SortPersonsByNameAndAge\obj\Debug\netcoreapp3.0\01_SortPersonsByNameAndAge.pdb

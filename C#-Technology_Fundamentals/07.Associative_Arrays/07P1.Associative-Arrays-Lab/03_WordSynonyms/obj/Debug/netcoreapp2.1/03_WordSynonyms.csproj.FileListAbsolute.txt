@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Lab\03_WordSynonyms\bin\Debug\netcoreapp2.1\03_WordSynonyms.deps.json
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Lab\03_WordSynonyms\bin\Debug\netcoreapp2.1\03_WordSynonyms.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Lab\03_WordSynonyms\bin\Debug\netcoreapp2.1\03_WordSynonyms.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Lab\03_WordSynonyms\bin\Debug\netcoreapp2.1\03_WordSynonyms.dll
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Lab\03_WordSynonyms\bin\Debug\netcoreapp2.1\03_WordSynonyms.pdb
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Lab\03_WordSynonyms\obj\Debug\netcoreapp2.1\03_WordSynonyms.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Lab\03_WordSynonyms\obj\Debug\netcoreapp2.1\03_WordSynonyms.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Lab\03_WordSynonyms\obj\Debug\netcoreapp2.1\03_WordSynonyms.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Lab\03_WordSynonyms\obj\Debug\netcoreapp2.1\03_WordSynonyms.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Lab\03_WordSynonyms\obj\Debug\netcoreapp2.1\03_WordSynonyms.dll
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Lab\03_WordSynonyms\obj\Debug\netcoreapp2.1\03_WordSynonyms.pdb

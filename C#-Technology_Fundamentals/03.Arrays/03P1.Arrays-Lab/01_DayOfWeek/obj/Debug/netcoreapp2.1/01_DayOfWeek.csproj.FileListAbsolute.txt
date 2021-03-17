@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Arrays-Lab\01_DayOfWeek\obj\Debug\netcoreapp2.1\01_DayOfWeek.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Arrays-Lab\01_DayOfWeek\obj\Debug\netcoreapp2.1\01_DayOfWeek.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Arrays-Lab\01_DayOfWeek\obj\Debug\netcoreapp2.1\01_DayOfWeek.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Arrays-Lab\01_DayOfWeek\obj\Debug\netcoreapp2.1\01_DayOfWeek.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Arrays-Lab\01_DayOfWeek\bin\Debug\netcoreapp2.1\01_DayOfWeek.deps.json
+C:\Users\ASUS NB\source\repos\Arrays-Lab\01_DayOfWeek\bin\Debug\netcoreapp2.1\01_DayOfWeek.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Arrays-Lab\01_DayOfWeek\bin\Debug\netcoreapp2.1\01_DayOfWeek.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Arrays-Lab\01_DayOfWeek\bin\Debug\netcoreapp2.1\01_DayOfWeek.dll
+C:\Users\ASUS NB\source\repos\Arrays-Lab\01_DayOfWeek\bin\Debug\netcoreapp2.1\01_DayOfWeek.pdb
+C:\Users\ASUS NB\source\repos\Arrays-Lab\01_DayOfWeek\obj\Debug\netcoreapp2.1\01_DayOfWeek.dll
+C:\Users\ASUS NB\source\repos\Arrays-Lab\01_DayOfWeek\obj\Debug\netcoreapp2.1\01_DayOfWeek.pdb

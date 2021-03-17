@@ -1,0 +1,10 @@
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P04SumOfChars\bin\Debug\netcoreapp2.1\P04SumOfChars.deps.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P04SumOfChars\bin\Debug\netcoreapp2.1\P04SumOfChars.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P04SumOfChars\bin\Debug\netcoreapp2.1\P04SumOfChars.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P04SumOfChars\bin\Debug\netcoreapp2.1\P04SumOfChars.dll
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P04SumOfChars\bin\Debug\netcoreapp2.1\P04SumOfChars.pdb
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P04SumOfChars\obj\Debug\netcoreapp2.1\P04SumOfChars.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P04SumOfChars\obj\Debug\netcoreapp2.1\P04SumOfChars.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P04SumOfChars\obj\Debug\netcoreapp2.1\P04SumOfChars.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P04SumOfChars\obj\Debug\netcoreapp2.1\P04SumOfChars.dll
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P04SumOfChars\obj\Debug\netcoreapp2.1\P04SumOfChars.pdb

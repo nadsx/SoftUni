@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P05Messages\bin\Debug\netcoreapp2.1\P05Messages.deps.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P05Messages\bin\Debug\netcoreapp2.1\P05Messages.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P05Messages\bin\Debug\netcoreapp2.1\P05Messages.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P05Messages\bin\Debug\netcoreapp2.1\P05Messages.dll
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P05Messages\bin\Debug\netcoreapp2.1\P05Messages.pdb
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P05Messages\obj\Debug\netcoreapp2.1\P05Messages.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P05Messages\obj\Debug\netcoreapp2.1\P05Messages.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P05Messages\obj\Debug\netcoreapp2.1\P05Messages.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P05Messages\obj\Debug\netcoreapp2.1\P05Messages.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P05Messages\obj\Debug\netcoreapp2.1\P05Messages.dll
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P05Messages\obj\Debug\netcoreapp2.1\P05Messages.pdb

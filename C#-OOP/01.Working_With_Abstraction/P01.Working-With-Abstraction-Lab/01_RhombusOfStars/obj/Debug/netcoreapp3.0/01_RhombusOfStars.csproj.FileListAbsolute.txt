@@ -1,0 +1,11 @@
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Lab\01_RhombusOfStars\bin\Debug\netcoreapp3.0\01_RhombusOfStars.exe
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Lab\01_RhombusOfStars\bin\Debug\netcoreapp3.0\01_RhombusOfStars.deps.json
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Lab\01_RhombusOfStars\bin\Debug\netcoreapp3.0\01_RhombusOfStars.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Lab\01_RhombusOfStars\bin\Debug\netcoreapp3.0\01_RhombusOfStars.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Lab\01_RhombusOfStars\bin\Debug\netcoreapp3.0\01_RhombusOfStars.dll
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Lab\01_RhombusOfStars\bin\Debug\netcoreapp3.0\01_RhombusOfStars.pdb
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Lab\01_RhombusOfStars\obj\Debug\netcoreapp3.0\01_RhombusOfStars.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Lab\01_RhombusOfStars\obj\Debug\netcoreapp3.0\01_RhombusOfStars.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Lab\01_RhombusOfStars\obj\Debug\netcoreapp3.0\01_RhombusOfStars.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Lab\01_RhombusOfStars\obj\Debug\netcoreapp3.0\01_RhombusOfStars.dll
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Lab\01_RhombusOfStars\obj\Debug\netcoreapp3.0\01_RhombusOfStars.pdb

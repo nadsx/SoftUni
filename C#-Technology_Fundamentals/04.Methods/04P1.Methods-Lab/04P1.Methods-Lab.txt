@@ -1,0 +1,384 @@
+1
+================================
+static void Main(string[] args)
+		{
+			int number = int.Parse(Console.ReadLine());
+
+			PrintSign(number);
+		}
+
+		public static void PrintSign(int number)
+		{
+			if(number > 0)
+			{
+				Console.WriteLine($"The number {number} is positive.");
+			}
+			else if(number < 0)
+			{
+				Console.WriteLine($"The number {number} is negative.");
+			}
+			else
+			{
+				Console.WriteLine($"The number {number} is zero.");
+			}
+		}
+2
+================================
+static void Main(string[] args)
+		{
+			double grade = double.Parse(Console.ReadLine());
+
+			PrintGrade(grade);
+		}
+
+		private static void PrintGrade(double grade)
+		{
+			var gradeInWords = "";
+
+			if(2.00 <= grade && grade <= 2.99)
+			{
+				gradeInWords = "Fail";
+			}
+			else if(3.00 <= grade && grade <= 3.49)
+			{
+				gradeInWords = "Poor";
+			}
+			else if (3.50 <= grade && grade <= 4.49)
+			{
+				gradeInWords = "Good";
+			}
+			else if (4.50 <= grade && grade <= 5.49)
+			{
+				gradeInWords = "Very good";
+			}
+			else if (5.50 <= grade && grade <= 6.00)
+			{
+				gradeInWords = "Excellent";
+			}
+
+			Console.WriteLine(gradeInWords);
+		}
+3
+================================
+static void Main(string[] args)
+		{
+			string command = Console.ReadLine();
+			int a = int.Parse(Console.ReadLine());
+			int b = int.Parse(Console.ReadLine());
+
+			switch (command)
+			{
+				case "add":
+					Add(a, b);
+					break;
+				case "multiply":
+					Multiply(a, b);
+					break;
+				case "subtract":
+					Subtract(a, b);
+					break;
+				case "divide":
+					Divide(a, b);
+					break;
+			}
+
+		}
+
+		private static void Divide(int a, int b)
+		{
+			Console.WriteLine(a / b);
+		}
+
+		private static void Subtract(int a, int b)
+		{
+			Console.WriteLine(a - b);
+		}
+
+		private static void Multiply(int a, int b)
+		{
+			Console.WriteLine(a * b);
+		}
+
+		private static void Add(int a, int b)
+		{
+			Console.WriteLine(a + b);
+		}
+4
+================================
+static void Main(string[] args)
+		{
+			int n = int.Parse(Console.ReadLine());
+
+			PrintTriangle(n);
+		}
+
+		private static void PrintTriangle(int n)
+		{
+			for (int i = 1; i <= n; i++)
+			{
+				for (int j = 1; j <= i; j++)
+				{
+					Console.Write(j + " ");
+				}
+				Console.WriteLine();
+			}
+
+			for (int i = n - 1; i > 0; i--)
+			{
+				for (int j = 1; j <= i; j++)
+				{
+					Console.Write(j + " ");
+				}
+				Console.WriteLine();
+			}
+		}
+
+--------------------------------
+
+static void Main(string[] args)
+		{
+			int number = int.Parse(Console.ReadLine());
+			for (int i = 1; i <= number; i++)
+			{
+				PrintingSignleLine(1, i);
+			}
+
+			for (int i = number - 1; i >= 1; i--)
+			{
+				PrintingSignleLine(1, i);
+			}
+		}
+
+		private static void PrintingSignleLine(int start, int end)
+		{
+			for (int i = start; i <= end; i++)
+			{
+				Console.Write(i + " ");
+			}
+			Console.WriteLine();
+		}
+5
+================================
+static void Main(string[] args)
+		{	
+			string product = Console.ReadLine();
+			int quantity = int.Parse(Console.ReadLine());
+
+			CalculatePrice(product, quantity);
+		}
+
+		private static void CalculatePrice(string product, int quantity)
+		{
+			double price = 0;
+
+			switch (product)
+			{
+				case "coffee":
+					price = quantity * 1.50;
+					break;
+				case "coke":
+					price = quantity * 1.40;
+					break;
+				case "water":
+					price = quantity * 1.00;
+					break;
+				case "snacks":
+					price = quantity * 2.00;
+					break;
+			}
+
+			Console.WriteLine($"{price:f2}");
+		}
+6
+================================
+static void Main(string[] args)
+		{
+			double width = double.Parse(Console.ReadLine());
+			double height = double.Parse(Console.ReadLine());
+
+			double area = GetRectangleArea(width, height);
+
+			Console.WriteLine(area);
+		}
+
+		private static double GetRectangleArea(double width, double height)
+		{
+			return width * height;
+		}
+7
+================================
+static void Main(string[] args)
+		{
+			string text = Console.ReadLine();
+			int count = int.Parse(Console.ReadLine());
+
+			string result = GetRepeatedString(text, count);
+
+			Console.WriteLine(result);
+		}
+
+		private static string GetRepeatedString(string text, int count)
+		{
+			string result = "";
+
+			for (int i = 0; i < count; i++)
+			{
+				result += text;
+			}
+
+			return result;
+		}
+8
+================================
+	static void Main(string[] args)
+		{
+			double number = double.Parse(Console.ReadLine());
+			double power = double.Parse(Console.ReadLine());
+
+			double result = GetNumberRaisedToAPower(number, power);
+
+			Console.WriteLine(result);
+		}
+
+		private static double GetNumberRaisedToAPower(double number, double power)
+		{
+			double result = number;
+
+			for (int i = 1; i < power; i++)
+			{
+				result *= number;
+			}		
+			
+			return result;
+		}
+9
+================================
+static void Main(string[] args)
+		{
+			string dataType = Console.ReadLine();
+
+			switch (dataType)
+			{
+				case "int":
+					int firstInt = int.Parse(Console.ReadLine());
+					int secondInt = int.Parse(Console.ReadLine());
+					int resultInt = GetMax(firstInt, secondInt);
+					Console.WriteLine(resultInt);
+					break;
+				case "char":
+					char firstChar = char.Parse(Console.ReadLine());
+					char secondChar = char.Parse(Console.ReadLine());
+					char resultChar = GetMax(firstChar, secondChar);
+					Console.WriteLine(resultChar);
+					break;
+				case "string":
+					string firstString = Console.ReadLine();
+					string secondString = Console.ReadLine();
+					string resultString = GetMax(firstString, secondString);
+					Console.WriteLine(resultString);
+					break;
+
+			}
+		}
+
+		public static int GetMax(int first, int second)
+		{
+			return Math.Max(first, second);
+		}
+
+		public static char GetMax(char first, char second)
+		{
+			return (char)Math.Max(first, second);
+		}
+		public static string GetMax(string first, string second)
+		{
+			int comparison = first.CompareTo(second);
+
+			// string compare vrushta negative integer => purviq string e predi vtoriq
+                        // ako vrushta positive integer => purviq string e sled vtoriq
+
+			if(comparison > 0)
+			{
+				return first;
+			}
+			else
+			{
+				return second;
+			}
+		}
+10
+================================
+static void Main(string[] args)
+		{
+			int number = int.Parse(Console.ReadLine());
+
+			int result = GetMultipleOfEvenAndOdds(Math.Abs(number));
+
+			Console.WriteLine(result);
+
+		}
+		public static int GetMultipleOfEvenAndOdds(int number)
+		{
+			return GetSumOfEvenDigits(number) * GetSumOfOddDigits(number);
+		}
+		public static int GetSumOfEvenDigits(int number)
+		{
+			return GetSumOfDigits(number, 0);
+		}
+		public static int GetSumOfOddDigits(int number)
+		{
+			return GetSumOfDigits(number, 1);
+		}
+		public static int GetSumOfDigits(int number, int expectedRemainder)
+		{
+			int sum = 0;
+
+			while(number > 0)
+			{
+				int last = number % 10;
+				number /= 10;
+
+				if(last % 2 == expectedRemainder)
+				{
+					sum += last;
+				}
+			}
+
+			return sum;
+		}
+11
+================================
+static void Main(string[] args)
+		{
+			int firstNumber = int.Parse(Console.ReadLine());
+			char @operator = char.Parse(Console.ReadLine());
+			int secondNumber = int.Parse(Console.ReadLine());
+
+			int result = Calculate(firstNumber, @operator, secondNumber);
+
+			Console.WriteLine(result);
+		}
+
+		private static int Calculate(int firstNumber, char @operator, int secondNumber)
+		{
+			int result = 0;
+
+			switch (@operator)
+			{
+				case '/':
+					result = firstNumber / secondNumber;
+					break;
+				case '*':
+					result = firstNumber * secondNumber;
+					break;
+				case '+':
+					result = firstNumber + secondNumber;
+					break;
+				case '-':
+					result = firstNumber - secondNumber;
+					break;
+
+			}
+
+			return result;
+		}

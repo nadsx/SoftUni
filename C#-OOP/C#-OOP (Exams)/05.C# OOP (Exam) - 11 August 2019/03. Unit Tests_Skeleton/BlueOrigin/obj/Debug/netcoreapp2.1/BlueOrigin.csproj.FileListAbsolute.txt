@@ -1,0 +1,10 @@
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\04.C# OOP (Exam) - 11 August 2019\03. Unit Tests_Skeleton\BlueOrigin\bin\Debug\netcoreapp2.1\BlueOrigin.deps.json
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\04.C# OOP (Exam) - 11 August 2019\03. Unit Tests_Skeleton\BlueOrigin\bin\Debug\netcoreapp2.1\BlueOrigin.runtimeconfig.json
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\04.C# OOP (Exam) - 11 August 2019\03. Unit Tests_Skeleton\BlueOrigin\bin\Debug\netcoreapp2.1\BlueOrigin.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\04.C# OOP (Exam) - 11 August 2019\03. Unit Tests_Skeleton\BlueOrigin\bin\Debug\netcoreapp2.1\BlueOrigin.dll
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\04.C# OOP (Exam) - 11 August 2019\03. Unit Tests_Skeleton\BlueOrigin\bin\Debug\netcoreapp2.1\BlueOrigin.pdb
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\04.C# OOP (Exam) - 11 August 2019\03. Unit Tests_Skeleton\BlueOrigin\obj\Debug\netcoreapp2.1\BlueOrigin.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\04.C# OOP (Exam) - 11 August 2019\03. Unit Tests_Skeleton\BlueOrigin\obj\Debug\netcoreapp2.1\BlueOrigin.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\04.C# OOP (Exam) - 11 August 2019\03. Unit Tests_Skeleton\BlueOrigin\obj\Debug\netcoreapp2.1\BlueOrigin.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\04.C# OOP (Exam) - 11 August 2019\03. Unit Tests_Skeleton\BlueOrigin\obj\Debug\netcoreapp2.1\BlueOrigin.dll
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\04.C# OOP (Exam) - 11 August 2019\03. Unit Tests_Skeleton\BlueOrigin\obj\Debug\netcoreapp2.1\BlueOrigin.pdb

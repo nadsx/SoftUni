@@ -1,0 +1,41 @@
+.faq {
+    max-width: 60%;
+    margin: 70px auto;
+    text-align: center;
+}
+
+.faq-title {
+    text-align: center;
+    color: white;
+    font-size: 33px;
+    margin-bottom: 50px;
+}
+
+.question {
+    display: flex;
+    color: white;
+    background-color: #303030;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+    margin: 7px;
+}
+
+.question:nth-child(7) {
+    margin-bottom: 70px;
+}
+
+@media all and (max-width: 900px) {
+    .faq {
+        max-width: 100%;
+        margin: 30px auto;
+    }
+
+    .question {
+        margin: 7px 0;
+    }
+
+    .faq-title {
+        font-size: 22px;
+    }
+}

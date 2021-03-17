@@ -1,0 +1,10 @@
+C:\Users\ASUS\Desktop\repos\Generics-Lab\01_BoxOfT\bin\Debug\netcoreapp2.1\01_BoxOfT.deps.json
+C:\Users\ASUS\Desktop\repos\Generics-Lab\01_BoxOfT\bin\Debug\netcoreapp2.1\01_BoxOfT.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\Generics-Lab\01_BoxOfT\bin\Debug\netcoreapp2.1\01_BoxOfT.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\Generics-Lab\01_BoxOfT\bin\Debug\netcoreapp2.1\01_BoxOfT.dll
+C:\Users\ASUS\Desktop\repos\Generics-Lab\01_BoxOfT\bin\Debug\netcoreapp2.1\01_BoxOfT.pdb
+C:\Users\ASUS\Desktop\repos\Generics-Lab\01_BoxOfT\obj\Debug\netcoreapp2.1\01_BoxOfT.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\repos\Generics-Lab\01_BoxOfT\obj\Debug\netcoreapp2.1\01_BoxOfT.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\Generics-Lab\01_BoxOfT\obj\Debug\netcoreapp2.1\01_BoxOfT.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\Generics-Lab\01_BoxOfT\obj\Debug\netcoreapp2.1\01_BoxOfT.dll
+C:\Users\ASUS\Desktop\repos\Generics-Lab\01_BoxOfT\obj\Debug\netcoreapp2.1\01_BoxOfT.pdb

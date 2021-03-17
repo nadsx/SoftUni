@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P10PokeMon\bin\Debug\netcoreapp2.1\P10PokeMon.deps.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P10PokeMon\bin\Debug\netcoreapp2.1\P10PokeMon.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P10PokeMon\bin\Debug\netcoreapp2.1\P10PokeMon.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P10PokeMon\bin\Debug\netcoreapp2.1\P10PokeMon.dll
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P10PokeMon\bin\Debug\netcoreapp2.1\P10PokeMon.pdb
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P10PokeMon\obj\Debug\netcoreapp2.1\P10PokeMon.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P10PokeMon\obj\Debug\netcoreapp2.1\P10PokeMon.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P10PokeMon\obj\Debug\netcoreapp2.1\P10PokeMon.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P10PokeMon\obj\Debug\netcoreapp2.1\P10PokeMon.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P10PokeMon\obj\Debug\netcoreapp2.1\P10PokeMon.dll
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P10PokeMon\obj\Debug\netcoreapp2.1\P10PokeMon.pdb

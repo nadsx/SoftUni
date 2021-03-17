@@ -1,0 +1,10 @@
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\06.C# OOP (Exam) - 14 April 2019\03. Unit Tests_Skeleton\Telecom\bin\Debug\netcoreapp2.1\Telecom.deps.json
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\06.C# OOP (Exam) - 14 April 2019\03. Unit Tests_Skeleton\Telecom\bin\Debug\netcoreapp2.1\Telecom.runtimeconfig.json
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\06.C# OOP (Exam) - 14 April 2019\03. Unit Tests_Skeleton\Telecom\bin\Debug\netcoreapp2.1\Telecom.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\06.C# OOP (Exam) - 14 April 2019\03. Unit Tests_Skeleton\Telecom\bin\Debug\netcoreapp2.1\Telecom.dll
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\06.C# OOP (Exam) - 14 April 2019\03. Unit Tests_Skeleton\Telecom\bin\Debug\netcoreapp2.1\Telecom.pdb
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\06.C# OOP (Exam) - 14 April 2019\03. Unit Tests_Skeleton\Telecom\obj\Debug\netcoreapp2.1\Telecom.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\06.C# OOP (Exam) - 14 April 2019\03. Unit Tests_Skeleton\Telecom\obj\Debug\netcoreapp2.1\Telecom.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\06.C# OOP (Exam) - 14 April 2019\03. Unit Tests_Skeleton\Telecom\obj\Debug\netcoreapp2.1\Telecom.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\06.C# OOP (Exam) - 14 April 2019\03. Unit Tests_Skeleton\Telecom\obj\Debug\netcoreapp2.1\Telecom.dll
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\06.C# OOP (Exam) - 14 April 2019\03. Unit Tests_Skeleton\Telecom\obj\Debug\netcoreapp2.1\Telecom.pdb

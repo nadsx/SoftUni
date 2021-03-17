@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\08_MagicSum\bin\Debug\netcoreapp2.1\08_MagicSum.deps.json
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\08_MagicSum\bin\Debug\netcoreapp2.1\08_MagicSum.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\08_MagicSum\bin\Debug\netcoreapp2.1\08_MagicSum.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\08_MagicSum\bin\Debug\netcoreapp2.1\08_MagicSum.dll
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\08_MagicSum\bin\Debug\netcoreapp2.1\08_MagicSum.pdb
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\08_MagicSum\obj\Debug\netcoreapp2.1\08_MagicSum.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\08_MagicSum\obj\Debug\netcoreapp2.1\08_MagicSum.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\08_MagicSum\obj\Debug\netcoreapp2.1\08_MagicSum.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\08_MagicSum\obj\Debug\netcoreapp2.1\08_MagicSum.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\08_MagicSum\obj\Debug\netcoreapp2.1\08_MagicSum.dll
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\08_MagicSum\obj\Debug\netcoreapp2.1\08_MagicSum.pdb

@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\01_EvenLines\bin\Debug\netcoreapp2.1\01_EvenLines.deps.json
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\01_EvenLines\bin\Debug\netcoreapp2.1\01_EvenLines.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\01_EvenLines\bin\Debug\netcoreapp2.1\01_EvenLines.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\01_EvenLines\bin\Debug\netcoreapp2.1\01_EvenLines.dll
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\01_EvenLines\bin\Debug\netcoreapp2.1\01_EvenLines.pdb
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\01_EvenLines\obj\Debug\netcoreapp2.1\01_EvenLines.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\01_EvenLines\obj\Debug\netcoreapp2.1\01_EvenLines.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\01_EvenLines\obj\Debug\netcoreapp2.1\01_EvenLines.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\01_EvenLines\obj\Debug\netcoreapp2.1\01_EvenLines.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\01_EvenLines\obj\Debug\netcoreapp2.1\01_EvenLines.dll
+C:\Users\ASUS NB\source\repos\Streams-Files-And-Directories-Exercise\01_EvenLines\obj\Debug\netcoreapp2.1\01_EvenLines.pdb

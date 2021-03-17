@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\05_Students\bin\Debug\netcoreapp2.1\05_Students.deps.json
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\05_Students\bin\Debug\netcoreapp2.1\05_Students.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\05_Students\bin\Debug\netcoreapp2.1\05_Students.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\05_Students\bin\Debug\netcoreapp2.1\05_Students.dll
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\05_Students\bin\Debug\netcoreapp2.1\05_Students.pdb
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\05_Students\obj\Debug\netcoreapp2.1\05_Students.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\05_Students\obj\Debug\netcoreapp2.1\05_Students.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\05_Students\obj\Debug\netcoreapp2.1\05_Students.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\05_Students\obj\Debug\netcoreapp2.1\05_Students.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\05_Students\obj\Debug\netcoreapp2.1\05_Students.dll
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\05_Students\obj\Debug\netcoreapp2.1\05_Students.pdb

@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\02_CenterPoint\bin\Debug\netcoreapp2.1\02_CenterPoint.deps.json
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\02_CenterPoint\bin\Debug\netcoreapp2.1\02_CenterPoint.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\02_CenterPoint\bin\Debug\netcoreapp2.1\02_CenterPoint.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\02_CenterPoint\bin\Debug\netcoreapp2.1\02_CenterPoint.dll
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\02_CenterPoint\bin\Debug\netcoreapp2.1\02_CenterPoint.pdb
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\02_CenterPoint\obj\Debug\netcoreapp2.1\02_CenterPoint.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\02_CenterPoint\obj\Debug\netcoreapp2.1\02_CenterPoint.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\02_CenterPoint\obj\Debug\netcoreapp2.1\02_CenterPoint.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\02_CenterPoint\obj\Debug\netcoreapp2.1\02_CenterPoint.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\02_CenterPoint\obj\Debug\netcoreapp2.1\02_CenterPoint.dll
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\02_CenterPoint\obj\Debug\netcoreapp2.1\02_CenterPoint.pdb

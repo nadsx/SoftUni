@@ -1,0 +1,10 @@
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P04CenturiesToMinutes\bin\Debug\netcoreapp2.1\P04CenturiesToMinutes.deps.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P04CenturiesToMinutes\bin\Debug\netcoreapp2.1\P04CenturiesToMinutes.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P04CenturiesToMinutes\bin\Debug\netcoreapp2.1\P04CenturiesToMinutes.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P04CenturiesToMinutes\bin\Debug\netcoreapp2.1\P04CenturiesToMinutes.dll
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P04CenturiesToMinutes\bin\Debug\netcoreapp2.1\P04CenturiesToMinutes.pdb
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P04CenturiesToMinutes\obj\Debug\netcoreapp2.1\P04CenturiesToMinutes.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P04CenturiesToMinutes\obj\Debug\netcoreapp2.1\P04CenturiesToMinutes.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P04CenturiesToMinutes\obj\Debug\netcoreapp2.1\P04CenturiesToMinutes.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P04CenturiesToMinutes\obj\Debug\netcoreapp2.1\P04CenturiesToMinutes.dll
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P04CenturiesToMinutes\obj\Debug\netcoreapp2.1\P04CenturiesToMinutes.pdb

@@ -1,0 +1,11 @@
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\04_Telephony\bin\Debug\netcoreapp3.0\04_Telephony.exe
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\04_Telephony\bin\Debug\netcoreapp3.0\04_Telephony.deps.json
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\04_Telephony\bin\Debug\netcoreapp3.0\04_Telephony.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\04_Telephony\bin\Debug\netcoreapp3.0\04_Telephony.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\04_Telephony\bin\Debug\netcoreapp3.0\04_Telephony.dll
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\04_Telephony\bin\Debug\netcoreapp3.0\04_Telephony.pdb
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\04_Telephony\obj\Debug\netcoreapp3.0\04_Telephony.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\04_Telephony\obj\Debug\netcoreapp3.0\04_Telephony.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\04_Telephony\obj\Debug\netcoreapp3.0\04_Telephony.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\04_Telephony\obj\Debug\netcoreapp3.0\04_Telephony.dll
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\04_Telephony\obj\Debug\netcoreapp3.0\04_Telephony.pdb

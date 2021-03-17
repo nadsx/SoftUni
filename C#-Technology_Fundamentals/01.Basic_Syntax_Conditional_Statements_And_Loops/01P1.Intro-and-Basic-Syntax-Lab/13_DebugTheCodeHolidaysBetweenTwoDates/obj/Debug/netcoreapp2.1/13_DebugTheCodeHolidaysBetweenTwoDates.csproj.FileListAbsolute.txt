@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\13_DebugTheCodeHolidaysBetweenTwoDates\bin\Debug\netcoreapp2.1\13_DebugTheCodeHolidaysBetweenTwoDates.deps.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\13_DebugTheCodeHolidaysBetweenTwoDates\bin\Debug\netcoreapp2.1\13_DebugTheCodeHolidaysBetweenTwoDates.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\13_DebugTheCodeHolidaysBetweenTwoDates\bin\Debug\netcoreapp2.1\13_DebugTheCodeHolidaysBetweenTwoDates.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\13_DebugTheCodeHolidaysBetweenTwoDates\bin\Debug\netcoreapp2.1\13_DebugTheCodeHolidaysBetweenTwoDates.dll
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\13_DebugTheCodeHolidaysBetweenTwoDates\bin\Debug\netcoreapp2.1\13_DebugTheCodeHolidaysBetweenTwoDates.pdb
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\13_DebugTheCodeHolidaysBetweenTwoDates\obj\Debug\netcoreapp2.1\13_DebugTheCodeHolidaysBetweenTwoDates.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\13_DebugTheCodeHolidaysBetweenTwoDates\obj\Debug\netcoreapp2.1\13_DebugTheCodeHolidaysBetweenTwoDates.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\13_DebugTheCodeHolidaysBetweenTwoDates\obj\Debug\netcoreapp2.1\13_DebugTheCodeHolidaysBetweenTwoDates.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\13_DebugTheCodeHolidaysBetweenTwoDates\obj\Debug\netcoreapp2.1\13_DebugTheCodeHolidaysBetweenTwoDates.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\13_DebugTheCodeHolidaysBetweenTwoDates\obj\Debug\netcoreapp2.1\13_DebugTheCodeHolidaysBetweenTwoDates.dll
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\13_DebugTheCodeHolidaysBetweenTwoDates\obj\Debug\netcoreapp2.1\13_DebugTheCodeHolidaysBetweenTwoDates.pdb

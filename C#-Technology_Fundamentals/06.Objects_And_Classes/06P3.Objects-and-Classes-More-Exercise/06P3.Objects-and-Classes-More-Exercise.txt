@@ -1,0 +1,417 @@
+1
+================================
+
+	class Program
+	{
+		static void Main(string[] args)
+		{
+         		int countOfEmployees = int.Parse(Console.ReadLine());
+			List<Department> departments = new List<Department>();
+
+			for (int i = 0; i < countOfEmployees; i++)
+			{
+				string[] tokens = Console.ReadLine().Split();
+				string currentDepartmentName = tokens[2];
+
+				if (!departments.Any(x => x.DepartmentName == currentDepartmentName))
+				{
+					Employee employee = new Employee(tokens);
+
+					Department department = new Department(currentDepartmentName, employee);
+					department.TotalSalaries += double.Parse(tokens[1]);
+					departments.Add(department);
+					continue;
+				}
+				//.Find()
+				Department currentDepartment = departments.First(x => x.DepartmentName == currentDepartmentName);
+
+				currentDepartment.EmployeesList.Add(new Employee(tokens));
+				currentDepartment.TotalSalaries += double.Parse(tokens[1]);	
+			}
+
+			Department departmentWithBestSalary = departments
+				.OrderByDescending(x => x.TotalSalaries / x.EmployeesList.Count())
+				.First();
+
+			Console.WriteLine($"Highest Average Salary: {departmentWithBestSalary.DepartmentName}");
+
+			foreach(var employee in departmentWithBestSalary
+				.EmployeesList.OrderByDescending(x => x.EmployeeSalary))
+			{
+				Console.WriteLine($"{employee.EmployeeName} {employee.EmployeeSalary:f2}");
+			}
+		}
+	}
+	class Employee
+	{
+		public string EmployeeName { get; set; }
+		public double EmployeeSalary { get; set; }
+
+		public Employee(string[] employeeInfo)
+		{
+			EmployeeName = employeeInfo[0];
+			EmployeeSalary = double.Parse(employeeInfo[1]);
+		}
+	}
+	class Department
+	{
+		public string DepartmentName { get; set; }
+		public List<Employee> EmployeesList = new List<Employee>();
+		public double TotalSalaries { get; set; }
+
+		public Department(string name, Employee employee)
+		{
+			DepartmentName = name;
+			EmployeesList.Add(employee);
+		}
+	}
+
+--------------------------------
+
+class Program
+	{
+		static void Main(string[] args)
+		{
+
+			List<Department> departments = new List<Department>();
+
+			int n = int.Parse(Console.ReadLine());
+
+			for (int i = 0; i < n; i++)
+			{
+				string[] tokens = Console.ReadLine().Split();
+				string departmentName = tokens[2];
+
+				if(!departments.Any(x => x.DepartmentName == departmentName))
+				{
+					List<Employee> employees = new List<Employee>();
+					Employee employee = new Employee(tokens);
+					employees.Add(employee);
+
+					Department department = new Department(tokens, employees);
+					department.TotalSalaries += double.Parse(tokens[1]);
+					departments.Add(department);
+				}
+				else
+				{
+					departments.Find(x => x.DepartmentName == departmentName)
+						.WorkersList.Add(new Employee(tokens));
+
+					departments.Find(x => x.DepartmentName == departmentName)
+						.TotalSalaries += double.Parse(tokens[1]);
+				}
+			}
+
+			Department bestDepartment = departments
+				.OrderByDescending(x => x.TotalSalaries / x.WorkersList.Count()).First();
+
+			Console.WriteLine($"Highest Average Salary: {bestDepartment.DepartmentName}");
+
+			foreach(var worker in bestDepartment.WorkersList.OrderByDescending(x => x.Salary))
+			{
+				Console.WriteLine($"{worker.Name} {worker.Salary:F2}");
+			}
+		}
+	}
+	class Employee
+	{
+		public string Name { get; set; }
+		public double Salary { get; set; }
+
+		public Employee(string[] inputData)
+		{
+			Name = inputData[0];
+			Salary = double.Parse(inputData[1]);
+		}
+	}
+	class Department
+	{
+		public string DepartmentName { get; set; }
+		public List<Employee> WorkersList { get; set; }
+		public double TotalSalaries { get; set; }
+
+		public Department(string[] inputData, List<Employee> employees)
+		{
+			DepartmentName = inputData[2];
+			WorkersList = employees;
+		}
+	}
+
+2
+================================
+
+	class Program
+	{
+		static void Main(string[] args)
+		{
+
+			int peopleCount = int.Parse(Console.ReadLine());
+			Family family = new Family();
+			
+			for (int i = 0; i < peopleCount; i++)
+			{
+				string[] tokens = Console.ReadLine().Split();
+
+				family.AddMember(new Person(tokens));		
+			}
+
+			Person oldestPerson = family.GetOldestMember();
+
+			Console.WriteLine($"{oldestPerson.Name} {oldestPerson.Age}");
+		}
+	}	
+	class Person
+	{
+		public string Name { get; set; }
+		public int Age { get; set; }
+
+		public Person(string[] personInfo)
+		{
+			Name = personInfo[0];
+			Age = int.Parse(personInfo[1]);
+		}
+	}
+	class Family
+	{
+		public List<Person> FamilyMembers { get; set; } = new List<Person>();
+
+		public void AddMember(Person member)
+		{
+			FamilyMembers.Add(member);
+		}
+
+		public Person GetOldestMember()
+		{
+			return FamilyMembers.OrderByDescending(x => x.Age).First();
+		}
+	}
+
+3
+================================
+
+	class Program
+	{
+		static void Main(string[] args)
+		{
+			int numberOfCars = int.Parse(Console.ReadLine());
+			List<Car> cars = new List<Car>();
+
+			for (int i = 0; i < numberOfCars; i++)
+			{
+				string[] carInfo = Console.ReadLine().Split();
+
+				Car newCar = new Car(carInfo);
+				cars.Add(newCar);
+			}
+
+			string input = Console.ReadLine();
+
+			while(input != "End")
+			{
+				string[] commands = input.Split();
+				string currentModel = commands[1];
+
+				cars.Find(x => x.Model == currentModel).CarCanMoveOrNot(double.Parse(commands[2]));
+
+				input = Console.ReadLine();
+			}
+
+			cars.ForEach(Console.WriteLine);
+		}
+	}
+	class Car
+	{
+		public string Model { get; set; }
+		public double FuelAmount { get; set; }
+		public double FuelConsumptionPerKm { get; set; }
+		public double TraveledDistance { get; set; }
+
+		public Car(string[] carInfo)
+		{
+			Model = carInfo[0];
+			FuelAmount = int.Parse(carInfo[1]);
+			FuelConsumptionPerKm = double.Parse(carInfo[2]);
+		}
+
+		public void CarCanMoveOrNot(double distance)
+		{
+			double neededFuel = FuelConsumptionPerKm * distance;
+
+			if(FuelAmount >= neededFuel)
+			{
+				TraveledDistance += distance;
+				FuelAmount -= neededFuel;
+			}
+			else
+			{
+				Console.WriteLine($"Insufficient fuel for the drive");
+			}
+		}
+
+		public override string ToString()
+		{
+			return $"{Model} {FuelAmount:f2} {TraveledDistance}";
+		}
+	}	
+
+4
+================================
+
+	class Program
+	{
+		static void Main(string[] args)
+		{
+			int numberOfCars = int.Parse(Console.ReadLine());
+			List<Car> cars = new List<Car>();
+
+			for (int i = 0; i < numberOfCars; i++)
+			{
+				string[] carInfo = Console.ReadLine().Split();
+				string model = carInfo[0];
+
+				Engine newEngine = new Engine()
+				{
+					EngineSpeed = int.Parse(carInfo[1]),
+					EnginePower = int.Parse(carInfo[2])
+				};
+
+				Cargo newCargo = new Cargo()
+				{
+					CargoWeight = int.Parse(carInfo[3]),
+					CargoType = carInfo[4]
+				};
+
+				Car newCar = new Car(model, newEngine, newCargo);
+				cars.Add(newCar);
+			}
+
+			string command = Console.ReadLine();
+		
+			if(command == "fragile")
+			{
+				cars = cars.Where(x => x.CarCargo.CargoType == "fragile" && x.CarCargo.CargoWeight < 1000).ToList();
+			}
+			else if(command == "flamable")
+			{
+				cars = cars.Where(x => x.CarCargo.CargoType == "flamable" && x.CarEngine.EnginePower > 250).ToList();
+			}
+
+			cars.ForEach(Console.WriteLine);
+		}
+	}
+	class Car
+	{
+		public string CarModel { get; set; }
+		public Engine CarEngine { get; set; }
+		public Cargo CarCargo { get; set; }
+
+		public Car(string model, Engine engine, Cargo cargo)
+		{
+			CarModel = model;
+			CarEngine = engine;
+			CarCargo = cargo;
+		}
+
+		public override string ToString()
+		{
+			return $"{CarModel}";
+		}
+	}
+	class Engine
+	{
+		public int EngineSpeed { get; set; }
+		public int EnginePower { get; set; }
+	}
+	class Cargo
+	{
+		public int CargoWeight { get; set; }
+		public string CargoType { get; set; }
+	}
+
+
+5
+================================
+
+
+                        string[] personTokens = Console.ReadLine().Split(";", StringSplitOptions.RemoveEmptyEntries);
+			string[] productTokens = Console.ReadLine().Split(";", StringSplitOptions.RemoveEmptyEntries);
+
+			List<Person> people = new List<Person>();
+			List<Product> products = new List<Product>();
+
+			for (int i = 0; i < personTokens.Length; i++)
+			{
+				string[] tokens = personTokens[i].Split("=");
+				Person person = new Person(tokens);
+				people.Add(person);
+			}
+
+			for (int i = 0; i < productTokens.Length; i++)
+			{
+				string[] tokens = productTokens[i].Split("=");
+				Product product = new Product(tokens);
+				products.Add(product);
+			}
+
+			string input = Console.ReadLine();
+
+			while (input != "END")
+			{
+				string[] tokens = input.Split();
+				string buyerName = tokens[0];
+				string buyingProduct = tokens[1];
+
+				people.Find(x => x.PersonName == buyerName).BuyProduct(products.Find(x => x.ProductName == buyingProduct));
+
+				input = Console.ReadLine();
+			}
+
+			foreach (var person in people)
+			{
+				if (person.BagOfProducts.Count > 0)
+				{
+					Console.WriteLine($"{person.PersonName} - {string.Join(", ", person.BagOfProducts)}");
+				}
+				else
+				{
+					Console.WriteLine($"{person.PersonName} - Nothing bought");
+				}
+			}
+		}
+		class Person
+		{
+			public string PersonName { get; set; }
+			public decimal Money { get; set; }
+			public List<string> BagOfProducts { get; set; } = new List<string>();
+
+			public Person(string[] personTokens)
+			{
+				PersonName = personTokens[0];
+				Money = decimal.Parse(personTokens[1]);
+			}
+
+			public void BuyProduct(Product productToBuy)
+			{
+				if (Money >= productToBuy.Cost)
+				{
+					Money -= productToBuy.Cost;
+					BagOfProducts.Add(productToBuy.ProductName);
+					Console.WriteLine($"{PersonName} bought {productToBuy.ProductName}");
+				}
+				else
+				{
+					Console.WriteLine($"{PersonName} can't afford {productToBuy.ProductName}");
+				}
+			}
+		}
+		class Product
+		{
+			public string ProductName { get; set; }
+			public decimal Cost { get; set; }
+
+			public Product(string[] productTokens)
+			{
+				ProductName = productTokens[0];
+				Cost = decimal.Parse(productTokens[1]);
+			}
+		}

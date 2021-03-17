@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-More-Exercises\P01DataTypeFinder\bin\Debug\netcoreapp2.1\P01DataTypeFinder.deps.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-More-Exercises\P01DataTypeFinder\bin\Debug\netcoreapp2.1\P01DataTypeFinder.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-More-Exercises\P01DataTypeFinder\bin\Debug\netcoreapp2.1\P01DataTypeFinder.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-More-Exercises\P01DataTypeFinder\bin\Debug\netcoreapp2.1\P01DataTypeFinder.dll
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-More-Exercises\P01DataTypeFinder\bin\Debug\netcoreapp2.1\P01DataTypeFinder.pdb
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-More-Exercises\P01DataTypeFinder\obj\Debug\netcoreapp2.1\P01DataTypeFinder.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-More-Exercises\P01DataTypeFinder\obj\Debug\netcoreapp2.1\P01DataTypeFinder.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-More-Exercises\P01DataTypeFinder\obj\Debug\netcoreapp2.1\P01DataTypeFinder.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-More-Exercises\P01DataTypeFinder\obj\Debug\netcoreapp2.1\P01DataTypeFinder.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-More-Exercises\P01DataTypeFinder\obj\Debug\netcoreapp2.1\P01DataTypeFinder.dll
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-More-Exercises\P01DataTypeFinder\obj\Debug\netcoreapp2.1\P01DataTypeFinder.pdb

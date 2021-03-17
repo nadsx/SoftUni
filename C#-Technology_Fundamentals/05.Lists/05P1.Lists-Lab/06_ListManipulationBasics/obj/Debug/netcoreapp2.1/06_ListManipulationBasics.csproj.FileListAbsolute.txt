@@ -1,0 +1,10 @@
+C:\Users\ASUS NB\source\repos\Lists-Lab\06_ListManipulationBasics\bin\Debug\netcoreapp2.1\06_ListManipulationBasics.deps.json
+C:\Users\ASUS NB\source\repos\Lists-Lab\06_ListManipulationBasics\bin\Debug\netcoreapp2.1\06_ListManipulationBasics.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Lists-Lab\06_ListManipulationBasics\bin\Debug\netcoreapp2.1\06_ListManipulationBasics.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Lists-Lab\06_ListManipulationBasics\bin\Debug\netcoreapp2.1\06_ListManipulationBasics.dll
+C:\Users\ASUS NB\source\repos\Lists-Lab\06_ListManipulationBasics\bin\Debug\netcoreapp2.1\06_ListManipulationBasics.pdb
+C:\Users\ASUS NB\source\repos\Lists-Lab\06_ListManipulationBasics\obj\Debug\netcoreapp2.1\06_ListManipulationBasics.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Lists-Lab\06_ListManipulationBasics\obj\Debug\netcoreapp2.1\06_ListManipulationBasics.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Lists-Lab\06_ListManipulationBasics\obj\Debug\netcoreapp2.1\06_ListManipulationBasics.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Lists-Lab\06_ListManipulationBasics\obj\Debug\netcoreapp2.1\06_ListManipulationBasics.dll
+C:\Users\ASUS NB\source\repos\Lists-Lab\06_ListManipulationBasics\obj\Debug\netcoreapp2.1\06_ListManipulationBasics.pdb

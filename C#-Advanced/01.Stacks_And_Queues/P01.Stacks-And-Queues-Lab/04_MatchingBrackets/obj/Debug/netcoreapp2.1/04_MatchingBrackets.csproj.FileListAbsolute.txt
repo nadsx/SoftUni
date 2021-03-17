@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\04_MatchingBrackets\bin\Debug\netcoreapp2.1\04_MatchingBrackets.deps.json
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\04_MatchingBrackets\bin\Debug\netcoreapp2.1\04_MatchingBrackets.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\04_MatchingBrackets\bin\Debug\netcoreapp2.1\04_MatchingBrackets.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\04_MatchingBrackets\bin\Debug\netcoreapp2.1\04_MatchingBrackets.dll
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\04_MatchingBrackets\bin\Debug\netcoreapp2.1\04_MatchingBrackets.pdb
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\04_MatchingBrackets\obj\Debug\netcoreapp2.1\04_MatchingBrackets.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\04_MatchingBrackets\obj\Debug\netcoreapp2.1\04_MatchingBrackets.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\04_MatchingBrackets\obj\Debug\netcoreapp2.1\04_MatchingBrackets.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\04_MatchingBrackets\obj\Debug\netcoreapp2.1\04_MatchingBrackets.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\04_MatchingBrackets\obj\Debug\netcoreapp2.1\04_MatchingBrackets.dll
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\04_MatchingBrackets\obj\Debug\netcoreapp2.1\04_MatchingBrackets.pdb

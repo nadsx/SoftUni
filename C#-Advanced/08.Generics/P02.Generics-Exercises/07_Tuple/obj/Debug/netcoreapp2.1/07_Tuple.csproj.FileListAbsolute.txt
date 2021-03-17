@@ -1,0 +1,21 @@
+C:\Users\ASUS NB\source\repos\Generics-Exercises\07_Tuple\bin\Debug\netcoreapp2.1\07_Tuple.deps.json
+C:\Users\ASUS NB\source\repos\Generics-Exercises\07_Tuple\bin\Debug\netcoreapp2.1\07_Tuple.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Generics-Exercises\07_Tuple\bin\Debug\netcoreapp2.1\07_Tuple.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Generics-Exercises\07_Tuple\bin\Debug\netcoreapp2.1\07_Tuple.dll
+C:\Users\ASUS NB\source\repos\Generics-Exercises\07_Tuple\bin\Debug\netcoreapp2.1\07_Tuple.pdb
+C:\Users\ASUS NB\source\repos\Generics-Exercises\07_Tuple\obj\Debug\netcoreapp2.1\07_Tuple.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Generics-Exercises\07_Tuple\obj\Debug\netcoreapp2.1\07_Tuple.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Generics-Exercises\07_Tuple\obj\Debug\netcoreapp2.1\07_Tuple.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Generics-Exercises\07_Tuple\obj\Debug\netcoreapp2.1\07_Tuple.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Generics-Exercises\07_Tuple\obj\Debug\netcoreapp2.1\07_Tuple.dll
+C:\Users\ASUS NB\source\repos\Generics-Exercises\07_Tuple\obj\Debug\netcoreapp2.1\07_Tuple.pdb
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\07_Tuple\bin\Debug\netcoreapp2.1\07_Tuple.deps.json
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\07_Tuple\bin\Debug\netcoreapp2.1\07_Tuple.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\07_Tuple\bin\Debug\netcoreapp2.1\07_Tuple.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\07_Tuple\bin\Debug\netcoreapp2.1\07_Tuple.dll
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\07_Tuple\bin\Debug\netcoreapp2.1\07_Tuple.pdb
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\07_Tuple\obj\Debug\netcoreapp2.1\07_Tuple.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\07_Tuple\obj\Debug\netcoreapp2.1\07_Tuple.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\07_Tuple\obj\Debug\netcoreapp2.1\07_Tuple.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\07_Tuple\obj\Debug\netcoreapp2.1\07_Tuple.dll
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\07_Tuple\obj\Debug\netcoreapp2.1\07_Tuple.pdb

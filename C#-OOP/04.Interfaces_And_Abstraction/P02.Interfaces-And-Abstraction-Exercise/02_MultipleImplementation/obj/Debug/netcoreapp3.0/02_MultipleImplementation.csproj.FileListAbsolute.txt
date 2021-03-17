@@ -1,0 +1,11 @@
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\02_MultipleImplementation\bin\Debug\netcoreapp3.0\02_MultipleImplementation.exe
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\02_MultipleImplementation\bin\Debug\netcoreapp3.0\02_MultipleImplementation.deps.json
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\02_MultipleImplementation\bin\Debug\netcoreapp3.0\02_MultipleImplementation.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\02_MultipleImplementation\bin\Debug\netcoreapp3.0\02_MultipleImplementation.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\02_MultipleImplementation\bin\Debug\netcoreapp3.0\02_MultipleImplementation.dll
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\02_MultipleImplementation\bin\Debug\netcoreapp3.0\02_MultipleImplementation.pdb
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\02_MultipleImplementation\obj\Debug\netcoreapp3.0\02_MultipleImplementation.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\02_MultipleImplementation\obj\Debug\netcoreapp3.0\02_MultipleImplementation.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\02_MultipleImplementation\obj\Debug\netcoreapp3.0\02_MultipleImplementation.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\02_MultipleImplementation\obj\Debug\netcoreapp3.0\02_MultipleImplementation.dll
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\02_MultipleImplementation\obj\Debug\netcoreapp3.0\02_MultipleImplementation.pdb

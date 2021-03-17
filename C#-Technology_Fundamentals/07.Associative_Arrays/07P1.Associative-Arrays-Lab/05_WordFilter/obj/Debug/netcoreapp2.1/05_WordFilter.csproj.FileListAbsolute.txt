@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Lab\05_WordFilter\bin\Debug\netcoreapp2.1\05_WordFilter.deps.json
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Lab\05_WordFilter\bin\Debug\netcoreapp2.1\05_WordFilter.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Lab\05_WordFilter\bin\Debug\netcoreapp2.1\05_WordFilter.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Lab\05_WordFilter\bin\Debug\netcoreapp2.1\05_WordFilter.dll
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Lab\05_WordFilter\bin\Debug\netcoreapp2.1\05_WordFilter.pdb
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Lab\05_WordFilter\obj\Debug\netcoreapp2.1\05_WordFilter.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Lab\05_WordFilter\obj\Debug\netcoreapp2.1\05_WordFilter.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Lab\05_WordFilter\obj\Debug\netcoreapp2.1\05_WordFilter.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Lab\05_WordFilter\obj\Debug\netcoreapp2.1\05_WordFilter.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Lab\05_WordFilter\obj\Debug\netcoreapp2.1\05_WordFilter.dll
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Lab\05_WordFilter\obj\Debug\netcoreapp2.1\05_WordFilter.pdb

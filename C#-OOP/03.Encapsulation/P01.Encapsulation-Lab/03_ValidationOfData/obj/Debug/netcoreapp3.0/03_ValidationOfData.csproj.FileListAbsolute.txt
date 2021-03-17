@@ -1,0 +1,11 @@
+C:\Users\ASUS\Desktop\repos\Encapsulation-Lab\03_ValidationOfData\bin\Debug\netcoreapp3.0\03_ValidationOfData.exe
+C:\Users\ASUS\Desktop\repos\Encapsulation-Lab\03_ValidationOfData\bin\Debug\netcoreapp3.0\03_ValidationOfData.deps.json
+C:\Users\ASUS\Desktop\repos\Encapsulation-Lab\03_ValidationOfData\bin\Debug\netcoreapp3.0\03_ValidationOfData.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\Encapsulation-Lab\03_ValidationOfData\bin\Debug\netcoreapp3.0\03_ValidationOfData.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\Encapsulation-Lab\03_ValidationOfData\bin\Debug\netcoreapp3.0\03_ValidationOfData.dll
+C:\Users\ASUS\Desktop\repos\Encapsulation-Lab\03_ValidationOfData\bin\Debug\netcoreapp3.0\03_ValidationOfData.pdb
+C:\Users\ASUS\Desktop\repos\Encapsulation-Lab\03_ValidationOfData\obj\Debug\netcoreapp3.0\03_ValidationOfData.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\repos\Encapsulation-Lab\03_ValidationOfData\obj\Debug\netcoreapp3.0\03_ValidationOfData.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\Encapsulation-Lab\03_ValidationOfData\obj\Debug\netcoreapp3.0\03_ValidationOfData.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\Encapsulation-Lab\03_ValidationOfData\obj\Debug\netcoreapp3.0\03_ValidationOfData.dll
+C:\Users\ASUS\Desktop\repos\Encapsulation-Lab\03_ValidationOfData\obj\Debug\netcoreapp3.0\03_ValidationOfData.pdb

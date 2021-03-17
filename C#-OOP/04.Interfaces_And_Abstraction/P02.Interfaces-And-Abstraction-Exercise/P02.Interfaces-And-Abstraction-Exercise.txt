@@ -1,0 +1,1563 @@
+01
+==================================
+
+using System;
+
+namespace _01_Exercise
+{
+    public class StartUp
+    {
+        public static void Main()
+        {
+            string name = Console.ReadLine();
+            int age = int.Parse(Console.ReadLine());
+
+            IPerson person = new Citizen(name, age);
+
+            Console.WriteLine(person.Name);
+            Console.WriteLine(person.Age);
+        }
+    }
+
+    public interface IPerson
+    {
+        string Name { get; }
+
+        int Age { get; }
+    }
+
+    public class Citizen : IPerson
+    {
+        public Citizen(string name, int age)
+        {
+            this.Name = name;
+            this.Age = age;
+        }
+
+        public string Name { get; private set; }
+
+        public int Age { get; private set; }
+    }
+}
+
+02
+==================================
+
+using System;
+
+namespace _02_Exercise
+{
+    public class StartUp
+    {
+        public static void Main()
+        {
+            string name = Console.ReadLine();
+            int age = int.Parse(Console.ReadLine());
+            string id = Console.ReadLine();
+            string birthdate = Console.ReadLine();
+
+            IIdentifiable identifiable = new Citizen(name, age, id, birthdate);
+            IBirthable birthable = new Citizen(name, age, id, birthdate);
+
+            Console.WriteLine(identifiable.Id);
+            Console.WriteLine(birthable.Birthdate);
+        }
+    }
+
+    public interface IIdentifiable
+    {
+        string Id { get; }
+    }
+
+    public interface IBirthable 
+    {
+        string Birthdate { get; }
+    }
+
+    public interface IPerson
+    {
+        string Name { get; }
+
+        int Age { get; }
+    }
+
+    public class Citizen : IPerson, IBirthable, IIdentifiable
+    {
+        public Citizen(string name, int age, string id, string birthdate)
+        {
+            this.Name = name;
+            this.Age = age;
+            this.Id = id;
+            this.Birthdate = birthdate;
+        }
+
+        public string Name { get; private set; }
+
+        public int Age { get; private set; }
+
+        public string Id { get; private set; }
+
+        public string Birthdate { get; private set; }
+    }
+}
+
+03
+==================================
+
+using System;
+
+namespace _03_Exercise
+{
+    public class StartUp
+    {
+        public static void Main()
+        {
+            string name = Console.ReadLine();
+
+            ICar ferrari = new Ferrari(name);
+
+            Console.WriteLine(ferrari.ToString());
+        }
+    }
+
+    public interface ICar
+    {
+        string Model { get; }
+
+        string DriverName { get; }
+
+        string Brakes();
+
+        string Gas();
+    }
+
+    public class Ferrari : ICar
+    {
+        private const string ModelName = "488-Spider";
+
+        public Ferrari(string driverName)
+        {
+            this.DriverName = driverName;
+        }
+
+        public string Model => ModelName;
+
+        public string DriverName { get; private set; }
+
+        public string Brakes()
+        {
+            return "Brakes!";
+        }
+
+        public string Gas()
+        {
+            return "Gas!";
+        }
+
+        public override string ToString()
+        {
+            return $"{this.Model}/{this.Brakes()}/{this.Gas()}/{this.DriverName}";
+        }
+    }
+}
+
+04
+==================================
+
+using System;
+using System.Linq;
+
+namespace _04_Exercise
+{
+    public class StartUp
+    {
+        public static void Main()
+        {
+            string[] phoneNumbersInput = Console.ReadLine().Split().ToArray();
+            string[] sitesInput = Console.ReadLine().Split().ToArray();
+
+            foreach(var phoneNumber in phoneNumbersInput)
+            {
+                try
+                {
+                    ICallable smartphone = new Smartphone { PhoneNumber = phoneNumber };
+
+                    Console.WriteLine(smartphone.Call());
+                }
+                catch (ArgumentException ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+            }
+
+            foreach(var url in sitesInput)
+            {
+                try
+                {
+                    IBrowsable smartphone = new Smartphone { URL = url };
+
+                    Console.WriteLine(smartphone.Browse());
+                }
+                catch (ArgumentException ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+            }
+        }
+    }
+
+    public interface ICallable
+    {
+        string Call();
+    }
+
+    public interface IBrowsable
+    {
+        string Browse();
+    }
+
+    public class Smartphone : ICallable, IBrowsable
+    {
+        private string phoneNumber;
+        private string url;
+
+        public string PhoneNumber
+        {
+            get => this.phoneNumber;
+            set
+            {
+                if(!value.All(pn => char.IsDigit(pn)))
+                {
+                    throw new ArgumentException("Invalid number!");
+                }
+
+                this.phoneNumber = value;
+            }
+        }
+
+        public string URL
+        {
+            get => this.url;
+            set
+            {
+                if(value.Any(u => char.IsDigit(u)))
+                {
+                    throw new ArgumentException("Invalid URL!");
+                }
+
+                this.url = value;
+            }
+        }
+
+        public string Call()
+        {
+            return $"Calling... {this.PhoneNumber}";
+        }
+
+        public string Browse()
+        {
+            return $"Browsing: {this.URL}!";
+        }
+    }
+}
+
+05
+==================================
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace _05_Exercise
+{
+    public class StartUp
+    {
+        public static void Main()
+        {
+            Engine engine = new Engine();
+            engine.Run();
+        }
+    }
+
+    public interface ICitizen
+    {
+        string Name { get; }
+
+        int Age { get; }
+
+        string Id { get; }
+    }
+
+    public class Citizen : ICitizen
+    {
+        public Citizen(string name, int age, string id)
+        {
+            this.Name = name;
+            this.Age = age;
+            this.Id = id;
+        }
+
+        public string Name { get; private set; }
+
+        public int Age { get; private set; }
+
+        public string Id { get; private set; }
+    }
+
+    public interface IRobot
+    {
+        string Model { get; }
+
+        string Id { get; }
+    }
+
+    public class Robot : IRobot
+    {
+        public Robot(string model, string id)
+        {
+            this.Model = model;
+            this.Id = id;
+        }
+
+        public string Model { get; private set; }
+
+        public string Id { get; private set; }
+    }
+
+    public class Engine
+    {
+        private List<string> ids;
+
+        public Engine()
+        {
+            this.ids = new List<string>();
+        }
+
+        public void Run()
+        {
+            string input = Console.ReadLine();
+
+            while(input != "End")
+            {
+                string[] inputArgs = input.Split().ToArray();
+
+                if(inputArgs.Length == 2)
+                {
+                    string model = inputArgs[0];
+                    string id = inputArgs[1];
+
+                    IRobot robot = new Robot(model, id);
+                    ids.Add(id);
+                }
+                else if(inputArgs.Length == 3)
+                {
+                    string name = inputArgs[0];
+                    int age = int.Parse(inputArgs[1]);
+                    string id = inputArgs[2];
+
+                    ICitizen citizen = new Citizen(name, age, id);
+                    ids.Add(id);
+                }
+
+                input = Console.ReadLine();
+            }
+
+            string digitsToFind = Console.ReadLine();
+
+            foreach(var fakeId in ids.Where(i => i.EndsWith(digitsToFind)))
+            {
+                Console.WriteLine(fakeId);
+            }
+        }
+    }
+}
+
+06
+==================================
+
+using System;
+using System.Collections.Generic;
+using System.Globalization;
+using System.Linq;
+
+namespace _06_Exercise
+{
+    public class StartUp
+    {
+        public static void Main()
+        {
+            Engine engine = new Engine();
+            engine.Run();
+        }
+    }
+
+    public interface ICitizen
+    {
+        string Name { get; }
+
+        int Age { get; }
+
+        string Id { get; }
+
+        DateTime Birthday { get; }
+    }
+
+    public class Citizen : ICitizen
+    {
+        public Citizen(string name, int age, string id, DateTime birthday)
+        {
+            this.Name = name;
+            this.Age = age;
+            this.Id = id;
+            this.Birthday = birthday;
+        }
+
+        public string Name { get; private set; }
+
+        public int Age { get; private set; }
+
+        public string Id { get; private set; }
+
+        public DateTime Birthday { get; private set; }
+    }
+
+    public interface IRobot
+    {
+        string Model { get; }
+
+        string Id { get; }
+    }
+
+    public class Robot : IRobot
+    {
+        public Robot(string model, string id)
+        {
+            this.Model = model;
+            this.Id = id;
+        }
+
+        public string Model { get; private set; }
+
+        public string Id { get; private set; }
+    }
+
+    public interface IPet
+    {
+        string Name { get; }
+
+        DateTime Birthday { get; }
+    }
+
+    public class Pet : IPet
+    {
+        public Pet(string name, DateTime birthday)
+        {
+            this.Name = name;
+            this.Birthday = birthday;
+        }
+
+        public string Name { get; private set; }
+
+        public DateTime Birthday { get; private set; }
+    }
+
+    public class Engine
+    {
+        private List<DateTime> birthdays;
+
+        public Engine()
+        {
+            this.birthdays = new List<DateTime>();
+        }
+
+        public void Run()
+        {
+            string input = Console.ReadLine();
+
+            while(input != "End")
+            {
+                string[] inputArgs = input
+                    .Split(" ", StringSplitOptions.RemoveEmptyEntries)
+                    .ToArray();
+
+                if(inputArgs.Length == 5)
+                {
+                    string name = inputArgs[1];
+                    int age = int.Parse(inputArgs[2]);
+                    string id = inputArgs[3];
+                    DateTime birthday = DateTime.ParseExact(inputArgs[4], "dd/MM/yyyy", CultureInfo.InvariantCulture);
+
+                    ICitizen citizen = new Citizen(name, age, id, birthday);
+                    birthdays.Add(birthday);
+                }
+                else if(inputArgs.Length == 3)
+                {
+                    string type = inputArgs[0];
+
+                    if(type == "Robot")
+                    {
+                        string model = inputArgs[1];
+                        string id = inputArgs[2];
+
+                        IRobot robot = new Robot(model, id);
+                    }
+                    else
+                    {
+                        string name = inputArgs[1];
+                        DateTime birthday = DateTime.ParseExact(inputArgs[2], "dd/MM/yyyy", CultureInfo.InvariantCulture);
+
+                        IPet pet = new Pet(name, birthday);
+                        birthdays.Add(birthday);
+                    }
+                }
+
+                input = Console.ReadLine();
+            }
+
+            int yearToFind = int.Parse(Console.ReadLine());
+
+            birthdays = birthdays
+                .Where(b => b.Year == yearToFind)
+                .ToList();
+
+            foreach(var birthday in birthdays)
+            {
+                Console.WriteLine(birthday.ToString("dd/MM/yyyy", CultureInfo.InvariantCulture));
+            }
+        }
+    }
+}
+
+07
+==================================
+
+using System;
+using System.Collections.Generic;
+using System.Globalization;
+using System.Linq;
+
+namespace _07_Exercise
+{
+    public class StartUp
+    {
+        public static void Main()
+        {
+            Engine engine = new Engine();
+            engine.Run();
+        }
+    }
+
+    public interface IRebel
+    {
+        string Group { get; }
+    }
+
+    public interface IBuyer
+    {
+        string Name { get; }
+
+        int Age { get; }
+
+        int Food { get; }
+
+        void BuyFood();
+    }
+
+    public class Rebel : IRebel, IBuyer
+    {
+        public Rebel(string name, int age, string group)
+        {
+            this.Name = name;
+            this.Age = age;
+            this.Group = group;
+            this.Food = 0;
+        }
+
+        public string Name { get; private set; }
+
+        public int Age { get; private set; }
+
+        public int Food { get; private set; }
+
+        public string Group { get; private set; }
+
+        public void BuyFood()
+        {
+            this.Food += 5;
+        }
+    }
+
+    public interface ICitizen
+    {
+        string Id { get; }
+
+        DateTime Birthday { get; }
+    }
+
+    public class Citizen : ICitizen, IBuyer
+    {
+        public Citizen(string name, int age, string id, DateTime birthday)
+        {
+            this.Name = name;
+            this.Age = age;
+            this.Id = id;
+            this.Birthday = birthday;
+            this.Food = 0;
+        }
+
+        public string Name { get; private set; }
+
+        public int Age { get; private set; }
+
+        public string Id { get; private set; }
+
+        public DateTime Birthday { get; private set; }
+
+        public int Food { get; private set; }
+
+        public void BuyFood()
+        {
+            this.Food += 10;
+        }
+    }
+
+    public class Engine
+    {
+        private List<IBuyer> buyers;
+
+        public Engine()
+        {
+            this.buyers = new List<IBuyer>();
+        }
+
+        public void Run()
+        {
+            int lines = int.Parse(Console.ReadLine());
+
+            for (int i = 0; i < lines; i++)
+            {
+                string[] inputArgs = Console.ReadLine().Split().ToArray();
+
+                string name = inputArgs[0];
+                int age = int.Parse(inputArgs[1]);
+
+                if(inputArgs.Length == 4)
+                {
+                    string id = inputArgs[2];
+
+                    DateTime birthday = DateTime.ParseExact(inputArgs[3], "dd/MM/yyyy", CultureInfo.InvariantCulture);
+
+                    IBuyer citizen = new Citizen(name, age, id, birthday);
+                    buyers.Add(citizen);
+                }
+                else if(inputArgs.Length == 3)
+                {
+                    string group = inputArgs[2];
+
+                    IBuyer rebel = new Rebel(name, age, group);
+                    buyers.Add(rebel);
+                }
+            }
+
+            string input = Console.ReadLine();
+
+            while(input != "End")
+            {
+                if(buyers.FirstOrDefault(p => p.Name == input) != null)
+                {
+                    buyers.FirstOrDefault(p => p.Name == input).BuyFood();
+                }
+
+                input = Console.ReadLine();
+            }
+
+            Console.WriteLine(buyers.Sum(p => p.Food));
+        }
+    }
+}
+
+08
+==================================
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace _08_Exercise
+{
+    public class StartUp
+    {
+        public static void Main()
+        {
+            Engine engine = new Engine();
+            engine.Run();
+        }
+    }
+
+    public interface ISoldier // 1
+    {
+        string Id { get; }
+
+        string FirstName { get; }
+
+        string LastName { get; }
+    }
+
+    // soldier e abstraktno i nishto konkretno za tova e abstract
+    // nqma da pravim instaciq na samiq soldier
+    public abstract class Soldier : ISoldier
+    {
+        // protected => ne moje ot otvunka da se inicializira, a samo ot naslednicite
+        protected Soldier(string id, string firstName, string lastName)
+        {
+            this.Id = id;
+            this.FirstName = firstName;
+            this.LastName = lastName;
+        }
+
+        public string Id { get; private set; }
+
+        public string FirstName { get; private set; }
+
+        public string LastName { get; private set; }
+
+        public override string ToString()
+        {
+            return $"Name: {this.FirstName} {this.LastName} Id: {this.Id} ";
+        }
+    }
+
+    public interface IPrivate : ISoldier // 2.1
+    {
+        decimal Salary { get; }
+    }
+
+    public class Private : Soldier, IPrivate
+    {
+        public Private(string id, string firstName, string lastName, decimal salary)
+            : base(id, firstName, lastName)
+        {
+            this.Salary = salary;
+        }
+
+        public decimal Salary { get; private set; }
+
+        public override string ToString()
+        {
+            return base.ToString() + $"Salary: {this.Salary:F2}";
+        }
+    }
+
+    public interface ILieutenantGeneral : IPrivate // 2.1.1
+    {
+        IReadOnlyCollection<ISoldier> Privates { get; } 
+
+        void AddPrivate(ISoldier @private); 
+    }
+
+    public class LieutenantGeneral : Private, ILieutenantGeneral 
+    {
+        private readonly List<ISoldier> privates; 
+					
+        public LieutenantGeneral(string id, string firstName, string lastName, decimal salary)
+            : base(id, firstName, lastName, salary)
+        {
+            this.privates = new List<ISoldier>();
+        }
+
+        public IReadOnlyCollection<ISoldier> Privates => this.privates.AsReadOnly();
+
+        public void AddPrivate(ISoldier @private)
+        {
+            this.privates.Add(@private);
+        }
+
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+
+            sb.AppendLine(base.ToString())
+                .AppendLine("Privates:");
+
+            foreach (var pr in this.privates)
+            {
+                sb.AppendLine($"  {pr.ToString()}");
+            }
+
+            return sb.ToString().TrimEnd();
+        }
+    }
+
+    public enum Corps // enum
+    {
+        Airforces = 1,
+        Marines = 2,
+    }
+
+    public interface ISpecialisedSoldier : IPrivate // 2.1.2
+    {
+        Corps Corps { get; }
+    }
+
+    public class InvalidCorpsException : Exception
+    {
+        private const string EXC_MESSAGE = "Invalid corps!";
+
+        public InvalidCorpsException() // <============================
+            : base(EXC_MESSAGE)
+        {
+        }
+
+        public InvalidCorpsException(string message)
+            : base(message)
+        {
+        }
+    }
+
+    public abstract class SpecialisedSoldier : Private, ISpecialisedSoldier
+    {
+        public SpecialisedSoldier(string id, string firstName, string lastName, decimal salary, string corps)
+            : base(id, firstName, lastName, salary)
+        {
+            ParseCorps(corps);
+        }
+
+        public Corps Corps { get; private set; }
+
+        private void ParseCorps(string corpsStr)
+        {
+            Corps corps;
+            bool parsed = Enum.TryParse<Corps>(corpsStr, out corps);
+
+            if (!parsed)
+            {
+                throw new InvalidCorpsException();
+            }
+
+            this.Corps = corps;
+        }
+
+        public override string ToString()
+        {
+            return base.ToString() + Environment.NewLine + $"Corps: {this.Corps}";
+        }
+    }
+
+    public interface IRepair
+    {
+        string PartName { get; }
+
+        int HoursWorked { get; }
+    }
+
+    public class Repair : IRepair
+    {
+        public Repair(string partName, int hoursWorked)
+        {
+            this.PartName = partName;
+            this.HoursWorked = hoursWorked;
+        }
+
+        public string PartName { get; private set; }
+
+        public int HoursWorked { get; private set; }
+
+        public override string ToString()
+        {
+            return $"Part Name: {this.PartName} Hours Worked: {this.HoursWorked}";
+        }
+    }
+
+    public interface IEngineer : ISpecialisedSoldier // 2.1.2.1
+    {
+        IReadOnlyCollection<IRepair> Repairs { get; }
+
+        void AddRepair(IRepair repair);
+    }
+
+    public class Engineer : SpecialisedSoldier, IEngineer
+    {
+        private readonly List<IRepair> repairs;
+
+        public Engineer(string id, string firstName, string lastName, decimal salary, string corps)
+            : base(id, firstName, lastName, salary, corps)
+        {
+            this.repairs = new List<IRepair>();
+        }
+
+        public IReadOnlyCollection<IRepair> Repairs => this.repairs.AsReadOnly();
+
+        public void AddRepair(IRepair repair)
+        {
+            this.repairs.Add(repair);
+        }
+
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+
+            sb.AppendLine(base.ToString())
+                .AppendLine("Repairs:");
+
+            foreach (var repair in this.repairs)
+            {
+                sb.AppendLine($"  {repair.ToString()}");
+            }
+
+            return sb.ToString().TrimEnd();
+        }
+    }
+
+    public enum State // enum
+    {
+        inProgress = 1,
+        Finished = 2,
+    }
+
+    public interface IMission
+    {
+        string CodeName { get; }
+
+        State State { get; }
+
+        void CompleteMission();
+    }
+
+    public class InvalidMissionCompletionException : Exception
+    {
+        private const string EXC_MESSAGE = "Already completed mission!";
+
+        public InvalidMissionCompletionException()
+            : base(EXC_MESSAGE)
+        {
+        }
+
+        public InvalidMissionCompletionException(string message) : base(message)
+        {
+        }
+    }
+
+    public class InvalidStateException : Exception
+    {
+        private const string EXC_MESSAGE = "Invalid state!";
+
+        public InvalidStateException()
+            : base(EXC_MESSAGE)
+        {
+        }
+	// zakliuchenie imam che moje bi dolnoto e primer kak poprincip rabotim s 
+	// base konstruktora .. i tui kato nie ne poluchavame danni za konstruktora 
+	// napravo si izpolzvame promenlivata EXC_MESSAGE v base-a gore?!
+        public InvalidStateException(string message)
+            : base(message)
+        {
+        }
+    }
+
+    public class Mission : IMission
+    {
+        public Mission(string codeName, string state)
+        {
+            this.CodeName = codeName;
+            ParseState(state);
+        }
+
+        public string CodeName { get; } // setva se samo prez konsruktora
+
+        public State State { get; private set; } // setva se samo v dadeniq klas
+
+        private void ParseState(string stateStr)
+        {
+            State state;
+            bool parsed = Enum.TryParse<State>(stateStr, out state);
+
+            if (!parsed)
+            {
+                throw new InvalidStateException();
+            }
+
+            this.State = state;
+        }
+
+        public void CompleteMission()
+        {
+            if (this.State == State.Finished)
+            {
+                throw new InvalidMissionCompletionException();
+            }
+
+            this.State = State.Finished;
+        }
+
+        public override string ToString()
+        {
+            return $"Code Name: {this.CodeName} State: {this.State}";
+        }
+    }
+
+    public interface ICommando : ISpecialisedSoldier // 2.1.2.2
+    {
+        IReadOnlyCollection<IMission> Missions { get; }
+
+        void AddMission(IMission mission);
+    }
+
+    public class Commando : SpecialisedSoldier, ICommando
+    {
+        private readonly List<IMission> missions;
+
+        public Commando(string id, string firstName, string lastName, decimal salary, string corps)
+            : base(id, firstName, lastName, salary, corps)
+        {
+            this.missions = new List<IMission>();
+        }
+
+        public IReadOnlyCollection<IMission> Missions => this.missions.AsReadOnly();
+
+        public void AddMission(IMission mission)
+        {
+            this.missions.Add(mission);
+        }
+
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+
+            sb.AppendLine(base.ToString())
+                .AppendLine("Missions:");
+
+            foreach (var mission in this.missions)
+            {
+                sb.AppendLine($"  {mission.ToString()}");
+            }
+
+            return sb.ToString().TrimEnd();
+        }
+    }
+
+    public interface ISpy : ISoldier // 2.2
+    {
+        int CodeNumber { get; }
+    }
+
+    public class Spy : Soldier, ISpy
+    {
+        public Spy(string id, string firstName, string lastName, int codeNumber)
+            : base(id, firstName, lastName)
+        {
+            this.CodeNumber = codeNumber;
+        }
+
+        public int CodeNumber { get; private set; }
+
+        public override string ToString()
+        {
+            return base.ToString().TrimEnd() + Environment.NewLine + $"Code Number: {this.CodeNumber}";
+        }
+    }
+
+    public class CommandoFactory
+    {
+        public Commando MakeCommando(string[] args)
+        {
+            string id = args[1];
+            string firstName = args[2];
+            string lastName = args[3];
+            decimal salary = decimal.Parse(args[4]);
+            string corps = args[5];
+
+            Commando commando = new Commando(id, firstName, lastName, salary, corps);
+
+            return commando;
+        }
+    }
+
+    public class EngineerFactory
+    {
+        public Engineer MakeEngineer(string[] args)
+        {
+            string id = args[1];
+            string firstName = args[2];
+            string lastName = args[3];
+            decimal salary = decimal.Parse(args[4]);
+            string corps = args[5];
+
+            Engineer engineer = new Engineer(id, firstName, lastName, salary, corps);
+
+            return engineer;
+        }
+    }
+
+    public class LieutenantGeneralFactory
+    {
+        public LieutenantGeneral MakeLieutenantGeneral(string[] args)
+        {
+            string id = args[1];
+            string firstName = args[2];
+            string lastName = args[3];
+            decimal salary = decimal.Parse(args[4]);
+
+            LieutenantGeneral lieutenantGeneral = new LieutenantGeneral(id, firstName, lastName, salary);
+
+            return lieutenantGeneral;
+        }
+    }
+
+    public class MissionFactory
+    {
+        public Mission MakeMission(string codeName, string state)
+        {
+            Mission mission = new Mission(codeName, state);
+
+            return mission;
+        }
+    }
+
+    public class PrivateFactory
+    {
+        public Private MakePrivateSoldier(string[] args)
+        {
+            string id = args[1];
+            string firstName = args[2];
+            string lastName = args[3];
+            decimal salary = decimal.Parse(args[4]);
+
+            Private privateSoldier = new Private(id, firstName, lastName, salary);
+
+            return privateSoldier;
+        }
+    }
+
+    public class RepairFactory
+    {
+        public Repair MakeRepair(string partName, int hoursWorked)
+        {
+            Repair repair = new Repair(partName, hoursWorked);
+
+            return repair;
+        }
+    }
+
+    public class SpyFactory
+    {
+        public Spy MakeSpy(string[] args)
+        {
+            string id = args[1];
+            string firstName = args[2];
+            string lastName = args[3];
+            int codeNumber = int.Parse(args[4]);
+
+            Spy spy = new Spy(id, firstName, lastName, codeNumber);
+
+            return spy;
+        }
+    }
+
+    public class Engine
+    {
+        private readonly List<ISoldier> army;
+        private readonly CommandoFactory commandoFactory;
+        private readonly EngineerFactory engineerFactory;
+        private readonly LieutenantGeneralFactory lieutenantGeneralFactory;
+        private readonly MissionFactory missionFactory;
+        private readonly PrivateFactory privateFactory;
+        private readonly RepairFactory repairFactory;
+        private readonly SpyFactory spyFactory;
+
+        public Engine()
+        {
+            this.army = new List<ISoldier>();
+            this.commandoFactory = new CommandoFactory();
+            this.engineerFactory = new EngineerFactory();
+            this.lieutenantGeneralFactory = new LieutenantGeneralFactory();
+            this.missionFactory = new MissionFactory();
+            this.privateFactory = new PrivateFactory();
+            this.repairFactory = new RepairFactory();
+            this.spyFactory = new SpyFactory();
+        }
+
+        public void Run()
+        {
+            string input = Console.ReadLine();
+
+            while (input != "End")
+            {
+                string[] commandArgs = input.Split().ToArray();
+
+                string type = commandArgs[0];
+
+                switch (type)
+                {
+                    case "Private":
+
+                        Private privateSoldier = this.privateFactory.MakePrivateSoldier(commandArgs);
+
+                        this.army.Add(privateSoldier);
+                        break;
+
+                    case "LieutenantGeneral":
+
+                        LieutenantGeneral lieutenantGeneral = this.lieutenantGeneralFactory.MakeLieutenantGeneral(commandArgs);
+
+                        string[] privatesToAddArgs = commandArgs.Skip(5).ToArray();
+
+                        foreach (var privateId in privatesToAddArgs)
+                        {
+                            ISoldier currentPrivate = this.army.First(p => p.Id == privateId);
+
+                            lieutenantGeneral.AddPrivate(currentPrivate);
+                        }
+
+                        this.army.Add(lieutenantGeneral);
+                        break;
+                    case "Engineer":
+
+                        try
+                        {
+                            Engineer engineer = this.engineerFactory.MakeEngineer(commandArgs);
+
+                            string[] repairArgs = commandArgs.Skip(6).ToArray();
+                            AddRepairs(engineer, repairArgs);
+
+                            this.army.Add(engineer);
+                        }
+                        catch (InvalidCorpsException)
+                        {
+                        }
+                        break;
+                    case "Commando":
+
+                        try
+                        {
+                            Commando commando = this.commandoFactory.MakeCommando(commandArgs);
+
+                            string[] missionArgs = commandArgs.Skip(6).ToArray();
+                            AddMission(commando, missionArgs);
+
+                            this.army.Add(commando);
+                        }
+                        catch (InvalidCorpsException)
+                        {
+                        }
+                        break;
+                    case "Spy":
+
+                        Spy spy = this.spyFactory.MakeSpy(commandArgs);
+
+                        this.army.Add(spy);
+                        break;
+                }
+
+                input = Console.ReadLine();
+            }
+
+            PrintOutput();
+        }
+
+        //foreach (var soldier in this.army)
+        //{
+        //    Console.WriteLine(soldier.ToString());
+        //}
+
+        private void PrintOutput()
+        {
+            foreach (var soldier in this.army)
+            {
+                Type type = soldier.GetType(); // from type ISoldier to concrete type 
+
+                Object actual = Convert.ChangeType(soldier, type);
+
+                Console.WriteLine(actual.ToString());
+            }
+        }
+
+        private void AddMission(Commando commando, string[] missionArgs)
+        {
+            for (int i = 0; i < missionArgs.Length; i += 2)
+            {
+                try
+                {
+                    string name = missionArgs[i];
+                    string state = missionArgs[i + 1];
+
+                    IMission mission = this.missionFactory.MakeMission(name, state);
+
+                    commando.AddMission(mission);
+                }
+                catch (InvalidStateException)
+                {
+                    continue;
+                }
+            }
+        }
+
+        private void AddRepairs(Engineer engineer, string[] repairArgs)
+        {
+            for (int i = 0; i < repairArgs.Length; i += 2)
+            {
+                string name = repairArgs[i];
+                int hours = int.Parse(repairArgs[i + 1]);
+
+                IRepair repair = this.repairFactory.MakeRepair(name, hours);
+
+                engineer.AddRepair(repair);
+            }
+        }
+    }
+}
+
+09
+==================================
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace _09_Exercise
+{
+    public class StartUp
+    {
+        public static void Main()
+        {
+            Engine engine = new Engine();
+            engine.Run();
+        }
+    }
+
+    public interface IAddCollection
+    {
+        int Add(string item);
+    }
+
+    public interface IRemoveCollection
+    {
+        string Remove();
+    }
+
+    public interface IMyList
+    {
+        string Used();
+    }
+
+    public abstract class Collection : IAddCollection
+    {
+        protected Collection()
+        {
+            this.DataCollection = new List<string>();
+        }
+
+        protected List<string> DataCollection { get; }
+
+        public virtual int Add(string item)
+        {
+            this.DataCollection.Insert(0, item);
+
+            return 0;
+        }
+    }
+
+    public class AddCollection : Collection
+    {
+        public override int Add(string item)
+        {
+            this.DataCollection.Add(item);
+
+            return DataCollection.Count - 1;
+        }
+    }
+
+    public class AddRemoveCollection : Collection, IRemoveCollection
+    {
+        public virtual string Remove()
+        {
+            string lastItem = this.DataCollection[this.DataCollection.Count - 1];
+            this.DataCollection.RemoveAt(this.DataCollection.Count - 1);
+
+            return lastItem;
+        }
+    }
+
+    public class MyList : AddRemoveCollection, IMyList
+    {
+        public override string Remove()
+        {
+            string firstItem = this.DataCollection[0];
+            this.DataCollection.RemoveAt(0);
+
+            return firstItem;
+        }
+
+        public string Used()
+        {
+            return string.Join(" ", this.DataCollection);
+        }
+    }
+
+    public class Engine
+    {
+        private readonly AddCollection addCollection;
+        private readonly AddRemoveCollection addRemoveCollection;
+        private readonly MyList myList;
+
+        public Engine()
+        {
+            addCollection = new AddCollection();
+            addRemoveCollection = new AddRemoveCollection();
+            myList = new MyList();
+        }
+
+        public void Run()
+        {
+            string[] input = Console.ReadLine()
+                .Split(" ", StringSplitOptions.RemoveEmptyEntries)
+                .ToArray();
+
+            List<int> result = new List<int>();
+
+            for (int currentCollection = 1; currentCollection <= 3; currentCollection++)
+            {
+                foreach(var item in input)
+                {
+                    switch (currentCollection)
+                    {
+                        case 1:
+                            result.Add(addCollection.Add(item));
+                            break;
+                        case 2:
+                            result.Add(addRemoveCollection.Add(item));
+                            break;
+                        case 3:
+                            result.Add(myList.Add(item));
+                            break;
+                    }
+                }
+
+                Console.WriteLine(string.Join(" ", result));
+                result.Clear();
+            }
+
+            int removeOperations = int.Parse(Console.ReadLine());
+
+            RemoveItem(removeOperations, addRemoveCollection);
+            RemoveItem(removeOperations, myList); 
+        }
+
+        // AddRemoveCollection, IRemoveCollection trqbva da po-nagore v yirahiqta MyList ne stava!!
+        private void RemoveItem(int count, IRemoveCollection collection)
+        {
+            List<string> result = new List<string>();
+
+            for (int i = 0; i < count; i++)
+            {
+                result.Add(collection.Remove());
+            }
+
+            Console.WriteLine(string.Join(" ", result));
+        }
+    }
+}
+
+10
+==================================
+
+using System;
+using System.Linq;
+
+namespace _10_Exercise
+{
+    public class StartUp
+    {
+        public static void Main()
+        {
+            Engine engine = new Engine();
+            engine.Run();
+        }
+    }
+
+    public interface IResident
+    {
+        string Name { get; } // default all are public
+
+        string Country { get; }
+
+        string GetName();
+    }
+
+    public interface IPerson
+    {
+        string Name { get; }
+
+        int Age { get; }
+
+        string GetName();
+    }
+
+    public class Citizen : IPerson, IResident
+    {
+        public Citizen(string name, string country, int age)
+        {
+            this.Name = name;
+            this.Country = country;
+            this.Age = age;
+        }
+
+        public string Name { get; private set; }
+
+        public string Country { get; private set; }
+
+        public int Age { get; private set; }
+
+        string IResident.GetName()
+        {
+            return $"{this.Name}";
+        }
+
+        string IPerson.GetName() 
+        {
+            return $"Mr/Ms/Mrs {this.Name}";
+        }
+    }
+
+    public class PersonFactory
+    {
+        public Citizen MakeCitizen(string[] args)
+        {
+            string name = args[0];
+            string country = args[1];
+            int age = int.Parse(args[2]);
+
+            Citizen citizen = new Citizen(name, country, age);
+
+            return citizen;
+        }
+    }
+
+    public class Engine
+    {
+        private readonly PersonFactory personFactory;
+
+        public Engine()
+        {
+            this.personFactory = new PersonFactory();
+        }
+
+        public void Run()
+        {
+            string input = Console.ReadLine();
+
+            while(input != "End")
+            {
+                string[] citizenInfo = input.Split().ToArray();
+
+                IPerson person = this.personFactory.MakeCitizen(citizenInfo);
+                IResident resident = this.personFactory.MakeCitizen(citizenInfo);
+
+                Console.WriteLine(resident.GetName());
+                Console.WriteLine(person.GetName());
+
+                input = Console.ReadLine();
+            }
+        }
+    }
+}

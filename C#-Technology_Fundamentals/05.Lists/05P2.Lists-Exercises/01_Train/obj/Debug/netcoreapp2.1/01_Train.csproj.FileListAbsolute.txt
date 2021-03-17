@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Lists-Exercises\01_Train\bin\Debug\netcoreapp2.1\01_Train.deps.json
+C:\Users\ASUS NB\source\repos\Lists-Exercises\01_Train\bin\Debug\netcoreapp2.1\01_Train.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Lists-Exercises\01_Train\bin\Debug\netcoreapp2.1\01_Train.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Lists-Exercises\01_Train\bin\Debug\netcoreapp2.1\01_Train.dll
+C:\Users\ASUS NB\source\repos\Lists-Exercises\01_Train\bin\Debug\netcoreapp2.1\01_Train.pdb
+C:\Users\ASUS NB\source\repos\Lists-Exercises\01_Train\obj\Debug\netcoreapp2.1\01_Train.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Lists-Exercises\01_Train\obj\Debug\netcoreapp2.1\01_Train.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Lists-Exercises\01_Train\obj\Debug\netcoreapp2.1\01_Train.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Lists-Exercises\01_Train\obj\Debug\netcoreapp2.1\01_Train.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Lists-Exercises\01_Train\obj\Debug\netcoreapp2.1\01_Train.dll
+C:\Users\ASUS NB\source\repos\Lists-Exercises\01_Train\obj\Debug\netcoreapp2.1\01_Train.pdb

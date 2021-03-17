@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\06_Supermarket\bin\Debug\netcoreapp2.1\06_Supermarket.deps.json
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\06_Supermarket\bin\Debug\netcoreapp2.1\06_Supermarket.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\06_Supermarket\bin\Debug\netcoreapp2.1\06_Supermarket.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\06_Supermarket\bin\Debug\netcoreapp2.1\06_Supermarket.dll
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\06_Supermarket\bin\Debug\netcoreapp2.1\06_Supermarket.pdb
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\06_Supermarket\obj\Debug\netcoreapp2.1\06_Supermarket.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\06_Supermarket\obj\Debug\netcoreapp2.1\06_Supermarket.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\06_Supermarket\obj\Debug\netcoreapp2.1\06_Supermarket.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\06_Supermarket\obj\Debug\netcoreapp2.1\06_Supermarket.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\06_Supermarket\obj\Debug\netcoreapp2.1\06_Supermarket.dll
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\06_Supermarket\obj\Debug\netcoreapp2.1\06_Supermarket.pdb

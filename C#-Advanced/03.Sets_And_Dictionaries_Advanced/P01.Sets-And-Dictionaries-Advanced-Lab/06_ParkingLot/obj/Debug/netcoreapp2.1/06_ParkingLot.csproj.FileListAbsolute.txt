@@ -1,0 +1,10 @@
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\06_ParkingLot\bin\Debug\netcoreapp2.1\06_ParkingLot.deps.json
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\06_ParkingLot\bin\Debug\netcoreapp2.1\06_ParkingLot.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\06_ParkingLot\bin\Debug\netcoreapp2.1\06_ParkingLot.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\06_ParkingLot\bin\Debug\netcoreapp2.1\06_ParkingLot.dll
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\06_ParkingLot\bin\Debug\netcoreapp2.1\06_ParkingLot.pdb
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\06_ParkingLot\obj\Debug\netcoreapp2.1\06_ParkingLot.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\06_ParkingLot\obj\Debug\netcoreapp2.1\06_ParkingLot.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\06_ParkingLot\obj\Debug\netcoreapp2.1\06_ParkingLot.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\06_ParkingLot\obj\Debug\netcoreapp2.1\06_ParkingLot.dll
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\06_ParkingLot\obj\Debug\netcoreapp2.1\06_ParkingLot.pdb

@@ -1,0 +1,257 @@
+@import url('https://use.fontawesome.com/releases/v5.15.2/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+
+html {
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    color: #596877;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+/* HEADER PART */
+
+header {
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: 0px 6px 10px rgba(41, 57, 75, 0.25);
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav img {
+    max-width: 150px;
+    margin-left: 30px;
+}
+
+header nav ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-right: 30px;
+}
+
+header nav ul li {
+    list-style: none;
+    margin: 0 12px;
+    padding: 28px 7px;
+    border-top: 5px solid transparent;
+    text-align: center;
+}
+
+header nav ul li a {
+    color: #596877;
+    text-decoration: none;
+}
+
+header nav ul li.active {
+    border-top: 5px solid #42abf8;
+}
+
+header nav ul li.profile-icon {
+    align-self: center;
+    background-color: #42abf8;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px #42abf8;
+}
+
+header nav ul li.profile-icon a {
+    color: white;
+    position: relative;
+    top: -10px;
+}
+
+/* MAIN PART */
+
+main section.certificates {
+    margin-bottom: 80px;
+}
+
+main section.certificates div.certificates-wrapper {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    margin-top: 48px;
+    margin-bottom: 0px;
+}
+
+main section.certificates p.certificates-info-paragraph {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    margin-left: 238px;
+    font-style: italic;
+}
+
+main section.certificates div.certificates-wrapper::before {
+    content: '';
+    background-image: url('./images/hero-certificates.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    z-index: -1;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 331px;
+    left: 0px;
+    opacity: 20%;
+    /* height: 1000px; ??*/
+    height: 1000px
+}
+
+main section.certificates div.certificates-wrapper article.certificates-info {
+    color: white;
+    background-color: #29384c;
+    flex-basis: 38%;
+    border-radius: 8px;
+    padding: 30px;
+    margin-left: 208px;
+}
+
+main section.certificates div.certificates-wrapper article.certificates-images {
+    flex-basis: 40%;
+    display: flex;
+    align-items: flex-end;
+}
+
+main section.diploma {
+    display: block;
+}
+
+main section.diploma h2 {
+    margin-top: 130px;
+    text-align: center;
+}
+
+main section.diploma p.diploma-info-paragraph {
+    width: 70%;
+    margin: 30px auto;
+}
+
+
+main section.diploma article.diploma-info {
+    background-color: #f3f5f7;
+    width: 70%;
+    padding: 30px;
+    margin: 50px auto;
+}
+
+
+main section.apply article.apply-info {
+    background: url('images/sign-up-prompt-background.jpg');
+    width: 70%;
+    margin: 40px auto;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    padding: 70px;
+}
+
+
+main section.apply article.apply-info button {
+    font-family: inherit;
+    padding: 10px 35px;
+    background: transparent;
+    color: white;
+    border: 1px white solid;
+    border-radius: 8px;
+}
+
+
+main section.apply article.apply-info button.apply-btn {
+    font-family: inherit;
+    padding: 10px 35px;
+    background-color: white;
+    color: #42abf8;
+    border: 1px #42abf8 solid;
+    border-radius: 8px;
+}
+
+main section.apply article.apply-info .line {
+    border-right: 1px white solid;
+    margin-left: 5px;
+    margin-right: 8px;
+    height: 30px;
+    width: 2px;
+}
+
+/* FOOTER PART */
+
+footer {
+    border-top: 2px solid #596877;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer nav img {
+    width: 150px;
+}
+
+footer nav div {
+    display: flex;
+}
+
+footer nav div p {
+    margin-left: 12px;
+    color: #dfdfdf;
+}
+
+footer nav ul {
+    display: flex;
+}
+
+footer nav ul li {
+    list-style: none;
+}
+
+footer nav ul.about-us li {
+    margin: 6px 0 6px 6px;
+}
+
+footer nav ul.social-media {
+    padding: 0;
+    margin-left: -101px;
+}
+
+footer nav ul.social-media li {
+    margin: 6px 0 6px 6px;
+}
+
+footer nav ul li a {
+    color: #64707d;
+    text-decoration: none;
+}

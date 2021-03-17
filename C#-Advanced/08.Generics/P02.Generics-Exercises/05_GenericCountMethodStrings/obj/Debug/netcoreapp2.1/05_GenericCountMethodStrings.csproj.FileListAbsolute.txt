@@ -1,0 +1,20 @@
+C:\Users\ASUS NB\source\repos\Generics-Exercises\05_GenericCountMethodStrings\bin\Debug\netcoreapp2.1\05_GenericCountMethodStrings.deps.json
+C:\Users\ASUS NB\source\repos\Generics-Exercises\05_GenericCountMethodStrings\bin\Debug\netcoreapp2.1\05_GenericCountMethodStrings.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Generics-Exercises\05_GenericCountMethodStrings\bin\Debug\netcoreapp2.1\05_GenericCountMethodStrings.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Generics-Exercises\05_GenericCountMethodStrings\bin\Debug\netcoreapp2.1\05_GenericCountMethodStrings.dll
+C:\Users\ASUS NB\source\repos\Generics-Exercises\05_GenericCountMethodStrings\bin\Debug\netcoreapp2.1\05_GenericCountMethodStrings.pdb
+C:\Users\ASUS NB\source\repos\Generics-Exercises\05_GenericCountMethodStrings\obj\Debug\netcoreapp2.1\05_GenericCountMethodStrings.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Generics-Exercises\05_GenericCountMethodStrings\obj\Debug\netcoreapp2.1\05_GenericCountMethodStrings.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Generics-Exercises\05_GenericCountMethodStrings\obj\Debug\netcoreapp2.1\05_GenericCountMethodStrings.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Generics-Exercises\05_GenericCountMethodStrings\obj\Debug\netcoreapp2.1\05_GenericCountMethodStrings.dll
+C:\Users\ASUS NB\source\repos\Generics-Exercises\05_GenericCountMethodStrings\obj\Debug\netcoreapp2.1\05_GenericCountMethodStrings.pdb
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\05_GenericCountMethodStrings\bin\Debug\netcoreapp2.1\05_GenericCountMethodStrings.deps.json
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\05_GenericCountMethodStrings\bin\Debug\netcoreapp2.1\05_GenericCountMethodStrings.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\05_GenericCountMethodStrings\bin\Debug\netcoreapp2.1\05_GenericCountMethodStrings.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\05_GenericCountMethodStrings\bin\Debug\netcoreapp2.1\05_GenericCountMethodStrings.dll
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\05_GenericCountMethodStrings\bin\Debug\netcoreapp2.1\05_GenericCountMethodStrings.pdb
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\05_GenericCountMethodStrings\obj\Debug\netcoreapp2.1\05_GenericCountMethodStrings.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\05_GenericCountMethodStrings\obj\Debug\netcoreapp2.1\05_GenericCountMethodStrings.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\05_GenericCountMethodStrings\obj\Debug\netcoreapp2.1\05_GenericCountMethodStrings.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\05_GenericCountMethodStrings\obj\Debug\netcoreapp2.1\05_GenericCountMethodStrings.dll
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\05_GenericCountMethodStrings\obj\Debug\netcoreapp2.1\05_GenericCountMethodStrings.pdb

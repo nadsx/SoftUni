@@ -1,0 +1,11 @@
+C:\Users\ASUS\Desktop\repos\Encapsulation-Exercise\05_FootballTeamGenerator\bin\Debug\netcoreapp3.0\05_FootballTeamGenerator.exe
+C:\Users\ASUS\Desktop\repos\Encapsulation-Exercise\05_FootballTeamGenerator\bin\Debug\netcoreapp3.0\05_FootballTeamGenerator.deps.json
+C:\Users\ASUS\Desktop\repos\Encapsulation-Exercise\05_FootballTeamGenerator\bin\Debug\netcoreapp3.0\05_FootballTeamGenerator.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\Encapsulation-Exercise\05_FootballTeamGenerator\bin\Debug\netcoreapp3.0\05_FootballTeamGenerator.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\Encapsulation-Exercise\05_FootballTeamGenerator\bin\Debug\netcoreapp3.0\05_FootballTeamGenerator.dll
+C:\Users\ASUS\Desktop\repos\Encapsulation-Exercise\05_FootballTeamGenerator\bin\Debug\netcoreapp3.0\05_FootballTeamGenerator.pdb
+C:\Users\ASUS\Desktop\repos\Encapsulation-Exercise\05_FootballTeamGenerator\obj\Debug\netcoreapp3.0\05_FootballTeamGenerator.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\repos\Encapsulation-Exercise\05_FootballTeamGenerator\obj\Debug\netcoreapp3.0\05_FootballTeamGenerator.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\Encapsulation-Exercise\05_FootballTeamGenerator\obj\Debug\netcoreapp3.0\05_FootballTeamGenerator.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\Encapsulation-Exercise\05_FootballTeamGenerator\obj\Debug\netcoreapp3.0\05_FootballTeamGenerator.dll
+C:\Users\ASUS\Desktop\repos\Encapsulation-Exercise\05_FootballTeamGenerator\obj\Debug\netcoreapp3.0\05_FootballTeamGenerator.pdb

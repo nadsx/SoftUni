@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Exercises\01_UniqueUsernames\bin\Debug\netcoreapp2.1\01_UniqueUsernames.deps.json
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Exercises\01_UniqueUsernames\bin\Debug\netcoreapp2.1\01_UniqueUsernames.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Exercises\01_UniqueUsernames\bin\Debug\netcoreapp2.1\01_UniqueUsernames.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Exercises\01_UniqueUsernames\bin\Debug\netcoreapp2.1\01_UniqueUsernames.dll
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Exercises\01_UniqueUsernames\bin\Debug\netcoreapp2.1\01_UniqueUsernames.pdb
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Exercises\01_UniqueUsernames\obj\Debug\netcoreapp2.1\01_UniqueUsernames.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Exercises\01_UniqueUsernames\obj\Debug\netcoreapp2.1\01_UniqueUsernames.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Exercises\01_UniqueUsernames\obj\Debug\netcoreapp2.1\01_UniqueUsernames.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Exercises\01_UniqueUsernames\obj\Debug\netcoreapp2.1\01_UniqueUsernames.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Exercises\01_UniqueUsernames\obj\Debug\netcoreapp2.1\01_UniqueUsernames.dll
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Exercises\01_UniqueUsernames\obj\Debug\netcoreapp2.1\01_UniqueUsernames.pdb

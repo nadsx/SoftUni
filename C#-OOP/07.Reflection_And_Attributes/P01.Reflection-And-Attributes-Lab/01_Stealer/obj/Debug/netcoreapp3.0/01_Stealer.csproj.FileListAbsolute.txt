@@ -1,0 +1,11 @@
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\01_Stealer\bin\Debug\netcoreapp3.0\01_Stealer.exe
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\01_Stealer\bin\Debug\netcoreapp3.0\01_Stealer.deps.json
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\01_Stealer\bin\Debug\netcoreapp3.0\01_Stealer.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\01_Stealer\bin\Debug\netcoreapp3.0\01_Stealer.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\01_Stealer\bin\Debug\netcoreapp3.0\01_Stealer.dll
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\01_Stealer\bin\Debug\netcoreapp3.0\01_Stealer.pdb
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\01_Stealer\obj\Debug\netcoreapp3.0\01_Stealer.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\01_Stealer\obj\Debug\netcoreapp3.0\01_Stealer.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\01_Stealer\obj\Debug\netcoreapp3.0\01_Stealer.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\01_Stealer\obj\Debug\netcoreapp3.0\01_Stealer.dll
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\01_Stealer\obj\Debug\netcoreapp3.0\01_Stealer.pdb

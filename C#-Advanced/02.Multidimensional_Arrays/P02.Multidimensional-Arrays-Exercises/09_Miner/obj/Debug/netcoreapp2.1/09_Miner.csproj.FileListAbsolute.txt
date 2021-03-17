@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Multidimensional-Arrays-Exercises\09_Miner\bin\Debug\netcoreapp2.1\09_Miner.deps.json
+C:\Users\ASUS NB\source\repos\Multidimensional-Arrays-Exercises\09_Miner\bin\Debug\netcoreapp2.1\09_Miner.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Multidimensional-Arrays-Exercises\09_Miner\bin\Debug\netcoreapp2.1\09_Miner.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Multidimensional-Arrays-Exercises\09_Miner\bin\Debug\netcoreapp2.1\09_Miner.dll
+C:\Users\ASUS NB\source\repos\Multidimensional-Arrays-Exercises\09_Miner\bin\Debug\netcoreapp2.1\09_Miner.pdb
+C:\Users\ASUS NB\source\repos\Multidimensional-Arrays-Exercises\09_Miner\obj\Debug\netcoreapp2.1\09_Miner.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Multidimensional-Arrays-Exercises\09_Miner\obj\Debug\netcoreapp2.1\09_Miner.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Multidimensional-Arrays-Exercises\09_Miner\obj\Debug\netcoreapp2.1\09_Miner.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Multidimensional-Arrays-Exercises\09_Miner\obj\Debug\netcoreapp2.1\09_Miner.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Multidimensional-Arrays-Exercises\09_Miner\obj\Debug\netcoreapp2.1\09_Miner.dll
+C:\Users\ASUS NB\source\repos\Multidimensional-Arrays-Exercises\09_Miner\obj\Debug\netcoreapp2.1\09_Miner.pdb

@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\02_AverageStudentGrades\bin\Debug\netcoreapp2.1\02_AverageStudentGrades.deps.json
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\02_AverageStudentGrades\bin\Debug\netcoreapp2.1\02_AverageStudentGrades.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\02_AverageStudentGrades\bin\Debug\netcoreapp2.1\02_AverageStudentGrades.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\02_AverageStudentGrades\bin\Debug\netcoreapp2.1\02_AverageStudentGrades.dll
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\02_AverageStudentGrades\bin\Debug\netcoreapp2.1\02_AverageStudentGrades.pdb
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\02_AverageStudentGrades\obj\Debug\netcoreapp2.1\02_AverageStudentGrades.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\02_AverageStudentGrades\obj\Debug\netcoreapp2.1\02_AverageStudentGrades.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\02_AverageStudentGrades\obj\Debug\netcoreapp2.1\02_AverageStudentGrades.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\02_AverageStudentGrades\obj\Debug\netcoreapp2.1\02_AverageStudentGrades.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\02_AverageStudentGrades\obj\Debug\netcoreapp2.1\02_AverageStudentGrades.dll
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Lab\02_AverageStudentGrades\obj\Debug\netcoreapp2.1\02_AverageStudentGrades.pdb

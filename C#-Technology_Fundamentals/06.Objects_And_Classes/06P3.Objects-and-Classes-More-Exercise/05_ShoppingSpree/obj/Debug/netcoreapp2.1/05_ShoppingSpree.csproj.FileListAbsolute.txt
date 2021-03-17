@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-More-Exercise\05_ShoppingSpree\bin\Debug\netcoreapp2.1\05_ShoppingSpree.deps.json
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-More-Exercise\05_ShoppingSpree\bin\Debug\netcoreapp2.1\05_ShoppingSpree.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-More-Exercise\05_ShoppingSpree\bin\Debug\netcoreapp2.1\05_ShoppingSpree.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-More-Exercise\05_ShoppingSpree\bin\Debug\netcoreapp2.1\05_ShoppingSpree.dll
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-More-Exercise\05_ShoppingSpree\bin\Debug\netcoreapp2.1\05_ShoppingSpree.pdb
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-More-Exercise\05_ShoppingSpree\obj\Debug\netcoreapp2.1\05_ShoppingSpree.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-More-Exercise\05_ShoppingSpree\obj\Debug\netcoreapp2.1\05_ShoppingSpree.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-More-Exercise\05_ShoppingSpree\obj\Debug\netcoreapp2.1\05_ShoppingSpree.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-More-Exercise\05_ShoppingSpree\obj\Debug\netcoreapp2.1\05_ShoppingSpree.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-More-Exercise\05_ShoppingSpree\obj\Debug\netcoreapp2.1\05_ShoppingSpree.dll
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-More-Exercise\05_ShoppingSpree\obj\Debug\netcoreapp2.1\05_ShoppingSpree.pdb

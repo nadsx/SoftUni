@@ -1,0 +1,21 @@
+C:\Users\ASUS NB\source\repos\Generics-Lab\03_GenericScale\bin\Debug\netcoreapp2.1\03_GenericScale.deps.json
+C:\Users\ASUS NB\source\repos\Generics-Lab\03_GenericScale\bin\Debug\netcoreapp2.1\03_GenericScale.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Generics-Lab\03_GenericScale\bin\Debug\netcoreapp2.1\03_GenericScale.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Generics-Lab\03_GenericScale\bin\Debug\netcoreapp2.1\03_GenericScale.dll
+C:\Users\ASUS NB\source\repos\Generics-Lab\03_GenericScale\bin\Debug\netcoreapp2.1\03_GenericScale.pdb
+C:\Users\ASUS NB\source\repos\Generics-Lab\03_GenericScale\obj\Debug\netcoreapp2.1\03_GenericScale.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Generics-Lab\03_GenericScale\obj\Debug\netcoreapp2.1\03_GenericScale.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Generics-Lab\03_GenericScale\obj\Debug\netcoreapp2.1\03_GenericScale.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Generics-Lab\03_GenericScale\obj\Debug\netcoreapp2.1\03_GenericScale.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Generics-Lab\03_GenericScale\obj\Debug\netcoreapp2.1\03_GenericScale.dll
+C:\Users\ASUS NB\source\repos\Generics-Lab\03_GenericScale\obj\Debug\netcoreapp2.1\03_GenericScale.pdb
+C:\Users\ASUS\Desktop\repos\Generics-Lab\03_GenericScale\bin\Debug\netcoreapp2.1\03_GenericScale.deps.json
+C:\Users\ASUS\Desktop\repos\Generics-Lab\03_GenericScale\bin\Debug\netcoreapp2.1\03_GenericScale.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\Generics-Lab\03_GenericScale\bin\Debug\netcoreapp2.1\03_GenericScale.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\Generics-Lab\03_GenericScale\bin\Debug\netcoreapp2.1\03_GenericScale.dll
+C:\Users\ASUS\Desktop\repos\Generics-Lab\03_GenericScale\bin\Debug\netcoreapp2.1\03_GenericScale.pdb
+C:\Users\ASUS\Desktop\repos\Generics-Lab\03_GenericScale\obj\Debug\netcoreapp2.1\03_GenericScale.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\repos\Generics-Lab\03_GenericScale\obj\Debug\netcoreapp2.1\03_GenericScale.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\Generics-Lab\03_GenericScale\obj\Debug\netcoreapp2.1\03_GenericScale.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\Generics-Lab\03_GenericScale\obj\Debug\netcoreapp2.1\03_GenericScale.dll
+C:\Users\ASUS\Desktop\repos\Generics-Lab\03_GenericScale\obj\Debug\netcoreapp2.1\03_GenericScale.pdb

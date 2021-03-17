@@ -1,0 +1,10 @@
+C:\Users\ASUS\source\repos\Workshop\00_CustomDataStructures\bin\Debug\netcoreapp2.1\00_CustomDataStructures.deps.json
+C:\Users\ASUS\source\repos\Workshop\00_CustomDataStructures\bin\Debug\netcoreapp2.1\00_CustomDataStructures.runtimeconfig.json
+C:\Users\ASUS\source\repos\Workshop\00_CustomDataStructures\bin\Debug\netcoreapp2.1\00_CustomDataStructures.runtimeconfig.dev.json
+C:\Users\ASUS\source\repos\Workshop\00_CustomDataStructures\bin\Debug\netcoreapp2.1\00_CustomDataStructures.dll
+C:\Users\ASUS\source\repos\Workshop\00_CustomDataStructures\bin\Debug\netcoreapp2.1\00_CustomDataStructures.pdb
+C:\Users\ASUS\source\repos\Workshop\00_CustomDataStructures\obj\Debug\netcoreapp2.1\00_CustomDataStructures.csprojAssemblyReference.cache
+C:\Users\ASUS\source\repos\Workshop\00_CustomDataStructures\obj\Debug\netcoreapp2.1\00_CustomDataStructures.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\Workshop\00_CustomDataStructures\obj\Debug\netcoreapp2.1\00_CustomDataStructures.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\Workshop\00_CustomDataStructures\obj\Debug\netcoreapp2.1\00_CustomDataStructures.dll
+C:\Users\ASUS\source\repos\Workshop\00_CustomDataStructures\obj\Debug\netcoreapp2.1\00_CustomDataStructures.pdb

@@ -1,0 +1,10 @@
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P03ExactSumOfRealNumbers\bin\Debug\netcoreapp2.1\P03ExactSumOfRealNumbers.deps.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P03ExactSumOfRealNumbers\bin\Debug\netcoreapp2.1\P03ExactSumOfRealNumbers.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P03ExactSumOfRealNumbers\bin\Debug\netcoreapp2.1\P03ExactSumOfRealNumbers.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P03ExactSumOfRealNumbers\bin\Debug\netcoreapp2.1\P03ExactSumOfRealNumbers.dll
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P03ExactSumOfRealNumbers\bin\Debug\netcoreapp2.1\P03ExactSumOfRealNumbers.pdb
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P03ExactSumOfRealNumbers\obj\Debug\netcoreapp2.1\P03ExactSumOfRealNumbers.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P03ExactSumOfRealNumbers\obj\Debug\netcoreapp2.1\P03ExactSumOfRealNumbers.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P03ExactSumOfRealNumbers\obj\Debug\netcoreapp2.1\P03ExactSumOfRealNumbers.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P03ExactSumOfRealNumbers\obj\Debug\netcoreapp2.1\P03ExactSumOfRealNumbers.dll
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P03ExactSumOfRealNumbers\obj\Debug\netcoreapp2.1\P03ExactSumOfRealNumbers.pdb

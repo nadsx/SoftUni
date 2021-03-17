@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Defining-Classes-Exercises\03_OldestFamilyMember\bin\Debug\netcoreapp2.1\03_OldestFamilyMember.deps.json
+C:\Users\ASUS NB\source\repos\Defining-Classes-Exercises\03_OldestFamilyMember\bin\Debug\netcoreapp2.1\03_OldestFamilyMember.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Defining-Classes-Exercises\03_OldestFamilyMember\bin\Debug\netcoreapp2.1\03_OldestFamilyMember.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Defining-Classes-Exercises\03_OldestFamilyMember\bin\Debug\netcoreapp2.1\03_OldestFamilyMember.dll
+C:\Users\ASUS NB\source\repos\Defining-Classes-Exercises\03_OldestFamilyMember\bin\Debug\netcoreapp2.1\03_OldestFamilyMember.pdb
+C:\Users\ASUS NB\source\repos\Defining-Classes-Exercises\03_OldestFamilyMember\obj\Debug\netcoreapp2.1\03_OldestFamilyMember.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Defining-Classes-Exercises\03_OldestFamilyMember\obj\Debug\netcoreapp2.1\03_OldestFamilyMember.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Defining-Classes-Exercises\03_OldestFamilyMember\obj\Debug\netcoreapp2.1\03_OldestFamilyMember.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Defining-Classes-Exercises\03_OldestFamilyMember\obj\Debug\netcoreapp2.1\03_OldestFamilyMember.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Defining-Classes-Exercises\03_OldestFamilyMember\obj\Debug\netcoreapp2.1\03_OldestFamilyMember.dll
+C:\Users\ASUS NB\source\repos\Defining-Classes-Exercises\03_OldestFamilyMember\obj\Debug\netcoreapp2.1\03_OldestFamilyMember.pdb

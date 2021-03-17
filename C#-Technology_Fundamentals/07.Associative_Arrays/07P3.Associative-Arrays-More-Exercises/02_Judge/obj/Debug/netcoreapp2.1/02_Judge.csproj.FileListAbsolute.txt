@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Associative-Arrays-More-Exercises\02_Judge\obj\Debug\netcoreapp2.1\02_Judge.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Associative-Arrays-More-Exercises\02_Judge\obj\Debug\netcoreapp2.1\02_Judge.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Associative-Arrays-More-Exercises\02_Judge\obj\Debug\netcoreapp2.1\02_Judge.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Associative-Arrays-More-Exercises\02_Judge\obj\Debug\netcoreapp2.1\02_Judge.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Associative-Arrays-More-Exercises\02_Judge\bin\Debug\netcoreapp2.1\02_Judge.deps.json
+C:\Users\ASUS NB\source\repos\Associative-Arrays-More-Exercises\02_Judge\bin\Debug\netcoreapp2.1\02_Judge.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Associative-Arrays-More-Exercises\02_Judge\bin\Debug\netcoreapp2.1\02_Judge.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Associative-Arrays-More-Exercises\02_Judge\bin\Debug\netcoreapp2.1\02_Judge.dll
+C:\Users\ASUS NB\source\repos\Associative-Arrays-More-Exercises\02_Judge\bin\Debug\netcoreapp2.1\02_Judge.pdb
+C:\Users\ASUS NB\source\repos\Associative-Arrays-More-Exercises\02_Judge\obj\Debug\netcoreapp2.1\02_Judge.dll
+C:\Users\ASUS NB\source\repos\Associative-Arrays-More-Exercises\02_Judge\obj\Debug\netcoreapp2.1\02_Judge.pdb

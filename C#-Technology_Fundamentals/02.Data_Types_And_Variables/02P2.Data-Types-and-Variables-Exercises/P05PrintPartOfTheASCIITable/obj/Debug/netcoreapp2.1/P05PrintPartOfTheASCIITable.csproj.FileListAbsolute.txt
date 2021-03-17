@@ -1,0 +1,10 @@
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P05PrintPartOfTheASCIITable\bin\Debug\netcoreapp2.1\P05PrintPartOfTheASCIITable.deps.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P05PrintPartOfTheASCIITable\bin\Debug\netcoreapp2.1\P05PrintPartOfTheASCIITable.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P05PrintPartOfTheASCIITable\bin\Debug\netcoreapp2.1\P05PrintPartOfTheASCIITable.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P05PrintPartOfTheASCIITable\bin\Debug\netcoreapp2.1\P05PrintPartOfTheASCIITable.dll
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P05PrintPartOfTheASCIITable\bin\Debug\netcoreapp2.1\P05PrintPartOfTheASCIITable.pdb
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P05PrintPartOfTheASCIITable\obj\Debug\netcoreapp2.1\P05PrintPartOfTheASCIITable.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P05PrintPartOfTheASCIITable\obj\Debug\netcoreapp2.1\P05PrintPartOfTheASCIITable.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P05PrintPartOfTheASCIITable\obj\Debug\netcoreapp2.1\P05PrintPartOfTheASCIITable.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P05PrintPartOfTheASCIITable\obj\Debug\netcoreapp2.1\P05PrintPartOfTheASCIITable.dll
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P05PrintPartOfTheASCIITable\obj\Debug\netcoreapp2.1\P05PrintPartOfTheASCIITable.pdb

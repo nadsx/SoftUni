@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P04ReverseString\bin\Debug\netcoreapp2.1\P04ReverseString.deps.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P04ReverseString\bin\Debug\netcoreapp2.1\P04ReverseString.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P04ReverseString\bin\Debug\netcoreapp2.1\P04ReverseString.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P04ReverseString\bin\Debug\netcoreapp2.1\P04ReverseString.dll
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P04ReverseString\bin\Debug\netcoreapp2.1\P04ReverseString.pdb
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P04ReverseString\obj\Debug\netcoreapp2.1\P04ReverseString.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P04ReverseString\obj\Debug\netcoreapp2.1\P04ReverseString.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P04ReverseString\obj\Debug\netcoreapp2.1\P04ReverseString.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P04ReverseString\obj\Debug\netcoreapp2.1\P04ReverseString.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P04ReverseString\obj\Debug\netcoreapp2.1\P04ReverseString.dll
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P04ReverseString\obj\Debug\netcoreapp2.1\P04ReverseString.pdb

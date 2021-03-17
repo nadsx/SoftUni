@@ -1,0 +1,39 @@
+body {
+    background: rgb(238, 238, 238);
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+article {
+    margin: 20px 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.masonry {
+    column-count: 3;
+    column-gap: 2rem;
+}
+
+.masonry article {
+    display: inline-block;
+}
+
+img {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.flex article {
+    flex: 0 0 32%;
+    margin-right: 15px;
+}

@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\02_RandomizeWords\obj\Debug\netcoreapp2.1\02_RandomizeWords.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\02_RandomizeWords\obj\Debug\netcoreapp2.1\02_RandomizeWords.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\02_RandomizeWords\obj\Debug\netcoreapp2.1\02_RandomizeWords.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\02_RandomizeWords\obj\Debug\netcoreapp2.1\02_RandomizeWords.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\02_RandomizeWords\bin\Debug\netcoreapp2.1\02_RandomizeWords.deps.json
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\02_RandomizeWords\bin\Debug\netcoreapp2.1\02_RandomizeWords.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\02_RandomizeWords\bin\Debug\netcoreapp2.1\02_RandomizeWords.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\02_RandomizeWords\bin\Debug\netcoreapp2.1\02_RandomizeWords.dll
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\02_RandomizeWords\bin\Debug\netcoreapp2.1\02_RandomizeWords.pdb
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\02_RandomizeWords\obj\Debug\netcoreapp2.1\02_RandomizeWords.dll
+C:\Users\ASUS NB\source\repos\Objects-and-Classes-Lab\02_RandomizeWords\obj\Debug\netcoreapp2.1\02_RandomizeWords.pdb

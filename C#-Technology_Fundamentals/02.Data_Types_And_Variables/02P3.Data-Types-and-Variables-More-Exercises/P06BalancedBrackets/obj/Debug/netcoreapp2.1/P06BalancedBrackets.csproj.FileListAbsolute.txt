@@ -1,0 +1,10 @@
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-More-Exercises\P06BalancedBrackets\bin\Debug\netcoreapp2.1\P06BalancedBrackets.deps.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-More-Exercises\P06BalancedBrackets\bin\Debug\netcoreapp2.1\P06BalancedBrackets.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-More-Exercises\P06BalancedBrackets\bin\Debug\netcoreapp2.1\P06BalancedBrackets.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-More-Exercises\P06BalancedBrackets\bin\Debug\netcoreapp2.1\P06BalancedBrackets.dll
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-More-Exercises\P06BalancedBrackets\bin\Debug\netcoreapp2.1\P06BalancedBrackets.pdb
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-More-Exercises\P06BalancedBrackets\obj\Debug\netcoreapp2.1\P06BalancedBrackets.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-More-Exercises\P06BalancedBrackets\obj\Debug\netcoreapp2.1\P06BalancedBrackets.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-More-Exercises\P06BalancedBrackets\obj\Debug\netcoreapp2.1\P06BalancedBrackets.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-More-Exercises\P06BalancedBrackets\obj\Debug\netcoreapp2.1\P06BalancedBrackets.dll
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-More-Exercises\P06BalancedBrackets\obj\Debug\netcoreapp2.1\P06BalancedBrackets.pdb

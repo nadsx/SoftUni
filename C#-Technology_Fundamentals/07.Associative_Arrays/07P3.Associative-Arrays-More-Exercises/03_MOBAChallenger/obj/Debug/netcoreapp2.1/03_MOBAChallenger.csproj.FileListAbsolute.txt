@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Associative-Arrays-More-Exercises\03_MOBAChallenger\bin\Debug\netcoreapp2.1\03_MOBAChallenger.deps.json
+C:\Users\ASUS NB\source\repos\Associative-Arrays-More-Exercises\03_MOBAChallenger\bin\Debug\netcoreapp2.1\03_MOBAChallenger.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Associative-Arrays-More-Exercises\03_MOBAChallenger\bin\Debug\netcoreapp2.1\03_MOBAChallenger.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Associative-Arrays-More-Exercises\03_MOBAChallenger\bin\Debug\netcoreapp2.1\03_MOBAChallenger.dll
+C:\Users\ASUS NB\source\repos\Associative-Arrays-More-Exercises\03_MOBAChallenger\bin\Debug\netcoreapp2.1\03_MOBAChallenger.pdb
+C:\Users\ASUS NB\source\repos\Associative-Arrays-More-Exercises\03_MOBAChallenger\obj\Debug\netcoreapp2.1\03_MOBAChallenger.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Associative-Arrays-More-Exercises\03_MOBAChallenger\obj\Debug\netcoreapp2.1\03_MOBAChallenger.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Associative-Arrays-More-Exercises\03_MOBAChallenger\obj\Debug\netcoreapp2.1\03_MOBAChallenger.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Associative-Arrays-More-Exercises\03_MOBAChallenger\obj\Debug\netcoreapp2.1\03_MOBAChallenger.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Associative-Arrays-More-Exercises\03_MOBAChallenger\obj\Debug\netcoreapp2.1\03_MOBAChallenger.dll
+C:\Users\ASUS NB\source\repos\Associative-Arrays-More-Exercises\03_MOBAChallenger\obj\Debug\netcoreapp2.1\03_MOBAChallenger.pdb

@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P09PadawanEquipment\bin\Debug\netcoreapp2.1\P09PadawanEquipment.deps.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P09PadawanEquipment\bin\Debug\netcoreapp2.1\P09PadawanEquipment.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P09PadawanEquipment\bin\Debug\netcoreapp2.1\P09PadawanEquipment.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P09PadawanEquipment\bin\Debug\netcoreapp2.1\P09PadawanEquipment.dll
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P09PadawanEquipment\bin\Debug\netcoreapp2.1\P09PadawanEquipment.pdb
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P09PadawanEquipment\obj\Debug\netcoreapp2.1\P09PadawanEquipment.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P09PadawanEquipment\obj\Debug\netcoreapp2.1\P09PadawanEquipment.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P09PadawanEquipment\obj\Debug\netcoreapp2.1\P09PadawanEquipment.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P09PadawanEquipment\obj\Debug\netcoreapp2.1\P09PadawanEquipment.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P09PadawanEquipment\obj\Debug\netcoreapp2.1\P09PadawanEquipment.dll
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P09PadawanEquipment\obj\Debug\netcoreapp2.1\P09PadawanEquipment.pdb

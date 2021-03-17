@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\06_AutoRepairAndService\bin\Debug\netcoreapp2.1\06_AutoRepairAndService.deps.json
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\06_AutoRepairAndService\bin\Debug\netcoreapp2.1\06_AutoRepairAndService.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\06_AutoRepairAndService\bin\Debug\netcoreapp2.1\06_AutoRepairAndService.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\06_AutoRepairAndService\bin\Debug\netcoreapp2.1\06_AutoRepairAndService.dll
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\06_AutoRepairAndService\bin\Debug\netcoreapp2.1\06_AutoRepairAndService.pdb
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\06_AutoRepairAndService\obj\Debug\netcoreapp2.1\06_AutoRepairAndService.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\06_AutoRepairAndService\obj\Debug\netcoreapp2.1\06_AutoRepairAndService.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\06_AutoRepairAndService\obj\Debug\netcoreapp2.1\06_AutoRepairAndService.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\06_AutoRepairAndService\obj\Debug\netcoreapp2.1\06_AutoRepairAndService.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\06_AutoRepairAndService\obj\Debug\netcoreapp2.1\06_AutoRepairAndService.dll
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\06_AutoRepairAndService\obj\Debug\netcoreapp2.1\06_AutoRepairAndService.pdb

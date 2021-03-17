@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Lists-Exercises\04_ListOperations\bin\Debug\netcoreapp2.1\04_ListOperations.deps.json
+C:\Users\ASUS NB\source\repos\Lists-Exercises\04_ListOperations\bin\Debug\netcoreapp2.1\04_ListOperations.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Lists-Exercises\04_ListOperations\bin\Debug\netcoreapp2.1\04_ListOperations.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Lists-Exercises\04_ListOperations\bin\Debug\netcoreapp2.1\04_ListOperations.dll
+C:\Users\ASUS NB\source\repos\Lists-Exercises\04_ListOperations\bin\Debug\netcoreapp2.1\04_ListOperations.pdb
+C:\Users\ASUS NB\source\repos\Lists-Exercises\04_ListOperations\obj\Debug\netcoreapp2.1\04_ListOperations.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Lists-Exercises\04_ListOperations\obj\Debug\netcoreapp2.1\04_ListOperations.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Lists-Exercises\04_ListOperations\obj\Debug\netcoreapp2.1\04_ListOperations.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Lists-Exercises\04_ListOperations\obj\Debug\netcoreapp2.1\04_ListOperations.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Lists-Exercises\04_ListOperations\obj\Debug\netcoreapp2.1\04_ListOperations.dll
+C:\Users\ASUS NB\source\repos\Lists-Exercises\04_ListOperations\obj\Debug\netcoreapp2.1\04_ListOperations.pdb

@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Lists-More-Exercises\01_Messaging\bin\Debug\netcoreapp2.1\01_Messaging.deps.json
+C:\Users\ASUS NB\source\repos\Lists-More-Exercises\01_Messaging\bin\Debug\netcoreapp2.1\01_Messaging.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Lists-More-Exercises\01_Messaging\bin\Debug\netcoreapp2.1\01_Messaging.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Lists-More-Exercises\01_Messaging\bin\Debug\netcoreapp2.1\01_Messaging.dll
+C:\Users\ASUS NB\source\repos\Lists-More-Exercises\01_Messaging\bin\Debug\netcoreapp2.1\01_Messaging.pdb
+C:\Users\ASUS NB\source\repos\Lists-More-Exercises\01_Messaging\obj\Debug\netcoreapp2.1\01_Messaging.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Lists-More-Exercises\01_Messaging\obj\Debug\netcoreapp2.1\01_Messaging.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Lists-More-Exercises\01_Messaging\obj\Debug\netcoreapp2.1\01_Messaging.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Lists-More-Exercises\01_Messaging\obj\Debug\netcoreapp2.1\01_Messaging.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Lists-More-Exercises\01_Messaging\obj\Debug\netcoreapp2.1\01_Messaging.dll
+C:\Users\ASUS NB\source\repos\Lists-More-Exercises\01_Messaging\obj\Debug\netcoreapp2.1\01_Messaging.pdb

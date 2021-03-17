@@ -1,0 +1,10 @@
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\08_DivisibleBy3\bin\Debug\netcoreapp2.1\08_DivisibleBy3.deps.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\08_DivisibleBy3\bin\Debug\netcoreapp2.1\08_DivisibleBy3.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\08_DivisibleBy3\bin\Debug\netcoreapp2.1\08_DivisibleBy3.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\08_DivisibleBy3\bin\Debug\netcoreapp2.1\08_DivisibleBy3.dll
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\08_DivisibleBy3\bin\Debug\netcoreapp2.1\08_DivisibleBy3.pdb
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\08_DivisibleBy3\obj\Debug\netcoreapp2.1\08_DivisibleBy3.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\08_DivisibleBy3\obj\Debug\netcoreapp2.1\08_DivisibleBy3.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\08_DivisibleBy3\obj\Debug\netcoreapp2.1\08_DivisibleBy3.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\08_DivisibleBy3\obj\Debug\netcoreapp2.1\08_DivisibleBy3.dll
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\08_DivisibleBy3\obj\Debug\netcoreapp2.1\08_DivisibleBy3.pdb

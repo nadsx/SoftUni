@@ -1,0 +1,9 @@
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Exercises\01_DefineAClassPerson\bin\Debug\netcoreapp2.1\01_DefineAClassPerson.deps.json
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Exercises\01_DefineAClassPerson\bin\Debug\netcoreapp2.1\01_DefineAClassPerson.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Exercises\01_DefineAClassPerson\bin\Debug\netcoreapp2.1\01_DefineAClassPerson.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Exercises\01_DefineAClassPerson\bin\Debug\netcoreapp2.1\01_DefineAClassPerson.dll
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Exercises\01_DefineAClassPerson\bin\Debug\netcoreapp2.1\01_DefineAClassPerson.pdb
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Exercises\01_DefineAClassPerson\obj\Debug\netcoreapp2.1\01_DefineAClassPerson.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Exercises\01_DefineAClassPerson\obj\Debug\netcoreapp2.1\01_DefineAClassPerson.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Exercises\01_DefineAClassPerson\obj\Debug\netcoreapp2.1\01_DefineAClassPerson.dll
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Exercises\01_DefineAClassPerson\obj\Debug\netcoreapp2.1\01_DefineAClassPerson.pdb

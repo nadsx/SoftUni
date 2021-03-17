@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\09_ListOfPredicates\bin\Debug\netcoreapp2.1\09_ListOfPredicates.deps.json
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\09_ListOfPredicates\bin\Debug\netcoreapp2.1\09_ListOfPredicates.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\09_ListOfPredicates\bin\Debug\netcoreapp2.1\09_ListOfPredicates.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\09_ListOfPredicates\bin\Debug\netcoreapp2.1\09_ListOfPredicates.dll
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\09_ListOfPredicates\bin\Debug\netcoreapp2.1\09_ListOfPredicates.pdb
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\09_ListOfPredicates\obj\Debug\netcoreapp2.1\09_ListOfPredicates.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\09_ListOfPredicates\obj\Debug\netcoreapp2.1\09_ListOfPredicates.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\09_ListOfPredicates\obj\Debug\netcoreapp2.1\09_ListOfPredicates.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\09_ListOfPredicates\obj\Debug\netcoreapp2.1\09_ListOfPredicates.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\09_ListOfPredicates\obj\Debug\netcoreapp2.1\09_ListOfPredicates.dll
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\09_ListOfPredicates\obj\Debug\netcoreapp2.1\09_ListOfPredicates.pdb

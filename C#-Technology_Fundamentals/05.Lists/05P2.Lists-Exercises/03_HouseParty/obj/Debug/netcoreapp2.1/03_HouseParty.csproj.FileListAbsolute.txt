@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Lists-Exercises\03_HouseParty\bin\Debug\netcoreapp2.1\03_HouseParty.deps.json
+C:\Users\ASUS NB\source\repos\Lists-Exercises\03_HouseParty\bin\Debug\netcoreapp2.1\03_HouseParty.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Lists-Exercises\03_HouseParty\bin\Debug\netcoreapp2.1\03_HouseParty.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Lists-Exercises\03_HouseParty\bin\Debug\netcoreapp2.1\03_HouseParty.dll
+C:\Users\ASUS NB\source\repos\Lists-Exercises\03_HouseParty\bin\Debug\netcoreapp2.1\03_HouseParty.pdb
+C:\Users\ASUS NB\source\repos\Lists-Exercises\03_HouseParty\obj\Debug\netcoreapp2.1\03_HouseParty.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Lists-Exercises\03_HouseParty\obj\Debug\netcoreapp2.1\03_HouseParty.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Lists-Exercises\03_HouseParty\obj\Debug\netcoreapp2.1\03_HouseParty.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Lists-Exercises\03_HouseParty\obj\Debug\netcoreapp2.1\03_HouseParty.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Lists-Exercises\03_HouseParty\obj\Debug\netcoreapp2.1\03_HouseParty.dll
+C:\Users\ASUS NB\source\repos\Lists-Exercises\03_HouseParty\obj\Debug\netcoreapp2.1\03_HouseParty.pdb

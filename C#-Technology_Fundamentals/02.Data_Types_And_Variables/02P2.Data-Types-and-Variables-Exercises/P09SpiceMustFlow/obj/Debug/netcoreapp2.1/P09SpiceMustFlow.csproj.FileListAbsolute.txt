@@ -1,0 +1,10 @@
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P09SpiceMustFlow\bin\Debug\netcoreapp2.1\P09SpiceMustFlow.deps.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P09SpiceMustFlow\bin\Debug\netcoreapp2.1\P09SpiceMustFlow.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P09SpiceMustFlow\bin\Debug\netcoreapp2.1\P09SpiceMustFlow.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P09SpiceMustFlow\bin\Debug\netcoreapp2.1\P09SpiceMustFlow.dll
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P09SpiceMustFlow\bin\Debug\netcoreapp2.1\P09SpiceMustFlow.pdb
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P09SpiceMustFlow\obj\Debug\netcoreapp2.1\P09SpiceMustFlow.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P09SpiceMustFlow\obj\Debug\netcoreapp2.1\P09SpiceMustFlow.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P09SpiceMustFlow\obj\Debug\netcoreapp2.1\P09SpiceMustFlow.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P09SpiceMustFlow\obj\Debug\netcoreapp2.1\P09SpiceMustFlow.dll
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P09SpiceMustFlow\obj\Debug\netcoreapp2.1\P09SpiceMustFlow.pdb

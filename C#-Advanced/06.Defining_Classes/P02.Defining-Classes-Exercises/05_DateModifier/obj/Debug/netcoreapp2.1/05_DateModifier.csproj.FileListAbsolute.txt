@@ -1,0 +1,10 @@
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Exercises\05_DateModifier\bin\Debug\netcoreapp2.1\05_DateModifier.deps.json
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Exercises\05_DateModifier\bin\Debug\netcoreapp2.1\05_DateModifier.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Exercises\05_DateModifier\bin\Debug\netcoreapp2.1\05_DateModifier.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Exercises\05_DateModifier\bin\Debug\netcoreapp2.1\05_DateModifier.dll
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Exercises\05_DateModifier\bin\Debug\netcoreapp2.1\05_DateModifier.pdb
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Exercises\05_DateModifier\obj\Debug\netcoreapp2.1\05_DateModifier.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Exercises\05_DateModifier\obj\Debug\netcoreapp2.1\05_DateModifier.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Exercises\05_DateModifier\obj\Debug\netcoreapp2.1\05_DateModifier.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Exercises\05_DateModifier\obj\Debug\netcoreapp2.1\05_DateModifier.dll
+C:\Users\ASUS\Desktop\repos\Defining-Classes-Exercises\05_DateModifier\obj\Debug\netcoreapp2.1\05_DateModifier.pdb

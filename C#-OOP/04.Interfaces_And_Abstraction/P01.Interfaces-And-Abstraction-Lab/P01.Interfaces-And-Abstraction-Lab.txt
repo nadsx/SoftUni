@@ -1,0 +1,214 @@
+01
+==================================
+
+using System;
+using System.Collections.Generic;
+
+namespace _01_Exercise
+{
+    public class StartUp
+    {
+        public static void Main()
+        {
+            int radius = int.Parse(Console.ReadLine());
+            IDrawable circle = new Circle(radius);
+
+            int width = int.Parse(Console.ReadLine());
+            int height = int.Parse(Console.ReadLine());
+            IDrawable rect = new Rectangle(width, height);
+
+            var shapes = new List<IDrawable>
+            {
+                circle,
+                rect
+            };
+
+            DrawAllShapes(shapes);
+        }
+
+        private static void DrawAllShapes(IEnumerable<IDrawable> shapes)
+        {
+            foreach (var shape in shapes)
+            {
+                shape.Draw();
+            }
+        }
+    }
+
+    public interface IDrawable
+    {
+        void Draw();
+    }
+
+    public class Circle : IDrawable
+    {
+        private readonly int radius;
+
+        public Circle(int radius)
+        {
+            this.radius = radius;
+        }
+
+        public void Draw()
+        {
+            double rIn = this.radius - 0.4;
+            double rOut = this.radius + 0.4;
+		// na gore "y" e => + stiga do "y" => - ; na lqvo e "x" => - stiga do "x" => +;
+            for (double y = this.radius; y >= -this.radius; y--) // y = row
+            {
+                for (double x = -this.radius; x < rOut; x += 0.5) // x = col
+                {
+                    double value = x * x + y * y; // Math.Sqrt(to all of them) =>.. and rIn only
+
+                    if(value >= rIn * rIn && value <= rOut * rOut) // <==!! VGLEDAI SE!!
+                    {
+                        Console.Write("*"); //rIn(zvezdi na kruga), rOut(drugi zvezdi)
+                    }
+                    else
+                    {
+                        Console.Write(" ");
+                    }
+                }
+
+                Console.WriteLine();
+            }
+        }
+    }
+
+    public class Rectangle : IDrawable
+    {
+        private readonly int width;
+        private readonly int height;
+
+        public Rectangle(int width, int height)
+        {
+            this.width = width;
+            this.height = height;
+        }
+
+        public void Draw()
+        {
+            DrawLine(this.width, '*', '*');
+
+            for (int i = 1; i < this.height - 1; ++i)
+            {
+                DrawLine(this.width, '*', ' ');
+            }
+
+            DrawLine(this.width, '*', '*');
+        }
+
+        private void DrawLine(int width, char end, char mid)
+        {
+            Console.Write(end);
+
+            for (int i = 1; i < width - 1; ++i)
+            {
+                Console.Write(mid);
+            }
+
+            Console.WriteLine(end);
+        }
+    }
+}
+
+02
+==================================
+
+using System;
+using System.Text;
+
+namespace _02_Exercise
+{
+    public class StartUp
+    {
+        public static void Main()
+        {
+            ICar seat = new Seat("Leon", "Grey");
+            ICar tesla = new Tesla("Model 3", "Red", 2);
+
+            Console.WriteLine(seat.ToString());
+            Console.WriteLine(tesla.ToString());
+        }
+    }
+
+    public interface ICar
+    {
+        string Model { get; }
+
+        string Color { get; }
+
+        string Start();
+
+        string Stop();
+    }
+
+    public interface IElectricCar
+    {
+        int Battery { get; }
+    }
+
+    public abstract class Car : ICar
+    {
+        public Car(string model, string color)
+        {
+            this.Model = model;
+            this.Color = color;
+        }
+
+        public string Model { get; private set; }
+
+        public string Color { get; private set; }
+
+        public string Start()
+        {
+            return "Engine start";
+        }
+
+        public string Stop()
+        {
+            return "Breaaak!";
+        }
+    }
+
+    public class Seat : Car
+    {
+        public Seat(string model, string color)
+            : base(model, color)
+        {
+        }
+
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+
+            sb.AppendLine($"{this.Color} {this.GetType().Name} {this.Model}");
+            sb.AppendLine($"{this.Start()}");
+            sb.AppendLine($"{this.Stop()}");
+
+            return sb.ToString().TrimEnd();
+        }
+    }
+
+    public class Tesla : Car, IElectricCar
+    {
+        public Tesla(string model, string color, int battery)
+            : base(model, color)
+        {
+            this.Battery = battery;
+        }
+
+        public int Battery { get; private set; }
+
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+
+            sb.AppendLine($"{this.Color} {this.GetType().Name} {this.Model} with {this.Battery} Batteries");
+            sb.AppendLine($"{this.Start()}");
+            sb.AppendLine($"{this.Stop()}");
+
+            return sb.ToString().TrimEnd();
+        }
+    }
+}

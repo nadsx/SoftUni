@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Exercises\08_Ranking\bin\Debug\netcoreapp2.1\08_Ranking.deps.json
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Exercises\08_Ranking\bin\Debug\netcoreapp2.1\08_Ranking.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Exercises\08_Ranking\bin\Debug\netcoreapp2.1\08_Ranking.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Exercises\08_Ranking\bin\Debug\netcoreapp2.1\08_Ranking.dll
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Exercises\08_Ranking\bin\Debug\netcoreapp2.1\08_Ranking.pdb
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Exercises\08_Ranking\obj\Debug\netcoreapp2.1\08_Ranking.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Exercises\08_Ranking\obj\Debug\netcoreapp2.1\08_Ranking.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Exercises\08_Ranking\obj\Debug\netcoreapp2.1\08_Ranking.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Exercises\08_Ranking\obj\Debug\netcoreapp2.1\08_Ranking.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Exercises\08_Ranking\obj\Debug\netcoreapp2.1\08_Ranking.dll
+C:\Users\ASUS NB\source\repos\Sets-and-Dictionaries-Advanced-Exercises\08_Ranking\obj\Debug\netcoreapp2.1\08_Ranking.pdb

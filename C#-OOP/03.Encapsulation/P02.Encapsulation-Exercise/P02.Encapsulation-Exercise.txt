@@ -1,0 +1,1018 @@
+01
+==================================
+
+using System;
+using System.Text;
+
+namespace _01_Exercise
+{
+    public class StartUp
+    {
+        public static void Main()
+        {
+            Engine engine = new Engine();
+            engine.Run();
+        }
+    }
+
+    public class Box
+    {
+        private double length;
+        private double width;
+        private double height;
+
+        public Box(double length, double width, double height)
+        {
+            this.Length = length;
+            this.Width = width;
+            this.Height = height;
+        }
+
+        public double Length
+        {
+            get => this.length;
+            private set
+            {
+                if(value <= 0)
+                {
+                    throw new ArgumentException($"Length cannot be zero or negative.");
+                }
+
+                this.length = value;
+            }
+        }
+
+        public double Width
+        {
+            get => this.width;
+            private set
+            {
+                if(value <= 0)
+                {
+                    throw new ArgumentException($"Length cannot be zero or negative.");
+                }
+
+                this.width = value;
+            }
+        }
+
+        public double Height
+        {
+            get => this.height;
+            private set
+            {
+                if(value <= 0)
+                {
+                    throw new ArgumentException($"Length cannot be zero or negative.");
+                }
+
+                this.height = value;
+            }
+        }
+
+        public double SurfaceArea()
+        {
+            double result = 2 * this.Length * this.Width + 2 * this.Length * this.Height + 2 * this.Width * this.Height;
+            return result;
+        }
+
+        public double LateralSurfaceArea()
+        {
+            double result = 2 * this.Length * this.Height + 2 * this.Width * this.Height;
+            return result;
+        }
+
+        public double Volume()
+        {
+            double result = this.Length * this.Width * this.Height;
+            return result;
+        }
+
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+
+            sb.AppendLine($"Surface Area - {this.SurfaceArea():F2}");
+            sb.AppendLine($"Lateral Surface Area - {this.LateralSurfaceArea():F2}");
+            sb.AppendLine($"Volume - {this.Volume():F2}");
+
+            return sb.ToString().TrimEnd();
+        }
+    }
+
+    public class Engine
+    {
+        public void Run()
+        {
+            try
+            {
+                double length = double.Parse(Console.ReadLine());
+                double width = double.Parse(Console.ReadLine());
+                double height = double.Parse(Console.ReadLine());
+
+                Box box = new Box(length, width, height);
+
+                Console.WriteLine(box.ToString());
+            }
+            catch (ArgumentException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
+    }
+}
+
+        //private void ValidateBoxSide(double value)
+        //{
+        //    //propertyInfo = value.GetType().GetProperty();
+
+        //    if (value <= 0)
+        //    {
+        //        throw new ArgumentException($"{propertyInfo.Name} cannot be zero or negative.");
+        //    }
+        //}
+
+02
+==================================
+
+using System;
+
+namespace _02_Exercise
+{
+    public class StartUp
+    {
+        public static void Main()
+        {
+            Engine engine = new Engine();
+            engine.Run();
+        }
+    }
+
+    public class Chicken
+    {
+        private const int MinAge = 0;
+        private const int MaxAge = 15;
+
+        private string name;
+        private int age;
+
+        public Chicken(string name, int age)
+        {
+            this.Name = name;
+            this.Age = age;
+        }
+
+        public string Name 
+        {
+            get => this.name;
+            private set
+            {
+                if (string.IsNullOrWhiteSpace(value))
+                {
+                    throw new ArgumentException("Name cannot be empty.");
+                }
+
+                this.name = value;
+            }
+        }
+
+        public int Age 
+        {
+            get => this.age;
+            private set
+            {
+                if(value < MinAge || value > MaxAge)
+                {
+                    throw new ArgumentException("Age should be between 0 and 15.");
+                }
+
+                this.age = value;
+            }
+        }
+
+        public double ProductPerDay
+        {
+            get => this.CalculateProductPerDay();
+        }
+
+        private double CalculateProductPerDay()
+        {
+            if(this.Age <= 3)
+            {
+                return 1.5;
+            }
+            else if(this.Age <= 7)
+            {
+                return 2;
+            }
+            else if(this.Age <= 11)
+            {
+                return 1;
+            }
+
+            return 0.75;
+        }
+    }
+
+    public class Engine
+    {
+        public void Run()
+        {
+            try
+            {
+                string name = Console.ReadLine();
+                int age = int.Parse(Console.ReadLine());
+
+                Chicken chicken = new Chicken(name, age);
+
+                Console.WriteLine(
+                    "Chicken {0} (age {1}) can produce {2} eggs per day.",
+                    chicken.Name,
+                    chicken.Age,
+                    chicken.ProductPerDay);
+            }
+            catch (ArgumentException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
+    }
+}
+
+03
+==================================
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace _03_Exercise
+{
+    public class StartUp
+    {
+        public static void Main()
+        {
+            Engine engine = new Engine();
+            engine.Run();
+        }
+    }
+
+    public class Product
+    {
+        private string name;
+        private decimal cost;
+
+        public Product(string name, decimal cost)
+        {
+            this.Name = name;
+            this.Cost = cost;
+        }
+
+        public string Name 
+        {
+            get => this.name;
+            set
+            {
+                if (string.IsNullOrWhiteSpace(value))
+                {
+                    throw new ArgumentException("Name cannot be empty");
+                }
+
+                this.name = value;
+            }
+        }
+
+        public decimal Cost 
+        {
+            get => this.cost;
+            set
+            {
+                if(value < 0)
+                {
+                    throw new ArgumentException("Money cannot be negative");
+                }
+
+                this.cost = value;
+            }
+        }
+    }
+
+    public class Person
+    {
+        private string name;
+        private decimal money;
+        private List<Product> bagOfProducts;
+
+        public Person(string name, decimal money)
+        {
+            this.Name = name;
+            this.Money = money;
+            this.bagOfProducts = new List<Product>();
+        }
+
+        public string Name 
+        {
+            get => this.name;
+            set
+            {
+                if (string.IsNullOrWhiteSpace(value))
+                {
+                    throw new ArgumentException("Name cannot be empty");
+                }
+
+                this.name = value;
+            } 
+        }
+
+        public decimal Money 
+        {
+            get => this.money;
+            set
+            {
+                if(value < 0)
+                {
+                    throw new ArgumentException("Money cannot be negative");
+                }
+
+                this.money = value;
+            }
+        }
+
+        public IReadOnlyCollection<Product> Products => this.bagOfProducts.AsReadOnly();
+
+        public void BuyProduct(Product product)
+        {
+            if(this.Money - product.Cost >= 0)
+            {
+                this.Money -= product.Cost;
+                this.bagOfProducts.Add(product);
+
+                Console.WriteLine($"{this.Name} bought {product.Name}");
+            }
+            else
+            {
+                Console.WriteLine($"{this.Name} can't afford {product.Name}");
+            }
+        }
+    }
+
+    public class Engine
+    {
+        private readonly List<Person> people;
+        private readonly List<Product> products;
+
+        public Engine()
+        {
+            this.people = new List<Person>();
+            this.products = new List<Product>();
+        }
+
+        public void Run()
+        {
+            try
+            {
+                AddPeople();
+                AddProducts();
+
+                string orderInput = Console.ReadLine();
+
+                while(orderInput != "END")
+                {
+                    string[] args = orderInput
+                        .Split()
+                        .ToArray();
+
+                    string personName = args[0];
+                    string productName = args[1];
+
+                    Person targetPerson = people.FirstOrDefault(p => p.Name == personName);
+                    Product targetProduct = products.FirstOrDefault(p => p.Name == productName);
+
+                    if(targetPerson != null && targetProduct != null)
+                    {
+                        targetPerson.BuyProduct(targetProduct);
+                    }
+
+                    orderInput = Console.ReadLine();
+                }
+
+                foreach(var person in people)
+                {
+                    if(person.Products.Count == 0)
+                    {
+                        Console.WriteLine($"{person.Name} - Nothing bought");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"{person.Name} - {string.Join(", ", person.Products.Select(p => p.Name))}");
+                    }
+                }
+            }
+            catch (ArgumentException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
+
+        private void AddProducts()
+        {
+            string[] productsInput = Console.ReadLine()
+                .Split(';', StringSplitOptions.RemoveEmptyEntries)
+                .ToArray();
+
+            foreach(var productCost in productsInput)
+            {
+                string[] args = productCost
+                    .Split("=")
+                    .ToArray();
+
+                string name = args[0];
+                decimal cost = decimal.Parse(args[1]);
+
+                Product product = new Product(name, cost);
+
+                this.products.Add(product);
+            }
+        }
+
+        private void AddPeople()
+        {
+            string[] peopleInput = Console.ReadLine()
+                .Split(';', StringSplitOptions.RemoveEmptyEntries)
+                .ToArray();
+
+            foreach(var personBudget in peopleInput)
+            {
+                string[] args = personBudget
+                    .Split("=")
+                    .ToArray();
+
+                string name = args[0];
+                decimal money = decimal.Parse(args[1]);
+
+                Person person = new Person(name, money);
+
+                this.people.Add(person);
+            }
+        }
+    }
+}
+
+04
+==================================
+
+using System;
+using System.Collections.Generic;
+using System.Globalization;
+using System.Linq;
+
+namespace _04_Exercise
+{
+    public class StartUp
+    {
+        public static void Main()
+        {
+            Engine engine = new Engine();
+            engine.Run();
+        }
+    }
+
+    public static class ExceptionMessages
+    {
+        public static string InvalidPizzaNameLength = "Pizza name should be between 1 and 15 symbols.";
+        public static string InvalidToppingsCount = "Number of toppings should be in range [0..10].";
+        public static string InvalidToppingType = "Cannot place {0} on top of your pizza.";
+        public static string InvalidToppingWeight = "{0} weight should be in the range [1..50].";
+        public static string InvalidTypeOfDough = "Invalid type of dough.";
+        public static string InvalidDoughWeight = "Dough weight should be in the range [1..200].";
+    }
+
+    public class Dough
+    {
+        private const int BaseCalories = 2;
+
+        private string flourType;
+        private string bakingTechnique;
+        private int weight;
+        private double modifierFlour;
+        private double modifierBaking;
+
+        public Dough(string flourType, string bakingTechnique, int weight)
+        {
+            this.FlourType = flourType;
+            this.BakingTechnique = bakingTechnique;
+            this.Weight = weight;
+        }
+
+        public string FlourType
+        {
+            get => this.flourType;
+            private set
+            {
+                if (value == "white")
+                {
+                    this.modifierFlour = 1.5;
+                }
+                else if (value == "wholegrain")
+                {
+                    this.modifierFlour = 1.0;
+                }
+                else
+                {
+                    throw new ArgumentException(ExceptionMessages.InvalidTypeOfDough);
+                }
+
+                this.flourType = value; 
+            }
+        }
+
+        public string BakingTechnique
+        {
+            get => this.bakingTechnique;
+            private set
+            {
+                if (value == "crispy")
+                {
+                    this.modifierBaking = 0.9;
+                }
+                else if (value == "chewy")
+                {
+                    this.modifierBaking = 1.1;
+                }
+                else if (value == "homemade")
+                {
+                    this.modifierBaking = 1.0;
+                }
+                else
+                {
+                    throw new ArgumentException(ExceptionMessages.InvalidTypeOfDough);
+                }
+
+                this.bakingTechnique = value; 
+            }
+        }
+
+        public int Weight
+        {
+            get => this.weight;
+            private set
+            {
+                if (value < 1 || value > 200)
+                {
+                    throw new ArgumentException(ExceptionMessages.InvalidDoughWeight);
+                }
+
+                this.weight = value;
+            }
+        }
+
+        public double GetTotalCalories()
+        {
+            return this.modifierFlour * this.modifierBaking * (this.Weight * BaseCalories);
+        }
+    }
+
+    public class Topping
+    {
+        private const int BaseCalories = 2;
+
+        private string toppingType;
+        private int weight;
+        private double modifierTopping;
+
+        public Topping(string toppingType, int weight)
+        {
+            this.ToppingType = toppingType;
+            this.Weight = weight;
+        }
+
+        public string ToppingType
+        {
+            get => this.toppingType;
+            private set
+            {
+                if (value == "meat")
+                {
+                    this.modifierTopping = 1.2;
+                }
+                else if (value == "veggies")
+                {
+                    this.modifierTopping = 0.8;
+                }
+                else if (value == "cheese")
+                {
+                    this.modifierTopping = 1.1;
+                }
+                else if (value == "sauce")
+                {
+                    this.modifierTopping = 0.9;
+                }
+                else
+                {
+                    throw new ArgumentException(
+                        String.Format(ExceptionMessages.InvalidToppingType, ToTitleCase(value))); 
+                }
+
+                this.toppingType = value;
+            }
+        }
+
+        public int Weight
+        {
+            get => this.weight;
+            private set
+            {
+                if(value < 1 || value > 50)
+                {
+                    throw new InvalidOperationException(
+                        String.Format(ExceptionMessages.InvalidToppingWeight, ToTitleCase(this.ToppingType))); 
+                }
+
+                this.weight = value;
+            }
+        }
+
+        public double GetTotalCalories()
+        {
+            return this.modifierTopping * (this.Weight * BaseCalories);
+        }
+
+        private static string ToTitleCase(string str)
+        {
+            return CultureInfo.CurrentCulture.TextInfo.ToTitleCase(str); 
+        }
+    }
+
+    public class Pizza
+    {
+        private string name;
+        private List<Topping> toppings;
+
+        public Pizza(string name, Dough dough)
+        {
+            this.Name = name;
+            this.Dough = dough;
+            this.toppings = new List<Topping>();
+        }
+
+        public Dough Dough { get; set; }
+
+        public string Name 
+        {
+            get => this.name;
+            private set
+            {
+                if(value.Length > 15 || string.IsNullOrEmpty(value))
+                {
+                    throw new InvalidOperationException(ExceptionMessages.InvalidPizzaNameLength);
+                }
+
+                this.name = value;
+            }
+        }
+
+        public IReadOnlyCollection<Topping> Toppings => this.toppings.AsReadOnly();
+
+        public void AddTopping(Topping topping)
+        {
+            if(this.toppings.Count > 10)
+            {
+                throw new InvalidOperationException(ExceptionMessages.InvalidToppingsCount);
+            }
+            else
+            {
+                this.toppings.Add(topping);
+            }
+        }
+
+        public double GetTotalCalories()
+        {
+            return this.Dough.GetTotalCalories() + this.toppings.Sum(t => t.GetTotalCalories());
+        }
+    }
+
+    public class Engine
+    {
+        public void Run()
+        {
+            Dough dough = null;
+            Topping topping = null;
+            Pizza pizza = null;
+
+            try
+            {
+                string input = Console.ReadLine();
+
+                while(input != "end")
+                {
+                    string[] pizzaInput = input
+                        .Split()
+                        .ToArray();
+
+                    string pizzaName = pizzaInput[1];
+
+                    input = Console.ReadLine().ToLower();
+
+                    dough = CreateDough(input);
+                    pizza = new Pizza(pizzaName, dough);
+
+                    input = Console.ReadLine().ToLower();
+
+                    while(input != "end")
+                    {
+                        topping = CreateTopping(input);
+                        pizza.AddTopping(topping);
+
+                        input = Console.ReadLine().ToLower();
+                    }
+                }
+
+                double result = pizza.GetTotalCalories();
+
+                Console.WriteLine($"{pizza.Name} - {result:F2} Calories.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
+
+        private static Topping CreateTopping(string input)
+        {
+            Topping topping;
+            string[] toppingInput = input
+                .Split()
+                .ToArray();
+
+            string toppingType = toppingInput[1];
+            int weight = int.Parse(toppingInput[2]);
+
+            topping = new Topping(toppingType, weight);
+
+            return topping;
+        }
+
+        private static Dough CreateDough(string input)
+        {
+            Dough dough;
+            string[] doughInput = input
+                .Split()
+                .ToArray();
+
+            string flourType = doughInput[1];
+            string bakingTechnique = doughInput[2];
+            int weight = int.Parse(doughInput[3]);
+
+            dough = new Dough(flourType, bakingTechnique, weight);
+
+            return dough;
+        }
+    }
+}
+
+05
+==================================
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace _05_Exercise
+{
+    public class StartUp
+    {
+        public static void Main()
+        {
+            Engine engine = new Engine();
+            engine.Run();
+        }
+    }
+
+    public class Player
+    {
+        private string name;
+        private int endurance;
+        private int sprint;
+        private int dribble;
+        private int passing;
+        private int shooting;
+
+        public Player(string name, int endurance, int sprint, int dribble, int passing, int shooting)
+        {
+            this.Name = name;
+            this.Endurance = endurance;
+            this.Sprint = sprint;
+            this.Dribble = dribble;
+            this.Passing = passing;
+            this.Shooting = shooting;
+        }
+
+        public string Name 
+        {
+            get => this.name; 
+            private set
+            {
+                if (string.IsNullOrWhiteSpace(value))
+                {
+                    throw new ArgumentException("A name should not be empty.");
+                }
+
+                this.name = value;
+            }
+        }
+
+        public int Endurance 
+        {
+            get => this.endurance;
+            private set
+            {
+                if(value < 0 || value > 100)
+                {
+                    throw new ArgumentException("Endurance should be between 0 and 100.");
+                }
+
+                this.endurance = value;
+            }
+        }
+
+        public int Sprint 
+        {
+            get => this.sprint;
+            private set
+            {
+                if(value < 0 || value > 100)
+                {
+                    throw new ArgumentException("Sprint should be between 0 and 100.");
+                }
+
+                this.sprint = value;
+            }
+        }
+
+        public int Dribble 
+        {
+            get => this.dribble;
+            private set
+            {
+                if(value < 0 || value > 100)
+                {
+                    throw new ArgumentException("Dribble should be between 0 and 100.");
+                }
+
+                this.dribble = value;
+            }
+        }
+
+        public int Passing 
+        {
+            get => this.passing;
+            private set
+            {
+                if(value < 0 || value > 100)
+                {
+                    throw new ArgumentException("Passing should be between 0 and 100.");
+                }
+
+                this.passing = value;
+            }
+        }
+
+        public int Shooting 
+        {
+            get => this.shooting;
+            private set
+            {
+                if(value < 0 || value > 100)
+                {
+                    throw new ArgumentException("Shooting should be between 0 and 100.");
+                }
+
+                this.shooting = value;
+            }
+        }
+
+        public double GetSkillLevel()
+        {
+            double totalSkills = this.Endurance + this.Sprint +
+                this.Dribble + this.Passing + this.Shooting;
+            double averageSkills = totalSkills / 5;
+
+            return averageSkills;
+        }
+    }
+
+    public class Team
+    {
+        private string name;
+        private List<Player> players;
+
+        public Team(string name)
+        {
+            this.Name = name;
+            this.players = new List<Player>();
+        }
+
+        public string Name 
+        {
+            get => this.name;
+            private set
+            {
+                if (string.IsNullOrWhiteSpace(value))
+                {
+                    throw new ArgumentException("A name should not be empty.");
+                }
+
+                this.name = value;
+            }
+        }
+
+        public IReadOnlyCollection<Player> Players => this.players.AsReadOnly();
+
+        public void AddPlayer(Player player)
+        {
+            this.players.Add(player);
+        }
+
+        public void RemovePlayer(string playerName)
+        {
+            if(this.players.All(x => x.Name != playerName))
+            {
+                throw new ArgumentException($"Player {playerName} is not in {this.Name} team.");
+            }
+
+            this.players.RemoveAll(x => x.Name == playerName);
+        }
+    }
+
+    public class Engine
+    {
+        private readonly Dictionary<string, Team> teams;
+
+        public Engine()
+        {
+            teams = new Dictionary<string, Team>();
+        }
+
+        public void Run()
+        {
+            while (true)
+            {
+                string[] input = Console.ReadLine()
+                    .Split(";", StringSplitOptions.RemoveEmptyEntries)
+                    .ToArray();
+
+                if(input[0] == "END")
+                {
+                    break;
+                }
+
+                string command = input[0];
+                string teamName = input[1];
+
+                if(command != "Team" && !teams.ContainsKey(teamName))
+                {
+                    Console.WriteLine($"Team {teamName} does not exist.");
+                    continue;
+                }
+
+                try
+                {
+                    switch (command)
+                    {
+                        case "Team":
+                            Team team = new Team(teamName);
+
+                            teams.Add(teamName, team);
+                            break;
+                        case "Add":
+                            string playerName = input[2];
+                            int endurance = int.Parse(input[3]);
+                            int sprint = int.Parse(input[4]);
+                            int dribble = int.Parse(input[5]);
+                            int passing = int.Parse(input[6]);
+                            int shooting = int.Parse(input[7]);
+
+                            Player player = new Player(playerName, endurance, sprint, dribble, passing, shooting);
+
+                            teams[teamName].AddPlayer(player);
+                            break;
+                        case "Remove":
+                            string playerToRemove = input[2];
+
+                            teams[teamName].RemovePlayer(playerToRemove);
+                            break;
+                        case "Rating":
+                            double rating = teams[teamName].Players.Sum(p => p.GetSkillLevel());
+
+                            Console.WriteLine($"{teamName} - {Math.Round(rating)}");
+                            break;
+                    }
+                }
+                catch (Exception exception)
+                {
+                    Console.WriteLine(exception.Message);
+                }
+            }
+        }
+    }
+}

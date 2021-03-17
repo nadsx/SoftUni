@@ -1,0 +1,16 @@
+1. Open the terminal in Visual Studio Code and write the following commands to install Mocha and Chai:
+> npm install mocha chai
+2. In order to be able to run unit testing, you have to do some configurations. 
+Start by clicking on Run in the menu above and choose Open Configurations. 
+3. We add:
+{} Node.js: Mocha Tests
+4. And you should change the code:
+'bdd'
+'${the path of the test file}'
+5.Then click on Debug and choose Start Debugging. 
+The following window will show up. Select Mocha Unit Tests for configuration. 
+
+Now you should be able to make unit tests in VS Code. :)
+
+!!!
+When there is a problem with the debugger delete file launch in .vscode folder 

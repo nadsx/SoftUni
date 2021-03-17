@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Lists-Exercises\08_AnonymousThreat\bin\Debug\netcoreapp2.1\08_AnonymousThreat.deps.json
+C:\Users\ASUS NB\source\repos\Lists-Exercises\08_AnonymousThreat\bin\Debug\netcoreapp2.1\08_AnonymousThreat.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Lists-Exercises\08_AnonymousThreat\bin\Debug\netcoreapp2.1\08_AnonymousThreat.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Lists-Exercises\08_AnonymousThreat\bin\Debug\netcoreapp2.1\08_AnonymousThreat.dll
+C:\Users\ASUS NB\source\repos\Lists-Exercises\08_AnonymousThreat\bin\Debug\netcoreapp2.1\08_AnonymousThreat.pdb
+C:\Users\ASUS NB\source\repos\Lists-Exercises\08_AnonymousThreat\obj\Debug\netcoreapp2.1\08_AnonymousThreat.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Lists-Exercises\08_AnonymousThreat\obj\Debug\netcoreapp2.1\08_AnonymousThreat.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Lists-Exercises\08_AnonymousThreat\obj\Debug\netcoreapp2.1\08_AnonymousThreat.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Lists-Exercises\08_AnonymousThreat\obj\Debug\netcoreapp2.1\08_AnonymousThreat.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Lists-Exercises\08_AnonymousThreat\obj\Debug\netcoreapp2.1\08_AnonymousThreat.dll
+C:\Users\ASUS NB\source\repos\Lists-Exercises\08_AnonymousThreat\obj\Debug\netcoreapp2.1\08_AnonymousThreat.pdb

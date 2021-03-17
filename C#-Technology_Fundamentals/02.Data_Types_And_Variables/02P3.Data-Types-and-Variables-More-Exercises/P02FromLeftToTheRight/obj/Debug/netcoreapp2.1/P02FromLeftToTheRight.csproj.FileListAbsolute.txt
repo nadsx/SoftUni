@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-More-Exercises\P02FromLeftToTheRight\bin\Debug\netcoreapp2.1\P02FromLeftToTheRight.deps.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-More-Exercises\P02FromLeftToTheRight\bin\Debug\netcoreapp2.1\P02FromLeftToTheRight.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-More-Exercises\P02FromLeftToTheRight\bin\Debug\netcoreapp2.1\P02FromLeftToTheRight.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-More-Exercises\P02FromLeftToTheRight\bin\Debug\netcoreapp2.1\P02FromLeftToTheRight.dll
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-More-Exercises\P02FromLeftToTheRight\bin\Debug\netcoreapp2.1\P02FromLeftToTheRight.pdb
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-More-Exercises\P02FromLeftToTheRight\obj\Debug\netcoreapp2.1\P02FromLeftToTheRight.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-More-Exercises\P02FromLeftToTheRight\obj\Debug\netcoreapp2.1\P02FromLeftToTheRight.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-More-Exercises\P02FromLeftToTheRight\obj\Debug\netcoreapp2.1\P02FromLeftToTheRight.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-More-Exercises\P02FromLeftToTheRight\obj\Debug\netcoreapp2.1\P02FromLeftToTheRight.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-More-Exercises\P02FromLeftToTheRight\obj\Debug\netcoreapp2.1\P02FromLeftToTheRight.dll
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-More-Exercises\P02FromLeftToTheRight\obj\Debug\netcoreapp2.1\P02FromLeftToTheRight.pdb

@@ -1,0 +1,10 @@
+C:\Users\ASUS NB\source\repos\Arrays-Lab\06_EvenAndOddSubtraction\bin\Debug\netcoreapp2.1\06_EvenAndOddSubtraction.deps.json
+C:\Users\ASUS NB\source\repos\Arrays-Lab\06_EvenAndOddSubtraction\bin\Debug\netcoreapp2.1\06_EvenAndOddSubtraction.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Arrays-Lab\06_EvenAndOddSubtraction\bin\Debug\netcoreapp2.1\06_EvenAndOddSubtraction.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Arrays-Lab\06_EvenAndOddSubtraction\bin\Debug\netcoreapp2.1\06_EvenAndOddSubtraction.dll
+C:\Users\ASUS NB\source\repos\Arrays-Lab\06_EvenAndOddSubtraction\bin\Debug\netcoreapp2.1\06_EvenAndOddSubtraction.pdb
+C:\Users\ASUS NB\source\repos\Arrays-Lab\06_EvenAndOddSubtraction\obj\Debug\netcoreapp2.1\06_EvenAndOddSubtraction.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Arrays-Lab\06_EvenAndOddSubtraction\obj\Debug\netcoreapp2.1\06_EvenAndOddSubtraction.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Arrays-Lab\06_EvenAndOddSubtraction\obj\Debug\netcoreapp2.1\06_EvenAndOddSubtraction.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Arrays-Lab\06_EvenAndOddSubtraction\obj\Debug\netcoreapp2.1\06_EvenAndOddSubtraction.dll
+C:\Users\ASUS NB\source\repos\Arrays-Lab\06_EvenAndOddSubtraction\obj\Debug\netcoreapp2.1\06_EvenAndOddSubtraction.pdb

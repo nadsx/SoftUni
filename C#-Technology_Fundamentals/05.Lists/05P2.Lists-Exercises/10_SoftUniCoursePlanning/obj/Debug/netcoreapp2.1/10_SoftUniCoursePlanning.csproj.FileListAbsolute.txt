@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Lists-Exercises\10_SoftUniCoursePlanning\bin\Debug\netcoreapp2.1\10_SoftUniCoursePlanning.deps.json
+C:\Users\ASUS NB\source\repos\Lists-Exercises\10_SoftUniCoursePlanning\bin\Debug\netcoreapp2.1\10_SoftUniCoursePlanning.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Lists-Exercises\10_SoftUniCoursePlanning\bin\Debug\netcoreapp2.1\10_SoftUniCoursePlanning.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Lists-Exercises\10_SoftUniCoursePlanning\bin\Debug\netcoreapp2.1\10_SoftUniCoursePlanning.dll
+C:\Users\ASUS NB\source\repos\Lists-Exercises\10_SoftUniCoursePlanning\bin\Debug\netcoreapp2.1\10_SoftUniCoursePlanning.pdb
+C:\Users\ASUS NB\source\repos\Lists-Exercises\10_SoftUniCoursePlanning\obj\Debug\netcoreapp2.1\10_SoftUniCoursePlanning.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Lists-Exercises\10_SoftUniCoursePlanning\obj\Debug\netcoreapp2.1\10_SoftUniCoursePlanning.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Lists-Exercises\10_SoftUniCoursePlanning\obj\Debug\netcoreapp2.1\10_SoftUniCoursePlanning.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Lists-Exercises\10_SoftUniCoursePlanning\obj\Debug\netcoreapp2.1\10_SoftUniCoursePlanning.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Lists-Exercises\10_SoftUniCoursePlanning\obj\Debug\netcoreapp2.1\10_SoftUniCoursePlanning.dll
+C:\Users\ASUS NB\source\repos\Lists-Exercises\10_SoftUniCoursePlanning\obj\Debug\netcoreapp2.1\10_SoftUniCoursePlanning.pdb

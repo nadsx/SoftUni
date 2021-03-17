@@ -1,0 +1,48 @@
+.cta-summary {
+    font-size: 14px;
+    color: white;
+}
+
+.cta-content-btn {
+    background-color: #E50914;
+    color: white;
+    border: none;
+    padding: 6px 20px;
+    /* margin-left: -5px; */
+    font-size: 18px;
+    position: relative;
+    top: 2px;
+    left: -5px;
+}
+
+.cta-content-btn::after {
+    display: inline-block;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f054";
+    position: relative;
+    top: 1px;
+    left: 2px;
+}
+
+input[type="email"] {
+    padding: 8px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border: none;
+    min-width: 330px;
+}
+
+@media all and (max-width: 900px) {
+    input[type="email"] {
+        border-radius: 2px;
+    }
+
+    .cta-summary {
+        font-size: 12px;
+    }
+
+    .cta-content-btn {
+        margin: 20px auto;
+    }
+}

@@ -1,0 +1,10 @@
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Lab\02_PointInRectangle\bin\Debug\netcoreapp2.1\02_PointInRectangle.deps.json
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Lab\02_PointInRectangle\bin\Debug\netcoreapp2.1\02_PointInRectangle.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Lab\02_PointInRectangle\bin\Debug\netcoreapp2.1\02_PointInRectangle.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Lab\02_PointInRectangle\bin\Debug\netcoreapp2.1\02_PointInRectangle.dll
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Lab\02_PointInRectangle\bin\Debug\netcoreapp2.1\02_PointInRectangle.pdb
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Lab\02_PointInRectangle\obj\Debug\netcoreapp2.1\02_PointInRectangle.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Lab\02_PointInRectangle\obj\Debug\netcoreapp2.1\02_PointInRectangle.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Lab\02_PointInRectangle\obj\Debug\netcoreapp2.1\02_PointInRectangle.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Lab\02_PointInRectangle\obj\Debug\netcoreapp2.1\02_PointInRectangle.dll
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Lab\02_PointInRectangle\obj\Debug\netcoreapp2.1\02_PointInRectangle.pdb

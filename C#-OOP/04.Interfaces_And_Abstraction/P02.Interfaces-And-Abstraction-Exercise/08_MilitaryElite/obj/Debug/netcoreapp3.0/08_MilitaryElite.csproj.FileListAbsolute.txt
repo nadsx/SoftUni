@@ -1,0 +1,11 @@
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\08_MilitaryElite\bin\Debug\netcoreapp3.0\08_MilitaryElite.exe
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\08_MilitaryElite\bin\Debug\netcoreapp3.0\08_MilitaryElite.deps.json
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\08_MilitaryElite\bin\Debug\netcoreapp3.0\08_MilitaryElite.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\08_MilitaryElite\bin\Debug\netcoreapp3.0\08_MilitaryElite.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\08_MilitaryElite\bin\Debug\netcoreapp3.0\08_MilitaryElite.dll
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\08_MilitaryElite\bin\Debug\netcoreapp3.0\08_MilitaryElite.pdb
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\08_MilitaryElite\obj\Debug\netcoreapp3.0\08_MilitaryElite.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\08_MilitaryElite\obj\Debug\netcoreapp3.0\08_MilitaryElite.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\08_MilitaryElite\obj\Debug\netcoreapp3.0\08_MilitaryElite.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\08_MilitaryElite\obj\Debug\netcoreapp3.0\08_MilitaryElite.dll
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\08_MilitaryElite\obj\Debug\netcoreapp3.0\08_MilitaryElite.pdb

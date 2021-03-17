@@ -1,0 +1,11 @@
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\03_MissionPrivateImpossible\bin\Debug\netcoreapp3.0\03_MissionPrivateImpossible.exe
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\03_MissionPrivateImpossible\bin\Debug\netcoreapp3.0\03_MissionPrivateImpossible.deps.json
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\03_MissionPrivateImpossible\bin\Debug\netcoreapp3.0\03_MissionPrivateImpossible.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\03_MissionPrivateImpossible\bin\Debug\netcoreapp3.0\03_MissionPrivateImpossible.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\03_MissionPrivateImpossible\bin\Debug\netcoreapp3.0\03_MissionPrivateImpossible.dll
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\03_MissionPrivateImpossible\bin\Debug\netcoreapp3.0\03_MissionPrivateImpossible.pdb
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\03_MissionPrivateImpossible\obj\Debug\netcoreapp3.0\03_MissionPrivateImpossible.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\03_MissionPrivateImpossible\obj\Debug\netcoreapp3.0\03_MissionPrivateImpossible.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\03_MissionPrivateImpossible\obj\Debug\netcoreapp3.0\03_MissionPrivateImpossible.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\03_MissionPrivateImpossible\obj\Debug\netcoreapp3.0\03_MissionPrivateImpossible.dll
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Lab\03_MissionPrivateImpossible\obj\Debug\netcoreapp3.0\03_MissionPrivateImpossible.pdb

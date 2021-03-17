@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P01SortNumbers\obj\Debug\netcoreapp2.1\P01SortNumbers.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P01SortNumbers\obj\Debug\netcoreapp2.1\P01SortNumbers.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P01SortNumbers\obj\Debug\netcoreapp2.1\P01SortNumbers.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P01SortNumbers\obj\Debug\netcoreapp2.1\P01SortNumbers.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P01SortNumbers\bin\Debug\netcoreapp2.1\P01SortNumbers.deps.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P01SortNumbers\bin\Debug\netcoreapp2.1\P01SortNumbers.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P01SortNumbers\bin\Debug\netcoreapp2.1\P01SortNumbers.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P01SortNumbers\bin\Debug\netcoreapp2.1\P01SortNumbers.dll
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P01SortNumbers\bin\Debug\netcoreapp2.1\P01SortNumbers.pdb
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P01SortNumbers\obj\Debug\netcoreapp2.1\P01SortNumbers.dll
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P01SortNumbers\obj\Debug\netcoreapp2.1\P01SortNumbers.pdb

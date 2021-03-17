@@ -1,0 +1,459 @@
+1
+===========================
+
+            int n = int.Parse(Console.ReadLine());
+            var names = new HashSet<string>();
+
+            for (int i = 0; i < n; i++)
+            {
+                string name = Console.ReadLine();
+                names.Add(name);
+            }
+
+            foreach (var name in names)
+            {
+                Console.WriteLine(name);
+            }
+
+2
+===========================
+
+			int[] lengthOfSets = Console.ReadLine()
+				.Split(' ', StringSplitOptions.RemoveEmptyEntries)
+				.Select(int.Parse)
+				.ToArray();
+
+			int n = lengthOfSets[0];
+			int m = lengthOfSets[1];
+
+			var firstSet = new HashSet<int>();
+			var secondSet = new HashSet<int>();
+
+			for (int i = 0; i < n; i++)
+			{
+				int number = int.Parse(Console.ReadLine());
+				firstSet.Add(number);
+			}
+
+			for (int i = 0; i < m; i++)
+			{
+				int number = int.Parse(Console.ReadLine());
+				secondSet.Add(number);
+			}
+
+			firstSet.IntersectWith(secondSet);
+
+			Console.WriteLine(string.Join(" ", firstSet));
+
+3
+===========================
+
+			int n = int.Parse(Console.ReadLine());
+			var chemicalCompounds = new SortedSet<string>();
+
+			for (int i = 0; i < n; i++)
+			{
+				string[] compounds = Console.ReadLine()
+					.Split()
+					.ToArray();
+
+				foreach(var element in compounds)
+				{
+					chemicalCompounds.Add(element);
+				}
+			}
+
+			Console.WriteLine(string.Join(" ", chemicalCompounds));
+
+4
+===========================
+TUKA PROVERI ZASHTO IMA .Key
+
+			int n = int.Parse(Console.ReadLine());
+			var numbers = new Dictionary<int, int>();
+
+			for (int i = 0; i < n; i++)
+			{
+				int number = int.Parse(Console.ReadLine());
+
+				if (!numbers.ContainsKey(number))
+				{
+					numbers.Add(number, 0);
+				}
+
+				numbers[number]++;
+			}
+
+			int evenNumberOfTimes = numbers
+				.SingleOrDefault(number => number.Value % 2 == 0)
+				.Key;
+
+			Console.WriteLine(evenNumberOfTimes);
+
+5
+===========================
+
+			var text = Console.ReadLine();
+			var charCount = new Dictionary<char, int>();
+
+			for (int i = 0; i < text.Length; i++)
+			{
+				char currentChar = text[i];
+
+				if (!charCount.ContainsKey(currentChar))
+				{
+					charCount.Add(currentChar, 0);
+				}
+
+				charCount[currentChar]++;
+			}
+
+			foreach(var character in charCount.OrderBy(x => x.Key))
+			{
+				Console.WriteLine($"{character.Key}: {character.Value} time/s");
+			}
+
+6
+===========================
+
+			int n = int.Parse(Console.ReadLine());
+			var wardrobe = new Dictionary<string, Dictionary<string, int>>();
+
+			for (int i = 0; i < n; i++)
+			{
+				string[] input = Console.ReadLine()
+					.Split(new[] { ",", " -> " }, StringSplitOptions.RemoveEmptyEntries)
+					.ToArray();
+
+				string color = input[0];
+
+				if (!wardrobe.ContainsKey(color))
+				{
+					wardrobe.Add(color, new Dictionary<string, int>());
+				}
+
+				input = input.Skip(1).ToArray();
+
+				foreach(var clothes in input)
+				{
+					if (!wardrobe[color].ContainsKey(clothes))
+					{
+						wardrobe[color].Add(clothes, 0);
+					}
+
+					wardrobe[color][clothes]++;
+				}
+			}
+
+			string[] neededClothes = Console.ReadLine()
+				.Split()
+				.ToArray();
+
+			string searchColor = neededClothes[0];
+			string searchClothes = neededClothes[1];
+
+			foreach(var clothesColor in wardrobe)
+			{
+				Console.WriteLine($"{clothesColor.Key} clothes:");
+
+				foreach(var valuePair in clothesColor.Value)
+				{
+					Console.Write($"* {valuePair.Key} - {valuePair.Value}");
+
+					if(searchColor == clothesColor.Key && searchClothes == valuePair.Key)
+					{
+						Console.WriteLine(" (found!)");
+					}
+					else
+					{
+						Console.WriteLine();
+					}
+				}
+			}
+
+---------------------------
+
+			var wardrobe = new Dictionary<string, Dictionary<string, int>>();
+
+			int counter = int.Parse(Console.ReadLine());
+
+			for (int i = 0; i < counter; i++)
+			{
+				string[] inputArgs = Console.ReadLine()
+					.Split(" -> ")
+					.ToArray();
+
+				string color = inputArgs[0];
+
+				if (!wardrobe.ContainsKey(color))
+				{
+					wardrobe.Add(color, new Dictionary<string, int>());
+				}
+
+				string[] clothes = inputArgs[1]
+					.Split(',')
+					.ToArray();
+
+				foreach(var cloth in clothes)
+				{
+					if (!wardrobe[color].ContainsKey(cloth))
+					{
+						wardrobe[color].Add(cloth, 0);
+					}
+
+					wardrobe[color][cloth]++;
+				}
+			}
+
+			string[] targetClothInfo = Console.ReadLine()
+				.Split()
+				.ToArray();
+
+			string targetColor = targetClothInfo[0];
+			string targetCloth = targetClothInfo[1];
+
+			foreach(var (color, clothes) in wardrobe)
+			{
+				Console.WriteLine($"{color} clothes:");
+
+				foreach(var (cloth, count) in clothes)
+				{
+					string result = $"* {cloth} - {count}";
+
+					if (color == targetColor && targetCloth == cloth)
+					{
+						result += " (found!)";
+					}
+
+					Console.WriteLine(result);
+				}
+			}
+
+7
+===========================
+
+			var vloggersCollection = new Dictionary<string, Dictionary<string, HashSet<string>>>();
+
+			string input = Console.ReadLine();
+
+			while (input != "Statistics")
+			{
+				if (input.Contains("joined"))
+				{
+					string username = input.Split()[0];
+
+					if (!vloggersCollection.ContainsKey(username))
+					{
+						vloggersCollection.Add(username, new Dictionary<string, HashSet<string>>());
+						vloggersCollection[username].Add("followers", new HashSet<string>());
+						vloggersCollection[username].Add("following", new HashSet<string>());
+					}
+				}
+				else if (input.Contains("followed"))
+				{
+					string[] usernames = input.Split().ToArray();
+					string firstVlogger = usernames[0];
+					string secondVlogger = usernames[2];
+
+					if (!vloggersCollection.ContainsKey(firstVlogger) ||
+						!vloggersCollection.ContainsKey(secondVlogger) ||
+						firstVlogger == secondVlogger)
+					{
+						input = Console.ReadLine();
+						continue;
+					}
+
+					vloggersCollection[firstVlogger]["following"].Add(secondVlogger);
+					vloggersCollection[secondVlogger]["followers"].Add(firstVlogger);
+				}
+
+				input = Console.ReadLine();
+			}
+
+			Console.WriteLine($"The V-Logger has a total of {vloggersCollection.Count} vloggers in its logs.");
+
+			int count = 1;
+
+			var sortedVloggers = vloggersCollection
+				.OrderByDescending(x => x.Value["followers"].Count)
+				.ThenBy(x => x.Value["following"].Count)
+				.ToDictionary(k => k.Key, v => v.Value);
+
+			foreach (var vloger in sortedVloggers)
+			{
+				int followersCount = sortedVloggers[vloger.Key]["followers"].Count;
+				int followingCount = sortedVloggers[vloger.Key]["following"].Count;
+
+				Console.WriteLine($"{count}. {vloger.Key} : {followersCount} followers, {followingCount} following");
+
+				if (count == 1)
+				{
+					List<string> followersCollection = vloger.Value["followers"].OrderBy(x => x).ToList();
+
+					foreach (var follower in followersCollection)
+					{
+						Console.WriteLine($"*  {follower}");
+					}
+				}
+
+				count++;
+			}
+
+8
+===========================
+
+			var contests = new Dictionary<string, string>();
+			var submissions = new Dictionary<string, Dictionary<string, int>>();
+
+			string input = Console.ReadLine();
+
+			while (input != "end of contests")
+			{
+				string[] contestInfo = input.Split(':').ToArray();
+				string contestName = contestInfo[0];
+				string password = contestInfo[1];
+
+				contests.Add(contestName, password);
+
+				input = Console.ReadLine();
+			}
+
+			input = Console.ReadLine();
+
+			while (input != "end of submissions")
+			{
+				string[] submissionInfo = input.Split("=>").ToArray();
+				string contestName = submissionInfo[0];
+				string contestPass = submissionInfo[1];
+				string username = submissionInfo[2];
+				int points = int.Parse(submissionInfo[3]);
+
+				if (!contests.ContainsKey(contestName) || contests[contestName] != contestPass)
+				{
+					input = Console.ReadLine();
+					continue;
+				}
+
+				if (!submissions.ContainsKey(username))
+				{
+					submissions.Add(username, new Dictionary<string, int>());
+				}
+
+				if (!submissions[username].ContainsKey(contestName))
+				{
+					submissions[username].Add(contestName, 0);
+				}
+
+				if (submissions[username][contestName] < points)
+				{
+					submissions[username][contestName] = points;
+				}
+
+				input = Console.ReadLine();
+			}
+
+			KeyValuePair<string, Dictionary<string, int>> bestCandidate = submissions
+				.OrderByDescending(v => v.Value.Values.Sum(x => x))
+				.FirstOrDefault();
+
+			string bestCandidateName = bestCandidate.Key;
+			int topPoints = bestCandidate.Value.Values.Sum(x => x);
+
+			Console.WriteLine($"Best candidate is {bestCandidateName} with total {topPoints} points.");
+			Console.WriteLine("Ranking: ");
+
+			foreach (var (key, value) in submissions.OrderBy(x => x.Key))
+			{
+				Console.WriteLine(key);
+
+				foreach (var (contestName, points) in value.OrderByDescending(x => x.Value))
+				{
+					Console.WriteLine($"#  {contestName} -> {points}");
+				}
+			}
+		}
+
+---------------------------
+            string input = Console.ReadLine();
+            var contestAndPassword = new Dictionary<string, string>();
+
+            while (input != "end of contests")
+            {
+                string[] line = input.Split(':');
+                string contest = line[0];
+                string contestPass = line[1];
+                contestAndPassword[contest] = contestPass;
+                input = Console.ReadLine();
+            }
+
+            input = Console.ReadLine();
+            var submissions = new Dictionary<string, Dictionary<string, int>>();
+
+            while (input != "end of submissions")
+            {
+                string[] line = input.Split("=>");
+                string contest = line[0];
+                string contestPass = line[1];
+                string name = line[2];
+                int points = int.Parse(line[3]);
+
+
+                if (contestAndPassword.ContainsKey(contest) && contestAndPassword[contest] == contestPass)
+                {
+                    if (!submissions.ContainsKey(name))
+                    {
+                        submissions.Add(name, new Dictionary<string, int>());
+                    }
+                    UserChecker(submissions, contest, name, points);
+                }
+
+                input = Console.ReadLine();
+            }
+
+            string user = FindBestUser(submissions);
+
+            Console.WriteLine($"Best candidate is {user} with total {submissions[user].Values.Sum()} points.");
+            Console.WriteLine("Ranking:");
+
+            foreach (var kvp in submissions.OrderBy(x => x.Key))
+            {
+                Console.WriteLine($"{kvp.Key}");
+                foreach (var kvpInerDic in kvp.Value.OrderByDescending(x => x.Value))
+                {
+                    Console.WriteLine($"#  {kvpInerDic.Key} -> {kvpInerDic.Value}");
+                }
+            }
+        }
+
+        private static string FindBestUser(Dictionary<string, Dictionary<string, int>> submissions)
+        {
+            string bestUser = "";
+            int bestPoints = -1;
+            foreach (var kvp in submissions)
+            {
+                int points = kvp.Value.Values.Sum();
+
+                if (points > bestPoints)
+                {
+                    bestUser = kvp.Key;
+                    bestPoints = points;
+                }
+            }
+
+            return bestUser;
+        }
+
+        private static void UserChecker(Dictionary<string, Dictionary<string, int>> submissions, string contest, string name, int points)
+        {
+            if (!submissions[name].ContainsKey(contest))
+            {
+                submissions[name].Add(contest, points);
+            }
+            else
+            {
+                if (submissions[name][contest] < points)
+                {
+                    submissions[name][contest] = points;
+                }
+            }
+        }

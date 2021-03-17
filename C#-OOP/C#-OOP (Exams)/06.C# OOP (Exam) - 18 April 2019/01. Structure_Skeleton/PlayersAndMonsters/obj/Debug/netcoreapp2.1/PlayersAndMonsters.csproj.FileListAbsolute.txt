@@ -1,0 +1,10 @@
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\05.C# OOP (Exam) - 18 April 2019\01. Structure_Skeleton\PlayersAndMonsters\bin\Debug\netcoreapp2.1\PlayersAndMonsters.deps.json
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\05.C# OOP (Exam) - 18 April 2019\01. Structure_Skeleton\PlayersAndMonsters\bin\Debug\netcoreapp2.1\PlayersAndMonsters.runtimeconfig.json
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\05.C# OOP (Exam) - 18 April 2019\01. Structure_Skeleton\PlayersAndMonsters\bin\Debug\netcoreapp2.1\PlayersAndMonsters.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\05.C# OOP (Exam) - 18 April 2019\01. Structure_Skeleton\PlayersAndMonsters\bin\Debug\netcoreapp2.1\PlayersAndMonsters.dll
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\05.C# OOP (Exam) - 18 April 2019\01. Structure_Skeleton\PlayersAndMonsters\bin\Debug\netcoreapp2.1\PlayersAndMonsters.pdb
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\05.C# OOP (Exam) - 18 April 2019\01. Structure_Skeleton\PlayersAndMonsters\obj\Debug\netcoreapp2.1\PlayersAndMonsters.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\05.C# OOP (Exam) - 18 April 2019\01. Structure_Skeleton\PlayersAndMonsters\obj\Debug\netcoreapp2.1\PlayersAndMonsters.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\05.C# OOP (Exam) - 18 April 2019\01. Structure_Skeleton\PlayersAndMonsters\obj\Debug\netcoreapp2.1\PlayersAndMonsters.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\05.C# OOP (Exam) - 18 April 2019\01. Structure_Skeleton\PlayersAndMonsters\obj\Debug\netcoreapp2.1\PlayersAndMonsters.dll
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\05.C# OOP (Exam) - 18 April 2019\01. Structure_Skeleton\PlayersAndMonsters\obj\Debug\netcoreapp2.1\PlayersAndMonsters.pdb

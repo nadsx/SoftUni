@@ -1,0 +1,11 @@
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Exercises\06_Sneaking\bin\Debug\netcoreapp3.0\06_Sneaking.exe
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Exercises\06_Sneaking\bin\Debug\netcoreapp3.0\06_Sneaking.deps.json
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Exercises\06_Sneaking\bin\Debug\netcoreapp3.0\06_Sneaking.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Exercises\06_Sneaking\bin\Debug\netcoreapp3.0\06_Sneaking.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Exercises\06_Sneaking\bin\Debug\netcoreapp3.0\06_Sneaking.dll
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Exercises\06_Sneaking\bin\Debug\netcoreapp3.0\06_Sneaking.pdb
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Exercises\06_Sneaking\obj\Debug\netcoreapp3.0\06_Sneaking.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Exercises\06_Sneaking\obj\Debug\netcoreapp3.0\06_Sneaking.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Exercises\06_Sneaking\obj\Debug\netcoreapp3.0\06_Sneaking.dll
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Exercises\06_Sneaking\obj\Debug\netcoreapp3.0\06_Sneaking.pdb
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Exercises\06_Sneaking\obj\Debug\netcoreapp3.0\06_Sneaking.csprojAssemblyReference.cache

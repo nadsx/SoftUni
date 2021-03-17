@@ -1,0 +1,10 @@
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\04_BackIn30Minutes\bin\Debug\netcoreapp2.1\04_BackIn30Minutes.deps.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\04_BackIn30Minutes\bin\Debug\netcoreapp2.1\04_BackIn30Minutes.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\04_BackIn30Minutes\bin\Debug\netcoreapp2.1\04_BackIn30Minutes.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\04_BackIn30Minutes\bin\Debug\netcoreapp2.1\04_BackIn30Minutes.dll
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\04_BackIn30Minutes\bin\Debug\netcoreapp2.1\04_BackIn30Minutes.pdb
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\04_BackIn30Minutes\obj\Debug\netcoreapp2.1\04_BackIn30Minutes.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\04_BackIn30Minutes\obj\Debug\netcoreapp2.1\04_BackIn30Minutes.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\04_BackIn30Minutes\obj\Debug\netcoreapp2.1\04_BackIn30Minutes.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\04_BackIn30Minutes\obj\Debug\netcoreapp2.1\04_BackIn30Minutes.dll
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\04_BackIn30Minutes\obj\Debug\netcoreapp2.1\04_BackIn30Minutes.pdb

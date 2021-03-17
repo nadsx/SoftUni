@@ -1,0 +1,267 @@
+1
+============================
+
+List<double> numbers = Console.ReadLine().Split().Select(double.Parse).ToList();
+
+			for (int i = 0; i < numbers.Count - 1; i++)
+			{
+				if(numbers[i] == numbers[i + 1]) // izliza tuka 
+				{
+					numbers[i] += numbers[i + 1];
+					numbers.RemoveAt(i + 1);
+					i = -1; //zaduljitelno trqq da pochne ot -1, a ne i-- !!!!
+						//Always sum the leftmost two equal neighbors
+				}
+			}
+
+			Console.WriteLine(string.Join(" ", numbers));
+2
+============================
+Kenov
+
+List<int> numbers = Console.ReadLine().Split().Select(int.Parse).ToList();
+
+			List<int> result = new List<int>();
+
+			for (int i = 0; i < numbers.Count / 2; i++) // razdelq na 2ve polovini lista
+			{
+				var first = numbers[i];
+				var last = numbers[numbers.Count - 1 - i];
+
+				var resultNumber = first + last;
+
+				result.Add(resultNumber);
+			}
+
+			if(numbers.Count % 2 == 1)
+			{
+				var middle = numbers[numbers.Count / 2];
+				result.Add(middle);
+			}
+
+			Console.WriteLine(string.Join(" ", result));
+
+----------------------------
+
+List<int> numbers = Console.ReadLine().Split().Select(int.Parse).ToList();
+
+			int initialCount = numbers.Count;
+
+			for (int i = 0; i < initialCount / 2; i++)
+			{
+				numbers[i] += numbers[numbers.Count - 1];
+				numbers.RemoveAt(numbers.Count - 1);
+			}
+
+			Console.WriteLine(string.Join(" ", numbers));
+3
+============================
+
+                        List<int> firstNumbersList = Console.ReadLine().Split().Select(int.Parse).ToList();
+			List<int> secondNumbersList = Console.ReadLine().Split().Select(int.Parse).ToList();
+			List<int> mergedList = new List<int>();
+
+			int minListCount = Math.Min(firstNumbersList.Count, secondNumbersList.Count);
+
+			for (int i = 0; i < minListCount; i++)
+			{
+				mergedList.Add(firstNumbersList[i]);
+				mergedList.Add(secondNumbersList[i]);
+			}
+
+			List<int> biggerList = minListCount == firstNumbersList.Count ?
+				secondNumbersList : firstNumbersList;
+
+			for (int i = minListCount; i < biggerList.Count; i++)
+			{
+				mergedList.Add(biggerList[i]);
+			}
+
+			Console.WriteLine(string.Join(" ", mergedList));
+4
+============================
+
+                        int numberOfProducts = int.Parse(Console.ReadLine());
+
+			List<string> products = new List<string>();
+
+			for (int i = 0; i < numberOfProducts; i++)
+			{
+				products.Add(Console.ReadLine());
+			}
+
+			products.Sort();
+
+			for (int i = 0; i < products.Count; i++)
+			{
+				Console.WriteLine($"{i + 1}.{products[i]}");
+			}
+
+5
+============================
+Kenov 
+
+List<int> numbers = Console.ReadLine().Split().Select(int.Parse).ToList();
+
+			List<int> positiveNumbers = new List<int>();
+
+			for (int i = 0; i < numbers.Count; i++)
+			{
+				if(numbers[i] >= 0)
+				{
+					positiveNumbers.Add(numbers[i]);
+
+					//if (numbers[i] < 0)
+                			//{
+                    			//	numbers.RemoveAt(i);
+                   			//	 i--;
+                			//}
+				}
+			}
+
+			if(positiveNumbers.Count > 0)
+			{
+				positiveNumbers.Reverse();
+				Console.WriteLine(string.Join(" ", positiveNumbers));
+			}
+			else
+			{
+				Console.WriteLine("empty");
+			}
+
+6
+============================
+
+List<int> numbers = Console.ReadLine()
+				 .Split()
+				 .Select(int.Parse)
+				 .ToList();
+
+			while (true)
+			{
+				string input = Console.ReadLine();
+
+				if(input == "end")
+				{
+					break;
+				}
+
+				string[] tokens = input.Split();
+				string command = tokens[0];
+
+				switch (command)
+				{
+					case "Add":
+						int numberToAdd = int.Parse(tokens[1]);
+						numbers.Add(numberToAdd);
+						break;
+					case "Remove":
+						int numberToRemove = int.Parse(tokens[1]);
+						numbers.Remove(numberToRemove);
+						break;
+					case "RemoveAt":
+						int indexToRemove = int.Parse(tokens[1]);
+						numbers.RemoveAt(indexToRemove);
+						break;
+					case "Insert":
+						int numberToInsert = int.Parse(tokens[1]);
+						int indexToInsert = int.Parse(tokens[2]);
+						numbers.Insert(indexToInsert, numberToInsert);
+						break;
+				}
+			}
+
+			Console.WriteLine(string.Join(" ", numbers));
+7
+============================
+
+	List<int> numbers = Console.ReadLine().Split().Select(int.Parse).ToList();
+
+			bool isThereAnyChanges = false;
+
+			string input = Console.ReadLine();
+
+			while (input != "end")
+			{				
+				string[] tokens = input.Split();
+				
+				switch (tokens[0])
+				{
+					case "Add":
+						isThereAnyChanges = true;
+						int numberToAdd = int.Parse(tokens[1]);
+
+						numbers.Add(numberToAdd);
+						break;
+					case "Remove":
+						isThereAnyChanges = true;
+						int numberToRemove = int.Parse(tokens[1]);
+
+						numbers.Remove(numberToRemove);
+						break;
+					case "RemoveAt":
+						isThereAnyChanges = true;
+						int indexToRemove = int.Parse(tokens[1]);
+
+						numbers.RemoveAt(indexToRemove);
+						break;
+					case "Insert":
+						isThereAnyChanges = true;
+						int numberToInsert = int.Parse(tokens[1]);
+						int indexToInsert = int.Parse(tokens[2]);
+
+						numbers.Insert(indexToInsert, numberToInsert);
+						break;
+					case "Contains": 
+						int numberToCheck = int.Parse(tokens[1]);
+
+						Console.WriteLine(numbers.Contains(numberToCheck) ? "Yes" : "No such number");
+						break;
+					case "PrintEven": 
+						List<int> evenNumbers = numbers.Where(x => x % 2 == 0).ToList();
+
+						Console.WriteLine(string.Join(" ", evenNumbers)); 
+						break;
+					case "PrintOdd": 
+						List<int> oddNumbers = numbers.Where(x => x % 2 == 1).ToList();
+
+						Console.WriteLine(string.Join(" ", oddNumbers));
+						break;
+					case "GetSum": 
+						int sumNumbers = numbers.Sum();
+
+						Console.WriteLine(sumNumbers);
+						break;
+					case "Filter": 
+						string condition = tokens[1];
+						int number = int.Parse(tokens[2]);
+						List<int> numbersToCheck = numbers.ToList();
+
+						if(condition == "<")
+						{
+							numbersToCheck = numbersToCheck.Where(x => x < number).ToList();
+						}
+						else if(condition == ">")
+						{
+							numbersToCheck = numbersToCheck.Where(x => x > number).ToList();
+						}
+						else if(condition == ">=")
+						{
+							numbersToCheck = numbersToCheck.Where(x => x >= number).ToList();
+						}
+						else if (condition == "<=")
+						{
+							numbersToCheck = numbersToCheck.Where(x => x <= number).ToList();
+						}
+
+						Console.WriteLine(string.Join(" ", numbersToCheck));
+						break;
+				}
+
+				input = Console.ReadLine();
+			}
+
+			if(isThereAnyChanges)
+			{
+			  Console.WriteLine(string.Join(" ", numbers));
+			}

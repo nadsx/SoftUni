@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-More-Exercises\P05DecryptingMessages\bin\Debug\netcoreapp2.1\P05DecryptingMessages.deps.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-More-Exercises\P05DecryptingMessages\bin\Debug\netcoreapp2.1\P05DecryptingMessages.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-More-Exercises\P05DecryptingMessages\bin\Debug\netcoreapp2.1\P05DecryptingMessages.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-More-Exercises\P05DecryptingMessages\bin\Debug\netcoreapp2.1\P05DecryptingMessages.dll
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-More-Exercises\P05DecryptingMessages\bin\Debug\netcoreapp2.1\P05DecryptingMessages.pdb
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-More-Exercises\P05DecryptingMessages\obj\Debug\netcoreapp2.1\P05DecryptingMessages.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-More-Exercises\P05DecryptingMessages\obj\Debug\netcoreapp2.1\P05DecryptingMessages.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-More-Exercises\P05DecryptingMessages\obj\Debug\netcoreapp2.1\P05DecryptingMessages.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-More-Exercises\P05DecryptingMessages\obj\Debug\netcoreapp2.1\P05DecryptingMessages.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-More-Exercises\P05DecryptingMessages\obj\Debug\netcoreapp2.1\P05DecryptingMessages.dll
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-More-Exercises\P05DecryptingMessages\obj\Debug\netcoreapp2.1\P05DecryptingMessages.pdb

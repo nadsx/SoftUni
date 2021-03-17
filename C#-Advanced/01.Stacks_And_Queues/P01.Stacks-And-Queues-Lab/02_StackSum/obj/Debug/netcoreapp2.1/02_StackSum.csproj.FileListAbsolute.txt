@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\02_StackSum\bin\Debug\netcoreapp2.1\02_StackSum.deps.json
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\02_StackSum\bin\Debug\netcoreapp2.1\02_StackSum.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\02_StackSum\bin\Debug\netcoreapp2.1\02_StackSum.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\02_StackSum\bin\Debug\netcoreapp2.1\02_StackSum.dll
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\02_StackSum\bin\Debug\netcoreapp2.1\02_StackSum.pdb
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\02_StackSum\obj\Debug\netcoreapp2.1\02_StackSum.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\02_StackSum\obj\Debug\netcoreapp2.1\02_StackSum.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\02_StackSum\obj\Debug\netcoreapp2.1\02_StackSum.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\02_StackSum\obj\Debug\netcoreapp2.1\02_StackSum.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\02_StackSum\obj\Debug\netcoreapp2.1\02_StackSum.dll
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Lab\02_StackSum\obj\Debug\netcoreapp2.1\02_StackSum.pdb

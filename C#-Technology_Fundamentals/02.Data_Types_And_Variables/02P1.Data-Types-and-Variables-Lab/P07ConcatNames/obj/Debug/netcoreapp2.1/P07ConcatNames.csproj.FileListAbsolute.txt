@@ -1,0 +1,10 @@
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P07ConcatNames\bin\Debug\netcoreapp2.1\P07ConcatNames.deps.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P07ConcatNames\bin\Debug\netcoreapp2.1\P07ConcatNames.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P07ConcatNames\bin\Debug\netcoreapp2.1\P07ConcatNames.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P07ConcatNames\bin\Debug\netcoreapp2.1\P07ConcatNames.dll
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P07ConcatNames\bin\Debug\netcoreapp2.1\P07ConcatNames.pdb
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P07ConcatNames\obj\Debug\netcoreapp2.1\P07ConcatNames.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P07ConcatNames\obj\Debug\netcoreapp2.1\P07ConcatNames.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P07ConcatNames\obj\Debug\netcoreapp2.1\P07ConcatNames.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P07ConcatNames\obj\Debug\netcoreapp2.1\P07ConcatNames.dll
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P07ConcatNames\obj\Debug\netcoreapp2.1\P07ConcatNames.pdb

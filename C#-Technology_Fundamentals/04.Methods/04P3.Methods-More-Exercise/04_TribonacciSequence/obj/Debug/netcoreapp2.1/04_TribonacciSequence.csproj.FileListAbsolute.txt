@@ -1,0 +1,10 @@
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\04_TribonacciSequence\bin\Debug\netcoreapp2.1\04_TribonacciSequence.deps.json
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\04_TribonacciSequence\bin\Debug\netcoreapp2.1\04_TribonacciSequence.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\04_TribonacciSequence\bin\Debug\netcoreapp2.1\04_TribonacciSequence.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\04_TribonacciSequence\bin\Debug\netcoreapp2.1\04_TribonacciSequence.dll
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\04_TribonacciSequence\bin\Debug\netcoreapp2.1\04_TribonacciSequence.pdb
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\04_TribonacciSequence\obj\Debug\netcoreapp2.1\04_TribonacciSequence.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\04_TribonacciSequence\obj\Debug\netcoreapp2.1\04_TribonacciSequence.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\04_TribonacciSequence\obj\Debug\netcoreapp2.1\04_TribonacciSequence.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\04_TribonacciSequence\obj\Debug\netcoreapp2.1\04_TribonacciSequence.dll
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\04_TribonacciSequence\obj\Debug\netcoreapp2.1\04_TribonacciSequence.pdb

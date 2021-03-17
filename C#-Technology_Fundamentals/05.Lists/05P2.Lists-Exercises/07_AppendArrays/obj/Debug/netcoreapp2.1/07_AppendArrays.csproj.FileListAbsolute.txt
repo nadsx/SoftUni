@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Lists-Exercises\07_AppendArrays\bin\Debug\netcoreapp2.1\07_AppendArrays.deps.json
+C:\Users\ASUS NB\source\repos\Lists-Exercises\07_AppendArrays\bin\Debug\netcoreapp2.1\07_AppendArrays.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Lists-Exercises\07_AppendArrays\bin\Debug\netcoreapp2.1\07_AppendArrays.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Lists-Exercises\07_AppendArrays\bin\Debug\netcoreapp2.1\07_AppendArrays.dll
+C:\Users\ASUS NB\source\repos\Lists-Exercises\07_AppendArrays\bin\Debug\netcoreapp2.1\07_AppendArrays.pdb
+C:\Users\ASUS NB\source\repos\Lists-Exercises\07_AppendArrays\obj\Debug\netcoreapp2.1\07_AppendArrays.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Lists-Exercises\07_AppendArrays\obj\Debug\netcoreapp2.1\07_AppendArrays.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Lists-Exercises\07_AppendArrays\obj\Debug\netcoreapp2.1\07_AppendArrays.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Lists-Exercises\07_AppendArrays\obj\Debug\netcoreapp2.1\07_AppendArrays.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Lists-Exercises\07_AppendArrays\obj\Debug\netcoreapp2.1\07_AppendArrays.dll
+C:\Users\ASUS NB\source\repos\Lists-Exercises\07_AppendArrays\obj\Debug\netcoreapp2.1\07_AppendArrays.pdb

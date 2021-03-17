@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\09_ForceBook\bin\Debug\netcoreapp2.1\09_ForceBook.deps.json
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\09_ForceBook\bin\Debug\netcoreapp2.1\09_ForceBook.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\09_ForceBook\bin\Debug\netcoreapp2.1\09_ForceBook.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\09_ForceBook\bin\Debug\netcoreapp2.1\09_ForceBook.dll
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\09_ForceBook\bin\Debug\netcoreapp2.1\09_ForceBook.pdb
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\09_ForceBook\obj\Debug\netcoreapp2.1\09_ForceBook.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\09_ForceBook\obj\Debug\netcoreapp2.1\09_ForceBook.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\09_ForceBook\obj\Debug\netcoreapp2.1\09_ForceBook.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\09_ForceBook\obj\Debug\netcoreapp2.1\09_ForceBook.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\09_ForceBook\obj\Debug\netcoreapp2.1\09_ForceBook.dll
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\09_ForceBook\obj\Debug\netcoreapp2.1\09_ForceBook.pdb

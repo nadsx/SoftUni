@@ -1,0 +1,1120 @@
+01
+==================================
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace _01_Exercise
+{
+    public class StartUp
+    {
+        public static void Main()
+        {
+            Runner runner = new Runner();
+            runner.Run();
+        }
+    }
+
+    public class Engine
+    {
+        public Engine(int engineSpeed, int enginePower)
+        {
+            this.EngineSpeed = engineSpeed;
+            this.EnginePower = enginePower;
+        }
+
+        public int EngineSpeed { get; set; }
+
+        public int EnginePower { get; set; }
+    }
+
+    public class Cargo
+    {
+        public Cargo(int cargoWeight, string cargoType)
+        {
+            this.CargoWeight = cargoWeight;
+            this.CargoType = cargoType;
+        }
+
+        public int CargoWeight { get; set; }
+
+        public string CargoType { get; set; }
+    }
+
+    public class Tire
+    {
+        public Tire(int age, double pressure)
+        {
+            this.Age = age;
+            this.Pressure = pressure;
+        }
+
+        public int Age { get; set; }
+
+        public double Pressure { get; set; }
+    }
+
+    public class Car
+    {
+        public Car(string model, Engine engine, Cargo cargo, List<Tire> tires)
+        {
+            this.Model = model;
+            this.Engine = engine;
+            this.Cargo = cargo;
+            this.Tires = tires;
+        }
+
+        public string Model { get; set; }
+
+        public Cargo Cargo { get; set; }
+
+        public Engine Engine { get; set; }
+
+        public List<Tire> Tires { get; set; }
+    }
+
+    public class Runner
+    {
+        public void Run()
+        {
+            List<Car> cars = new List<Car>();
+            int lines = int.Parse(Console.ReadLine());
+
+            for (int i = 0; i < lines; i++)
+            {
+                string[] parameters = Console.ReadLine()
+                    .Split(" ", StringSplitOptions.RemoveEmptyEntries)
+                    .ToArray();
+
+                string model = parameters[0];
+
+                int engineSpeed = int.Parse(parameters[1]);
+                int enginePower = int.Parse(parameters[2]);
+
+                Engine engine = new Engine(engineSpeed, enginePower);
+
+                int cargoWeight = int.Parse(parameters[3]);
+                string cargoType = parameters[4];
+
+                Cargo cargo = new Cargo(cargoWeight, cargoType);
+
+                List<Tire> tires = new List<Tire>();
+
+                for (int j = 5; j <= 12; j += 2)
+                {
+                    double pressure = double.Parse(parameters[j]);
+                    int age = int.Parse(parameters[j + 1]);
+
+                    Tire tire = new Tire(age, pressure);
+                    tires.Add(tire);
+                }
+
+                cars.Add(new Car(model, engine, cargo, tires));
+            }
+
+            string command = Console.ReadLine();
+
+            if(command == "fragile")
+            {
+                List<string> fragile = cars
+                    .Where(c => c.Cargo.CargoType == "fragile" && c.Tires.Any(t => t.Pressure < 1))
+                    .Select(c => c.Model)
+                    .ToList();
+
+                Console.WriteLine(string.Join(Environment.NewLine, fragile));
+            }
+            else
+            {
+                List<string> flamable = cars
+                    .Where(c => c.Cargo.CargoType == "flamable" && c.Engine.EnginePower > 250)
+                    .Select(c => c.Model)
+                    .ToList();
+
+                Console.WriteLine(string.Join(Environment.NewLine, flamable));
+            }
+        }
+    }
+}
+
+02
+==================================
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace _02_Exercise
+{
+    public class StartUp
+    {
+        public static void Main()
+        {
+            Runner runner = new Runner();
+            runner.Start();
+        }
+    }
+
+    public class Engine
+    {
+        private const string offset = "  ";
+
+        public Engine(string model, int power)
+        {
+            this.Model = model;
+            this.Power = power;
+            this.Displacement = -1;
+            this.Efficiency = "n/a";
+        }
+
+        public Engine(string model, int power, int displacement)
+            : this(model, power)
+        {
+            this.Displacement = displacement;
+        }
+
+        public Engine(string model, int power, string efficiency)
+            : this(model, power)
+        {
+            this.Efficiency = efficiency;
+        }
+
+        public Engine(string model, int power, int displacement, string efficiency)
+            : this(model, power)
+        {
+            this.Displacement = displacement;
+            this.Efficiency = efficiency;
+        }
+
+        public string Model { get; set; }
+
+        public int Power { get; set; }
+
+        public int Displacement { get; set; }
+
+        public string Efficiency { get; set; }
+
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+
+            sb.AppendLine($"{offset}{this.Model}:");
+            sb.AppendLine($"{offset}{offset}Power: {this.Power}");
+            sb.AppendLine($"{offset}{offset}Displacement: {(this.Displacement == -1 ? "n/a" : this.Displacement.ToString())}");
+            sb.AppendLine($"{offset}{offset}Efficiency: {this.Efficiency}");
+
+            return sb.ToString().TrimEnd();
+        }
+    }
+
+    public class Car
+    {
+        private const string offset = "  ";
+
+        public Car(string model, Engine engine)
+        {
+            this.Model = model;
+            this.Engine = engine;
+            this.Weight = -1;
+            this.Color = "n/a";
+        }
+
+        public Car(string model, Engine engine, int weight)
+            : this(model, engine)
+        {
+            this.Weight = weight;
+        }
+
+        public Car(string model, Engine engine, string color)
+            : this(model, engine)
+        {
+            this.Color = color;
+        }
+
+        public Car(string model, Engine engine, int weight, string color)
+            : this(model, engine)
+        {
+            this.Weight = weight;
+            this.Color = color;
+        }
+
+        public string Model { get; set; }
+
+        public Engine Engine { get; set; }
+
+        public int Weight { get; set; }
+
+        public string Color { get; set; }
+
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+
+            sb.AppendLine($"{this.Model}:");
+            sb.AppendLine(this.Engine.ToString());
+            sb.AppendLine($"{offset}Weight: {(this.Weight == -1 ? "n/a" : this.Weight.ToString())}");
+            sb.AppendLine($"{offset}Color: {this.Color}");
+
+            return sb.ToString().TrimEnd();
+        }
+    }
+
+    public class Runner
+    {
+        private List<Car> cars;
+        private List<Engine> engines;
+
+        public Runner()
+        {
+            cars = new List<Car>();
+            engines = new List<Engine>();
+        }
+
+        public void Start()
+        {
+            int engineCount = int.Parse(Console.ReadLine());
+
+            for (int i = 0; i < engineCount; i++)
+            {
+                string[] parameters = Console.ReadLine()
+                    .Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
+                    .ToArray();
+
+                Engine engine = this.CreateEngine(parameters);
+
+                engines.Add(engine);
+            }
+
+            int carCount = int.Parse(Console.ReadLine());
+
+            for (int i = 0; i < carCount; i++)
+            {
+                string[] parameters = Console.ReadLine()
+                    .Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
+                    .ToArray();
+
+                Car car = this.CreateCar(parameters);
+
+                cars.Add(car);
+            }
+
+            foreach(var car in cars)
+            {
+                Console.WriteLine(car);
+            }
+        }
+
+        private Car CreateCar(string[] parameters)
+        {
+            Car car = null;
+
+            string model = parameters[0];
+            string engineModel = parameters[1];
+
+            Engine engine = engines.FirstOrDefault(x => x.Model == engineModel);
+
+            if(parameters.Length == 3)
+            {
+                bool isWeight = int.TryParse(parameters[2], out int weight);
+
+                if (isWeight)
+                {
+                    car = new Car(model, engine, weight);
+                }
+                else
+                {
+                    string color = parameters[2];
+                    car = new Car(model, engine, color);
+                }
+            }
+            else if(parameters.Length == 4)
+            {
+                int weight = int.Parse(parameters[2]);
+                string color = parameters[3];
+                car = new Car(model, engine, weight, color);
+            }
+            else
+            {
+                car = new Car(model, engine);
+            }
+
+            return car;
+        }
+
+        private Engine CreateEngine(string[] parameters)
+        {
+            Engine engine = null;
+
+            string model = parameters[0];
+            int power = int.Parse(parameters[1]);
+
+            if(parameters.Length == 3)
+            {
+                bool isDisplacement = int.TryParse(parameters[2], out int displacement);
+
+                if (isDisplacement)
+                {
+                    engine = new Engine(model, power, displacement);
+                }
+                else
+                {
+                    string efficiency = parameters[2];
+                    engine = new Engine(model, power, efficiency);
+                }
+            }
+            else if(parameters.Length == 4)
+            {
+                int displacement = int.Parse(parameters[2]);
+                string efficiency = parameters[3];
+                engine = new Engine(model, power, displacement, efficiency);
+            }
+            else
+            {
+                engine = new Engine(model, power);
+            }
+
+            return engine;
+        }
+    }
+}
+
+03
+==================================
+
+using System;
+using System.Linq;
+
+namespace _03_Exercise
+{
+    public class StartUp
+    {
+        public static void Main()
+        {
+            Engine engine = new Engine();
+            engine.Run();
+        }
+    }
+
+    public class Engine
+    {
+        private int[,] matrix;
+        private long totalSum;
+
+        public void Run()
+        {
+            int[] dimensions = ParseInput();
+
+            int rows = dimensions[0];
+            int cols = dimensions[1];
+
+            this.InitializeMatrix(rows, cols);
+
+            string command = Console.ReadLine();
+
+            while(command != "Let the Force be with you")
+            {
+                int[] playerCoordinates = command
+                    .Split(new string[] { " " }, StringSplitOptions.RemoveEmptyEntries)
+                    .Select(int.Parse)
+                    .ToArray();
+
+                int[] evilCoordinates = ParseInput();
+
+                int evilRow = evilCoordinates[0];
+                int evilCol = evilCoordinates[1];
+
+                MoveEvilTopLeftCorner(evilRow, evilCol);
+
+                int playerRow = playerCoordinates[0];
+                int playerCol = playerCoordinates[1];
+
+                MovePlayerTopRightCorner(playerRow, playerCol);
+
+                command = Console.ReadLine();
+            }
+
+            Console.WriteLine(totalSum);
+        }
+
+        private void MovePlayerTopRightCorner(int playerRow, int playerCol)
+        {
+            while(playerRow >= 0 && playerCol < matrix.GetLength(1))
+            {
+                if(IsInside(playerRow, playerCol))
+                {
+                    totalSum += matrix[playerRow, playerCol];
+                }
+
+                playerCol++;
+                playerRow--;
+            }
+        }
+
+        private void MoveEvilTopLeftCorner(int evilRow, int evilCol)
+        {
+            while(evilRow >= 0 && evilCol >= 0)
+            {
+                if(IsInside(evilRow, evilCol))
+                {
+                    matrix[evilRow, evilCol] = 0;
+                }
+
+                evilRow--;
+                evilCol--;
+            }
+        }
+
+        private bool IsInside(int targetRow, int targetCol)
+        {
+            return targetRow >= 0 && targetRow < matrix.GetLength(0) &&
+                targetCol >= 0 && targetCol < matrix.GetLength(1);
+        }
+
+        private void InitializeMatrix(int rows, int cols)
+        {
+            matrix = new int[rows, cols];
+
+            int value = 0;
+
+            for (int row = 0; row < matrix.GetLength(0); row++)
+            {
+                for (int col = 0; col < matrix.GetLength(1); col++)
+                {
+                    matrix[row, col] = value++;
+                }
+            }
+        }
+
+        private static int[] ParseInput()
+        {
+            return Console.ReadLine()
+                .Split(" ", StringSplitOptions.RemoveEmptyEntries)
+                .Select(int.Parse)
+                .ToArray();
+        }
+    }
+}
+
+04
+==================================
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace _04_Exercise
+{
+    public class StartUp
+    {
+        public static void Main()
+        {
+            Engine engine = new Engine();
+            engine.Run();
+        }
+    }
+
+    public class Patient
+    {
+        public Patient(string name)
+        {
+            this.Name = name;
+        }
+
+        public string Name { get; set; }
+    }
+
+    public class Doctor
+    {
+        public Doctor(string firstName, string lastName)
+        {
+            FirstName = firstName;
+            LastName = lastName;
+            this.Patients = new List<Patient>();
+        }
+
+        public string FirstName { get; set; }
+
+        public string LastName { get; set; }
+
+        public string FullName => this.FirstName + " " + this.LastName;
+
+        public List<Patient> Patients { get; set; }
+
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+
+            foreach(var patient in this.Patients.OrderBy(x => x.Name))
+            {
+                sb.AppendLine(patient.Name);
+            }
+
+            return sb.ToString().TrimEnd();
+        }
+    }
+
+    public class Room
+    {
+        public Room()
+        {
+            this.Patients = new List<Patient>();
+        }
+
+        public List<Patient> Patients { get; set; }
+
+        public bool IsFull => this.Patients.Count >= 3;
+
+        public void AddPatient(Patient patient)
+        {
+            if(this.Patients.Count < 3) // <==== ?? <=
+            {
+                this.Patients.Add(patient);
+            }
+        }
+
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+
+            foreach(var patient in this.Patients.OrderBy(x => x.Name))
+            {
+                sb.AppendLine(patient.Name);
+            }
+
+            return sb.ToString().TrimEnd();
+        }
+    }
+
+    public class Department
+    {
+        public Department(string name)
+        {
+            this.Name = name;
+            this.Rooms = new List<Room>();
+            this.CreateRooms();
+        }
+
+        public string Name { get; set; }
+
+        public List<Room> Rooms { get; set; }
+
+        public void AddPatientInRoom(Patient patient)
+        {
+            Room currentRoom = this.Rooms.FirstOrDefault(r => !r.IsFull);
+
+            if(currentRoom != null)
+            {
+                currentRoom.AddPatient(patient);
+            }
+        }
+
+        private void CreateRooms()
+        {
+            for (int i = 0; i < 20; i++)
+            {
+                this.Rooms.Add(new Room());
+            }
+        }
+
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+
+            foreach(var room in this.Rooms)
+            {
+                foreach(var patient in room.Patients)
+                {
+                    sb.AppendLine(patient.Name);
+                }
+            }
+
+            return sb.ToString().TrimEnd();
+        }
+    }
+
+    public class Hospital
+    {
+        public Hospital()
+        {
+            this.Doctors = new List<Doctor>();
+            this.Departments = new List<Department>();
+        }
+
+        public List<Doctor> Doctors { get; set; }
+
+        public List<Department> Departments { get; set; }
+
+        public void AddDoctor(string firstName, string lastName)
+        {
+            if(!this.Doctors.Any(d => d.FirstName == firstName && d.LastName == lastName))
+            {
+                Doctor doctor = new Doctor(firstName, lastName);
+                this.Doctors.Add(doctor);
+            }
+        }
+
+        public void AddDepartment(string name)
+        {
+            if(!this.Departments.Any(x => x.Name == name))
+            {
+                Department department = new Department(name);
+                this.Departments.Add(department);
+            }
+        }
+
+        public void AddPatient(string doctorName, string departmentName, string patientName)
+        {
+            Doctor doctor = this.Doctors.FirstOrDefault(x => x.FullName == doctorName);
+            Department department = this.Departments.FirstOrDefault(x => x.Name == departmentName);
+
+            Patient patient = new Patient(patientName);
+            doctor.Patients.Add(patient);
+            department.AddPatientInRoom(patient);
+        }
+    }
+
+    public class Engine
+    {
+        private Hospital hospital;
+
+        public Engine()
+        {
+            this.hospital = new Hospital();
+        }
+
+        public void Run()
+        {
+            string command = Console.ReadLine();
+
+            while(command != "Output")
+            {
+                string[] inputArgs = command
+                    .Split()
+                    .ToArray();
+
+                string department = inputArgs[0];
+                string firstName = inputArgs[1];
+                string secondName = inputArgs[2];
+                string patient = inputArgs[3];
+
+                string fullName = firstName + " " + secondName;
+
+                this.hospital.AddDoctor(firstName, secondName);
+                this.hospital.AddDepartment(department);
+                this.hospital.AddPatient(fullName, department, patient);
+
+                command = Console.ReadLine();
+            }
+
+            command = Console.ReadLine();
+
+            while(command != "End")
+            {
+                string[] args = command
+                    .Split(' ', StringSplitOptions.RemoveEmptyEntries)
+                    .ToArray();
+
+                if(args.Length == 1)
+                {
+                    string departmentName = args[0];
+                    Department department = this.hospital.Departments.FirstOrDefault(x => x.Name == departmentName);
+
+                    Console.WriteLine(department);
+                }
+                else if(args.Length == 2)
+                {
+                    bool isRoom = int.TryParse(args[1], out int targetRoom);
+
+                    if (isRoom)
+                    {
+                        string departmentName = args[0];
+
+                        Room room = this.hospital.Departments.FirstOrDefault(x => x.Name == departmentName).Rooms[targetRoom - 1];
+
+                        Console.WriteLine(room);
+                    }
+                    else
+                    {
+                        string fullName = args[0] + " " + args[1];
+                        Doctor doctor = this.hospital.Doctors.FirstOrDefault(x => x.FullName == fullName);
+
+                        Console.WriteLine(doctor);
+                    }
+                }
+
+                command = Console.ReadLine();
+            }
+        }
+    }
+}
+
+05
+==================================
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace _05_Exercise
+{
+    public class StartUp
+    {
+        public static void Main()
+        {     
+            long bagCapacity = long.Parse(Console.ReadLine());
+            string[] safe = Console.ReadLine()
+                .Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
+                .ToArray();
+
+            Bag bag = new Bag();
+            bag.FillBag(safe, bagCapacity);
+
+            Console.WriteLine(bag);
+        }
+    }
+
+    public class Bag
+    {
+        private Dictionary<string, Dictionary<string, long>> bagSpace;
+
+        public Bag()
+        {
+            bagSpace = new Dictionary<string, Dictionary<string, long>>();
+        }
+
+        public void FillBag(string[] safe, long bagCapacity)
+        {
+            long goldQuantity = 0;
+            long gemQuantity = 0;
+            long cashQuantity = 0;
+	    long bagSpaceCurrentCapacity = 0;
+
+            for (int i = 0; i < safe.Length; i+=2)
+            {
+                string itemName = safe[i];
+                long itemAmount = long.Parse(safe[i + 1]);
+                string itemType = FindItem(itemName);
+                bagSpaceCurrentCapacity = bagSpace.Values.Sum(x => x.Values.Sum());             
+
+                if (itemType == "")
+                {
+                    continue;
+                }
+                else if (bagCapacity < bagSpaceCurrentCapacity + itemAmount)
+                {
+                    continue; 
+                }
+
+                switch (itemType)
+                {
+                    case "Gem":
+                        if (!bagSpace.ContainsKey(itemType))
+                        {
+                            if (bagSpace.ContainsKey("Gold"))
+                            {
+                                if(itemAmount > bagSpace["Gold"].Values.Sum())
+                                {
+                                    continue;
+                                }
+                            }
+                            else
+                            {
+                                continue;
+                            }
+                        }
+                        else if(bagSpace[itemType].Values.Sum() + itemAmount > bagSpace["Gold"].Values.Sum())
+                        {
+                            continue;
+                        }
+                        break;
+                    case "Cash":
+                        if (!bagSpace.ContainsKey(itemType))
+                        {
+                            if (bagSpace.ContainsKey("Gem"))
+                            {
+                                if (itemAmount > bagSpace["Gem"].Values.Sum())
+                                {
+                                    continue;
+                                }
+                            }
+                            else
+                            {
+                                continue;
+                            }
+                        }
+                        else if(bagSpace[itemType].Values.Sum() + itemAmount > bagSpace["Gem"].Values.Sum())
+                        {
+                            continue;
+                        }
+
+                        break;
+                }
+
+                InitializeBagSpaceDictionary(itemName, itemAmount, itemType);
+                CalculateItemQuantity(ref goldQuantity, ref gemQuantity, ref cashQuantity, itemAmount, itemType);
+            }
+        }
+
+        private void CalculateItemQuantity(ref long goldQuantity, ref long gemQuantity, ref long cashQuantity, long itemAmount, string itemType)
+        {
+            if(itemType == "Gold")
+            {
+                goldQuantity += itemAmount;
+            }
+            else if(itemType == "Gem")
+            {
+                gemQuantity += itemAmount;
+            }
+            else if(itemType == "Cash")
+            {
+                cashQuantity += itemAmount;
+            }
+        }
+
+        private void InitializeBagSpaceDictionary(string itemName, long itemAmount, string itemType)
+        {
+            if (!bagSpace.ContainsKey(itemType))
+            {
+                bagSpace[itemType] = new Dictionary<string, long>();
+            }
+
+            if (!bagSpace[itemType].ContainsKey(itemName))
+            {
+                bagSpace[itemType][itemName] = 0;
+            }
+
+            bagSpace[itemType][itemName] += itemAmount;
+        }
+
+        private static string FindItem(string itemName)
+        {
+            string itemType = string.Empty;
+
+            if(itemName.Length == 3)
+            {
+                itemType = "Cash";
+            }
+            else if (itemName.ToLower().EndsWith("gem"))
+            {
+                itemType = "Gem";
+            }
+            else if(itemName.ToLower() == "gold")
+            {
+                itemType = "Gold";
+            }
+
+            return itemType;
+        }
+
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+
+            foreach(var bag in bagSpace)
+            {
+                sb.AppendLine($"<{bag.Key}> ${bag.Value.Values.Sum()}");
+
+                foreach(var item in bag.Value.OrderByDescending(x => x.Key).ThenBy(x => x.Value))
+                {
+                    sb.AppendLine($"##{item.Key} - {item.Value}");
+                }
+            }
+
+            return sb.ToString().TrimEnd();
+        }
+    }
+}
+
+06
+==================================
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace _06_Exercise
+{
+    public class StartUp
+    {
+        public static void Main()
+        {  
+            int size = int.Parse(Console.ReadLine());
+
+            Board board = new Board(size);
+            char[] commands = Console.ReadLine().ToCharArray();           
+
+            foreach (var command in commands)
+            {
+                board.EnamiesMoving();
+                board.FindPlayer();
+                board.CheckEnemyPosition();
+                board.CheckIfSamIsDead();
+                board.MoveSam(command);
+                board.CheckNikoladze();
+            }
+
+            board.PrintMatrix();
+        }
+    }
+
+    public class Board
+    {
+        private char[][] jaggedArray;
+        private int[] playerSam = new int[2];
+        private int[] enemy = new int[2];
+
+        public Board(int size)
+        {
+            jaggedArray = new char[size][];
+            this.FillMatrix();
+        }
+
+        public void FillMatrix()
+        {
+            for (int row = 0; row < jaggedArray.Length; row++)
+            {
+                jaggedArray[row] = Console.ReadLine().ToCharArray();
+            }
+        }
+
+        public void EnamiesMoving()
+        {
+            for (int row = 0; row < jaggedArray.Length; row++)
+            {
+                for (int col = 0; col < jaggedArray[row].Length; col++)
+                {
+                    if(jaggedArray[row][col] == 'b')
+                    {
+                        if(col == jaggedArray[row].Length - 1)
+                        {
+                            jaggedArray[row][col] = 'd';
+                        }
+                        else
+                        {
+                            jaggedArray[row][col] = '.';
+                            jaggedArray[row][++col] = 'b';
+                        }
+                    }
+                    else if(jaggedArray[row][col] == 'd')
+                    {
+                        if(col == 0)
+                        {
+                            jaggedArray[row][col] = 'b';
+                        }
+                        else
+                        {
+                            jaggedArray[row][col] = '.';
+                            jaggedArray[row][--col] = 'd';
+                        }
+                    }
+                }
+            }
+        }
+
+        public void FindPlayer()
+        {
+            for (int row = 0; row < jaggedArray.Length; row++)
+            {
+                for (int col = 0; col < jaggedArray[row].Length; col++)
+                {
+                    if(jaggedArray[row][col] == 'S')
+                    {
+                        playerSam[0] = row;
+                        playerSam[1] = col;
+                    }
+                }
+            }
+        }
+
+        public void CheckEnemyPosition()
+        {
+            int playerRow = playerSam[0];
+
+            for (int col = 0; col < jaggedArray[playerRow].Length; col++)
+            {
+                if(jaggedArray[playerRow][col] != '.' && jaggedArray[playerRow][col] != 'S')
+                {
+                    enemy[0] = playerRow; // Enemies should be d or b
+                    enemy[1] = col;
+                }
+            }
+        }
+
+        public void CheckIfSamIsDead()
+        {
+            int playerRow = playerSam[0], playerCol = playerSam[1];
+            int enemyRow = enemy[0], enemyCol = enemy[1];
+
+            if(playerCol < enemyCol && jaggedArray[enemyRow][enemyCol] == 'd' && enemyRow == playerRow)
+            {
+                jaggedArray[playerRow][playerCol] = 'X';
+
+                Console.WriteLine($"Sam died at {playerRow}, {playerCol}");
+
+                PrintMatrix();
+            }
+            else if(enemyCol < playerCol && jaggedArray[enemyRow][enemyCol] == 'b' && enemyRow == playerRow)
+            {
+                jaggedArray[playerRow][playerCol] = 'X';
+
+                Console.WriteLine($"Sam died at {playerRow}, {playerCol}");
+
+                PrintMatrix();
+            }
+        }
+
+        public void MoveSam(char command)
+        {
+            int playerRow = playerSam[0], playerCol = playerSam[1];
+            jaggedArray[playerRow][playerCol] = '.';
+
+            switch (command)
+            {
+                case 'U':
+                    playerRow--;
+                    break;
+                case 'D':
+                    playerRow++;
+                    break;
+                case 'L':
+                    playerCol--;
+                    break;
+                case 'R':
+                    playerCol++;
+                    break;
+                default:
+                    break;
+            }
+
+            jaggedArray[playerRow][playerCol] = 'S';
+        }
+
+        public void CheckNikoladze()
+        {
+            for (int row = 0; row < jaggedArray.Length; row++)
+            {
+                if(jaggedArray[row].Contains('N') && jaggedArray[row].Contains('S'))
+                {
+                    int colNikoladze = Array.IndexOf(jaggedArray[row], 'N');
+                    jaggedArray[row][colNikoladze] = 'X';
+                    Console.WriteLine($"Nikoladze killed!");
+                    PrintMatrix();
+                }
+            }
+        }
+
+        public void PrintMatrix()
+        {
+            for (int row = 0; row < jaggedArray.Length; row++)
+            {
+                Console.WriteLine(string.Join("", jaggedArray[row]));
+            }
+
+            Environment.Exit(0);
+        }
+    }
+}

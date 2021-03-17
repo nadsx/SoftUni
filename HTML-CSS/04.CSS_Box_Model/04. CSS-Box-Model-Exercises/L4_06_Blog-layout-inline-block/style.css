@@ -1,0 +1,23 @@
+body {
+    background: rgb(238, 238, 238);
+    margin-left: 50px;
+}
+
+article {
+    width: 70%;
+    float: left;
+}
+
+aside {
+    display: inline-block;
+    width: 20%;
+    margin-left: 5%;
+}
+
+ul {
+    list-style-type: square;
+}
+
+section img {
+    width: 65%;
+}

@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\10_MultiplicationTable\bin\Debug\netcoreapp2.1\10_MultiplicationTable.deps.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\10_MultiplicationTable\bin\Debug\netcoreapp2.1\10_MultiplicationTable.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\10_MultiplicationTable\bin\Debug\netcoreapp2.1\10_MultiplicationTable.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\10_MultiplicationTable\bin\Debug\netcoreapp2.1\10_MultiplicationTable.dll
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\10_MultiplicationTable\bin\Debug\netcoreapp2.1\10_MultiplicationTable.pdb
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\10_MultiplicationTable\obj\Debug\netcoreapp2.1\10_MultiplicationTable.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\10_MultiplicationTable\obj\Debug\netcoreapp2.1\10_MultiplicationTable.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\10_MultiplicationTable\obj\Debug\netcoreapp2.1\10_MultiplicationTable.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\10_MultiplicationTable\obj\Debug\netcoreapp2.1\10_MultiplicationTable.dll
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\10_MultiplicationTable\obj\Debug\netcoreapp2.1\10_MultiplicationTable.pdb
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\10_MultiplicationTable\obj\Debug\netcoreapp2.1\10_MultiplicationTable.csprojAssemblyReference.cache

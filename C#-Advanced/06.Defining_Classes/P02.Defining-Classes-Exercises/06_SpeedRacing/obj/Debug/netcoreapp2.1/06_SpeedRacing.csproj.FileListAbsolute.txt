@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Defining-Classes-Exercises\06_SpeedRacing\bin\Debug\netcoreapp2.1\06_SpeedRacing.deps.json
+C:\Users\ASUS NB\source\repos\Defining-Classes-Exercises\06_SpeedRacing\bin\Debug\netcoreapp2.1\06_SpeedRacing.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Defining-Classes-Exercises\06_SpeedRacing\bin\Debug\netcoreapp2.1\06_SpeedRacing.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Defining-Classes-Exercises\06_SpeedRacing\bin\Debug\netcoreapp2.1\06_SpeedRacing.dll
+C:\Users\ASUS NB\source\repos\Defining-Classes-Exercises\06_SpeedRacing\bin\Debug\netcoreapp2.1\06_SpeedRacing.pdb
+C:\Users\ASUS NB\source\repos\Defining-Classes-Exercises\06_SpeedRacing\obj\Debug\netcoreapp2.1\06_SpeedRacing.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Defining-Classes-Exercises\06_SpeedRacing\obj\Debug\netcoreapp2.1\06_SpeedRacing.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Defining-Classes-Exercises\06_SpeedRacing\obj\Debug\netcoreapp2.1\06_SpeedRacing.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Defining-Classes-Exercises\06_SpeedRacing\obj\Debug\netcoreapp2.1\06_SpeedRacing.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Defining-Classes-Exercises\06_SpeedRacing\obj\Debug\netcoreapp2.1\06_SpeedRacing.dll
+C:\Users\ASUS NB\source\repos\Defining-Classes-Exercises\06_SpeedRacing\obj\Debug\netcoreapp2.1\06_SpeedRacing.pdb

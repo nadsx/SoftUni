@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P02EnglishNameOfTheLastDigit\bin\Debug\netcoreapp2.1\P02EnglishNameOfTheLastDigit.deps.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P02EnglishNameOfTheLastDigit\bin\Debug\netcoreapp2.1\P02EnglishNameOfTheLastDigit.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P02EnglishNameOfTheLastDigit\bin\Debug\netcoreapp2.1\P02EnglishNameOfTheLastDigit.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P02EnglishNameOfTheLastDigit\bin\Debug\netcoreapp2.1\P02EnglishNameOfTheLastDigit.dll
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P02EnglishNameOfTheLastDigit\bin\Debug\netcoreapp2.1\P02EnglishNameOfTheLastDigit.pdb
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P02EnglishNameOfTheLastDigit\obj\Debug\netcoreapp2.1\P02EnglishNameOfTheLastDigit.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P02EnglishNameOfTheLastDigit\obj\Debug\netcoreapp2.1\P02EnglishNameOfTheLastDigit.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P02EnglishNameOfTheLastDigit\obj\Debug\netcoreapp2.1\P02EnglishNameOfTheLastDigit.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P02EnglishNameOfTheLastDigit\obj\Debug\netcoreapp2.1\P02EnglishNameOfTheLastDigit.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P02EnglishNameOfTheLastDigit\obj\Debug\netcoreapp2.1\P02EnglishNameOfTheLastDigit.dll
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P02EnglishNameOfTheLastDigit\obj\Debug\netcoreapp2.1\P02EnglishNameOfTheLastDigit.pdb

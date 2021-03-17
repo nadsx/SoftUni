@@ -1,0 +1,10 @@
+C:\Users\ASUS\Desktop\repos\Encapsulation-Lab\04_FirstAndReserveTeam\bin\Debug\netcoreapp3.0\04_FirstAndReserveTeam.exe
+C:\Users\ASUS\Desktop\repos\Encapsulation-Lab\04_FirstAndReserveTeam\bin\Debug\netcoreapp3.0\04_FirstAndReserveTeam.deps.json
+C:\Users\ASUS\Desktop\repos\Encapsulation-Lab\04_FirstAndReserveTeam\bin\Debug\netcoreapp3.0\04_FirstAndReserveTeam.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\Encapsulation-Lab\04_FirstAndReserveTeam\bin\Debug\netcoreapp3.0\04_FirstAndReserveTeam.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\Encapsulation-Lab\04_FirstAndReserveTeam\bin\Debug\netcoreapp3.0\04_FirstAndReserveTeam.dll
+C:\Users\ASUS\Desktop\repos\Encapsulation-Lab\04_FirstAndReserveTeam\bin\Debug\netcoreapp3.0\04_FirstAndReserveTeam.pdb
+C:\Users\ASUS\Desktop\repos\Encapsulation-Lab\04_FirstAndReserveTeam\obj\Debug\netcoreapp3.0\04_FirstAndReserveTeam.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\Encapsulation-Lab\04_FirstAndReserveTeam\obj\Debug\netcoreapp3.0\04_FirstAndReserveTeam.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\Encapsulation-Lab\04_FirstAndReserveTeam\obj\Debug\netcoreapp3.0\04_FirstAndReserveTeam.dll
+C:\Users\ASUS\Desktop\repos\Encapsulation-Lab\04_FirstAndReserveTeam\obj\Debug\netcoreapp3.0\04_FirstAndReserveTeam.pdb

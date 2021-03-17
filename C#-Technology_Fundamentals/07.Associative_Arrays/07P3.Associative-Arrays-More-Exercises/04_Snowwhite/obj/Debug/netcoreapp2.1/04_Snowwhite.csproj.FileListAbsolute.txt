@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Associative-Arrays-More-Exercises\04_Snowwhite\bin\Debug\netcoreapp2.1\04_Snowwhite.deps.json
+C:\Users\ASUS NB\source\repos\Associative-Arrays-More-Exercises\04_Snowwhite\bin\Debug\netcoreapp2.1\04_Snowwhite.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Associative-Arrays-More-Exercises\04_Snowwhite\bin\Debug\netcoreapp2.1\04_Snowwhite.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Associative-Arrays-More-Exercises\04_Snowwhite\bin\Debug\netcoreapp2.1\04_Snowwhite.dll
+C:\Users\ASUS NB\source\repos\Associative-Arrays-More-Exercises\04_Snowwhite\bin\Debug\netcoreapp2.1\04_Snowwhite.pdb
+C:\Users\ASUS NB\source\repos\Associative-Arrays-More-Exercises\04_Snowwhite\obj\Debug\netcoreapp2.1\04_Snowwhite.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Associative-Arrays-More-Exercises\04_Snowwhite\obj\Debug\netcoreapp2.1\04_Snowwhite.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Associative-Arrays-More-Exercises\04_Snowwhite\obj\Debug\netcoreapp2.1\04_Snowwhite.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Associative-Arrays-More-Exercises\04_Snowwhite\obj\Debug\netcoreapp2.1\04_Snowwhite.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Associative-Arrays-More-Exercises\04_Snowwhite\obj\Debug\netcoreapp2.1\04_Snowwhite.dll
+C:\Users\ASUS NB\source\repos\Associative-Arrays-More-Exercises\04_Snowwhite\obj\Debug\netcoreapp2.1\04_Snowwhite.pdb

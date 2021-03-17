@@ -1,0 +1,10 @@
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P08TownInfo\bin\Debug\netcoreapp2.1\P08TownInfo.deps.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P08TownInfo\bin\Debug\netcoreapp2.1\P08TownInfo.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P08TownInfo\bin\Debug\netcoreapp2.1\P08TownInfo.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P08TownInfo\bin\Debug\netcoreapp2.1\P08TownInfo.dll
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P08TownInfo\bin\Debug\netcoreapp2.1\P08TownInfo.pdb
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P08TownInfo\obj\Debug\netcoreapp2.1\P08TownInfo.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P08TownInfo\obj\Debug\netcoreapp2.1\P08TownInfo.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P08TownInfo\obj\Debug\netcoreapp2.1\P08TownInfo.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P08TownInfo\obj\Debug\netcoreapp2.1\P08TownInfo.dll
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P08TownInfo\obj\Debug\netcoreapp2.1\P08TownInfo.pdb

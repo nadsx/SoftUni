@@ -1,0 +1,419 @@
+ctrl + .
+alt + enter
+1
+====================================
+
+static void Main(string[] args)
+		{
+			int firstNumber = int.Parse(Console.ReadLine());
+			int secondNumber = int.Parse(Console.ReadLine());
+			int thirdNumber = int.Parse(Console.ReadLine());
+
+			int smallerNumber = GetSmallerNumber(firstNumber, secondNumber);
+			int result = GetSmallerNumber(smallerNumber, thirdNumber);
+
+			Console.WriteLine(result);
+		}
+
+		private static int GetSmallerNumber(int firstNumber, int secondNumber)
+		{
+			return firstNumber <= secondNumber ? firstNumber : secondNumber;
+		}
+2
+====================================
+
+	static void Main(string[] args)
+		{
+			string text = Console.ReadLine().ToLower();
+
+			Console.WriteLine(GetVowelsCount(text));
+		}
+
+		private static int GetVowelsCount(string text)
+		{
+			int vowelsCount = 0;
+
+			foreach (var letter in text)
+			{
+				if (letter == 'a' ||
+					letter == 'e' ||
+					letter == 'u' ||
+					letter == 'o' ||
+					letter == 'i')
+				{
+					vowelsCount++;
+				}
+			}
+
+			return vowelsCount;
+		}
+3
+====================================
+
+	static void Main(string[] args)
+		{
+			char start = char.Parse(Console.ReadLine());
+			char end = char.Parse(Console.ReadLine());
+
+			PrintCharactersInRange(start, end);
+		}
+
+		private static void PrintCharactersInRange(char start, char end)
+		{
+			if(end < start)
+			{
+				var temp = start;
+				start = end;
+				end = temp;
+			}
+
+			for (int i = start + 1; i < end; i++) // char i  = (char)(start + 1)
+			{
+				Console.Write((char)i + " ");
+			}
+		}
+4
+====================================
+
+static void Main(string[] args)
+		{
+			string password = Console.ReadLine();
+
+			bool isBetweenSixAndTenChars = CheckStringLength(password);
+			bool isOnlyLettersAndDigits = CheckStringChars(password);
+			bool haveAtLeastTwoDigits = CheckDigitCount(password);
+
+			if (!isBetweenSixAndTenChars)
+			{
+				Console.WriteLine("Password must be between 6 and 10 characters");
+			}
+
+			if (!isOnlyLettersAndDigits)
+			{
+				Console.WriteLine("Password must consist only of letters and digits");
+			}
+
+			if (!haveAtLeastTwoDigits)
+			{
+				Console.WriteLine("Password must have at least 2 digits");
+			}
+
+			if (isBetweenSixAndTenChars && isOnlyLettersAndDigits && haveAtLeastTwoDigits)
+			{
+				Console.WriteLine("Password is valid");
+			}
+		}
+
+		private static bool CheckDigitCount(string password)
+		{
+			int counter = 0;
+
+			for (int i = 0; i < password.Length; i++)
+			{
+				if (char.IsDigit(password[i]))
+				{
+					counter++;
+				}
+			}
+
+			return counter >= 2 ? true : false;
+		}
+
+		private static bool CheckStringChars(string password)
+		{
+			for (int i = 0; i < password.Length; i++)
+			{
+				if (!char.IsLetterOrDigit(password[i]))
+				{
+					return false;
+				}
+			}
+
+			return true;
+		}
+
+		private static bool CheckStringLength(string password)
+		{
+			return password.Length >= 6 && password.Length <= 10 ? true : false;
+		}
+
+5
+====================================
+static void Main(string[] args)
+		{
+			int firstNumber = int.Parse(Console.ReadLine());
+			int secondNumber = int.Parse(Console.ReadLine());
+			int thirdNumber = int.Parse(Console.ReadLine());
+
+			int sumOfTwoNumbers = GetSumOfFirstAndSecondNumber(firstNumber, secondNumber);
+
+			int result = GetSubtractResult(sumOfTwoNumbers, thirdNumber);
+
+			Console.WriteLine(result);
+		}
+
+		private static int GetSubtractResult(int sumOfTwoNumbers, int thirdNumber)
+		{
+			return sumOfTwoNumbers - thirdNumber;
+		}
+
+		private static int GetSumOfFirstAndSecondNumber(int firstNumber, int secondNumber)
+		{
+			return firstNumber + secondNumber;
+		}
+6
+====================================
+static void Main(string[] args)
+		{
+			string input = Console.ReadLine();
+
+			PrintMiddleChars(input);
+		}
+
+		private static void PrintMiddleChars(string input)
+		{
+			if(input.Length % 2 == 0)
+			{
+				Console.WriteLine($"{input[input.Length / 2 - 1]}{input[input.Length / 2]}");
+			}
+			else
+			{
+				Console.WriteLine($"{input[input.Length / 2]}");
+			}
+		}
+7
+====================================
+static void Main(string[] args)
+		{
+			int number = int.Parse(Console.ReadLine());
+
+			PrintMatrixWithGivenNumber(number);
+		}
+
+		private static void PrintMatrixWithGivenNumber(int number)
+		{
+			for (int i = 1; i <= number; i++)
+			{
+				for (int j = 1; j <= number; j++)
+				{
+					Console.Write(number + " ");
+
+				}
+				Console.WriteLine();
+			}
+		}
+8
+====================================
+	static void Main(string[] args)
+		{
+			long firstNumber = long.Parse(Console.ReadLine());
+			long secondNumber = long.Parse(Console.ReadLine());
+
+			long firstNumberFactorial = GetFactorial(firstNumber);
+			long secondNumberFactorial = GetFactorial(secondNumber);
+
+			double finalResult = (double)firstNumberFactorial / secondNumberFactorial;
+
+			Console.WriteLine($"{finalResult:f2}");
+		}
+
+		private static long GetFactorial(long number)
+		{
+			long factorial = 1;
+
+			for (int i = 2; i <= number; i++)
+			{
+				factorial *= i;
+			}
+
+			return factorial;
+		}
+9
+====================================
+
+string input = Console.ReadLine();
+
+			while(input != "END")
+			{
+				char[] charArray = input.ToCharArray().Reverse().ToArray();
+				string reversedInput = new string(charArray);
+
+				bool isPalindrome = input == reversedInput;
+
+				Console.WriteLine(isPalindrome.ToString().ToLower());
+
+				input = Console.ReadLine();
+			}
+
+10
+====================================
+
+static void Main(string[] args)
+		{		
+			int number = int.Parse(Console.ReadLine());
+
+			for (int i = 17; i < number; i++)
+			{
+				if (CheckIfDevisableByEight(i) == true && CheckForOddDigit(i) == true)
+				{
+					Console.WriteLine(i);
+				}
+			}
+		}
+
+		public static bool CheckIfDevisableByEight(int number)
+		{
+			int sumOfDigits = 0;
+			bool isDevisable = false;
+
+			while (number != 0)
+			{
+				sumOfDigits += number % 10;
+				number /= 10;
+
+				if (number == 0 && sumOfDigits % 8 == 0)
+				{
+					isDevisable = true;
+				}
+			}
+
+			return isDevisable;
+		}
+
+		public static bool CheckForOddDigit(int number)
+		{
+			bool isOddDigit = false;
+
+			while (number != 0)
+			{
+				if ((number % 10) % 2 == 1)
+				{
+					isOddDigit = true;
+				}
+				number /= 10;
+			}
+
+			return isOddDigit;
+		}
+
+11
+====================================
+
+static void Main(string[] args)
+		{
+			int[] array = Console.ReadLine().Split().Select(int.Parse).ToArray();
+
+			string input = Console.ReadLine(); 
+
+			while(input != "end")
+			{
+				string[] tokens = input.Split();
+				string command = tokens[0];
+
+				switch (command)
+				{
+					case "exchange":
+					     int index = int.Parse(tokens[1]);
+
+				         array = ExchangeArrayElements(array, index); // !! prezapisva novata stoinost na array
+						break;
+					case "max":
+					case "min":
+						string maxOrMin = command;
+						string evenOrOdd = tokens[1];
+
+						FindMaxOrMinEvenOrOddElement(array, maxOrMin, evenOrOdd);
+						break;
+					case "first":
+					case "last":
+						string firstOrLast = command;
+						int count = int.Parse(tokens[1]);
+						evenOrOdd = tokens[2];
+
+						FindFirstOrLastEvenOrOddElements(array, firstOrLast, count, evenOrOdd);
+						break;
+				}
+
+				input = Console.ReadLine();
+			}
+
+			Console.WriteLine($"[{string.Join(", ", array)}]"); // promeneniq masiv nakraq
+		}
+
+		private static void FindFirstOrLastEvenOrOddElements(int[] array, string firstOrLast, int count, string evenOrOdd)
+		{
+			if(count > array.Length)
+			{
+				Console.WriteLine("Invalid count");
+				return;
+			}
+
+			int evenOrOddRemainder = evenOrOdd == "even" ? 0 : 1;
+			int[] evenOrOddElements = array.Where(x => x % 2 == evenOrOddRemainder).ToArray(); // PROMENENO NA ARRAY ot IEnumerable<int> 
+
+			int[] foundElements; // = null
+
+			if(firstOrLast == "first")
+			{
+				foundElements = evenOrOddElements.Take(count).ToArray();
+			}
+			else
+			{
+				foundElements = evenOrOddElements.Reverse().Take(count).Reverse().ToArray();
+			}
+
+			Console.WriteLine($"[{string.Join(", ", foundElements)}]");
+		}
+
+		private static void FindMaxOrMinEvenOrOddElement(int[] array, string maxOrMin, string evenOrOdd)
+		{
+			int evenOrOddElementsRemainder = evenOrOdd == "even" ? 0 : 1; 
+			int[] evenOrOddElements = array.Where(x => x % 2 == evenOrOddElementsRemainder).ToArray();
+
+			if (!evenOrOddElements.Any()) // ako nqma elementi false i vliza       
+			{
+				Console.WriteLine("No matches");    
+				return;
+				
+				//.Any(Function)
+				//List<int> numbers = new List<int> { 1, 2 };
+                //bool hasElements = numbers.Any();
+
+                //Console.WriteLine("The list {0} empty.",
+                //hasElements ? "is not" : "is");        
+                //The list is not empty.
+			}
+
+			int maxOrMinElement = 0;
+
+			if(maxOrMin == "max")
+			{
+				maxOrMinElement = evenOrOddElements.Max(); 
+			}
+			else
+			{
+				maxOrMinElement = evenOrOddElements.Min();
+			}
+
+			int maxOrMinElementIndex = Array.LastIndexOf(array, maxOrMinElement); 
+			// s IndexOf gurmi, zashtoto If there are two or more equal min/max elements, return the index of the rightmost one
+			Console.WriteLine(maxOrMinElementIndex);
+		}
+
+		private static int[] ExchangeArrayElements(int[] array, int index)
+		{
+			bool isValidIndex = index >= 0 && index < array.Length;
+
+			if (!isValidIndex)
+			{
+				Console.WriteLine("Invalid index");
+				return array;
+			}
+
+			List<int> leftPart = array.Take(index + 1).ToList(); // !! PROMENIH na List<int> beshe IEnumerable<int> i bez .ToList();
+			List<int> rightPart = array.Skip(index + 1).ToList(); // !! PROMENIH
+
+			int[] combinedArray = rightPart.Concat(leftPart).ToArray();
+			return combinedArray;
+		}
+		

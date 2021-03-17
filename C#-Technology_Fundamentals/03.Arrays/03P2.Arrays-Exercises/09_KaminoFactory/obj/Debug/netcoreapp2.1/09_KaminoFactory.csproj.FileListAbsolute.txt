@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\09_KaminoFactory\bin\Debug\netcoreapp2.1\09_KaminoFactory.deps.json
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\09_KaminoFactory\bin\Debug\netcoreapp2.1\09_KaminoFactory.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\09_KaminoFactory\bin\Debug\netcoreapp2.1\09_KaminoFactory.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\09_KaminoFactory\bin\Debug\netcoreapp2.1\09_KaminoFactory.dll
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\09_KaminoFactory\bin\Debug\netcoreapp2.1\09_KaminoFactory.pdb
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\09_KaminoFactory\obj\Debug\netcoreapp2.1\09_KaminoFactory.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\09_KaminoFactory\obj\Debug\netcoreapp2.1\09_KaminoFactory.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\09_KaminoFactory\obj\Debug\netcoreapp2.1\09_KaminoFactory.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\09_KaminoFactory\obj\Debug\netcoreapp2.1\09_KaminoFactory.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\09_KaminoFactory\obj\Debug\netcoreapp2.1\09_KaminoFactory.dll
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\09_KaminoFactory\obj\Debug\netcoreapp2.1\09_KaminoFactory.pdb

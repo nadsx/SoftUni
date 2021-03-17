@@ -1,0 +1,108 @@
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+body {
+    background: rgb(238, 238, 238);
+}
+
+html {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+blockquote, h1 {
+    font-family: Georgia, serif;
+}
+
+.page-content {
+    display: flex;
+}
+
+main {
+    flex-basis: 60%;
+}
+
+aside {
+    margin-left: 30px;
+    flex-basis: 20%;
+}
+
+aside nav li a{
+    color: green;
+    text-decoration: none;
+}
+
+body {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+}
+
+h1.site-title {
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+header:after {
+    content: '';
+    position: relative;
+    width: 100%;
+    display: block;
+    height: 3px;
+    top: 0;
+    left: 0;
+    background-color: black;
+}
+
+img {
+    float: right;
+    margin-left: 20px;
+    padding: 8px;
+    border: 3px solid black;
+}
+
+.left {
+    float: left;
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+.quote {
+    vertical-align: middle;
+    float: right;
+    display: inline-block;
+    width: 30%;
+    color: gray;
+    border-left: 4px solid #E1E1E1;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    font-style: italic;
+}
+
+.quote blockquote {
+    margin: 0;
+    float: right;
+}
+
+.quote figcaption {
+    float: right;
+}
+
+p.inline-p {
+    display: inline-block;
+    width: 50%;
+}
+
+img{
+    background: rgb(255, 255, 255);
+}
+
+aside a {
+    color: rgb(0, 153, 0);
+}

@@ -1,0 +1,8 @@
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\02.C# OOP (Exam) - 07 December 2019\03. Unit Tests_Skeleton\TheRace\bin\Debug\netcoreapp2.1\TheRace.deps.json
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\02.C# OOP (Exam) - 07 December 2019\03. Unit Tests_Skeleton\TheRace\bin\Debug\netcoreapp2.1\TheRace.dll
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\02.C# OOP (Exam) - 07 December 2019\03. Unit Tests_Skeleton\TheRace\bin\Debug\netcoreapp2.1\TheRace.pdb
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\02.C# OOP (Exam) - 07 December 2019\03. Unit Tests_Skeleton\TheRace\obj\Debug\netcoreapp2.1\TheRace.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\02.C# OOP (Exam) - 07 December 2019\03. Unit Tests_Skeleton\TheRace\obj\Debug\netcoreapp2.1\TheRace.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\02.C# OOP (Exam) - 07 December 2019\03. Unit Tests_Skeleton\TheRace\obj\Debug\netcoreapp2.1\TheRace.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\02.C# OOP (Exam) - 07 December 2019\03. Unit Tests_Skeleton\TheRace\obj\Debug\netcoreapp2.1\TheRace.dll
+C:\Users\ASUS\Desktop\C#-OOP(Exams)\02.C# OOP (Exam) - 07 December 2019\03. Unit Tests_Skeleton\TheRace\obj\Debug\netcoreapp2.1\TheRace.pdb

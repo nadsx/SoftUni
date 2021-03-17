@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\10_SoftUniExamResults\bin\Debug\netcoreapp2.1\10_SoftUniExamResults.deps.json
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\10_SoftUniExamResults\bin\Debug\netcoreapp2.1\10_SoftUniExamResults.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\10_SoftUniExamResults\bin\Debug\netcoreapp2.1\10_SoftUniExamResults.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\10_SoftUniExamResults\bin\Debug\netcoreapp2.1\10_SoftUniExamResults.dll
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\10_SoftUniExamResults\bin\Debug\netcoreapp2.1\10_SoftUniExamResults.pdb
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\10_SoftUniExamResults\obj\Debug\netcoreapp2.1\10_SoftUniExamResults.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\10_SoftUniExamResults\obj\Debug\netcoreapp2.1\10_SoftUniExamResults.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\10_SoftUniExamResults\obj\Debug\netcoreapp2.1\10_SoftUniExamResults.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\10_SoftUniExamResults\obj\Debug\netcoreapp2.1\10_SoftUniExamResults.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\10_SoftUniExamResults\obj\Debug\netcoreapp2.1\10_SoftUniExamResults.dll
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\10_SoftUniExamResults\obj\Debug\netcoreapp2.1\10_SoftUniExamResults.pdb

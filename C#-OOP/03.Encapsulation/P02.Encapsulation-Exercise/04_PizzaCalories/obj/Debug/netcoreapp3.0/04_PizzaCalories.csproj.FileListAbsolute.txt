@@ -1,0 +1,11 @@
+C:\Users\ASUS\Desktop\repos\Encapsulation-Exercise\04_PizzaCalories\bin\Debug\netcoreapp3.0\04_PizzaCalories.exe
+C:\Users\ASUS\Desktop\repos\Encapsulation-Exercise\04_PizzaCalories\bin\Debug\netcoreapp3.0\04_PizzaCalories.deps.json
+C:\Users\ASUS\Desktop\repos\Encapsulation-Exercise\04_PizzaCalories\bin\Debug\netcoreapp3.0\04_PizzaCalories.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\Encapsulation-Exercise\04_PizzaCalories\bin\Debug\netcoreapp3.0\04_PizzaCalories.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\Encapsulation-Exercise\04_PizzaCalories\bin\Debug\netcoreapp3.0\04_PizzaCalories.dll
+C:\Users\ASUS\Desktop\repos\Encapsulation-Exercise\04_PizzaCalories\bin\Debug\netcoreapp3.0\04_PizzaCalories.pdb
+C:\Users\ASUS\Desktop\repos\Encapsulation-Exercise\04_PizzaCalories\obj\Debug\netcoreapp3.0\04_PizzaCalories.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\repos\Encapsulation-Exercise\04_PizzaCalories\obj\Debug\netcoreapp3.0\04_PizzaCalories.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\Encapsulation-Exercise\04_PizzaCalories\obj\Debug\netcoreapp3.0\04_PizzaCalories.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\Encapsulation-Exercise\04_PizzaCalories\obj\Debug\netcoreapp3.0\04_PizzaCalories.dll
+C:\Users\ASUS\Desktop\repos\Encapsulation-Exercise\04_PizzaCalories\obj\Debug\netcoreapp3.0\04_PizzaCalories.pdb

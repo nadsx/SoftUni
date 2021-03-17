@@ -1,0 +1,11 @@
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Exercise\02_ValidationAttributes\bin\Debug\netcoreapp3.0\02_ValidationAttributes.exe
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Exercise\02_ValidationAttributes\bin\Debug\netcoreapp3.0\02_ValidationAttributes.deps.json
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Exercise\02_ValidationAttributes\bin\Debug\netcoreapp3.0\02_ValidationAttributes.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Exercise\02_ValidationAttributes\bin\Debug\netcoreapp3.0\02_ValidationAttributes.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Exercise\02_ValidationAttributes\bin\Debug\netcoreapp3.0\02_ValidationAttributes.dll
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Exercise\02_ValidationAttributes\bin\Debug\netcoreapp3.0\02_ValidationAttributes.pdb
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Exercise\02_ValidationAttributes\obj\Debug\netcoreapp3.0\02_ValidationAttributes.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Exercise\02_ValidationAttributes\obj\Debug\netcoreapp3.0\02_ValidationAttributes.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Exercise\02_ValidationAttributes\obj\Debug\netcoreapp3.0\02_ValidationAttributes.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Exercise\02_ValidationAttributes\obj\Debug\netcoreapp3.0\02_ValidationAttributes.dll
+C:\Users\ASUS\Desktop\repos\Reflection-And-Attributes-Exercise\02_ValidationAttributes\obj\Debug\netcoreapp3.0\02_ValidationAttributes.pdb

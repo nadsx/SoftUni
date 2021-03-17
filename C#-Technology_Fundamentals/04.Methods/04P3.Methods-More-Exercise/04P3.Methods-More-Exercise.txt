@@ -1,0 +1,170 @@
+1
+================================
+	static void Main(string[] args)
+		{		
+			string dataType = Console.ReadLine();
+
+			switch (dataType)
+			{
+				case "int":
+					int intInput = int.Parse(Console.ReadLine());
+					Console.WriteLine(GetResult(intInput));
+					break;
+				case "real":
+					double doubleInput = double.Parse(Console.ReadLine());
+					Console.WriteLine($"{GetResult(doubleInput):f2}");
+					break;
+				case "string":
+					string stringInput = Console.ReadLine();
+					Console.WriteLine(GetResult(stringInput));
+					break; 
+			}
+		}
+
+		private static int GetResult(int number)
+		{
+			return number * 2;
+		}
+
+		private static double GetResult(double realNumber)
+		{		
+			return realNumber * 1.5;
+		}
+
+		private static string GetResult(string text)
+		{
+			return $"${text}$";
+		}
+2
+================================
+static void Main(string[] args)
+		{
+			double x1 = double.Parse(Console.ReadLine());
+			double y1 = double.Parse(Console.ReadLine());
+			double x2 = double.Parse(Console.ReadLine());
+			double y2 = double.Parse(Console.ReadLine());
+
+			PrintClosestPointToTheCenter(x1, y1, x2, y2);
+		}
+
+		private static void PrintClosestPointToTheCenter(double x1, double y1, double x2, double y2)
+		{
+			double firstPoint = Math.Sqrt(Math.Pow(x1, 2) + Math.Pow(y1, 2));
+			double secondPoint = Math.Sqrt(Math.Pow(x2, 2) + Math.Pow(y2, 2));
+			
+			if (firstPoint < secondPoint)
+			{
+				Console.WriteLine($"({x1}, {y1})");
+			}
+			else
+			{
+				Console.WriteLine($"({x2}, {y2})");
+			}
+		}
+3
+================================
+
+static void Main(string[] args)
+		{
+			double point1X1 = double.Parse(Console.ReadLine());
+			double point1Y1 = double.Parse(Console.ReadLine());
+			double point1X2 = double.Parse(Console.ReadLine());
+			double point1Y2 = double.Parse(Console.ReadLine());
+
+			double point2X1 = double.Parse(Console.ReadLine());
+			double point2Y1 = double.Parse(Console.ReadLine());
+			double point2X2 = double.Parse(Console.ReadLine());
+			double point2Y2 = double.Parse(Console.ReadLine());
+
+			double firstLine = GetLongerLine(point1X1, point1Y1, point1X2, point1Y2);
+			double secondLine = GetLongerLine(point2X1, point2Y1, point2X2, point2Y2);
+			//The first and the second pair of points form two different lines. 
+
+			if (firstLine >= secondLine)
+			{
+				ClosestPoint(point1X1, point1Y1, point1X2, point1Y2);
+			}
+			else
+			{
+				ClosestPoint(point2X1, point2Y1, point2X2, point2Y2);
+			}
+		}
+
+		static double GetLongerLine(double x1, double y1, double x2, double y2)
+		{
+			double result = Math.Sqrt(Math.Pow(x1 - x2, 2) + Math.Pow(y1 - y2, 2));
+			return result;
+		}
+
+		static void ClosestPoint(double x1, double y1, double x2, double y2)
+		{
+			double firstPoint = Math.Sqrt(Math.Pow(x1, 2) + Math.Pow(y1, 2));
+			double secondPoint = Math.Sqrt(Math.Pow(x2, 2) + Math.Pow(y2, 2));
+
+			if (firstPoint <= secondPoint) 
+			{
+				Console.WriteLine($"({x1}, {y1})({x2}, {y2})");
+				//starting with the point that is closer to the center of the coordinate system 
+			}
+			else
+			{
+				Console.WriteLine($"({x2}, {y2})({x1}, {y1})");
+			}
+		}
+4
+================================
+static void Main(string[] args)
+		{
+			//List<int> tribonacciSequence = new List<int> { 1, 1, 2 };
+
+			int num = int.Parse(Console.ReadLine());
+
+			var tribonacciSequence = new List<int>();
+
+			tribonacciSequence.Add(1);
+
+			for (int i = 0; i < num - 1; i++)
+			{
+				if (i < 3)
+				{
+					tribonacciSequence.Add(tribonacciSequence.Sum());
+				}
+				else
+				{
+					tribonacciSequence.Add(tribonacciSequence[i] + tribonacciSequence[i - 1] + tribonacciSequence[i - 2]);
+				}
+			}
+
+			Console.WriteLine(string.Join(" ", tribonacciSequence));
+		}
+5
+================================
+
+                        double num1 = double.Parse(Console.ReadLine());
+			double num2 = double.Parse(Console.ReadLine());
+			double num3 = double.Parse(Console.ReadLine());
+
+			if (num1 == 0 || num2 == 0 || num3 == 0)
+			{
+				Console.WriteLine("zero");
+			}
+			else
+			{
+				//za da izlezi positive
+				//trqbva ili vsichkite da sa po-golemi ot 0
+				//ili samo ednoto da e po-golqmo 
+				//i drugite da sa po-malki!!!
+				//5 * (-5) * (-4) = 100
+				//5 * 5 * (-4) = -100
+				if ((num1 > 0 && num2 > 0 && num3 > 0) || 
+                                    (num1 > 0 && num2 < 0 && num3 < 0) || 
+                                    (num1 < 0 && num2 > 0 && num3 < 0) || 
+                                    (num1 < 0 && num2 < 0 && num3 > 0))
+				{
+					Console.WriteLine("positive");
+				}
+				else
+				{
+					Console.WriteLine("negative");
+				}
+			}

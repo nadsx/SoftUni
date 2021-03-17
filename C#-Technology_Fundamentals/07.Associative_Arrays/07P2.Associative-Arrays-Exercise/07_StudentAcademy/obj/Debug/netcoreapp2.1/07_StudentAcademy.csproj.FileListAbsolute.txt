@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\07_StudentAcademy\bin\Debug\netcoreapp2.1\07_StudentAcademy.deps.json
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\07_StudentAcademy\bin\Debug\netcoreapp2.1\07_StudentAcademy.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\07_StudentAcademy\bin\Debug\netcoreapp2.1\07_StudentAcademy.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\07_StudentAcademy\bin\Debug\netcoreapp2.1\07_StudentAcademy.dll
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\07_StudentAcademy\bin\Debug\netcoreapp2.1\07_StudentAcademy.pdb
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\07_StudentAcademy\obj\Debug\netcoreapp2.1\07_StudentAcademy.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\07_StudentAcademy\obj\Debug\netcoreapp2.1\07_StudentAcademy.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\07_StudentAcademy\obj\Debug\netcoreapp2.1\07_StudentAcademy.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\07_StudentAcademy\obj\Debug\netcoreapp2.1\07_StudentAcademy.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\07_StudentAcademy\obj\Debug\netcoreapp2.1\07_StudentAcademy.dll
+C:\Users\ASUS NB\source\repos\Associative-Arrays-Exercise\07_StudentAcademy\obj\Debug\netcoreapp2.1\07_StudentAcademy.pdb

@@ -1,0 +1,10 @@
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\04_AddVAT\bin\Debug\netcoreapp2.1\04_AddVAT.deps.json
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\04_AddVAT\bin\Debug\netcoreapp2.1\04_AddVAT.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\04_AddVAT\bin\Debug\netcoreapp2.1\04_AddVAT.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\04_AddVAT\bin\Debug\netcoreapp2.1\04_AddVAT.dll
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\04_AddVAT\bin\Debug\netcoreapp2.1\04_AddVAT.pdb
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\04_AddVAT\obj\Debug\netcoreapp2.1\04_AddVAT.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\04_AddVAT\obj\Debug\netcoreapp2.1\04_AddVAT.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\04_AddVAT\obj\Debug\netcoreapp2.1\04_AddVAT.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\04_AddVAT\obj\Debug\netcoreapp2.1\04_AddVAT.dll
+C:\Users\ASUS NB\source\repos\Functional-Programming-Lab\04_AddVAT\obj\Debug\netcoreapp2.1\04_AddVAT.pdb

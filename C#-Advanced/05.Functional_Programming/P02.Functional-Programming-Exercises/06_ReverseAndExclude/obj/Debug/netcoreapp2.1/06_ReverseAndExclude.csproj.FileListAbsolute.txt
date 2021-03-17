@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\06_ReverseAndExclude\bin\Debug\netcoreapp2.1\06_ReverseAndExclude.deps.json
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\06_ReverseAndExclude\bin\Debug\netcoreapp2.1\06_ReverseAndExclude.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\06_ReverseAndExclude\bin\Debug\netcoreapp2.1\06_ReverseAndExclude.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\06_ReverseAndExclude\bin\Debug\netcoreapp2.1\06_ReverseAndExclude.dll
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\06_ReverseAndExclude\bin\Debug\netcoreapp2.1\06_ReverseAndExclude.pdb
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\06_ReverseAndExclude\obj\Debug\netcoreapp2.1\06_ReverseAndExclude.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\06_ReverseAndExclude\obj\Debug\netcoreapp2.1\06_ReverseAndExclude.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\06_ReverseAndExclude\obj\Debug\netcoreapp2.1\06_ReverseAndExclude.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\06_ReverseAndExclude\obj\Debug\netcoreapp2.1\06_ReverseAndExclude.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\06_ReverseAndExclude\obj\Debug\netcoreapp2.1\06_ReverseAndExclude.dll
+C:\Users\ASUS NB\source\repos\Functional-Programming-Exercises\06_ReverseAndExclude\obj\Debug\netcoreapp2.1\06_ReverseAndExclude.pdb

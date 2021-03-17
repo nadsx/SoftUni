@@ -1,0 +1,183 @@
+1
+=====================================
+string input = Console.ReadLine();
+
+while (input != "END")
+{
+	if (int.TryParse(input, out int integer))
+	{
+		Console.WriteLine($"{integer} is integer type");
+	}
+	else if (double.TryParse(input, out double floatingPoint))
+	{
+		Console.WriteLine($"{floatingPoint} is floating point type");
+	}
+	else if (char.TryParse(input, out char character))
+	{
+		Console.WriteLine($"{character} is character type");
+	}
+	else if (bool.TryParse(input, out bool boolean))
+	{
+		Console.WriteLine($"{boolean} is boolean type");
+	}
+	else
+	{
+		Console.WriteLine($"{input} is string type");
+	}
+
+	input = Console.ReadLine();
+}
+
+2
+======================================
+
+int n = int.Parse(Console.ReadLine());
+
+for (int i = 0; i < n; i++)
+{
+	long[] numbers = Console.ReadLine().Split(' ').Select(long.Parse).ToArray();
+
+	long leftNumber = numbers[0];
+	long rightNumber = numbers[1];
+
+	long biggerNumber = rightNumber; //
+
+	if (leftNumber > rightNumber)   //  <===== ÀËÃÎÐÈÒÚÌ !!!!!!!!!
+	{
+		biggerNumber = leftNumber;
+	}
+
+	long sumOfDigits = 0;
+
+	while (biggerNumber != 0)
+	{
+		sumOfDigits += biggerNumber % 10;
+		biggerNumber /= 10;
+	}
+	Console.WriteLine(Math.Abs(sumOfDigits));
+}
+
+3
+======================================
+double first = double.Parse(Console.ReadLine());
+double second = double.Parse(Console.ReadLine());
+
+double eps = 0.000001;
+
+if (Math.Abs(first - second) < eps)
+{
+	Console.WriteLine("True");
+}
+else
+{
+	Console.WriteLine("False");
+}
+// promeni go na decimal 5.00000005m - 5.00000001m = 0.00000004 s double izliza po drug nachin, zahtoto ne e s tochnost
+4
+======================================
+https://bg.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D1%81%D1%82%D0%BE_%D1%87%D0%B8%D1%81%D0%BB%D0%BE
+
+int number = int.Parse(Console.ReadLine());
+
+for (int i = 2; i <= number; i++)
+{
+	bool isPrime = true;
+	for (int j = 2; j <= Math.Sqrt(i); j++) 
+	{                                       // Math.Sqrt si spestqva vurtene
+		if (i % j == 0)                 
+		{                               
+			isPrime = false;        // 5 naprimer shte stane 2.236067
+			break;
+		}
+	}
+	Console.WriteLine($"{i} -> {isPrime.ToString().ToLower()}");
+}
+
+// nai - prosto kazano proverqvame vseki put dali se deli na nqkoe chislo 
+// i kolkoto se moje po-malko da vurtim cikula
+
+5
+======================================
+int key = int.Parse(Console.ReadLine());
+int n = int.Parse(Console.ReadLine());
+
+StringBuilder result = new StringBuilder();
+
+for (int i = 0; i < n; i++)
+{
+	char character = char.Parse(Console.ReadLine());
+
+	 result.Append((char)(character + key));
+}
+
+Console.WriteLine(result);
+
+
+Áåç StringBuilder!!
+--------------------------------------
+ byte decriptionKey = byte.Parse(Console.ReadLine());
+            byte charactersCount = byte.Parse(Console.ReadLine());
+            string message = "";
+
+            while (charactersCount > 0)
+            {
+                message += ((char)(char.Parse(Console.ReadLine()) + decriptionKey));
+
+                charactersCount--;
+            }
+
+            Console.WriteLine(message);
+
+-------------------------------------------------
+        int key = int.Parse(Console.ReadLine());
+        int numberLines = int.Parse(Console.ReadLine());
+
+        string print = "";
+
+        for (int i = 0; i < numberLines; i++)
+        {
+            char currentChar = char.Parse(Console.ReadLine());
+
+            print += (char)(currentChar + key);
+        }
+        Console.WriteLine(print);
+6
+======================================
+int n = int.Parse(Console.ReadLine());
+
+string lastBracket = string.Empty;
+string print = "BALANCED";
+
+for (int i = 0; i < n; i++)
+{
+	string currentRow = Console.ReadLine();
+
+	if(currentRow == "(")
+	{
+		if(lastBracket == "(") 
+		{
+			print = "UNBALANCED";
+			break;
+		}
+
+		lastBracket = "(";
+	}
+	else if(currentRow == ")")
+	{
+		if(lastBracket != "(") // lastBracket moje da e bil i "" ili ")"
+		{
+			print = "UNBALANCED";
+			break;
+		}
+
+		lastBracket = ")";
+	}
+
+}
+
+if(lastBracket == "(") 
+{
+	print = "UNBALANCED";
+}
+
+Console.WriteLine(print);

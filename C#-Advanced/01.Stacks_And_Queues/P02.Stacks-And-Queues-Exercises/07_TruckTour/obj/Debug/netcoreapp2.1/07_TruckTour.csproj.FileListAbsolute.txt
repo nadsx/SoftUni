@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\07_TruckTour\bin\Debug\netcoreapp2.1\07_TruckTour.deps.json
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\07_TruckTour\bin\Debug\netcoreapp2.1\07_TruckTour.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\07_TruckTour\bin\Debug\netcoreapp2.1\07_TruckTour.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\07_TruckTour\bin\Debug\netcoreapp2.1\07_TruckTour.dll
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\07_TruckTour\bin\Debug\netcoreapp2.1\07_TruckTour.pdb
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\07_TruckTour\obj\Debug\netcoreapp2.1\07_TruckTour.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\07_TruckTour\obj\Debug\netcoreapp2.1\07_TruckTour.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\07_TruckTour\obj\Debug\netcoreapp2.1\07_TruckTour.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\07_TruckTour\obj\Debug\netcoreapp2.1\07_TruckTour.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\07_TruckTour\obj\Debug\netcoreapp2.1\07_TruckTour.dll
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\07_TruckTour\obj\Debug\netcoreapp2.1\07_TruckTour.pdb

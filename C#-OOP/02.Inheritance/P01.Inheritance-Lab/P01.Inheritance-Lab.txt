@@ -1,0 +1,129 @@
+03 <== 01 - 02 
+==================================
+
+using System;
+
+namespace _03_Exercise
+{
+    public class StartUp
+    {
+        public static void Main()
+        {
+            Dog dog = new Dog();
+
+            dog.Eat();
+            dog.Bark();
+
+            Cat cat = new Cat();
+
+            cat.Eat();
+            cat.Meow();
+        }
+    }
+    public class Animal
+    {
+        public void Eat()
+        {
+            Console.WriteLine("eating...");
+        }
+    }
+
+    public class Cat : Animal
+    {
+        public void Meow()
+        {
+            Console.WriteLine("meowing...");
+        }
+    }
+
+    public class Dog : Animal // "Class" - default internal; "Property" - default private 
+    {
+        public void Bark()
+        {
+            Console.WriteLine("barking...");
+        }
+    }
+}
+
+04
+==================================
+
+using System;
+using System.Collections.Generic;
+
+namespace _04_Exercise
+{
+    public class StartUp
+    {
+        public static void Main()
+        {
+            RandomList randomList = new RandomList();
+
+            for (int i = 1; i <= 20; i++)
+            {
+                randomList.List.Add(i.ToString());
+            }
+
+            Console.WriteLine(randomList.RandomString());
+        }
+    }
+
+    public class RandomList : List<string>
+    {
+        private Random random = new Random();
+
+        public RandomList()
+        {
+            this.List = new List<string>();
+        }
+
+        public List<string> List { get; set; }
+
+        public string RandomString()
+        {
+            int elementIndex = random.Next(0, this.List.Count);
+
+            string element = this.List[elementIndex];
+            this.List.RemoveAt(elementIndex);
+
+            return element;
+        }
+    }
+}
+
+05
+==================================
+
+using System;
+using System.Collections.Generic;
+
+namespace _05_Exercise
+{
+    public class StartUp
+    {
+        public static void Main()
+        {
+            StackOfStrings stack = new StackOfStrings();
+            Console.WriteLine(stack.IsEmpty());
+
+            stack.AddRange(new[] { "1", "2", "3" });
+            Console.WriteLine(stack.IsEmpty());
+        }
+    }
+
+    public class StackOfStrings : Stack<string>
+    {
+        public bool IsEmpty()
+        {
+            return this.Count == 0;
+        }
+
+        public void AddRange(IEnumerable<string> items)
+        {
+            foreach(var item in items)
+            {
+                this.Push(item);
+            }
+        }
+    }
+}

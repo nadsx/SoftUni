@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P11RefactorVolumeOfPyramid\bin\Debug\netcoreapp2.1\P11RefactorVolumeOfPyramid.deps.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P11RefactorVolumeOfPyramid\bin\Debug\netcoreapp2.1\P11RefactorVolumeOfPyramid.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P11RefactorVolumeOfPyramid\bin\Debug\netcoreapp2.1\P11RefactorVolumeOfPyramid.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P11RefactorVolumeOfPyramid\bin\Debug\netcoreapp2.1\P11RefactorVolumeOfPyramid.dll
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P11RefactorVolumeOfPyramid\bin\Debug\netcoreapp2.1\P11RefactorVolumeOfPyramid.pdb
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P11RefactorVolumeOfPyramid\obj\Debug\netcoreapp2.1\P11RefactorVolumeOfPyramid.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P11RefactorVolumeOfPyramid\obj\Debug\netcoreapp2.1\P11RefactorVolumeOfPyramid.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P11RefactorVolumeOfPyramid\obj\Debug\netcoreapp2.1\P11RefactorVolumeOfPyramid.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P11RefactorVolumeOfPyramid\obj\Debug\netcoreapp2.1\P11RefactorVolumeOfPyramid.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P11RefactorVolumeOfPyramid\obj\Debug\netcoreapp2.1\P11RefactorVolumeOfPyramid.dll
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Lab\P11RefactorVolumeOfPyramid\obj\Debug\netcoreapp2.1\P11RefactorVolumeOfPyramid.pdb

@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\01_DataTypes\bin\Debug\netcoreapp2.1\01_DataTypes.deps.json
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\01_DataTypes\bin\Debug\netcoreapp2.1\01_DataTypes.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\01_DataTypes\bin\Debug\netcoreapp2.1\01_DataTypes.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\01_DataTypes\bin\Debug\netcoreapp2.1\01_DataTypes.dll
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\01_DataTypes\bin\Debug\netcoreapp2.1\01_DataTypes.pdb
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\01_DataTypes\obj\Debug\netcoreapp2.1\01_DataTypes.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\01_DataTypes\obj\Debug\netcoreapp2.1\01_DataTypes.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\01_DataTypes\obj\Debug\netcoreapp2.1\01_DataTypes.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\01_DataTypes\obj\Debug\netcoreapp2.1\01_DataTypes.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\01_DataTypes\obj\Debug\netcoreapp2.1\01_DataTypes.dll
+C:\Users\ASUS NB\source\repos\Methods-More-Exercise\01_DataTypes\obj\Debug\netcoreapp2.1\01_DataTypes.pdb

@@ -1,0 +1,77 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+body {
+    width: 63%;
+    margin: 0 auto;
+    background-color: rgb(238, 238, 238) ;
+}
+
+blockquote, h1, h2 {
+    font-family: Georgia, serif;
+}
+
+.site-title {
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 36px;
+}
+
+header:after {
+    content: '';
+    position: relative;
+    width: 100%;
+    display: block;
+    background-color: black;
+    height: 3px;
+    top: 0;
+    left: 0;
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+    border: 3px solid black;
+    box-shadow: 0 0 20px rgba(0, 0, 0);
+    padding: 8px;
+}
+
+.img1 {
+    float: right;
+    margin-left: 20px;
+}
+
+.img2 {
+    float: left;
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+.quote {
+    vertical-align: middle;
+    float: right;
+    display: inline-block;
+    width: 35%;
+    color: gray;
+    border-left: 4px solid #E1E1E1;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    font-style: italic;
+}
+
+.quote blockquote {
+    margin: 0;
+    float: right;
+}
+
+.quote figcaption {
+    float: right;
+}
+
+p.inline-p {
+    display: inline-block;
+    width: 50%;
+}

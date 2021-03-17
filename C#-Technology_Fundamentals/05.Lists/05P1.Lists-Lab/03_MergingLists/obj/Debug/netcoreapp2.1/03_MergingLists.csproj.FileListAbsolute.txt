@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Lists-Lab\03_MergingLists\bin\Debug\netcoreapp2.1\03_MergingLists.deps.json
+C:\Users\ASUS NB\source\repos\Lists-Lab\03_MergingLists\bin\Debug\netcoreapp2.1\03_MergingLists.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Lists-Lab\03_MergingLists\bin\Debug\netcoreapp2.1\03_MergingLists.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Lists-Lab\03_MergingLists\bin\Debug\netcoreapp2.1\03_MergingLists.dll
+C:\Users\ASUS NB\source\repos\Lists-Lab\03_MergingLists\bin\Debug\netcoreapp2.1\03_MergingLists.pdb
+C:\Users\ASUS NB\source\repos\Lists-Lab\03_MergingLists\obj\Debug\netcoreapp2.1\03_MergingLists.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Lists-Lab\03_MergingLists\obj\Debug\netcoreapp2.1\03_MergingLists.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Lists-Lab\03_MergingLists\obj\Debug\netcoreapp2.1\03_MergingLists.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Lists-Lab\03_MergingLists\obj\Debug\netcoreapp2.1\03_MergingLists.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Lists-Lab\03_MergingLists\obj\Debug\netcoreapp2.1\03_MergingLists.dll
+C:\Users\ASUS NB\source\repos\Lists-Lab\03_MergingLists\obj\Debug\netcoreapp2.1\03_MergingLists.pdb

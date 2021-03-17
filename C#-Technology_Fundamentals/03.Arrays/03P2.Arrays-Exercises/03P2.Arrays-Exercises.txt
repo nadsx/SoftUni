@@ -1,0 +1,870 @@
+1
+=======================================
+int n = int.Parse(Console.ReadLine());
+
+int sum = 0;
+string wagons = string.Empty;
+
+for (int i = 0; i < n; i++)
+{
+	int people = int.Parse(Console.ReadLine());
+
+	sum += people;
+	wagons += people + " ";
+}
+
+Console.WriteLine(wagons.Trim());
+Console.WriteLine(sum);
+
+--------------------------------------
+int n = int.Parse(Console.ReadLine());
+
+int[] wagons = new int[n];
+int sum = 0;
+
+for (int i = 0; i < n; i++)
+{
+	int people = int.Parse(Console.ReadLine());
+
+	wagons[i] += people;
+	sum += people;
+}
+
+Console.Write(string.Join(" ", wagons));
+Console.WriteLine("\n" + sum);
+
+2
+=======================================
+string[] firstArr = Console.ReadLine().Split().ToArray();
+string[] secondArr = Console.ReadLine().Split().ToArray();
+
+for (int i = 0; i < secondArr.Length; i++)
+{
+	for (int j = 0; j < firstArr.Length; j++)
+	{
+		if(secondArr[i] == firstArr[j])
+		{
+			Console.Write($"{secondArr[i]} ");
+		}
+	}
+}
+
+3
+=======================================
+int n = int.Parse(Console.ReadLine());
+
+int[] fromLeftDiagonal = new int[n];
+int[] fromRightDiagonal = new int[n];
+
+
+for (int i = 0; i < n; i++)
+{
+	int[] currentArray = Console.ReadLine().Split().Select(int.Parse).ToArray();
+
+	if (i % 2 == 0)
+	{
+		fromLeftDiagonal[i] = currentArray[0];
+		fromRightDiagonal[i] = currentArray[1];
+	}
+	else
+	{
+		fromLeftDiagonal[i] = currentArray[1];
+		fromRightDiagonal[i] = currentArray[0];
+	}
+}
+
+Console.WriteLine(string.Join(" ", fromLeftDiagonal));
+Console.WriteLine(string.Join(" ", fromRightDiagonal));
+
+
+4
+=======================================
+int[] arr = Console.ReadLine().Split().Select(int.Parse).ToArray();
+
+int rotations = int.Parse(Console.ReadLine());
+
+for (int i = 0; i < rotations; i++)
+{
+	int firstNumber = arr[0];
+
+	for (int j = 0; j < arr.Length - 1; j++) // bez posledniq, zashtoto go hvashtame s j + 1
+	{
+		arr[j] = arr[j + 1];
+		
+	}
+
+	arr[arr.Length - 1] = firstNumber;
+}
+Console.WriteLine(string.Join(" ", arr));
+
+-----------------------------------------
+List<string> numbers = Console.ReadLine().Split().ToList();
+
+int rotations = int.Parse(Console.ReadLine());
+
+for (int i = 0; i < rotations; i++)
+{
+	numbers.Add(numbers[0]);
+	numbers.RemoveAt(0);
+}
+Console.WriteLine(string.Join(" ", numbers));
+
+
+5
+=======================================
+
+int[] numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
+
+for (int i = 0; i < numbers.Length; i++)
+{
+	bool isItBigger = true;
+
+	for (int j = i + 1; j < numbers.Length; j++)
+	{
+		if (numbers[i] <= numbers[j])
+		{
+			isItBigger = false;
+		}
+	}
+
+	if (isItBigger)
+	{
+		Console.Write(numbers[i] + " ");
+	}
+}
+
+---------------------------------------
+List<int> numbers = Console.ReadLine()
+                .Split()
+                .Select(int.Parse)
+                .ToList();
+            bool isTopInteger = true;
+
+            List<int> resultList = new List<int>();
+            for (int i = 0; i < numbers.Count-1; i++)
+            {
+                for (int j = i+1; j < numbers.Count; j++)
+                {
+                    if (numbers[i] <= numbers[j])
+                    {
+                        isTopInteger = false;
+                        break;
+                    }
+                }
+                if (isTopInteger == true)
+                {
+                    resultList.Add(numbers[i]);
+                }
+                isTopInteger = true;
+            }
+            resultList.Add(numbers[numbers.Count - 1]);
+            Console.WriteLine(string.Join(" ", resultList));
+6
+=======================================
+int[] numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
+
+			if (numbers.Length == 1)
+			{
+				Console.WriteLine(0);
+				return;
+			}
+
+			int sumLeft = 0;
+
+			for (int i = 0; i < numbers.Length; i++)
+			{
+				if (i > 0)
+				{
+					sumLeft += numbers[i - 1];
+				}
+
+				int sumRight = 0;
+
+				for (int j = i + 1; j < numbers.Length; j++)
+				{
+					sumRight += numbers[j];
+				}
+
+				if (sumLeft == sumRight)
+				{
+					Console.WriteLine(i);
+					return;
+				}
+			}
+
+			Console.WriteLine("no");
+
+---------------------------------------
+
+ List<int> numbers = Console.ReadLine()
+                .Split()
+                .Select(int.Parse)
+                .ToList();
+
+            int index = -1;
+
+            for (int i = 0; i < numbers.Count; i++)
+            {
+                int leftSum = numbers.Take(i).Sum();
+                int rightSum = numbers.Skip(i+1).Take(numbers.Count - i - 1).Sum();
+                if (leftSum == rightSum)
+                {
+                    index = i;
+                }
+            }
+
+            if (index == -1)
+            {
+                Console.WriteLine("no");
+            }
+            else
+            {
+                Console.WriteLine(index);
+            }
+
+---------------------------------------
+int[] arrInput = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
+ 
+            int sumFirst = 0;
+            int sumReverse = 0;
+           
+ 
+            for (int i = 0; i < arrInput.Length; i++)
+            {
+                sumReverse = 0;
+                sumFirst += arrInput[i];
+                for (int j = 0; j < arrInput.Length - i; j++)
+                {
+                    var currentEl = arrInput[arrInput.Length - 1 - j];
+                    sumReverse += currentEl;
+                }
+ 
+                if (sumFirst == sumReverse)
+                {
+                    Console.WriteLine(i);
+                    return;
+                }
+ 
+            }
+            Console.WriteLine("no");
+---------------------------------------
+ List<int> arrInput = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
+            bool ifExists = false;
+			
+            for (int i = 0; i < arrInput.Count(); i++)
+            {
+                if (arrInput.Take(i).Sum() == arrInput.Skip(i + 1).Sum())
+                {
+                    Console.WriteLine(i);
+                    ifExists = true;
+                    break;
+                }
+            }
+			
+            if (!ifExists) Console.WriteLine("no");
+7
+=======================================
+
+int[] numbers = Console.ReadLine().Split().Select(int.Parse).ToArray();
+
+int counter = 1;
+int longestSequence = 1;
+int number = 0;
+
+for (int i = 0; i < numbers.Length - 1; i++)
+{
+	if(numbers[i] == numbers[i + 1])
+	{
+		counter++;
+
+		if(counter > longestSequence)
+		{
+			longestSequence = counter;
+			number = numbers[i];
+		}
+	}
+	else
+	{
+		counter = 1;
+	}				
+}
+
+for (int i = 0; i < longestSequence; i++)
+{
+	Console.Write(number + " ");
+}
+
+---------------------------------------
+int[] numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
+
+			int startIndex = 0;
+			int currentLength = 1;
+			int maxStart = 0;
+			int maxLength = 1;
+
+
+			for (int index = 1; index < numbers.Length; index++)
+			{
+				if(numbers[index] == numbers[index - 1])
+				{
+					currentLength++;
+					if(currentLength > maxLength)
+					{
+						maxLength = currentLength;
+						maxStart = startIndex;
+					}
+				}
+				else
+				{
+					currentLength = 1;
+					startIndex = index;
+				}
+			}
+
+			for (int index = maxStart; index < maxStart + maxLength; index++)
+			{
+				Console.Write(numbers[index] + " ");
+			}
+			Console.WriteLine();
+
+--------------------------------------------
+ List<string> numbers = Console.ReadLine().Split().ToList();
+
+            List<string> resultList = new List<string>();
+            List<string> tempList = new List<string>();
+
+            for (int i = 0; i < numbers.Count - 1; i++)
+            {
+                tempList = new List<string>();
+                tempList.Add(numbers[i]);
+                for (int j = i + 1; j < numbers.Count; j++)
+                {
+                    if (numbers[i] == numbers[j])
+                    {
+                        tempList.Add(numbers[j]);
+                        if (tempList.Count > resultList.Count)
+                        {
+                            resultList = tempList.ToList();
+                        }
+                    }
+                    else
+                    {
+                        break;
+                    }
+                }                
+            }
+            Console.WriteLine(string.Join(" ", resultList));
+        }
+8
+=======================================
+
+int[] numbers = Console.ReadLine().Trim().Split().Select(int.Parse).ToArray();
+
+int n = int.Parse(Console.ReadLine());
+
+string magicSum = string.Empty;
+
+for (int i = 0; i < numbers.Length - 1; i++) // - 1 za da ne hvashta poslednata cifra 
+{
+	for (int j = i + 1; j < numbers.Length; j++) // no moje i bez - 1, zashtoto taka ili inache na 2riq cikul shte spre 6 < 6 izvun
+	{
+		if (numbers[i] + numbers[j] == n)
+		{
+			magicSum = numbers[i] + " " + numbers[j] + " ";
+			Console.Write(magicSum + "\n");
+		}
+	}
+}
+
+---------------------------------------
+  List<int> numbers = Console.ReadLine()
+                .Split()
+                .Select(int.Parse)
+                .ToList();
+
+            int sumNumber = int.Parse(Console.ReadLine());
+
+            for (int i = 0;  i < numbers.Count-1; i++)
+            {
+                for (int j = i+1; j < numbers.Count; j++)
+                {
+                    if (numbers[i] + numbers[j] == sumNumber)
+                    {
+                        Console.WriteLine($"{numbers[i]} {numbers[j]}");
+                    }
+                }
+            }
+9
+======================================= 3 Resheniq
+ int n = int.Parse(Console.ReadLine());
+            Regex reg = new Regex(@"1+");
+ 
+            int leftMostIndex = int.MaxValue;
+            int bestSequenceLength = 0;
+            int bestSum = 0;
+            int bestSampleIndex = 0;
+            char[] bestSample = new char[n];
+ 
+            int sampleIndex = 1;
+            string input = string.Empty;
+            while ((input = Console.ReadLine().Replace("!", "")) != "Clone them")
+            {
+                string currentBestSequence = string.Empty;
+                foreach (Match match in reg.Matches(input))
+                {
+                    if (currentBestSequence.Length < match.Groups[0].Value.Length)
+                    {
+                        currentBestSequence = match.Groups[0].Value;
+                    }
+                }
+                bool foundNewBestSequence = false;
+                if (bestSequenceLength < currentBestSequence.Length)
+                {
+                    foundNewBestSequence = true;
+                 
+                }
+                else if (bestSequenceLength == currentBestSequence.Length)
+                {
+                    if (leftMostIndex > input.IndexOf(currentBestSequence))
+                    {
+                        foundNewBestSequence = true;
+                    }
+                    else if (bestSum < input.Replace("0", "").Length)
+                    {
+                        foundNewBestSequence = true;
+                    }
+                }
+                if (foundNewBestSequence)
+                {
+                    bestSequenceLength = currentBestSequence.Length;
+                    leftMostIndex = input.IndexOf(currentBestSequence);
+                    bestSampleIndex = sampleIndex;
+                    bestSum = input.Replace("0", "").Length;
+                    bestSample = input.ToCharArray();
+                }
+                sampleIndex++;
+            }
+            Console.WriteLine($"Best DNA sample {bestSampleIndex} with sum: {bestSum}.");
+            Console.WriteLine(string.Join(" ", bestSample));
+
+!!!!!!!!!!!!!!!! P.S. bestSequence е null, ако на входа има само 0!0!0!..
+---------------------------------------
+                       int lengthOfSeq = int.Parse(Console.ReadLine());
+
+			string line = Console.ReadLine();
+
+			string[] bestSeq = null; // pri string[] masiv default-nata stoinost e 'null' s int e '0'
+			int bestSeqLength = 0;
+			int bestSeqIndex = 0;
+			int bestSeqSum = 0;
+
+			int sample = 0;
+			int bestSample = 0;
+
+			while(line != "Clone them!")
+			{
+				sample++;
+
+				var currentSeq = line.Split(new char[] { '!' }, StringSplitOptions.RemoveEmptyEntries);
+				int currentSeqLength = 0;
+				int currentSeqStartIndex = 0;
+				int currentSeqSum = 0;
+				bool newSeqStarted = true;
+
+				for (int i = 0; i < currentSeq.Length; i++)
+				{
+					if(currentSeq[i] == "1")
+					{
+						currentSeqSum++; 
+					}
+				}
+
+				for (int i = 0; i < currentSeq.Length; i++)
+				{
+					if(currentSeq[i] != "1")
+					{
+						currentSeqLength = 0;
+						newSeqStarted = true;
+					}
+					else
+					{
+						currentSeqLength++;
+						if (newSeqStarted)
+						{
+							newSeqStarted = false;
+							currentSeqStartIndex = i;
+						}
+					}
+
+					if(currentSeqLength > bestSeqLength || 
+						bestSeq == null ||  // za da q nqma tazi proverka s null moje da e bestSeqLength = -1; gore ili currentSeqLength >= bestSeqLength
+						(currentSeqLength == bestSeqLength && currentSeqStartIndex < bestSeqIndex) ||
+						(currentSeqLength == bestSeqLength && currentSeqStartIndex == bestSeqIndex &&
+						currentSeqSum > bestSeqSum))
+					{
+						bestSeqLength = currentSeqLength;
+						bestSeqIndex = currentSeqStartIndex;
+						bestSeq = currentSeq; // (string[])currentSeq.Clone();
+						bestSeqSum = currentSeqSum;
+						bestSample = sample;
+					}	
+
+				}
+
+				line = Console.ReadLine();
+
+			}
+
+			Console.WriteLine($"Best DNA sample {bestSample} with sum: {bestSeqSum}.");
+			Console.WriteLine($"{string.Join(" ", bestSeq)}");
+
+------------------------------------------------
+int lengthOfDNA = int.Parse(Console.ReadLine());
+
+int longestSub = -1; // 90/100 ako e 0
+int longestSubIndex = 0;
+int longestSubSum = 0;
+int[] bestSequence = new int[lengthOfDNA];
+
+int bestSample = 0;
+int sample = 1; // 1 e, zashtoto sample se uvelichava nakraq na cikula sled izchisleniqta 
+
+string input = Console.ReadLine();
+
+while(input != "Clone them!")
+{
+	int[] currentSequence = input.Split('!', StringSplitOptions.RemoveEmptyEntries)
+		.Select(int.Parse).ToArray();
+
+	int subSequence = 0;
+	int subIndex = 0;
+	int subSum = 0;
+
+	int count = 0;
+
+	for (int i = 0; i < lengthOfDNA; i++)
+	{
+		if(currentSequence[i] == 1)
+		{
+			count++;
+			subSum++;
+
+			if(count > subSequence)
+			{
+				subSequence = count;
+				subIndex = i - count + 1;
+			}
+		}
+		else
+		{
+			count = 0;
+		}
+	}
+
+		if (subSequence > longestSub  // ne e (|| bestSequence == null), zashtoto longestSub e -1 subSequence moje da 0 i stava 0 > -1 za da vlezi vutre ..pri input 0!0!0!
+		|| (subSequence == longestSub && longestSubIndex > subIndex)
+		|| (subSequence == longestSub && longestSubIndex == subIndex && longestSubSum < subSum))
+		{
+			longestSubIndex = subIndex;
+			longestSub = subSequence;
+			longestSubSum = subSum;
+			bestSequence = currentSequence;
+			bestSample = sample;
+		}
+	
+	sample++;
+	input = Console.ReadLine();
+
+}
+
+Console.WriteLine($"Best DNA sample {bestSample} with sum: {longestSubSum}.");
+Console.WriteLine($"{string.Join(" ", bestSequence)}");
+
+
+10
+======================================= 4 koda
+Kenov kod
+
+var sizeOfTheFiled = int.Parse(Console.ReadLine());
+
+			var field = new int[sizeOfTheFiled];
+
+			var ladybugsIndexes = Console.ReadLine().Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
+				.Select(int.Parse)
+				.Where(i => i >= 0 && i < sizeOfTheFiled) // Only these between 0 and sizeOfTheFiled !
+				.ToList();
+			// fill the arr(filed) -> (If sizeOfTheFiled = 3 and ladybugsIndexes = 0 1 -> field[0] = 1 and filed[1] = 1; -> ! Debug !
+			foreach (var index in ladybugsIndexes)
+			{
+				field[index] = 1;
+			}
+
+			while (true)
+			{
+				var command = Console.ReadLine().Split(' ');
+
+				if (command[0] == "end")
+				{
+					break;
+				}
+
+				var currentLadybugIndex = int.Parse(command[0]);
+				var direction = command[1];
+				var flyLength = int.Parse(command[2]);
+				// Ако е "left" обръщаме знака !
+				if (direction == "left")
+				{
+					flyLength *= -1;
+				}
+				// outside of the field !
+				if (currentLadybugIndex < 0 || currentLadybugIndex >= sizeOfTheFiled)
+				{
+					continue;
+				}
+				//there is no ladybug in this cell !
+				if (field[currentLadybugIndex] == 0)
+				{
+					continue;
+				}
+				// Fly away
+				field[currentLadybugIndex] = 0;
+				// Set the nextIndex to land !
+				var nextIndexToLand = currentLadybugIndex;
+
+				while (true)
+				{   // increase to the next indexToLand , if there is ladybug in the cell !
+					nextIndexToLand += flyLength;
+					// outside of the field !
+					if (nextIndexToLand < 0 || nextIndexToLand >= sizeOfTheFiled)
+					{
+						break;
+					}
+					// there is ladybug in this cell !
+					if (field[nextIndexToLand] == 1)
+					{
+						continue;
+					}
+					// If the current cell is empty(field[nextIndexToLand] == 0 ,set it to 1), land here and break !
+					field[nextIndexToLand] = 1;
+					break;
+				}
+                             // ne mu trqbva oshte edna command tuka, zashtoto cikula e true
+			}
+
+			Console.WriteLine(string.Join(" ", field));
+-------------------------------------------
+int fieldSize = int.Parse(Console.ReadLine());
+int[] ladybugField = new int[fieldSize];
+
+string[] occupiedIndexes = Console.ReadLine().Split();
+
+for (int i = 0; i < occupiedIndexes.Length; i++)
+{
+	int currentIndex = int.Parse(occupiedIndexes[i]);
+
+	if (currentIndex >= 0 && currentIndex < fieldSize)
+	{
+		ladybugField[currentIndex] = 1;
+	}
+}
+
+string[] command = Console.ReadLine().Split();
+
+while (command[0] != "end")
+{
+	bool isFirst = true;
+	int currentIndex = int.Parse(command[0]);
+	string direction = command[1];
+	int flightLength = int.Parse(command[2]);
+
+	while (currentIndex >= 0 && currentIndex < fieldSize
+		&& ladybugField[currentIndex] != 0)
+	{
+		if (isFirst)
+		{
+			ladybugField[currentIndex] = 0;
+			isFirst = false;
+		}
+
+		if (direction == "left")
+		{
+			currentIndex -= flightLength;
+
+			if (currentIndex >= 0 && currentIndex < fieldSize)
+			{
+				if (ladybugField[currentIndex] == 0)
+				{
+					ladybugField[currentIndex] = 1;
+					break;
+				}
+			}
+		}
+		else
+		{
+			currentIndex += flightLength;
+
+			if (currentIndex >= 0 && currentIndex < fieldSize)
+			{
+				if (ladybugField[currentIndex] == 0)
+				{
+					ladybugField[currentIndex] = 1;
+					break;
+				}
+			}
+		}
+
+	}
+
+	command = Console.ReadLine().Split();
+}
+
+Console.WriteLine(string.Join(" ", ladybugField));
+
+
+--------------------------------------------------------
+97 reda kod 
+
+var fieldSize = int.Parse(Console.ReadLine());
+
+        var ladybugIndexes = Console.ReadLine()
+            .Split(' ')
+            .Select(int.Parse)
+            .Where(l => l >= 0 && l < fieldSize)
+            .ToArray();
+
+        var ladybugsArray = new int[fieldSize];
+
+        for (int i = 0; i < ladybugIndexes.Length; i++)
+        {
+            var currentLadybugIndex = ladybugIndexes[i];
+            ladybugsArray[currentLadybugIndex] = 1;
+        }
+
+        var inputLine = Console.ReadLine();
+        while (!inputLine.Equals("end"))
+        {
+            var tokens = inputLine.Split(' ');
+            var ladybugIndex = int.Parse(tokens[0]);
+            var direction = tokens[1];
+            var flyLength = int.Parse(tokens[2]);
+
+            var isInvalidIndex = ladybugIndex < 0 || ladybugIndex >= ladybugsArray.Length;
+
+            if (isInvalidIndex)
+            {
+                inputLine = Console.ReadLine();
+                continue;
+            }
+
+            var isIndexZero = ladybugsArray[ladybugIndex] == 0;
+
+            if (isIndexZero)
+            {
+                inputLine = Console.ReadLine();
+                continue;
+            }
+
+            MoveLadyBug(ladybugsArray, ladybugIndex, flyLength, direction); // tuka ne return-va value
+
+            inputLine = Console.ReadLine();
+        }
+
+        Console.WriteLine(string.Join(" ", ladybugsArray));
+    }
+
+    private static void MoveLadyBug(int[] ladybugsArray, int ladybugIndex, int flyLength, string direction)
+    {
+        ladybugsArray[ladybugIndex] = 0;
+
+        var isLeftArrayOrFoundPlace = false;
+
+        while (!isLeftArrayOrFoundPlace) // moje da e true
+        {
+            switch (direction)
+            {
+                case "left":
+                    ladybugIndex -= flyLength;
+                    break;
+
+                case "right":
+                    ladybugIndex += flyLength;
+                    break;
+            }
+            // i samo s break-ove otdolu osven pri [index] == 1 tam produljava
+            if (ladybugIndex < 0 || ladybugIndex >= ladybugsArray.Length)
+            {
+                // left array // napusnala e masiva
+                isLeftArrayOrFoundPlace = true;
+                continue;
+            }
+
+            if (ladybugsArray[ladybugIndex] == 1)
+            {
+                // stepped over another ladybug
+                continue;
+            }
+
+            if (ladybugsArray[ladybugIndex] == 0)
+            {
+                // found place in the array
+                ladybugsArray[ladybugIndex] = 1;
+                isLeftArrayOrFoundPlace = true;
+                continue;
+            }
+
+----------------------------------------
+
+            int[] fieldSize = new int[int.Parse(Console.ReadLine())]; // pravi masiv, primer 3 => 0, 1, 2
+            int[] ladyBugsIndexes = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
+            List<string> commands = Console.ReadLine().Split(' ').ToList();
+
+            for (int i = 0; i < ladyBugsIndexes.Length; i++)
+            {
+                if (ladyBugsIndexes[i] >= 0 && ladyBugsIndexes[i] < fieldSize.Length)
+                {
+                    fieldSize[ladyBugsIndexes[i]] = 1;
+                }
+            }
+
+            while (commands[0] != "end")
+            {
+                int startIndex = int.Parse(commands[0]);
+                int flyLength = int.Parse(commands[2]);
+                int endIndex = 0;
+
+                if (startIndex >= 0 && startIndex <= fieldSize.Length - 1 
+                    && fieldSize[startIndex] == 1) //we have a ladybug found in the field
+                {
+                    fieldSize[startIndex] = 0;
+
+                    if (commands[1] == "right")
+                    {
+                        endIndex = startIndex + flyLength;
+                        while (endIndex < fieldSize.Length) // !! s if break-va oshte ot 1viq cikul i izliza otvunka
+                        {
+                            if (fieldSize[endIndex] == 0)
+                            {
+                                fieldSize[endIndex] = 1;
+                                break;
+                            }
+                            endIndex += flyLength;
+                        }
+                    }
+                    else if (commands[1] == "left")
+                    {
+                        endIndex = startIndex - flyLength;
+                        while (endIndex >= 0)
+                        {
+                            if (fieldSize[endIndex] == 0)
+                            {
+                                fieldSize[endIndex] = 1;
+                                break;
+                            }
+                            endIndex -= flyLength;
+                        }
+                    }
+                }
+                commands = Console.ReadLine().Split(' ').ToList();
+            }
+            Console.WriteLine(string.Join(" ", fieldSize));
+        }

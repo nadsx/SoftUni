@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Arrays-More-Exercise\01_EncryptSortAndPrintArray\bin\Debug\netcoreapp2.1\01_EncryptSortAndPrintArray.deps.json
+C:\Users\ASUS NB\source\repos\Arrays-More-Exercise\01_EncryptSortAndPrintArray\bin\Debug\netcoreapp2.1\01_EncryptSortAndPrintArray.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Arrays-More-Exercise\01_EncryptSortAndPrintArray\bin\Debug\netcoreapp2.1\01_EncryptSortAndPrintArray.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Arrays-More-Exercise\01_EncryptSortAndPrintArray\bin\Debug\netcoreapp2.1\01_EncryptSortAndPrintArray.dll
+C:\Users\ASUS NB\source\repos\Arrays-More-Exercise\01_EncryptSortAndPrintArray\bin\Debug\netcoreapp2.1\01_EncryptSortAndPrintArray.pdb
+C:\Users\ASUS NB\source\repos\Arrays-More-Exercise\01_EncryptSortAndPrintArray\obj\Debug\netcoreapp2.1\01_EncryptSortAndPrintArray.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Arrays-More-Exercise\01_EncryptSortAndPrintArray\obj\Debug\netcoreapp2.1\01_EncryptSortAndPrintArray.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Arrays-More-Exercise\01_EncryptSortAndPrintArray\obj\Debug\netcoreapp2.1\01_EncryptSortAndPrintArray.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Arrays-More-Exercise\01_EncryptSortAndPrintArray\obj\Debug\netcoreapp2.1\01_EncryptSortAndPrintArray.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Arrays-More-Exercise\01_EncryptSortAndPrintArray\obj\Debug\netcoreapp2.1\01_EncryptSortAndPrintArray.dll
+C:\Users\ASUS NB\source\repos\Arrays-More-Exercise\01_EncryptSortAndPrintArray\obj\Debug\netcoreapp2.1\01_EncryptSortAndPrintArray.pdb

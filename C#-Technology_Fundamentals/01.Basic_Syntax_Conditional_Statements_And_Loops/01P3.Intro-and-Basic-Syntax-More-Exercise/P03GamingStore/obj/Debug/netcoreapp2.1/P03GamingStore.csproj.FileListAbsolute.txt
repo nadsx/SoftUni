@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P03GamingStore\bin\Debug\netcoreapp2.1\P03GamingStore.deps.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P03GamingStore\bin\Debug\netcoreapp2.1\P03GamingStore.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P03GamingStore\bin\Debug\netcoreapp2.1\P03GamingStore.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P03GamingStore\bin\Debug\netcoreapp2.1\P03GamingStore.dll
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P03GamingStore\bin\Debug\netcoreapp2.1\P03GamingStore.pdb
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P03GamingStore\obj\Debug\netcoreapp2.1\P03GamingStore.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P03GamingStore\obj\Debug\netcoreapp2.1\P03GamingStore.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P03GamingStore\obj\Debug\netcoreapp2.1\P03GamingStore.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P03GamingStore\obj\Debug\netcoreapp2.1\P03GamingStore.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P03GamingStore\obj\Debug\netcoreapp2.1\P03GamingStore.dll
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-More-Exercise\P03GamingStore\obj\Debug\netcoreapp2.1\P03GamingStore.pdb

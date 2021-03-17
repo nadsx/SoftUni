@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P10RageExpenses\bin\Debug\netcoreapp2.1\P10RageExpenses.deps.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P10RageExpenses\bin\Debug\netcoreapp2.1\P10RageExpenses.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P10RageExpenses\bin\Debug\netcoreapp2.1\P10RageExpenses.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P10RageExpenses\bin\Debug\netcoreapp2.1\P10RageExpenses.dll
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P10RageExpenses\bin\Debug\netcoreapp2.1\P10RageExpenses.pdb
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P10RageExpenses\obj\Debug\netcoreapp2.1\P10RageExpenses.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P10RageExpenses\obj\Debug\netcoreapp2.1\P10RageExpenses.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P10RageExpenses\obj\Debug\netcoreapp2.1\P10RageExpenses.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P10RageExpenses\obj\Debug\netcoreapp2.1\P10RageExpenses.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P10RageExpenses\obj\Debug\netcoreapp2.1\P10RageExpenses.dll
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Exercise\P10RageExpenses\obj\Debug\netcoreapp2.1\P10RageExpenses.pdb

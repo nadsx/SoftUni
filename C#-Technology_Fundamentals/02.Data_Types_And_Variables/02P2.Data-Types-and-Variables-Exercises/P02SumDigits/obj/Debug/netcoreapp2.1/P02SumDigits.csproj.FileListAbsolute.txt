@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P02SumDigits\bin\Debug\netcoreapp2.1\P02SumDigits.deps.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P02SumDigits\bin\Debug\netcoreapp2.1\P02SumDigits.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P02SumDigits\bin\Debug\netcoreapp2.1\P02SumDigits.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P02SumDigits\bin\Debug\netcoreapp2.1\P02SumDigits.dll
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P02SumDigits\bin\Debug\netcoreapp2.1\P02SumDigits.pdb
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P02SumDigits\obj\Debug\netcoreapp2.1\P02SumDigits.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P02SumDigits\obj\Debug\netcoreapp2.1\P02SumDigits.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P02SumDigits\obj\Debug\netcoreapp2.1\P02SumDigits.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P02SumDigits\obj\Debug\netcoreapp2.1\P02SumDigits.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P02SumDigits\obj\Debug\netcoreapp2.1\P02SumDigits.dll
+C:\Users\ASUS NB\source\repos\Data-Types-and-Variables-Exercises\P02SumDigits\obj\Debug\netcoreapp2.1\P02SumDigits.pdb

@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\09_SimpleTextEditor\bin\Debug\netcoreapp2.1\09_SimpleTextEditor.deps.json
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\09_SimpleTextEditor\bin\Debug\netcoreapp2.1\09_SimpleTextEditor.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\09_SimpleTextEditor\bin\Debug\netcoreapp2.1\09_SimpleTextEditor.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\09_SimpleTextEditor\bin\Debug\netcoreapp2.1\09_SimpleTextEditor.dll
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\09_SimpleTextEditor\bin\Debug\netcoreapp2.1\09_SimpleTextEditor.pdb
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\09_SimpleTextEditor\obj\Debug\netcoreapp2.1\09_SimpleTextEditor.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\09_SimpleTextEditor\obj\Debug\netcoreapp2.1\09_SimpleTextEditor.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\09_SimpleTextEditor\obj\Debug\netcoreapp2.1\09_SimpleTextEditor.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\09_SimpleTextEditor\obj\Debug\netcoreapp2.1\09_SimpleTextEditor.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\09_SimpleTextEditor\obj\Debug\netcoreapp2.1\09_SimpleTextEditor.dll
+C:\Users\ASUS NB\source\repos\Stacks-And-Queues-Exercises\09_SimpleTextEditor\obj\Debug\netcoreapp2.1\09_SimpleTextEditor.pdb

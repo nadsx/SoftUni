@@ -1,0 +1,11 @@
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\10_ExplicitInterfaces\bin\Debug\netcoreapp3.0\10_ExplicitInterfaces.exe
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\10_ExplicitInterfaces\bin\Debug\netcoreapp3.0\10_ExplicitInterfaces.deps.json
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\10_ExplicitInterfaces\bin\Debug\netcoreapp3.0\10_ExplicitInterfaces.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\10_ExplicitInterfaces\bin\Debug\netcoreapp3.0\10_ExplicitInterfaces.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\10_ExplicitInterfaces\bin\Debug\netcoreapp3.0\10_ExplicitInterfaces.dll
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\10_ExplicitInterfaces\bin\Debug\netcoreapp3.0\10_ExplicitInterfaces.pdb
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\10_ExplicitInterfaces\obj\Debug\netcoreapp3.0\10_ExplicitInterfaces.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\10_ExplicitInterfaces\obj\Debug\netcoreapp3.0\10_ExplicitInterfaces.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\10_ExplicitInterfaces\obj\Debug\netcoreapp3.0\10_ExplicitInterfaces.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\10_ExplicitInterfaces\obj\Debug\netcoreapp3.0\10_ExplicitInterfaces.dll
+C:\Users\ASUS\Desktop\repos\Interfaces-And-Abstraction-Exercise\10_ExplicitInterfaces\obj\Debug\netcoreapp3.0\10_ExplicitInterfaces.pdb

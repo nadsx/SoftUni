@@ -1,0 +1,11 @@
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Exercises\05_GreedyTimes\bin\Debug\netcoreapp3.0\05_GreedyTimes.exe
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Exercises\05_GreedyTimes\bin\Debug\netcoreapp3.0\05_GreedyTimes.deps.json
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Exercises\05_GreedyTimes\bin\Debug\netcoreapp3.0\05_GreedyTimes.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Exercises\05_GreedyTimes\bin\Debug\netcoreapp3.0\05_GreedyTimes.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Exercises\05_GreedyTimes\bin\Debug\netcoreapp3.0\05_GreedyTimes.dll
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Exercises\05_GreedyTimes\bin\Debug\netcoreapp3.0\05_GreedyTimes.pdb
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Exercises\05_GreedyTimes\obj\Debug\netcoreapp3.0\05_GreedyTimes.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Exercises\05_GreedyTimes\obj\Debug\netcoreapp3.0\05_GreedyTimes.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Exercises\05_GreedyTimes\obj\Debug\netcoreapp3.0\05_GreedyTimes.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Exercises\05_GreedyTimes\obj\Debug\netcoreapp3.0\05_GreedyTimes.dll
+C:\Users\ASUS\Desktop\repos\Working-With-Abstraction-Exercises\05_GreedyTimes\obj\Debug\netcoreapp3.0\05_GreedyTimes.pdb

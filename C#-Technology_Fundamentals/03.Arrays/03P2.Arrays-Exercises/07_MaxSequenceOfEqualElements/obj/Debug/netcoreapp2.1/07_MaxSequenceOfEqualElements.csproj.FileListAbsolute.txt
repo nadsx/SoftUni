@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\07_MaxSequenceOfEqualElements\bin\Debug\netcoreapp2.1\07_MaxSequenceOfEqualElements.deps.json
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\07_MaxSequenceOfEqualElements\bin\Debug\netcoreapp2.1\07_MaxSequenceOfEqualElements.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\07_MaxSequenceOfEqualElements\bin\Debug\netcoreapp2.1\07_MaxSequenceOfEqualElements.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\07_MaxSequenceOfEqualElements\bin\Debug\netcoreapp2.1\07_MaxSequenceOfEqualElements.dll
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\07_MaxSequenceOfEqualElements\bin\Debug\netcoreapp2.1\07_MaxSequenceOfEqualElements.pdb
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\07_MaxSequenceOfEqualElements\obj\Debug\netcoreapp2.1\07_MaxSequenceOfEqualElements.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\07_MaxSequenceOfEqualElements\obj\Debug\netcoreapp2.1\07_MaxSequenceOfEqualElements.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\07_MaxSequenceOfEqualElements\obj\Debug\netcoreapp2.1\07_MaxSequenceOfEqualElements.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\07_MaxSequenceOfEqualElements\obj\Debug\netcoreapp2.1\07_MaxSequenceOfEqualElements.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\07_MaxSequenceOfEqualElements\obj\Debug\netcoreapp2.1\07_MaxSequenceOfEqualElements.dll
+C:\Users\ASUS NB\source\repos\Arrays-Exercises\07_MaxSequenceOfEqualElements\obj\Debug\netcoreapp2.1\07_MaxSequenceOfEqualElements.pdb

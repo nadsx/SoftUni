@@ -1,0 +1,10 @@
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\06_GenericCountMethodDoubles\bin\Debug\netcoreapp2.1\06_GenericCountMethodDoubles.deps.json
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\06_GenericCountMethodDoubles\bin\Debug\netcoreapp2.1\06_GenericCountMethodDoubles.runtimeconfig.json
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\06_GenericCountMethodDoubles\bin\Debug\netcoreapp2.1\06_GenericCountMethodDoubles.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\06_GenericCountMethodDoubles\bin\Debug\netcoreapp2.1\06_GenericCountMethodDoubles.dll
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\06_GenericCountMethodDoubles\bin\Debug\netcoreapp2.1\06_GenericCountMethodDoubles.pdb
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\06_GenericCountMethodDoubles\obj\Debug\netcoreapp2.1\06_GenericCountMethodDoubles.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\06_GenericCountMethodDoubles\obj\Debug\netcoreapp2.1\06_GenericCountMethodDoubles.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\06_GenericCountMethodDoubles\obj\Debug\netcoreapp2.1\06_GenericCountMethodDoubles.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\06_GenericCountMethodDoubles\obj\Debug\netcoreapp2.1\06_GenericCountMethodDoubles.dll
+C:\Users\ASUS\Desktop\repos\Generics-Exercises\06_GenericCountMethodDoubles\obj\Debug\netcoreapp2.1\06_GenericCountMethodDoubles.pdb

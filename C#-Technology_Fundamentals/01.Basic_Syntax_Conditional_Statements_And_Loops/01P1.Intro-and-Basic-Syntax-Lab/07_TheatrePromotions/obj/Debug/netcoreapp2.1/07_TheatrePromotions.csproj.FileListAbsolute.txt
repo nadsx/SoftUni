@@ -1,0 +1,11 @@
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\07_TheatrePromotions\bin\Debug\netcoreapp2.1\07_TheatrePromotions.deps.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\07_TheatrePromotions\bin\Debug\netcoreapp2.1\07_TheatrePromotions.runtimeconfig.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\07_TheatrePromotions\bin\Debug\netcoreapp2.1\07_TheatrePromotions.runtimeconfig.dev.json
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\07_TheatrePromotions\bin\Debug\netcoreapp2.1\07_TheatrePromotions.dll
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\07_TheatrePromotions\bin\Debug\netcoreapp2.1\07_TheatrePromotions.pdb
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\07_TheatrePromotions\obj\Debug\netcoreapp2.1\07_TheatrePromotions.csprojAssemblyReference.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\07_TheatrePromotions\obj\Debug\netcoreapp2.1\07_TheatrePromotions.csproj.CoreCompileInputs.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\07_TheatrePromotions\obj\Debug\netcoreapp2.1\07_TheatrePromotions.AssemblyInfoInputs.cache
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\07_TheatrePromotions\obj\Debug\netcoreapp2.1\07_TheatrePromotions.AssemblyInfo.cs
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\07_TheatrePromotions\obj\Debug\netcoreapp2.1\07_TheatrePromotions.dll
+C:\Users\ASUS NB\source\repos\Intro-and-Basic-Syntax-Lab\07_TheatrePromotions\obj\Debug\netcoreapp2.1\07_TheatrePromotions.pdb
